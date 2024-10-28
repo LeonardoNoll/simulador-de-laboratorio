@@ -2,14 +2,14 @@
   "$GMObject":"",
   "%Name":"obj_red_cross",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bottle","path":"objects/obj_bottle/obj_bottle.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_bottle","path":"objects/obj_bottle/obj_bottle.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_red_cross",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"lab_objs",
+    "path":"folders/Objects/lab_objs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

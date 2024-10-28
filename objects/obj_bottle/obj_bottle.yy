@@ -12,8 +12,8 @@
   "name":"obj_bottle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"lab_objs",
+    "path":"folders/Objects/lab_objs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
