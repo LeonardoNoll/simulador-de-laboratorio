@@ -11,7 +11,7 @@
   ],
   "parent":{
     "name":"btns",
-    "path":"folders/Objects/btns.yy",
+    "path":"folders/Objects/GUI/btns.yy",
   },
   "parentObjectId":{
     "name":"obj_btn_parent",

@@ -5,7 +5,7 @@ if(!instance_exists(obj_text_box)) {
 	//Adicionar mensagens a lista de msgs
 	var _list = _tb.messages
 	
-	for (var i = 0; i < array_length_1d(msg); i++; ){
+	for (var i = 0; i < array_length(msg); i++; ){
 		var _arr = msg[i]
 		ds_list_add(_list, _arr)
 	}

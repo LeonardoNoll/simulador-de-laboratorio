@@ -1,5 +1,6 @@
 event_inherited()
 
 options = [
-	OPTIONS.	SUGAR	
+	OPTIONS.SUGAR,
+	OPTIONS.CHECAR
 ]

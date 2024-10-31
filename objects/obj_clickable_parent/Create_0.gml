@@ -1,4 +1,4 @@
-focus_color = c_white
+focus_color = c_black
 options = []
 
 drag_mode = false;
