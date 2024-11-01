@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bottle",
+  "%Name":"obj_inventory",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bottle",
+  "name":"obj_inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"lab_objs",
-    "path":"folders/Objects/lab_objs.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_clickable_need_glove",
-    "path":"objects/obj_clickable_need_glove/obj_clickable_need_glove.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_bottle",
-    "path":"sprites/s_bottle/s_bottle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

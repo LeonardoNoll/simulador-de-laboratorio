@@ -5,11 +5,28 @@ function checar(){
 	// Atribui mensagem a ser demonstrada baseado no tipo do objeto	
 	switch(global.selected.object_index) {
 		case obj_sirynge:
-			_msg = ["isto é um seringa vazia"]
+			_msg = ["a seringa está vazia", "coloque-a no becker e sugue para estrair a amostra"]
 			break
 		case obj_bottle:
-			_msg = ["isto é uma becker"]
+			if(global.selected.open){
+				_msg = ["o pote esta aberto"]
+			} else {
+				_msg = ["o pote esta fechado"]
+			}
+			break
+		case obj_syringe_and_bottle:
+			if(global.selected.sugado) {
+				_msg = ["a seringa está cheia"]
+			} else {
+				_msg = ["a seringa ainda está vazia", "tente sugar a amostra"]
+			}
+			break
 	}
+
+
+
+
+
 
 	// Mostra a mensagem resultante
 	if(!instance_exists(obj_text_box)) {

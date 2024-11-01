@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bottle",
+  "%Name":"obj_clickable_need_glove",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bottle",
+  "name":"obj_clickable_need_glove",
   "overriddenProperties":[],
   "parent":{
     "name":"lab_objs",
     "path":"folders/Objects/lab_objs.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_glove",
-    "path":"objects/obj_clickable_need_glove/obj_clickable_need_glove.yy",
+    "name":"obj_clickable_parent",
+    "path":"objects/obj_clickable_parent/obj_clickable_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_bottle",
-    "path":"sprites/s_bottle/s_bottle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
