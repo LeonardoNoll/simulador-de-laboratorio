@@ -12,5 +12,8 @@ switch(option) {
 		global.selected.open = true
 		global.selected.options = [OPTIONS.CHECAR]
 		break
+	case OPTIONS.DIAGNOSTICAR:
+		diagnosticar()
+		break
 }
 instance_destroy(obj_menu)

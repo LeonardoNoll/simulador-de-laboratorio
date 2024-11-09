@@ -1,15 +1,24 @@
 global.selected = noone
+randomize()
 
 enum	OPTIONS {
 	EQUIPAR,
 	SUGAR,
 	ABRIR,
-	CHECAR	
+	CHECAR,
+	DIAGNOSTICAR,
+	HIPOSSALIVACAO,
+	POUCA_SALIVACAO,
+	SALIVACAO_NORMAL
 }
 
 options_string = [
 	"Equipar",
 	"Sugar",
 	"Abrir",
-	"Checar"
+	"Checar",
+	"Diagnosticar",
+	"Hipossalivação",
+	"Pouca salivação",
+	"Salivação normal"
 ]

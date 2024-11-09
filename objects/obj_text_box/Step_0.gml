@@ -7,7 +7,7 @@ var _text = MSG.TEXT
 messageText = messages[| message_id]
 
 //Logica do skip de mensagem
-if (keyboard_check_pressed(vk_enter)) {
+if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space)) {
 	// ultima mensagem = false
 	if (message_id < ds_list_size(messages) - 1) {
 		message_id++

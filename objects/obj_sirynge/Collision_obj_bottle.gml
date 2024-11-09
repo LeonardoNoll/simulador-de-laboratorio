@@ -6,6 +6,6 @@ if(!other.drag_mode && !drag_mode) {
 		instance_destroy(self)
 	} else {
 		x = x + 100
-		criar_textbox(["voce nao pode fazer isso, o pote esta vazio", "abra o pote antes de inserir a seringa"])
+		criar_textbox(["voce nao pode fazer isso, o pote esta fechado", "abra o pote antes de inserir a seringa"])
 	}
 }

@@ -4,7 +4,7 @@ function sugar(){
 	if(global.selected.object_index == obj_syringe_and_bottle) {
 		_syringe_and_bottle = instance_nearest(x, y, obj_syringe_and_bottle)
 		_syringe_and_bottle.sprite_index = s_sb_after
-		_syringe_and_bottle.options = [OPTIONS.CHECAR]
+		_syringe_and_bottle.options = [OPTIONS.CHECAR, OPTIONS.DIAGNOSTICAR]
 		_syringe_and_bottle.sugado = true
 	}
 }

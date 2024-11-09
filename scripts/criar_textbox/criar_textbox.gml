@@ -3,7 +3,7 @@
 function criar_textbox(_msg){
 	if(!instance_exists(obj_text_box)) {
 	//Create
-	var _tb = instance_create_layer(0,0, "Instances", obj_text_box)
+	var _tb = instance_create_layer(0,0, "GUI", obj_text_box)
 	
 	//Adicionar mensagens a lista de msgs
 	var _list = _tb.messages

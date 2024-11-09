@@ -9,11 +9,7 @@
 //]
 
 msg = [
-	"É composta por 99% água e cerca de 1% de moléculas orgânicas e inorgânicas, sendo uma mistura complexa de todos eletrólitos encontrados no corpo. A saliva não estimulada contém mais potássio, enquanto que a saliva estimulada contém mais sódio, cloro e bicarbonato.",
-	"mensagem2",
-	"mensagem3",
-	"mensagem4",
-	"mensagem5",
-	"mensagem6",
-	"mensagem7",
+	"Controles:\nClique esquerdo -> arrastar\nClique direito -> menu de contexto\nEnter -> pular mensagem de texto"
 ]
+
+criar_textbox(msg)
