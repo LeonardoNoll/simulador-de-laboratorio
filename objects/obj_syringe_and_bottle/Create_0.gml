@@ -7,4 +7,4 @@ options = [
 ]
 
 sugado = false
-ml_m = random_range(0.5, 1.75)
+ml = random_range(0.5, 1.75)

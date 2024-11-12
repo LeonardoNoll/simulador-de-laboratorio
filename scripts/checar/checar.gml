@@ -17,7 +17,7 @@ function checar(){
 			break
 		case obj_syringe_and_bottle:
 			if(global.selected.sugado) {
-				_msg = ["A seringa possui" + string(global.selected.ml_m) + "ml"]
+				_msg = ["A seringa possui" + string(global.selected.ml) + " ml"]
 			} else {
 				_msg = [
 				"a seringa ainda está vazia", "tente sugar a amostra"]
