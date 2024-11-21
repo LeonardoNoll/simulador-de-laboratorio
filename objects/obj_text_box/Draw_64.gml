@@ -7,7 +7,7 @@ draw_sprite_stretched(s_text_box_9slice, 0, x, y, width, height);
 
 // Draw the message text
 var _drawX = x + padding;
-var _drawY = y + padding + 80;
-draw_set_color(c_white);
+var _drawY = y + padding;
+draw_set_color(c_black);
 var _maxW = width - (_drawX);
 draw_text_ext(_drawX, _drawY, messageText, -1, _maxW);

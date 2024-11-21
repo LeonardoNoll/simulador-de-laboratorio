@@ -16,7 +16,7 @@ hitbox_right = x + width;
 hitbox_top = y;
 hitbox_bottom = y + height;
 
-padding = 15;
+padding = 25;
 
 //x = 100; // Example X position
 //y = _guiH - height; // Example Y position
