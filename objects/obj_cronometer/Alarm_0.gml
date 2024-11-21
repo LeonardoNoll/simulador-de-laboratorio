@@ -10,7 +10,7 @@ if(minutes == -1) {
 	if(minutes_elapsed == 6) {
 		room_goto(rm_1c)
 	} else {
-	criar_textbox(["voce cronometrou o tempo errado"])
+	criar_textbox(x+sprite_width, y, ["voce cronometrou o tempo errado"])
 	minutes_elapsed = 0
 	minutes = 0
 	}

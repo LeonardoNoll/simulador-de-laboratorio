@@ -57,7 +57,6 @@
     {"name":"diagnosticar","order":4,"path":"scripts/diagnosticar/diagnosticar.yy",},
     {"name":"identificar","order":7,"path":"scripts/identificar/identificar.yy",},
     {"name":"realizar_coleta","order":8,"path":"scripts/realizar_coleta/realizar_coleta.yy",},
-    {"name":"sugar","order":3,"path":"scripts/sugar/sugar.yy",},
     {"name":"verificar_resposta","order":5,"path":"scripts/verificar_resposta/verificar_resposta.yy",},
     {"name":"s_background","order":2,"path":"sprites/s_background/s_background.yy",},
     {"name":"s_bottle_marked_empty","order":1,"path":"sprites/s_bottle_marked_empty/s_bottle_marked_empty.yy",},

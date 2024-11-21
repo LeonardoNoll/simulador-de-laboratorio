@@ -5,9 +5,6 @@ switch(option) {
 	case OPTIONS.CHECAR:
 		checar()
 		break
-	case OPTIONS.SUGAR:
-		sugar()
-		break
 	case OPTIONS.ABRIR:
 		abrir()
 		break

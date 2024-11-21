@@ -12,4 +12,4 @@ msg = [
 	"Controles:\nClique esquerdo -> arrastar\nClique direito -> menu de contexto\nEnter -> pular mensagem de texto"
 ]
 
-criar_textbox(msg)
+criar_textbox(display_get_gui_width()/2, display_get_gui_height()/2, msg)

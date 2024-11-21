@@ -23,6 +23,6 @@ if(instance_exists(obj_inventory)) {
 		image_xscale = 1.2;
 		image_yscale = 1.2
 		} else {
-		criar_textbox(["voce deve equipar a luva antes de prosseguir"])
+		criar_textbox(x+sprite_width, y, ["voce deve equipar a luva antes de prosseguir"])
 	}
 }

@@ -1,20 +1,24 @@
-messages = ds_list_create()
+messages = ds_list_create();
 message_id = 0;
-
 messageText = "";
+enum MSG { TEXT }
 
-enum MSG {
-	TEXT,
-	NAME 
-}
+initialized = false;
 
-var _guiW = display_get_gui_width()
-var _guiH = display_get_gui_height()
+var _guiW = display_get_gui_width();
+var _guiH = display_get_gui_height();
 
-height =  floor(_guiH * 0.45)
-width = _guiW
+height = 200;
+width = 400;
 
-x = 0
-y = _guiH - height
+hitbox_left = x;
+hitbox_right = x + width;
+hitbox_top = y;
+hitbox_bottom = y + height;
 
 padding = 15;
+
+//x = 100; // Example X position
+//y = _guiH - height; // Example Y position
+
+initialized = true;

@@ -15,6 +15,6 @@ if(instance_exists(obj_inventory)) {
 		// Passa para o menu as opções definidas no Create
 		_my_menu.options = options 
 	} else {
-		criar_textbox(["voce deve equipar a luva antes de prosseguir"])
+		criar_textbox(x+sprite_width, y,["voce deve equipar a luva antes de prosseguir"])
 	}
 }

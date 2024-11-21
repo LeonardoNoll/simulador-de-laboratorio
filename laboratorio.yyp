@@ -80,7 +80,6 @@
     {"id":{"name":"equipar","path":"scripts/equipar/equipar.yy",},},
     {"id":{"name":"identificar","path":"scripts/identificar/identificar.yy",},},
     {"id":{"name":"realizar_coleta","path":"scripts/realizar_coleta/realizar_coleta.yy",},},
-    {"id":{"name":"sugar","path":"scripts/sugar/sugar.yy",},},
     {"id":{"name":"verificar_resposta","path":"scripts/verificar_resposta/verificar_resposta.yy",},},
     {"id":{"name":"s_background","path":"sprites/s_background/s_background.yy",},},
     {"id":{"name":"s_bottle_empty","path":"sprites/s_bottle_empty/s_bottle_empty.yy",},},

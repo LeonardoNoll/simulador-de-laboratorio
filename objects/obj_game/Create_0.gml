@@ -10,7 +10,6 @@ randomize()
 
 enum	OPTIONS {
 	EQUIPAR,
-	SUGAR,
 	ABRIR,
 	CHECAR,
 	DIAGNOSTICAR,
@@ -24,7 +23,6 @@ enum	OPTIONS {
 
 options_string = [
 	"Equipar",
-	"Sugar",
 	"Abrir",
 	"Checar",
 	"Diagnosticar",

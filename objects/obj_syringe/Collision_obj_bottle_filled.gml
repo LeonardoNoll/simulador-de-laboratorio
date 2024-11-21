@@ -5,7 +5,10 @@ if(!other.drag_mode && !drag_mode) {
 		instance_destroy(other.id)
 		instance_destroy(self)
 	} else {
-		x = x + 100
-		criar_textbox(["voce nao pode fazer isso, o pote esta fechado", "abra o pote antes de inserir a seringa"])
+		criar_textbox(x, y, ["voce nao pode fazer isso, o pote esta fechado", "abra o pote antes de inserir a seringa"])
+		image_xscale = 1;
+		image_yscale = 1;
+		y = base_y
+		x = base_x
 	}
 }
