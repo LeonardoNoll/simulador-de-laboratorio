@@ -1,1 +1,0 @@
-criar_textbox(msg)

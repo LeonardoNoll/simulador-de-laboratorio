@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"diagnosticar",
   "isCompatibility":false,
   "isDnD":false,

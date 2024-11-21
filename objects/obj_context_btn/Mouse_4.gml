@@ -9,8 +9,7 @@ switch(option) {
 		sugar()
 		break
 	case OPTIONS.ABRIR:
-		global.selected.open = true
-		global.selected.options = [OPTIONS.CHECAR]
+		abrir()
 		break
 	case OPTIONS.DIAGNOSTICAR:
 		diagnosticar()
@@ -25,6 +24,15 @@ switch(option) {
 	case OPTIONS.SALIVACAO_NORMAL:
 		verificar_resposta(0.25, 0.35)
 		break
+	case OPTIONS.IDENTIFICAR:
+		identificar()
+		break
+	case OPTIONS.REALIZAR_COLETA:
+		realizar_coleta()
+		break
+	case OPTIONS.CRONOMETRAR_COLETA:
+		cronometrar_coleta()
+		break
 }
-//instance_destroy(instance_nearest(x-100, y, obj_menu))
+//instance_destroy(instance_nearest(x-100, y, obj_menu)) -- gambiarra desnecessaria
 instance_destroy(obj_menu)

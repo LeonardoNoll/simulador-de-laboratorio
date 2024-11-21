@@ -5,10 +5,10 @@ function checar(){
 
 	// Atribui mensagem a ser demonstrada baseado no tipo do objeto	
 	switch(global.selected.object_index) {
-		case obj_sirynge:
+		case obj_syringe:
 			_msg = ["a seringa está vazia", "coloque-a no pote e sugue para estrair a amostra"]
 			break
-		case obj_bottle:
+		case obj_bottle_filled:
 			if(global.selected.open){
 				_msg = ["o pote esta aberto"]
 			} else {

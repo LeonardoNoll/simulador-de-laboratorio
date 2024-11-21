@@ -9,4 +9,4 @@ if(
 
 draw_set_font(fnt_text)
 draw_set_color(c_black)
-draw_text(x+3, y+1, obj_game.options_string[option])
+draw_text(x+3, y, obj_game.options_string[option])

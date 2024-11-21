@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_syringe_and_bottle",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_syringe_and_bottle",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_sb_before",
-    "path":"sprites/s_sb_before/s_sb_before.yy",
+    "name":"s_bottle_with_syringe",
+    "path":"sprites/s_bottle_with_syringe/s_bottle_with_syringe.yy",
   },
   "spriteMaskId":null,
   "visible":true,

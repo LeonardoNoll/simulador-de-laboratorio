@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"realizar_coleta",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"realizar_coleta",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,3 +1,4 @@
+//@description Mover se lova equipada
 // Destroi menu de contexto caso exista
 if (instance_exists(obj_menu)) {
 	instance_destroy(obj_menu)

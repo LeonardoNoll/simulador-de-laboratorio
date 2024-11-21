@@ -1,6 +1,13 @@
 global.selected = noone
 randomize()
 
+// Ambos os arrays devem seguir a mesma ordem
+// e, para fins de organização, os items devem ter
+// o mesmo nome
+
+// Todo item deve ter um "case" equivalente no
+// evento Left Pressed do obj_context_btn
+
 enum	OPTIONS {
 	EQUIPAR,
 	SUGAR,
@@ -9,7 +16,10 @@ enum	OPTIONS {
 	DIAGNOSTICAR,
 	HIPOSSALIVACAO,
 	POUCA_SALIVACAO,
-	SALIVACAO_NORMAL
+	SALIVACAO_NORMAL,
+	IDENTIFICAR,
+	REALIZAR_COLETA,
+	CRONOMETRAR_COLETA
 }
 
 options_string = [
@@ -20,5 +30,8 @@ options_string = [
 	"Diagnosticar",
 	"Hipossalivação",
 	"Pouca salivação",
-	"Salivação normal"
+	"Salivação normal",
+	"Identificar",
+	"Realizar coleta",
+	"Cronometrar coleta"
 ]

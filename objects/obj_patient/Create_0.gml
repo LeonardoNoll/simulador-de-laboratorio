@@ -1,0 +1,3 @@
+options = [
+	OPTIONS.REALIZAR_COLETA
+]
