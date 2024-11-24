@@ -21,7 +21,7 @@ if (!locked) {
 			image_xscale = 1.2;
 			image_yscale = 1.2
 			} else {
-			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interajir com este objeto, você deve primeiro equipar a luva."])
+			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto, você deve primeiro equipar a luva."])
 		}
 	}
 }

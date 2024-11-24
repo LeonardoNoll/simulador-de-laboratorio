@@ -13,5 +13,5 @@ hitbox_right = x + width;
 hitbox_top = y;
 hitbox_bottom = y + height;
 
-padding = 20;
+padding = 24;
 

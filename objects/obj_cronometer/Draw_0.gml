@@ -3,4 +3,4 @@
 draw_self()
 draw_set_color(c_black)
 draw_set_font(fnt_menu)
-draw_text(x-50,y+100,string(minutes) +":00")
+draw_text(x + sprite_width/2, y, string(minutes) +":00")
