@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bottle_with_syringe",
-    "path":"sprites/s_bottle_with_syringe/s_bottle_with_syringe.yy",
+    "name":"s_syringe_filled",
+    "path":"sprites/s_syringe_filled/s_syringe_filled.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,8 +2,8 @@ switch(option) {
 	case OPTIONS.EQUIPAR:
 		equipar()
 		break
-	case OPTIONS.CHECAR:
-		checar()
+	case OPTIONS.VERIFICAR:
+		verificar()
 		break
 	case OPTIONS.ABRIR:
 		abrir()

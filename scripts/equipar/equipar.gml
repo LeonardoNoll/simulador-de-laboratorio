@@ -6,5 +6,4 @@ function equipar(){
 		show_debug_message(array_contains(_inventory.itens, obj_gloves))
 	}
 	instance_destroy(global.selected)
-	return 0
 }

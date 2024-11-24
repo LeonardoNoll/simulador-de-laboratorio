@@ -14,8 +14,7 @@ if(minutes == -1) {
 	minutes_elapsed = 0
 	minutes = 0
 	}
-	//var _my_menu = instance_create_layer(x - 50, y + 50, "Instances", obj_menu)  // Cria o menu
-	//_my_menu.options = options // Seta as opçoes do menu
+	blocked = false
 } else {
 	alarm[0] = 30
 }

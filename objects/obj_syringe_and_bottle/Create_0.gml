@@ -1,7 +1,7 @@
 event_inherited()
 
 options = [
-	OPTIONS.CHECAR,
+	OPTIONS.VERIFICAR,
 	OPTIONS.DIAGNOSTICAR
 ]
 

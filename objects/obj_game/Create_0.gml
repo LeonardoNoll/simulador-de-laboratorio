@@ -6,12 +6,12 @@ randomize()
 // o mesmo nome
 
 // Todo item deve ter um "case" equivalente no
-// evento Left Pressed do obj_context_btn
+// evento Left Released do obj_context_btn
 
 enum	OPTIONS {
 	EQUIPAR,
 	ABRIR,
-	CHECAR,
+	VERIFICAR,
 	DIAGNOSTICAR,
 	HIPOSSALIVACAO,
 	POUCA_SALIVACAO,
@@ -24,7 +24,7 @@ enum	OPTIONS {
 options_string = [
 	"Equipar",
 	"Abrir",
-	"Checar",
+	"Verificar",
 	"Diagnosticar",
 	"Hipossalivação",
 	"Pouca salivação",

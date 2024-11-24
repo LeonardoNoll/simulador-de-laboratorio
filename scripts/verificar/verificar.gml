@@ -1,4 +1,4 @@
-function checar(){
+function verificar(){
 	// Instancia array de mensagem
 	var _msg = ["mensagem vazia"]
 	var _selected  = global.selected
@@ -25,5 +25,5 @@ function checar(){
 
 
 	// Mostra a mensagem resultante
-	criar_textbox(_selected.x-_selected.sprite_width/2, global.selected.y, _msg)
+	criar_textbox(mouse_x+1, global.selected.y, _msg)
 }

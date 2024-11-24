@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function criar_textbox(_x, _y, _msg){
 	    if (!is_real(_x) || !is_real(_y)) {
         show_error("criar_textbox: Argumentos _x e _y devem ser numeros.", true);
