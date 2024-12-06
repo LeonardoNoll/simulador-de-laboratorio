@@ -18,7 +18,10 @@ enum	OPTIONS {
 	SALIVACAO_NORMAL,
 	IDENTIFICAR,
 	REALIZAR_COLETA,
-	CRONOMETRAR_COLETA
+	CRONOMETRAR_COLETA,
+	MAIS_1_MINUTO,
+	MENOS_1_MINUNO,
+	ACELERAR_CONTAGEM
 }
 
 options_string = [
@@ -31,5 +34,8 @@ options_string = [
 	"Salivação normal",
 	"Identificar",
 	"Realizar coleta",
-	"Cronometrar coleta"
+	"Cronometrar coleta",
+	"+1 Minuto",
+	"-1 Minuto",
+	"Acelerar contagem"
 ]

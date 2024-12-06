@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"cronometrar_coleta",
+  "%Name":"menos_1_minuto",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"cronometrar_coleta",
+  "name":"menos_1_minuto",
   "parent":{
     "name":"cronometro",
     "path":"folders/Scripts/cronometro.yy",

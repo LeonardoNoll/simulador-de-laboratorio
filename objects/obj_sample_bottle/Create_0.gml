@@ -6,6 +6,7 @@ event_inherited();
 
 identificado = false
 
+name = "Pote Vazío"
 options = [
 	OPTIONS.IDENTIFICAR
 ]

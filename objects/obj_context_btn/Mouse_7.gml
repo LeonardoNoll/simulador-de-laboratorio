@@ -30,6 +30,17 @@ switch(option) {
 	case OPTIONS.CRONOMETRAR_COLETA:
 		cronometrar_coleta()
 		break
+	case OPTIONS.MAIS_1_MINUTO:
+		mais_1_minuto()
+		return
+		break
+	case OPTIONS.MENOS_1_MINUNO:
+		menos_1_minuto()
+		return
+		break
+	case OPTIONS.ACELERAR_CONTAGEM:
+		acelerar_contagem()
+		break
 }
 //instance_destroy(instance_nearest(x-100, y, obj_menu)) -- gambiarra desnecessaria
 instance_destroy(obj_menu)

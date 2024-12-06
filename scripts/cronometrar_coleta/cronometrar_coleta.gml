@@ -2,7 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function cronometrar_coleta(){
 	with (obj_cronometer) {
-		blocked = true
-		alarm[0] = 30;
+		counting_down = true
+		if(!array_contains(options, OPTIONS.ACELERAR_CONTAGEM))  {
+			array_push(options, OPTIONS.ACELERAR_CONTAGEM)
+		}
 	}
 }

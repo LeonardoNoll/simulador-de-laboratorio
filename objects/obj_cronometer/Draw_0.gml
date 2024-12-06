@@ -3,4 +3,7 @@
 draw_self()
 draw_set_color(c_black)
 draw_set_font(fnt_menu)
-draw_text(x + sprite_width/2, y, string(minutes) +":00")
+var _string_seconds = seconds >= 10?string(seconds) : "0"+string(seconds)
+draw_text(45, y + 100, string(minutes) +":" + _string_seconds)
+
+

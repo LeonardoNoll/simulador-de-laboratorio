@@ -11,7 +11,7 @@ if(!drag_mode) {
 	//	instance_create_layer(room_width-500, 400, "GUI", obj_cronometer)
 		other.locked = true
 		locked = true
-		y = 495
+		y = 524
 		x = 420
 	}
 }
