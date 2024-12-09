@@ -1,5 +1,8 @@
 function identificar(){
-	global.selected.identificado = true
-	global.selected.sprite_index = s_bottle_marked_empty
-	global.selected.options = [OPTIONS.REALIZAR_COLETA]
+	with (global.selected) {
+		identificado = true
+		sprite_index = s_bottle_marked_empty
+		options = [OPTIONS.REALIZAR_COLETA]
+		name = "Pote Identificado"
+	}
 }

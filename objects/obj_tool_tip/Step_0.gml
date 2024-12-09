@@ -1,17 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = mouse_x + 24
+x = mouse_x < room_width/2? mouse_x + 24 : mouse_x - string_length(name) * 8 - 10;
 y = mouse_y
 
 
 
 
 
-image_alpha = lerp(image_alpha, 0, 0.05);
-
-if (image_alpha < 0.05)
-{
-instance_destroy();
-}
 
 

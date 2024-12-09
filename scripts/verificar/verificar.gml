@@ -1,17 +1,16 @@
 function verificar(){
 	// Instancia array de mensagem
-	var _msg = ["mensagem vazia"]
-	var _selected  = global.selected
+	with (global.selected) {
+	var _msg = ["Mensagem Vazía"]
 
 	// Atribui mensagem a ser demonstrada baseado no tipo do objeto	
-	switch(_selected.object_index) {
+	switch(object_index) {
 		case obj_syringe_and_bottle:
-				_msg = ["A seringa possui " + string(global.selected.ml) + " ml"]
+				_msg = ["A seringa possui " + string(ml) + " mls"]
 			break
 	}
 
-
-
 	// Mostra a mensagem resultante
-	criar_textbox(mouse_x+1, global.selected.y, _msg)
+	criar_textbox(mouse_x+1, y, _msg)
+	}
 }

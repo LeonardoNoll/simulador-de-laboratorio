@@ -8,8 +8,8 @@ randomize()
 // Todo item deve ter um "case" equivalente no
 // evento Left Released do obj_context_btn
 
-enum	OPTIONS {
-	EQUIPAR,
+enum OPTIONS {
+	VESTIR,
 	ABRIR,
 	VERIFICAR,
 	DIAGNOSTICAR,
@@ -25,7 +25,7 @@ enum	OPTIONS {
 }
 
 options_string = [
-	"Equipar",
+	"Vestir",
 	"Abrir",
 	"Verificar",
 	"Diagnosticar",

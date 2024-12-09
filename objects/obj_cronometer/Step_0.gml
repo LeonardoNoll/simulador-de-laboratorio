@@ -15,7 +15,7 @@ if (counting_down) {
 
             // Handle expiration logic
             if (minutes_elapsed == 5) {
-                room_goto(rm_1c); // Go to the next room
+                room_goto(rm_1b); // Go to the next room
             } else {
                 criar_textbox(x + sprite_width, y, ["Você cronometrou o tempo errado"]);
                 minutes_elapsed = 0; // Reset elapsed time

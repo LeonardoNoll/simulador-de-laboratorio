@@ -14,3 +14,6 @@ options = [
 	OPTIONS.CRONOMETRAR_COLETA
 ]
 locked = true
+
+
+
