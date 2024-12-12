@@ -6,7 +6,7 @@
   "name":"cronometrar_coleta",
   "parent":{
     "name":"cronometro",
-    "path":"folders/Scripts/cronometro.yy",
+    "path":"folders/Scripts/experimento_1/cronometro.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

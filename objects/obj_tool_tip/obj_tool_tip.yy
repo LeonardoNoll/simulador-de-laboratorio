@@ -13,8 +13,8 @@
   "name":"obj_tool_tip",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"other",
+    "path":"folders/Objects/GUI/other.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,12 +1,9 @@
 switch(option) {
-	case OPTIONS.VESTIR:
-		vestir()
+	case OPTIONS.CALCAR:
+		calcar()
 		break
 	case OPTIONS.VERIFICAR:
 		verificar()
-		break
-	case OPTIONS.ABRIR:
-		abrir()
 		break
 	case OPTIONS.DIAGNOSTICAR:
 		diagnosticar()

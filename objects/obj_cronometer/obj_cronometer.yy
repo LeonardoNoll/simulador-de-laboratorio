@@ -10,8 +10,8 @@
   "name":"obj_cronometer",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"lab_objs",
+    "path":"folders/Objects/lab_objs.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_glove",

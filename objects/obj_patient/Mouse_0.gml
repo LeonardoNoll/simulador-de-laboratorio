@@ -1,5 +1,5 @@
 /// @description Giro do paciente
-if(!locked){
+if(!locked && global.selected == noone){
 	//Seguir mouse
 	image_angle = point_direction(x, y, mouse_x, mouse_y) - 90
 	

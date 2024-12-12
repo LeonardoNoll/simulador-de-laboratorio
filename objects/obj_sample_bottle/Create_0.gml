@@ -6,7 +6,7 @@ event_inherited();
 
 identificado = false
 
-name = "Pote Vazío"
+name = "Becker Vazío"
 options = [
 	OPTIONS.IDENTIFICAR
 ]

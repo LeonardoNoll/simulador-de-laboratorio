@@ -12,8 +12,8 @@
   "name":"obj_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"other",
+    "path":"folders/Objects/GUI/other.yy",
   },
   "parentObjectId":null,
   "persistent":false,

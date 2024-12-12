@@ -1,40 +1,48 @@
-/// @description Update timer logic every second
-var _interval = fastforward ? 10 : 1000
+/// @description Atualiza a lógica do cronômetro a cada segundo
+var _interval = fast_forward ? 10 : 1000
 
 if (counting_down) {
-    var current = current_time; // Get the current time in milliseconds
+    var current = current_time; // Obtém o horário atual em milissegundos
 
-    // Check if a second has passed
+    // Verifica se um segundo se passou
     if (current - last_update_time >= _interval) {
-        last_update_time = current; // Update the last recorded time
+        last_update_time = current; // Atualiza o último horário registrado
 
-        // Check if timer has already reached 0:00
+        // Verifica se o cronômetro já atingiu 0:00
         if (minutes == 0 && seconds == 0) {
-            counting_down = false; // Stop the timer
-            show_debug_message("Minutes Elapsed: " + string(minutes_elapsed));
+            counting_down = false; // Para o cronômetro
+			fast_forward = false; // Reseta a aceleração
+            show_debug_message("Minutos Decorridos: " + string(minutes_elapsed));
 
-            // Handle expiration logic
+			// Para as particulas de saliva
+			if(global.particle_sys != noone) {
+				part_system_destroy(global.particle_sys)
+			}
+			
+			
+
+            // Lida com a lógica de expiração
             if (minutes_elapsed == 5) {
-                room_goto(rm_1b); // Go to the next room
+                room_goto(rm_1b); // Vai para a próxima sala
             } else {
                 criar_textbox(x + sprite_width, y, ["Você cronometrou o tempo errado"]);
-                minutes_elapsed = 0; // Reset elapsed time
+                minutes_elapsed = 0; // Reinicia o tempo decorrido
             }
 
-            return; // Stop further execution for this frame
+            return; // Para a execução adicional deste frame
         }
 
-        // Decrement seconds and adjust minutes if needed
+        // Decrementa os segundos e ajusta os minutos, se necessário
         seconds--;
         if (seconds < 0) {
-            seconds = 59; // Reset seconds
-            minutes--;    // Decrement minutes
+            seconds = 59; // Reinicia os segundos
+            minutes--;    // Decrementa os minutos
             if (minutes >= 0) {
-                minutes_elapsed++; // Increment only when a full minute passes
+                minutes_elapsed++; // Incrementa apenas quando um minuto completo passar
             }
         }
 
-        // Debug: Show the current time
-        show_debug_message("Time Remaining: " + string(minutes) + ":" + (seconds < 10 ? "0" : "") + string(seconds));
+        // Depuração: Mostra o horário atual
+        show_debug_message("Tempo Restante: " + string(minutes) + ":" + (seconds < 10 ? "0" : "") + string(seconds));
     }
 }

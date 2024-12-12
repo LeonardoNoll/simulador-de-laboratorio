@@ -8,10 +8,9 @@ if(!drag_mode) {
 		y = base_y
 		x = base_x
 	} else {	
-	//	instance_create_layer(room_width-500, 400, "GUI", obj_cronometer)
 		other.locked = true
 		locked = true
-		y = 524
-		x = 420
+		y = 420
+		x = 360
 	}
 }

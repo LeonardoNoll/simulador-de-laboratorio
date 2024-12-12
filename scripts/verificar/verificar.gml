@@ -5,8 +5,8 @@ function verificar(){
 
 	// Atribui mensagem a ser demonstrada baseado no tipo do objeto	
 	switch(object_index) {
-		case obj_syringe_and_bottle:
-				_msg = ["A seringa possui " + string(ml) + " mls"]
+		case obj_syringe_filled:
+				_msg = ["A seringa possui " + string(ml) + " ml"]
 			break
 	}
 

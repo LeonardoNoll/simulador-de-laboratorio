@@ -2,6 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function acelerar_contagem(){
 	with(obj_cronometer) {
-		fastforward = true
+		fast_forward = true
 	}
 }

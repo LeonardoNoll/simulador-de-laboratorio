@@ -1,3 +1,3 @@
 event_inherited()
 
-name = "Pote com Amostra"
+name = "Becker com Amostra"

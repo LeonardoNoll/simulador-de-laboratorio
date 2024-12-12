@@ -8,8 +8,8 @@
   "name":"obj_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"controlers",
+    "path":"folders/Objects/GUI/controlers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

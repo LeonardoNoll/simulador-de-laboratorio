@@ -1,4 +1,6 @@
 global.selected = noone
+global.particle_sys = noone
+
 randomize()
 
 // Ambos os arrays devem seguir a mesma ordem
@@ -9,8 +11,7 @@ randomize()
 // evento Left Released do obj_context_btn
 
 enum OPTIONS {
-	VESTIR,
-	ABRIR,
+	CALCAR,
 	VERIFICAR,
 	DIAGNOSTICAR,
 	HIPOSSALIVACAO,
@@ -25,8 +26,7 @@ enum OPTIONS {
 }
 
 options_string = [
-	"Vestir",
-	"Abrir",
+	"Calçar",
 	"Verificar",
 	"Diagnosticar",
 	"Hipossalivação",
@@ -35,7 +35,7 @@ options_string = [
 	"Identificar",
 	"Realizar coleta",
 	"Cronometrar coleta",
-	"+1 Minuto",
-	"-1 Minuto",
+	"1+ Minuto",
+	"1- Minuto",
 	"Acelerar contagem"
 ]

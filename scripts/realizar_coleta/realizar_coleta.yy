@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"realizar_coleta",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"experimento_1",
+    "path":"folders/Scripts/experimento_1.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_btn_quit",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_btn_quit",
@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Quit",},
   ],
   "parent":{
-    "name":"btns",
-    "path":"folders/Objects/GUI/btns.yy",
+    "name":"main_menu",
+    "path":"folders/Objects/GUI/btns/main_menu.yy",
   },
   "parentObjectId":{
     "name":"obj_btn_parent",

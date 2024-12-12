@@ -5,6 +5,6 @@ function realizar_coleta(){
 			options = [OPTIONS.CRONOMETRAR_COLETA]
 			return
 		}
-		criar_textbox(mouse_x+1, mouse_y-100, ["Você não pode fazer a coleta ainda. Posicione o paciênte em uma posição de 45º.", "Em seguida, posicione o pote corretamente."])
+		criar_textbox(mouse_x+1, mouse_y-100, ["Você não pode fazer a coleta ainda. Posicione o paciênte em uma posição de 45º.", "Em seguida, posicione o becker corretamente."])
 	}
 }

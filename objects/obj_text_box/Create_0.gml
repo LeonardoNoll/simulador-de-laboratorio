@@ -7,7 +7,7 @@ enum MSG { TEXT }
 height = 200;
 width = 400;
 
-// Deinição manual da hitbox
+// Definição manual da hitbox
 hitbox_left = x;
 hitbox_right = x + width;
 hitbox_top = y;
@@ -15,3 +15,5 @@ hitbox_bottom = y + height;
 
 padding = 24;
 
+btn_x = instance_create_layer(x,y-5, "GUI", obj_btn_x)
+btn_x.parent = self

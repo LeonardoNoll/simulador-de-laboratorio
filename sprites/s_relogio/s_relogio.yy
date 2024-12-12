@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"GUI",
-    "path":"folders/Sprites/GUI.yy",
+    "name":"lab_equipament",
+    "path":"folders/Sprites/lab_equipament.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

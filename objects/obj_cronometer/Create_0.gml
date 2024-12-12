@@ -6,14 +6,16 @@ seconds = 0
 minutes_elapsed = 0
 last_update_time = current_time
 counting_down = false
-fastforward = false
+fast_forward = false
 
+name = "Cronômetro"
+locked = true
 options = [
 	OPTIONS.MAIS_1_MINUTO,
 	OPTIONS.MENOS_1_MINUNO,
 	OPTIONS.CRONOMETRAR_COLETA
 ]
-locked = true
+
 
 
 
