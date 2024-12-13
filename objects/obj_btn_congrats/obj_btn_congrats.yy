@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_congrats",
+  "%Name":"obj_btn_congrats",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_congrats",
+  "name":"obj_btn_congrats",
   "overriddenProperties":[],
   "parent":{
-    "name":"parabens",
-    "path":"folders/Objects/parabens.yy",
+    "name":"congratulations",
+    "path":"folders/Objects/GUI/btns/congratulations.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_btn_parent",
+    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
