@@ -18,3 +18,6 @@ draw_sprite_stretched(s_text_box_9slice, 0, x, y, width, num_lines+padding*2);
 // Texto
 draw_set_color(c_black);
 draw_text_ext(_drawX, _drawY, messageText, -1, _maxW);
+
+// X
+//draw_sprite(s_x, 0, x+width-5, y)

@@ -1,2 +1,1 @@
 ds_list_destroy(messages)
-instance_destroy(btn_x)

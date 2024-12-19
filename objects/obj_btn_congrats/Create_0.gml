@@ -1,5 +1,5 @@
-width = 400
-height = 80
+width = 200
+height = 40
 
 x1 = x-width/2
 x2 = x+width/2

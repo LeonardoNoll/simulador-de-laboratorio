@@ -15,5 +15,6 @@ hitbox_bottom = y + height;
 
 padding = 24;
 
-btn_x = instance_create_layer(x,y-5, "GUI", obj_btn_x)
+// Botão fechar
+btn_x = instance_create_layer(x+width-5, y, "GUI", obj_btn_x)
 btn_x.parent = self

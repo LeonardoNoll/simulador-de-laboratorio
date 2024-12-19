@@ -36,6 +36,7 @@
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"congratulations","folderPath":"folders/Sprites/congratulations.yy","name":"congratulations","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GUI","folderPath":"folders/Sprites/GUI.yy","name":"GUI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"lab_equipament","folderPath":"folders/Sprites/lab_equipament.yy","name":"lab_equipament","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"bottles","folderPath":"folders/Sprites/lab_equipament/bottles.yy","name":"bottles","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -49,7 +50,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1100.0.703",
+    "IDEVersion":"2024.1100.0.713",
   },
   "name":"laboratorio",
   "resources":[
@@ -108,6 +109,8 @@
     {"id":{"name":"verificar_resposta","path":"scripts/verificar_resposta/verificar_resposta.yy",},},
     {"id":{"name":"verificar","path":"scripts/verificar/verificar.yy",},},
     {"id":{"name":"seq_calcar","path":"sequences/seq_calcar/seq_calcar.yy",},},
+    {"id":{"name":"seq_congrats_glow","path":"sequences/seq_congrats_glow/seq_congrats_glow.yy",},},
+    {"id":{"name":"seq_congrats_trophy","path":"sequences/seq_congrats_trophy/seq_congrats_trophy.yy",},},
     {"id":{"name":"s_background","path":"sprites/s_background/s_background.yy",},},
     {"id":{"name":"s_bottle_empty","path":"sprites/s_bottle_empty/s_bottle_empty.yy",},},
     {"id":{"name":"s_bottle_marked_empty","path":"sprites/s_bottle_marked_empty/s_bottle_marked_empty.yy",},},
@@ -118,6 +121,7 @@
     {"id":{"name":"s_congrats_message","path":"sprites/s_congrats_message/s_congrats_message.yy",},},
     {"id":{"name":"s_context_btn","path":"sprites/s_context_btn/s_context_btn.yy",},},
     {"id":{"name":"s_gloves","path":"sprites/s_gloves/s_gloves.yy",},},
+    {"id":{"name":"s_glow","path":"sprites/s_glow/s_glow.yy",},},
     {"id":{"name":"s_home","path":"sprites/s_home/s_home.yy",},},
     {"id":{"name":"s_instructions","path":"sprites/s_instructions/s_instructions.yy",},},
     {"id":{"name":"s_legs","path":"sprites/s_legs/s_legs.yy",},},
