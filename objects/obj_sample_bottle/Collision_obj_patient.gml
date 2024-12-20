@@ -1,16 +1,14 @@
-if(!drag_mode) {
+if(!drag_mode && !locked) {
 	if(!identificado) {
 		criar_textbox(mouse_x-200, mouse_y-100, ["Você não pode fazer isso. Identifique o pote antes de realizar a coleta "])
 		y = base_y
 		x = base_x
-	} else if (!other.pronto_para_coleta) {
-		criar_textbox(mouse_x-200, mouse_y-100, ["Você não pode fazer a coleta ainda. Posicione o paciênte em uma posição de 45º"])
-		y = base_y
-		x = base_x
-	} else {	
-		other.locked = true
+	} else {
+		instance_destroy(other)
+		instance_create_layer(625, 282, "Instances", obj_patient_head)
+		options = [OPTIONS.REALIZAR_COLETA]
 		locked = true
-		y = 420
-		x = 360
+		x = 550
+		y = 275
 	}
 }

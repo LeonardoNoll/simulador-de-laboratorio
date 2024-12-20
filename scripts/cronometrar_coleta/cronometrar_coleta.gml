@@ -10,7 +10,7 @@ function cronometrar_coleta() {
     if (global.particle_sys == noone || !part_system_exists(global.particle_sys)) {
         with (obj_sample_bottle) {
             global.particle_sys = part_system_create_layer("Instances", 0, ps_saliva); 
-            part_system_position(global.particle_sys, x + 10, y - 85);
+            part_system_position(global.particle_sys, x+5, y - 25);
             show_debug_message("Sistema de partículas criado.");
         }
     } else {

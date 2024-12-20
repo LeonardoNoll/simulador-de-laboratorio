@@ -54,6 +54,7 @@
     {"name":"obj_gloves","order":4,"path":"objects/obj_gloves/obj_gloves.yy",},
     {"name":"obj_inventory","order":1,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"obj_menu","order":1,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"obj_patient_head","order":10,"path":"objects/obj_patient_head/obj_patient_head.yy",},
     {"name":"obj_patient","order":7,"path":"objects/obj_patient/obj_patient.yy",},
     {"name":"obj_reference_table","order":2,"path":"objects/obj_reference_table/obj_reference_table.yy",},
     {"name":"obj_sample_bottle","order":8,"path":"objects/obj_sample_bottle/obj_sample_bottle.yy",},
@@ -88,6 +89,7 @@
     {"name":"s_context_btn","order":3,"path":"sprites/s_context_btn/s_context_btn.yy",},
     {"name":"s_gloves","order":1,"path":"sprites/s_gloves/s_gloves.yy",},
     {"name":"s_glow","order":1,"path":"sprites/s_glow/s_glow.yy",},
+    {"name":"s_head","order":3,"path":"sprites/s_head/s_head.yy",},
     {"name":"s_home","order":8,"path":"sprites/s_home/s_home.yy",},
     {"name":"s_instructions","order":3,"path":"sprites/s_instructions/s_instructions.yy",},
     {"name":"s_legs","order":1,"path":"sprites/s_legs/s_legs.yy",},
@@ -101,6 +103,7 @@
     {"name":"s_table_btn","order":4,"path":"sprites/s_table_btn/s_table_btn.yy",},
     {"name":"s_table","order":3,"path":"sprites/s_table/s_table.yy",},
     {"name":"s_text_box_9slice_hover","order":7,"path":"sprites/s_text_box_9slice_hover/s_text_box_9slice_hover.yy",},
+    {"name":"s_torso_headless","order":2,"path":"sprites/s_torso_headless/s_torso_headless.yy",},
     {"name":"s_x","order":10,"path":"sprites/s_x/s_x.yy",},
   ],
 }
