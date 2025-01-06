@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inventory",
+  "%Name":"obj_luva",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_inventory",
+  "name":"obj_luva",
   "overriddenProperties":[],
   "parent":{
-    "name":"controlers",
-    "path":"folders/Objects/GUI/other/controlers.yy",
+    "name":"itens",
+    "path":"folders/Objects/GUI/locker/itens.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_locker_generic_item",
+    "path":"objects/obj_locker_generic_item/obj_locker_generic_item.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_gloves",
+    "path":"sprites/s_gloves/s_gloves.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

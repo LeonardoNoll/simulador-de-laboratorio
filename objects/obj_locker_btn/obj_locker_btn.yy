@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"ob_btn_question",
+  "%Name":"obj_locker_btn",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ob_btn_question",
+  "name":"obj_locker_btn",
   "overriddenProperties":[],
   "parent":{
     "name":"btns",
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_star",
-    "path":"sprites/s_star/s_star.yy",
+    "name":"s_locker",
+    "path":"sprites/s_locker/s_locker.yy",
   },
   "spriteMaskId":null,
   "visible":true,

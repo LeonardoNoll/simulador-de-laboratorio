@@ -8,7 +8,7 @@ if(!drag_mode) {
 	// Criar menu se options estiver setado
 	if(array_length(options) > 0) {
 		// Checa se a luva esta equipada para seguir o experimento
-		if(array_contains(instance_nearest(x, y, obj_inventory).itens, obj_gloves)) {
+		if(array_contains(instance_nearest(x, y, obj_inventory).itens, obj_luva)) {
 			// Logica da criacao de menu
 			global.selected = id // Seta o id
 			var _my_menu

@@ -10,7 +10,7 @@ if (!locked) {
 	// Logica da criacao de menu
 	if(instance_exists(obj_inventory)) {
 		// Checa se a luva esta equipada para seguir o experimento
-		if(array_contains(instance_nearest(x, y, obj_inventory).itens, obj_gloves)) {
+		if(array_contains(instance_nearest(x, y, obj_inventory).itens, obj_luva)) {
 			// Logica para arrastar
 			drag_mode = true;
 			on_table = false;

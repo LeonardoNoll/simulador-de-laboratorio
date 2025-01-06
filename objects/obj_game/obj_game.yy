@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"controlers",
-    "path":"folders/Objects/GUI/controlers.yy",
+    "path":"folders/Objects/GUI/other/controlers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

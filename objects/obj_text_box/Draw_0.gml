@@ -19,5 +19,7 @@ draw_sprite_stretched(s_text_box_9slice, 0, x, y, width, num_lines+padding*2);
 draw_set_color(c_black);
 draw_text_ext(_drawX, _drawY, messageText, -1, _maxW);
 
-// X
+// Botão fechar
+var _btn_x = instance_create_depth(x+width-5, y, depth-1, obj_btn_x)
+_btn_x.parent = self
 //draw_sprite(s_x, 0, x+width-5, y)
