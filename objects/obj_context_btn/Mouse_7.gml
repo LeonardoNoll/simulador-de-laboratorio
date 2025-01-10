@@ -1,3 +1,7 @@
+// As opções do switch devem cobrir todas os itens existentes
+// no array "OPTIONS", que pertence ao obj_game. Opções
+// com "return" antes do "break" não fecharão o menu imediatamente.
+
 switch(option) {
 	case OPTIONS.CALCAR:
 		calcar()
@@ -39,5 +43,6 @@ switch(option) {
 		acelerar_contagem()
 		break
 }
-//instance_destroy(instance_nearest(x-100, y, obj_menu)) -- gambiarra desnecessaria
+
+// Clean up
 instance_destroy(obj_menu)

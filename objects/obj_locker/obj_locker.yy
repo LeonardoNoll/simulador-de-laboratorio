@@ -10,8 +10,8 @@
   "name":"obj_locker",
   "overriddenProperties":[],
   "parent":{
-    "name":"locker",
-    "path":"folders/Objects/GUI/locker.yy",
+    "name":"locker_and_inventory",
+    "path":"folders/Objects/GUI/locker_and_inventory.yy",
   },
   "parentObjectId":null,
   "persistent":false,

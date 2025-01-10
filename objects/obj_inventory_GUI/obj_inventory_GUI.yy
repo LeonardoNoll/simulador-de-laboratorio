@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_luva",
+  "%Name":"obj_inventory_GUI",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_luva",
+  "name":"obj_inventory_GUI",
   "overriddenProperties":[],
   "parent":{
-    "name":"itens",
-    "path":"folders/Objects/GUI/locker/itens.yy",
+    "name":"locker_and_inventory",
+    "path":"folders/Objects/GUI/locker_and_inventory.yy",
   },
-  "parentObjectId":{
-    "name":"obj_locker_generic_item",
-    "path":"objects/obj_locker_generic_item/obj_locker_generic_item.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_gloves",
-    "path":"sprites/s_gloves/s_gloves.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

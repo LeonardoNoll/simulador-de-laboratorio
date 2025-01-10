@@ -8,9 +8,9 @@ if (!locked) {
 	global.selected = id
 
 	// Logica da criacao de menu
-	if(instance_exists(obj_inventory)) {
+	if(instance_exists(obj_inventory_btn)) {
 		// Checa se a luva esta equipada para seguir o experimento
-		if(array_contains(instance_nearest(x, y, obj_inventory).itens, obj_luva)) {
+		if(array_contains(obj_inventory_btn.itens, obj_glove)){
 			// Logica para arrastar
 			drag_mode = true;
 			on_table = false;

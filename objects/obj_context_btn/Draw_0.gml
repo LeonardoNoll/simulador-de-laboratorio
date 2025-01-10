@@ -1,3 +1,4 @@
+// Efeito de hover
 if(
 	median(x, x + sprite_width, mouse_x) == mouse_x
 	&& median(y, y + sprite_height, mouse_y) == mouse_y

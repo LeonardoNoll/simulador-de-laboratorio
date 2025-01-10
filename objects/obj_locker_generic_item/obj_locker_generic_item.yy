@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"itens",
-    "path":"folders/Objects/GUI/locker/itens.yy",
+    "path":"folders/Objects/GUI/locker_and_inventory/itens.yy",
   },
   "parentObjectId":null,
   "persistent":false,

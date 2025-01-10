@@ -11,8 +11,8 @@
   "name":"obj_locker_btn",
   "overriddenProperties":[],
   "parent":{
-    "name":"btns",
-    "path":"folders/Objects/GUI/btns.yy",
+    "name":"nav-btns",
+    "path":"folders/Objects/GUI/btns/nav-btns.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,7 +28,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"itens","filters":[],"listItems":[],"multiselect":false,"name":"itens","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[obj_glove,obj_glove]","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

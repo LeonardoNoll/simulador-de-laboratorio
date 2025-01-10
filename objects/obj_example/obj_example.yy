@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_table",
-  "eventList":[],
+  "%Name":"obj_example",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_table",
+  "name":"obj_example",
   "overriddenProperties":[],
   "parent":{
-    "name":"lab_objs",
-    "path":"folders/Objects/lab_objs.yy",
+    "name":"tutorial",
+    "path":"folders/Objects/tutorial.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_clickable_parent",
+    "path":"objects/obj_clickable_parent/obj_clickable_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_table",
-    "path":"sprites/s_table/s_table.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

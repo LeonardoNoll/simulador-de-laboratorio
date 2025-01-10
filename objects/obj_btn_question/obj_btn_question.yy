@@ -10,8 +10,8 @@
   "name":"obj_btn_question",
   "overriddenProperties":[],
   "parent":{
-    "name":"btns",
-    "path":"folders/Objects/GUI/btns.yy",
+    "name":"nav-btns",
+    "path":"folders/Objects/GUI/btns/nav-btns.yy",
   },
   "parentObjectId":null,
   "persistent":false,

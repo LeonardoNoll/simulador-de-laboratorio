@@ -29,7 +29,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"content","filters":[],"listItems":[],"multiselect":false,"name":"content","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"messages","filters":[],"listItems":[
+        "\"Teste\"",
+      ],"multiselect":false,"name":"messages","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Teste\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

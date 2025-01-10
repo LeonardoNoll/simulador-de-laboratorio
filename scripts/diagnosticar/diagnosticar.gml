@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function diagnosticar(){
 	// Menu extra com as opções de resposta
 		var _my_menu = instance_create_layer(x + sprite_width + 20,  y, "Instances", obj_menu) 
