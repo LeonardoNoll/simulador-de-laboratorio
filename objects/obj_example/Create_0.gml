@@ -1,1 +1,3 @@
-name = "
+event_inherited()
+
+name = "Reagente"

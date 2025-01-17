@@ -10,18 +10,15 @@ if (!locked) {
 	// Logica da criacao de menu
 	if(instance_exists(obj_inventory_btn)) {
 		// Checa se a luva esta equipada para seguir o experimento
-		if(array_contains(obj_inventory_btn.itens, obj_glove)){
+		var _inv = obj_inventory_btn.itens
+		if(array_contains(_inv, obj_glove) && array_contains(_inv, obj_lab_coat)){
 			// Logica para arrastar
-			drag_mode = true;
-			on_table = false;
+			drag_mode = true
 			xx = x-mouse_x;
 			yy = y-mouse_y;
 
-			// Mudança de escala decorativa
-			image_xscale = 1.2;
-			image_yscale = 1.2
 			} else {
-			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto, você deve primeiro equipar a luva."])
+			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto você deve calçar os EPIs adequados. Calce as luvas e vista seu jaleco."])
 		}
 	}
 }

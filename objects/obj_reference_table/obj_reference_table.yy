@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_reference_table",
-    "path":"sprites/s_reference_table/s_reference_table.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

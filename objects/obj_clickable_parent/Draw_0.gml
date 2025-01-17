@@ -1,11 +1,13 @@
-if (global.selected == id) {
-	image_xscale = 1.2;
-	image_yscale = 1.2;
-	depth = 1
-} else {
-	image_xscale = 1;
-	image_yscale = 1;
-	depth = 100
-}
-draw_self()
+// Target scale values
+var target_xscale = (global.selected == id) ? 1.2 : 1;
+var target_yscale = (global.selected == id) ? 1.2 : 1;
 
+// Smoothly transition the scale
+image_xscale = lerp(image_xscale, target_xscale, 0.6);
+image_yscale = lerp(image_yscale, target_yscale, 0.6);
+
+// Depth adjustment
+depth = (global.selected == id) ? 1 : 100;
+
+// Draw the object
+draw_self();

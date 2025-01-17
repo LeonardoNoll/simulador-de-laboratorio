@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_relogio",
-    "path":"sprites/s_relogio/s_relogio.yy",
+    "name":"s_cronometer",
+    "path":"sprites/s_cronometer/s_cronometer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

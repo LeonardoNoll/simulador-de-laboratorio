@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"finalizar_tutorial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"finalizar_tutorial",
+  "parent":{
+    "name":"tutorial",
+    "path":"folders/Scripts/tutorial.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

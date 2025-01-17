@@ -14,6 +14,4 @@ if(!locked){
 	yy = y-mouse_y;
 
 	// Mudança de escala decorativa
-	image_xscale = 1.2;
-	image_yscale = 1.2;
 }

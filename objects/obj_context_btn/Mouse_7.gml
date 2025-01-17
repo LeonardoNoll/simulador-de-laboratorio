@@ -42,6 +42,9 @@ switch(option) {
 	case OPTIONS.ACELERAR_CONTAGEM:
 		acelerar_contagem()
 		break
+	case OPTIONS.FINALIZAR_TUTORIAL:
+		finalizar_tutorial()
+		break
 }
 
 // Clean up

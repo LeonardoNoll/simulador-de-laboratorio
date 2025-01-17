@@ -22,7 +22,8 @@ enum OPTIONS {
 	CRONOMETRAR_COLETA,
 	MAIS_1_MINUTO,
 	MENOS_1_MINUNO,
-	ACELERAR_CONTAGEM
+	ACELERAR_CONTAGEM,
+	FINALIZAR_TUTORIAL
 }
 
 options_string = [
@@ -37,5 +38,6 @@ options_string = [
 	"Cronometrar coleta",
 	"1+ Minuto",
 	"1- Minuto",
-	"Acelerar contagem"
+	"Acelerar contagem",
+	"Finalizar tutorial"
 ]

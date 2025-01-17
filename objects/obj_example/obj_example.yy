@@ -3,6 +3,8 @@
   "%Name":"obj_example",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_catalyst","path":"objects/obj_catalyst/obj_catalyst.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_example",
@@ -12,8 +14,8 @@
     "path":"folders/Objects/tutorial.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_parent",
-    "path":"objects/obj_clickable_parent/obj_clickable_parent.yy",
+    "name":"obj_clickable_need_glove",
+    "path":"objects/obj_clickable_need_glove/obj_clickable_need_glove.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_flask_blue",
+    "path":"sprites/s_flask_blue/s_flask_blue.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

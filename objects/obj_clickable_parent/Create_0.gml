@@ -1,4 +1,4 @@
-focus_color = c_black
+outline_init()
 options = []
 
 drag_mode = false;

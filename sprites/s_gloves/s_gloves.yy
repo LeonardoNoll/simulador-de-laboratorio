@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"lab_equipament",
-    "path":"folders/Sprites/lab_equipament.yy",
+    "name":"inventory_itens",
+    "path":"folders/Sprites/inventory_itens.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
