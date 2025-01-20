@@ -21,7 +21,7 @@
     {"$GMRInstanceLayer":"","%Name":"GUI","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_7C2DA889","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C2DA889","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_68C926E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68C926E4","objectId":{"name":"obj_btn_question","path":"objects/obj_btn_question/obj_btn_question.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_question","path":"objects/obj_btn_question/obj_btn_question.yy",},"propertyId":{"name":"instruction_sprite","path":"objects/obj_btn_question/obj_btn_question.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_instruction_1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_question","path":"objects/obj_btn_question/obj_btn_question.yy",},"propertyId":{"name":"instruction_sprite","path":"objects/obj_btn_question/obj_btn_question.yy",},"resource":{"name":"s_intruction_1","path":"sprites/s_intruction_1/s_intruction_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_intruction_1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":650.0,"y":40.0,},
         {"$GMRInstance":"v1","%Name":"inst_76C341CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76C341CB","objectId":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},"propertyId":{"name":"reference_sprite","path":"objects/obj_btn_table/obj_btn_table.yy",},"resource":{"name":"s_reference_1","path":"sprites/s_reference_1/s_reference_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_reference_1",},
@@ -47,8 +47,8 @@
   ],
   "name":"rm_1b",
   "parent":{
-    "name":"experimento1",
-    "path":"folders/Rooms/experimento1.yy",
+    "name":"experimento_1_salivacao_nao_estimulada",
+    "path":"folders/Rooms/experimento_1_salivacao_nao_estimulada.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

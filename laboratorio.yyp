@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"laboratorio",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -29,7 +29,7 @@
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"experimento1","folderPath":"folders/Rooms/experimento1.yy","name":"experimento1","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"experimento_1_salivacao_nao_estimulada","folderPath":"folders/Rooms/experimento_1_salivacao_nao_estimulada.yy","name":"experimento_1_salivacao_nao_estimulada","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tutorial","folderPath":"folders/Rooms/tutorial.yy","name":"tutorial","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experimento_1","folderPath":"folders/Scripts/experimento_1.yy","name":"experimento_1","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -57,11 +57,12 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1100.0.713",
+    "IDEVersion":"2024.1300.0.720",
   },
   "name":"laboratorio",
   "resources":[
@@ -96,6 +97,7 @@
     {"id":{"name":"obj_locker_generic_item","path":"objects/obj_locker_generic_item/obj_locker_generic_item.yy",},},
     {"id":{"name":"obj_locker","path":"objects/obj_locker/obj_locker.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"obj_parafilm","path":"objects/obj_parafilm/obj_parafilm.yy",},},
     {"id":{"name":"obj_patient_head","path":"objects/obj_patient_head/obj_patient_head.yy",},},
     {"id":{"name":"obj_patient","path":"objects/obj_patient/obj_patient.yy",},},
     {"id":{"name":"obj_reference_table","path":"objects/obj_reference_table/obj_reference_table.yy",},},
@@ -109,7 +111,8 @@
     {"id":{"name":"ps_confeti_red","path":"particles/ps_confeti_red/ps_confeti_red.yy",},},
     {"id":{"name":"ps_confeti_yellow","path":"particles/ps_confeti_yellow/ps_confeti_yellow.yy",},},
     {"id":{"name":"ps_saliva","path":"particles/ps_saliva/ps_saliva.yy",},},
-    {"id":{"name":"rm_1a","path":"rooms/rm_1a/rm_1a.yy",},},
+    {"id":{"name":"rm_1a_estimulada","path":"rooms/rm_1a_estimulada/rm_1a_estimulada.yy",},},
+    {"id":{"name":"rm_1a_normal","path":"rooms/rm_1a_normal/rm_1a_normal.yy",},},
     {"id":{"name":"rm_1b","path":"rooms/rm_1b/rm_1b.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_parabens","path":"rooms/rm_parabens/rm_parabens.yy",},},
@@ -164,6 +167,7 @@
     {"id":{"name":"s_locker_box","path":"sprites/s_locker_box/s_locker_box.yy",},},
     {"id":{"name":"s_locker","path":"sprites/s_locker/s_locker.yy",},},
     {"id":{"name":"s_monitor","path":"sprites/s_monitor/s_monitor.yy",},},
+    {"id":{"name":"s_parafilm","path":"sprites/s_parafilm/s_parafilm.yy",},},
     {"id":{"name":"s_reference_1","path":"sprites/s_reference_1/s_reference_1.yy",},},
     {"id":{"name":"s_reference_tutorial","path":"sprites/s_reference_tutorial/s_reference_tutorial.yy",},},
     {"id":{"name":"s_shelf","path":"sprites/s_shelf/s_shelf.yy",},},
@@ -185,10 +189,11 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_1b","path":"rooms/rm_1b/rm_1b.yy",},},
-    {"roomId":{"name":"rm_1a","path":"rooms/rm_1a/rm_1a.yy",},},
+    {"roomId":{"name":"rm_1a_normal","path":"rooms/rm_1a_normal/rm_1a_normal.yy",},},
     {"roomId":{"name":"rm_parabens","path":"rooms/rm_parabens/rm_parabens.yy",},},
     {"roomId":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
     {"roomId":{"name":"rm_tutorial_2","path":"rooms/rm_tutorial_2/rm_tutorial_2.yy",},},
+    {"roomId":{"name":"rm_1a_estimulada","path":"rooms/rm_1a_estimulada/rm_1a_estimulada.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

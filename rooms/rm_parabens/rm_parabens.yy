@@ -30,8 +30,8 @@
   ],
   "name":"rm_parabens",
   "parent":{
-    "name":"experimento1",
-    "path":"folders/Rooms/experimento1.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

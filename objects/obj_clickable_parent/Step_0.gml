@@ -1,6 +1,4 @@
-if (!drag_mode) {
-	exit
-} else {
+if (drag_mode) {
 	x = mouse_x + xx;
 	y = mouse_y + yy;
 }
