@@ -25,7 +25,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_question","path":"objects/obj_btn_question/obj_btn_question.yy",},"propertyId":{"name":"instruction_sprite","path":"objects/obj_btn_question/obj_btn_question.yy",},"resource":{"name":"s_intruction_1","path":"sprites/s_intruction_1/s_intruction_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_intruction_1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":650.0,"y":40.0,},
         {"$GMRInstance":"v1","%Name":"inst_11CBEB75_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11CBEB75_1","objectId":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},"propertyId":{"name":"reference_sprite","path":"objects/obj_btn_table/obj_btn_table.yy",},"resource":{"name":"s_reference_1","path":"sprites/s_reference_1/s_reference_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_reference_1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},"propertyId":{"name":"reference_sprite","path":"objects/obj_btn_table/obj_btn_table.yy",},"resource":{"name":"s_reference_salometria_e","path":"sprites/s_reference_salometria_e/s_reference_salometria_e.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_reference_salometria_e",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":580.0,"y":40.0,},
         {"$GMRInstance":"v1","%Name":"inst_3E74813E_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E74813E_1","objectId":{"name":"obj_btn_home","path":"objects/obj_btn_home/obj_btn_home.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":510.0,"y":40.0,},
         {"$GMRInstance":"v1","%Name":"inst_393CF95A_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_393CF95A_1","objectId":{"name":"obj_locker_btn","path":"objects/obj_locker_btn/obj_locker_btn.yy",},"properties":[
@@ -50,8 +50,8 @@
   ],
   "name":"rm_1a_estimulada",
   "parent":{
-    "name":"experimento_1_salivacao_nao_estimulada",
-    "path":"folders/Rooms/experimento_1_salivacao_nao_estimulada.yy",
+    "name":"experimento_1_sialometria",
+    "path":"folders/Rooms/experimento_1_sialometria.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

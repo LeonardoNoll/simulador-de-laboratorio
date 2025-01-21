@@ -5,6 +5,7 @@ options = [
 	OPTIONS.DIAGNOSTICAR
 ]
 
-ml = random_range(0.01, 1.75)
+//Segundo caso representa salivação estimulada 
+ml = room = rm_1b_normal ? random_range(0.01, 1.75) : random_range(0.01, 15) 
 
 name = "Seringa com amostra"

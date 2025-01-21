@@ -14,13 +14,16 @@ switch(option) {
 		return
 		break
 	case OPTIONS.HIPOSSALIVACAO:
-		verificar_resposta(0, 0.1)
+		if(room == rm_1b_normal) verificar_resposta(0, 0.1)
+		else verificar_resposta(0, 0.7)
 		break
 	case OPTIONS.POUCA_SALIVACAO:
-		verificar_resposta(0.1, 0.25)
+		if(room == rm_1b_normal) verificar_resposta(0.1, 0.25)
+		else verificar_resposta(0.7, 1)
 		break
 	case OPTIONS.SALIVACAO_NORMAL:
-		verificar_resposta(0.25, 0.35)
+		if(room == rm_1b_normal) verificar_resposta(0.25, 0.35)
+		else verificar_resposta(1, 3)
 		break
 	case OPTIONS.IDENTIFICAR:
 		identificar()

@@ -23,7 +23,8 @@ if (counting_down) {
 
             // Lida com a lógica de expiração
             if (minutes_elapsed == 5) {
-                room_goto(rm_1b); // Vai para a próxima sala
+				if(room = rm_1a_normal) room_goto(rm_1b_normal);
+				else /*if(room = rm_1a_estimulada)*/ room_goto(rm_1b_estimulada);
             } else {
                 criar_textbox(x + sprite_width, y, ["Você cronometrou o tempo errado"]);
                 minutes_elapsed = 0; // Reinicia o tempo decorrido
