@@ -9,9 +9,6 @@ if(!locked){
 
 	// Logica para arrastar
 	drag_mode = true;
-	on_table = false;
 	xx = x-mouse_x;
 	yy = y-mouse_y;
-
-	// Mudança de escala decorativa
 }

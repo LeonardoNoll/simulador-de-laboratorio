@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"outline_end",
+  "%Name":"extrair_conteudo",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"outline_end",
+  "name":"extrair_conteudo",
   "parent":{
-    "name":"Outline Shader",
-    "path":"folders/Scripts/Outline Shader.yy",
+    "name":"experimento_1",
+    "path":"folders/Scripts/experimento_1.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

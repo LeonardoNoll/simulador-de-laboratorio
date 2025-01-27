@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"realizar_coleta",
+  "%Name":"preparar_para_coleta",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"realizar_coleta",
+  "name":"preparar_para_coleta",
   "parent":{
     "name":"experimento_1",
     "path":"folders/Scripts/experimento_1.yy",

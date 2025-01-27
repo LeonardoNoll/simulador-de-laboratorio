@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_game",
+  "%Name":"obj_btn_nav",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_game",
+  "name":"obj_btn_nav",
   "overriddenProperties":[],
   "parent":{
-    "name":"other",
-    "path":"folders/Objects/GUI/other.yy",
+    "name":"nav-btns",
+    "path":"folders/Objects/GUI/btns/nav-btns.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -13,6 +13,9 @@ switch(option) {
 		diagnosticar()
 		return
 		break
+	case OPTIONS.EXTRAIR_CONTEUDO:
+		extrair_conteudo()
+		break
 	case OPTIONS.HIPOSSALIVACAO:
 		if(room == rm_1b_normal) verificar_resposta(0, 0.1)
 		else verificar_resposta(0, 0.7)
@@ -28,8 +31,8 @@ switch(option) {
 	case OPTIONS.IDENTIFICAR:
 		identificar()
 		break
-	case OPTIONS.REALIZAR_COLETA:
-		realizar_coleta()
+	case OPTIONS.PREPARAR_PARA_COLETA:
+		preparar_para_coleta()
 		break
 	case OPTIONS.CRONOMETRAR_COLETA:
 		cronometrar_coleta()

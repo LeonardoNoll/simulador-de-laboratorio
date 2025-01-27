@@ -6,8 +6,8 @@ if(place_meeting(x,y,obj_patient_head)) {
 		instance_destroy(self)
 		return
 	}
+	x = base_x
+	y = base_y
 	criar_textbox(mouse_x, mouse_y, ["Antes de dar ao paciênte o Parafilm, você deve prepara-lo de acordo com o roteiro."])
 }
 
-y = base_y
-x = base_x

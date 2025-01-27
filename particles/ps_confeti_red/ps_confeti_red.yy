@@ -13,8 +13,8 @@
   ],
   "name":"ps_confeti_red",
   "parent":{
-    "name":"Particle Systems",
-    "path":"folders/Particle Systems.yy",
+    "name":"confetti",
+    "path":"folders/Particle Systems/confetti.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

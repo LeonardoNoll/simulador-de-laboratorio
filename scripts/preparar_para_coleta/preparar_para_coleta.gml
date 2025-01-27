@@ -1,4 +1,4 @@
-function realizar_coleta(){
+function preparar_para_coleta(){
 	if(instance_nearest(0,0,obj_patient_head).pronto_para_coleta) {
 		with (global.selected) {
 			instance_create_layer(sprite_width + 50, sprite_height, "Instances", obj_cronometer)

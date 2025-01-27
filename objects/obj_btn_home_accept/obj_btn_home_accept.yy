@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"home",
-    "path":"folders/Objects/GUI/btns/home.yy",
+    "path":"folders/Objects/GUI/btns/nav-btns/home.yy",
   },
   "parentObjectId":{
     "name":"obj_btn_parent",

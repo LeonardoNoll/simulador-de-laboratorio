@@ -6,7 +6,7 @@ if(!drag_mode && !locked) {
 	} else {
 		instance_destroy(other)
 		instance_create_layer(625, 282, "Instances", obj_patient_head)
-		options = [OPTIONS.REALIZAR_COLETA]
+		options = [OPTIONS.PREPARAR_PARA_COLETA]
 		locked = true
 		x = 550
 		y = 275
