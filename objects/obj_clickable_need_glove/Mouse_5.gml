@@ -14,7 +14,7 @@ if(!drag_mode) {
 			var _my_menu = instance_create_layer(x + (x > room_width/2 ? -(sprite_width+80) : sprite_width), y, "GUI", obj_menu)
 			_my_menu.options = options 
 		} else {
-			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto, você deve primeiro equipar a luva."])
+			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto você deve calçar os EPIs adequados. Calce as luvas e vista seu jaleco."])
 		}
 	}
 }

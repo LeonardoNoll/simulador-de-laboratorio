@@ -1,9 +1,10 @@
 // Dar a opção de sugar o item
-if(!other.drag_mode && !drag_mode) {
+if(!drag_mode) {
+	x = other.x
+	y = other.y-15
 	locked = true
 	options = [OPTIONS.EXTRAIR_CONTEUDO]
 }
-
 
 // -- Lógica em desuso
 	// Instanciar seringa com amostra
