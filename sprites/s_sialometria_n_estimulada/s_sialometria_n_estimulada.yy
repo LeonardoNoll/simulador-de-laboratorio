@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_intruction_1",
+  "%Name":"s_sialometria_n_estimulada",
   "bboxMode":0,
   "bbox_bottom":499,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"76a1f833-be5c-493e-a540-b869957d4c59","name":"76a1f833-be5c-493e-a540-b869957d4c59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c9858ea8-07e0-4c42-b195-eb7d5be0b7c4","name":"c9858ea8-07e0-4c42-b195-eb7d5be0b7c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":500,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f20abe99-3fe7-4e5a-aa29-c160c4bc8d4f","blendMode":0,"displayName":"default","isLocked":false,"name":"f20abe99-3fe7-4e5a-aa29-c160c4bc8d4f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"55e0c11a-9dbf-4f96-9ab7-6060d8bb860c","blendMode":0,"displayName":"default","isLocked":false,"name":"55e0c11a-9dbf-4f96-9ab7-6060d8bb860c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_intruction_1",
+  "name":"s_sialometria_n_estimulada",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"s_intruction_1",
+    "%Name":"s_sialometria_n_estimulada",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_intruction_1",
+    "name":"s_sialometria_n_estimulada",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"76a1f833-be5c-493e-a540-b869957d4c59","path":"sprites/s_intruction_1/s_intruction_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"124dc2fa-caac-4c64-a67e-8857d00044aa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9858ea8-07e0-4c42-b195-eb7d5be0b7c4","path":"sprites/s_sialometria_n_estimulada/s_sialometria_n_estimulada.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"672bcf5f-69db-4347-9473-2866101ce4c6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

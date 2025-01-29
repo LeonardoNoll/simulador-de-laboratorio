@@ -123,6 +123,7 @@
     {"name":"s_reference_salometria_e","order":2,"path":"sprites/s_reference_salometria_e/s_reference_salometria_e.yy",},
     {"name":"s_reference_tutorial","order":1,"path":"sprites/s_reference_tutorial/s_reference_tutorial.yy",},
     {"name":"s_shelf","order":5,"path":"sprites/s_shelf/s_shelf.yy",},
+    {"name":"s_sialometria_estimulada","order":2,"path":"sprites/s_sialometria_estimulada/s_sialometria_estimulada.yy",},
     {"name":"s_sirynge_empty","order":2,"path":"sprites/s_sirynge_empty/s_sirynge_empty.yy",},
     {"name":"s_syringe_filled","order":4,"path":"sprites/s_syringe_filled/s_syringe_filled.yy",},
     {"name":"s_syringe_rack","order":7,"path":"sprites/s_syringe_rack/s_syringe_rack.yy",},
