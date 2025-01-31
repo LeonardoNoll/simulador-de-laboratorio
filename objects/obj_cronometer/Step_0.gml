@@ -12,7 +12,7 @@ if (counting_down) {
         if (minutes == 0 && seconds == 0) {
             counting_down = false; // Para o cronômetro
 			fast_forward = false; // Reseta a aceleração
-            show_debug_message("Minutos Decorridos: " + string(minutes_elapsed));
+           // show_debug_message("Minutos Decorridos: " + string(minutes_elapsed));
 
 			// Para as particulas de saliva
 			if(global.particle_sys != noone) {
