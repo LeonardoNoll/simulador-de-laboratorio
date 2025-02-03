@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"check_EPI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_EPI",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

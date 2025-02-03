@@ -4,15 +4,15 @@ if (!locked) {
 		instance_destroy(obj_menu)
 	}
 
-	// Desceleciona para evitar comportamentos inesperados 
-	global.selected = id
+
 
 	// Logica da criacao de menu
 	if(instance_exists(obj_inventory_btn)) {
 		// Checa se a luva esta equipada para seguir o experimento
 		var _inv = obj_inventory_btn.itens
 		if(array_contains(_inv, obj_glove) && array_contains(_inv, obj_lab_coat)){
-			// Logica para arrastar
+			// Logica para arrastar			
+			global.selected = id // Desceleciona para evitar comportamentos inesperados 
 			drag_mode = true
 			xx = x-mouse_x;
 			yy = y-mouse_y;

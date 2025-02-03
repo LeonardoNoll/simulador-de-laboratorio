@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"close_ui_elements",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"close_ui_elements",
+  "parent":{
+    "name":"GUI",
+    "path":"folders/Scripts/GUI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -7,6 +7,8 @@ minutes_elapsed = 0
 last_update_time = current_time
 counting_down = false
 fast_forward = false
+expected_minutes = 5
+
 
 name = "Cronômetro"
 locked = true

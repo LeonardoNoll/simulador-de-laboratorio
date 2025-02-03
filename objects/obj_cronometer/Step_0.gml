@@ -22,7 +22,7 @@ if (counting_down) {
 			
 
             // Lida com a lógica de expiração
-            if (minutes_elapsed == 5) {
+            if (minutes_elapsed == expected_minutes) {
 				if(room = rm_1a_normal) room_goto(rm_1b_normal);
 				else /*if(room = rm_1a_estimulada)*/ room_goto(rm_1b_estimulada);
             } else {
