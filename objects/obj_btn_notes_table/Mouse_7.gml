@@ -6,4 +6,4 @@ for(var i = 0; i < array_length(texts); i++) {
 	instance_find(obj_writable_cell,i).text = texts[i]
 }
 
-//TODO: why isn't it spawning in rm_3?
+

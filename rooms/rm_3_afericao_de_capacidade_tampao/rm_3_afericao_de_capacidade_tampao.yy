@@ -21,7 +21,7 @@
     {"name":"inst_314CEA70","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
     {"name":"inst_FB758C9","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
     {"name":"inst_317ECBCF","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
-    {"name":"inst_2B3EE220","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
+    {"name":"inst_178C39A5","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,7 +39,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_locker_btn","path":"objects/obj_locker_btn/obj_locker_btn.yy",},"propertyId":{"name":"itens","path":"objects/obj_locker_btn/obj_locker_btn.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[obj_glove, obj_lab_coat, obj_goggles]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":720.0,"y":40.0,},
         {"$GMRInstance":"v1","%Name":"inst_3E3CA8C2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E3CA8C2_1_1","objectId":{"name":"obj_inventory_btn","path":"objects/obj_inventory_btn/obj_inventory_btn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":790.0,"y":40.0,},
-        {"$GMRInstance":"v1","%Name":"inst_2B3EE220","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B3EE220","objectId":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":192.0,},
+        {"$GMRInstance":"v1","%Name":"inst_178C39A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_178C39A5","objectId":{"name":"obj_btn_notes_table","path":"objects/obj_btn_notes_table/obj_btn_notes_table.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1189.0,"y":103.0,},
       ],"layers":[],"name":"GUI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Visual_Effects","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Visual_Effects","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Front_Assets","assets":[

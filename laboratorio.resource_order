@@ -138,6 +138,7 @@
     {"name":"s_legs","order":1,"path":"sprites/s_legs/s_legs.yy",},
     {"name":"s_locker","order":8,"path":"sprites/s_locker/s_locker.yy",},
     {"name":"s_monitor","order":1,"path":"sprites/s_monitor/s_monitor.yy",},
+    {"name":"s_notes","order":13,"path":"sprites/s_notes/s_notes.yy",},
     {"name":"s_parafilm","order":10,"path":"sprites/s_parafilm/s_parafilm.yy",},
     {"name":"s_phmeter","order":6,"path":"sprites/s_phmeter/s_phmeter.yy",},
     {"name":"s_pipett_5ml","order":7,"path":"sprites/s_pipett_5ml/s_pipett_5ml.yy",},

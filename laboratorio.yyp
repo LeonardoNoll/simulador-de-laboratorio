@@ -186,6 +186,7 @@
     {"id":{"name":"s_locker_box","path":"sprites/s_locker_box/s_locker_box.yy",},},
     {"id":{"name":"s_locker","path":"sprites/s_locker/s_locker.yy",},},
     {"id":{"name":"s_monitor","path":"sprites/s_monitor/s_monitor.yy",},},
+    {"id":{"name":"s_notes","path":"sprites/s_notes/s_notes.yy",},},
     {"id":{"name":"s_parafilm","path":"sprites/s_parafilm/s_parafilm.yy",},},
     {"id":{"name":"s_phmeter","path":"sprites/s_phmeter/s_phmeter.yy",},},
     {"id":{"name":"s_pipett_5ml","path":"sprites/s_pipett_5ml/s_pipett_5ml.yy",},},
