@@ -9,8 +9,8 @@
   "name":"obj_syringe_filled",
   "overriddenProperties":[],
   "parent":{
-    "name":"lab_objs",
-    "path":"folders/Objects/lab_objs.yy",
+    "name":"experiment_1_2",
+    "path":"folders/Objects/experiment_1_2.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_parent",

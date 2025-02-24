@@ -11,8 +11,8 @@
   "name":"obj_patient",
   "overriddenProperties":[],
   "parent":{
-    "name":"lab_objs",
-    "path":"folders/Objects/lab_objs.yy",
+    "name":"experiment_1_2",
+    "path":"folders/Objects/experiment_1_2.yy",
   },
   "parentObjectId":null,
   "persistent":false,

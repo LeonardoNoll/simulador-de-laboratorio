@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_clickable_need_glove",
+  "%Name":"obj_test_tube",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_clickable_need_glove",
+  "name":"obj_test_tube",
   "overriddenProperties":[],
   "parent":{
-    "name":"lab_objs",
-    "path":"folders/Objects/lab_objs.yy",
+    "name":"experiment_3",
+    "path":"folders/Objects/experiment_3.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_parent",
-    "path":"objects/obj_clickable_parent/obj_clickable_parent.yy",
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_test_tube",
+    "path":"sprites/s_test_tube/s_test_tube.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

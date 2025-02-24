@@ -14,8 +14,8 @@
     "path":"folders/Objects/tutorial.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_glove",
-    "path":"objects/obj_clickable_need_glove/obj_clickable_need_glove.yy",
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

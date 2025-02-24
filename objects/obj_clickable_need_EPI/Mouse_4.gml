@@ -10,7 +10,7 @@ if (!locked) {
 	if(instance_exists(obj_inventory_btn)) {
 		// Checa se a luva esta equipada para seguir o experimento
 		var _inv = obj_inventory_btn.itens
-		if(array_contains(_inv, obj_glove) && array_contains(_inv, obj_lab_coat)){
+		if(check_EPI(needed_EPI)){
 			// Logica para arrastar			
 			global.selected = id // Desceleciona para evitar comportamentos inesperados 
 			drag_mode = true
