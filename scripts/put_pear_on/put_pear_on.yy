@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"put_pear_on",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"put_pear_on",
+  "parent":{
+    "name":"experimento_3",
+    "path":"folders/Scripts/experimento_3.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

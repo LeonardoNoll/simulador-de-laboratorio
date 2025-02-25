@@ -1,6 +1,8 @@
 options = []
 tool_tip = noone
-
+on_release = function () {
+	return
+}
 
 drag_mode = false;
 locked = false

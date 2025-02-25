@@ -24,7 +24,8 @@ enum OPTIONS {
 	MAIS_1_MINUTO,
 	MENOS_1_MINUNO,
 	ACELERAR_CONTAGEM,
-	FINALIZAR_TUTORIAL
+	FINALIZAR_TUTORIAL,
+	REMOVER_PERA
 }
 
 options_string = [
@@ -41,5 +42,6 @@ options_string = [
 	"1+ Minuto",
 	"1- Minuto",
 	"Acelerar contagem",
-	"Finalizar tutorial"
+	"Finalizar tutorial",
+	"Remover pera"
 ]

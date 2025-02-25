@@ -1,4 +1,6 @@
 if(drag_mode) {
+	on_release()
+	
 	global.selected = noone
 	drag_mode = false;
 

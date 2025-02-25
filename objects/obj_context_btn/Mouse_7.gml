@@ -51,6 +51,9 @@ switch(option) {
 	case OPTIONS.FINALIZAR_TUTORIAL:
 		finalizar_tutorial()
 		break
+	case OPTIONS.REMOVER_PERA:
+		remover_pera()
+		break
 }
 
 // Clean up

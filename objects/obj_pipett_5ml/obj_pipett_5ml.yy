@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pipett_5ml",
-    "path":"sprites/s_pipett_5ml/s_pipett_5ml.yy",
+    "name":"s_pipette_5ml",
+    "path":"sprites/s_pipette_5ml/s_pipette_5ml.yy",
   },
   "spriteMaskId":null,
   "visible":true,
