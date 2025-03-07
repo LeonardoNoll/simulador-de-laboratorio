@@ -10,4 +10,6 @@ if(
 
 draw_set_font(fnt_text)
 draw_set_color(c_black)
+draw_set_valign(fa_top)
+draw_set_halign(fa_left)
 draw_text(x+3, y, obj_game.options_string[option])

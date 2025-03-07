@@ -22,10 +22,11 @@ enum OPTIONS {
 	PREPARAR_PARA_COLETA,
 	CRONOMETRAR_COLETA,
 	MAIS_1_MINUTO,
-	MENOS_1_MINUNO,
+	MENOS_1_MINUTO,
 	ACELERAR_CONTAGEM,
 	FINALIZAR_TUTORIAL,
-	REMOVER_PERA
+	REMOVER_PERA,
+	IDENFICIAR_NOME
 }
 
 options_string = [
@@ -43,5 +44,6 @@ options_string = [
 	"1- Minuto",
 	"Acelerar contagem",
 	"Finalizar tutorial",
-	"Remover pera"
+	"Remover pera",
+	"Idenficar nome"
 ]

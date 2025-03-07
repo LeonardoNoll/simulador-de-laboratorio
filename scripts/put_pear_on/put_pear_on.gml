@@ -8,6 +8,10 @@ function put_pear_on(){
 		x = base_x
 		y = base_y
 		pear_on = true
+		pear_inicial_position = {
+			x: obj_suction_pear.base_x,
+			y: obj_suction_pear.base_y
+		}
 		options = [OPTIONS.REMOVER_PERA]
 
 		instance_destroy(obj_suction_pear)

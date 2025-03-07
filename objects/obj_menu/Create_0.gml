@@ -1,5 +1,6 @@
 options = []
 initialized = false
+parent = noone
 
 padding = 4
 gap = 4

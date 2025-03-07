@@ -14,7 +14,7 @@ name = "Cronômetro"
 locked = true
 options = [
 	OPTIONS.MAIS_1_MINUTO,
-	OPTIONS.MENOS_1_MINUNO,
+	OPTIONS.MENOS_1_MINUTO,
 	OPTIONS.CRONOMETRAR_COLETA
 ]
 

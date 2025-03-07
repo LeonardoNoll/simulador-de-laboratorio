@@ -1,7 +1,7 @@
 function spawn_tool_tip(name){
 	if !(instance_exists(obj_menu) || instance_exists(obj_text_box) || instance_exists(obj_inventory_GUI)
 	|| instance_exists(obj_locker) || instance_exists(obj_reference_table) || instance_exists(obj_instructions)
-	|| instance_exists(obj_btn_home_dialog)) {	
+	|| instance_exists(obj_btn_home_dialog) || mouse_check_button(mb_any)) {	
 		if(instance_exists(obj_tool_tip)) {
 			instance_destroy(obj_tool_tip)
 		}

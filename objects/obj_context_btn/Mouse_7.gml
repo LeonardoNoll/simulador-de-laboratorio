@@ -41,7 +41,7 @@ switch(option) {
 		mais_1_minuto()
 		return
 		break
-	case OPTIONS.MENOS_1_MINUNO:
+	case OPTIONS.MENOS_1_MINUTO:
 		menos_1_minuto()
 		return
 		break
@@ -53,6 +53,9 @@ switch(option) {
 		break
 	case OPTIONS.REMOVER_PERA:
 		remover_pera()
+		break
+	case OPTIONS.IDENFICIAR_NOME:
+		use_text_input(self)
 		break
 }
 

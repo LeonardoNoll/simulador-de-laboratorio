@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pipett_5ml",
+  "%Name":"obj_stimulated_saliva",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pipett_5ml",
+  "name":"obj_stimulated_saliva",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_3",
     "path":"folders/Objects/experiment_3.yy",
   },
   "parentObjectId":{
-    "name":"obj_pipett_10ml",
-    "path":"objects/obj_pipett_10ml/obj_pipett_10ml.yy",
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pipette_5ml",
-    "path":"sprites/s_pipette_5ml/s_pipette_5ml.yy",
+    "name":"s_syringe_filled",
+    "path":"sprites/s_syringe_filled/s_syringe_filled.yy",
   },
   "spriteMaskId":null,
   "visible":true,
