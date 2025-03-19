@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"use_text_input",
+  "%Name":"get_mls",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"use_text_input",
+  "name":"get_mls",
   "parent":{
-    "name":"GUI",
-    "path":"folders/Scripts/GUI.yy",
+    "name":"experimento_3",
+    "path":"folders/Scripts/experimento_3.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

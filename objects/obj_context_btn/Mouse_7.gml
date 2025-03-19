@@ -55,7 +55,9 @@ switch(option) {
 		remover_pera()
 		break
 	case OPTIONS.IDENFICIAR_NOME:
-		use_text_input(self)
+		get_input("Marque o recipiente", function(_text) {
+			name = _text
+		})
 		break
 }
 

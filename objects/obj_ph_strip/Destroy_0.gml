@@ -1,0 +1,1 @@
+instance_create_depth(base_x, base_y, depth, obj_ph_strip)

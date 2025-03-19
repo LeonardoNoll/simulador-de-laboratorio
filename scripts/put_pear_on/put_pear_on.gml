@@ -13,6 +13,7 @@ function put_pear_on(){
 			y: obj_suction_pear.base_y
 		}
 		options = [OPTIONS.REMOVER_PERA]
+		on_release = get_mls
 
 		instance_destroy(obj_suction_pear)
 	}
