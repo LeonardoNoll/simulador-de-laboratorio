@@ -6,4 +6,5 @@ function close_ui_elements(){
 	instance_destroy(obj_reference_table)
 	instance_destroy(obj_btn_home_dialog)
 	instance_destroy(obj_notes_table)
+	instance_destroy(obj_ph_table)
 }

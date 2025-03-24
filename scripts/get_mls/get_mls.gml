@@ -1,7 +1,7 @@
 function get_mls(){
 	if(place_meeting(x,y,[obj_acid_bottle, obj_stimulated_saliva, obj_distiled_water])) {
 		//TODO: make it show name of what liquid is inside
-		get_input("mls a coletar", function(_text) {
+		get_input(x,y,"Mls a coletar", function(_text) {
 			//var _other = instance_place(x, y, [obj_acid_bottle, obj_stimulated_saliva, obj_distiled_water])
 			ml = string_digits(_text)
 			name = "Pipeta com " + ml + "ml(s)"

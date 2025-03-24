@@ -7,7 +7,7 @@ function pass_liquid_to_becker(_mls, _ph, _sprite_index){
 	with(instance_nearest(x,y,obj_25ml_becker)){
 		ph = _ph
 		sprite_index = _sprite_index
-		get_input("Marque o recipiente", function(_text) {
+		get_input(x, y, "Marque o recipiente", function(_text) {
 			name = _text	
 		})
 	}
