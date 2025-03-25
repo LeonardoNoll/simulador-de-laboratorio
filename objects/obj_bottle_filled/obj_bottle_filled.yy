@@ -12,8 +12,8 @@
     "path":"folders/Objects/experiment_1_2.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_parent",
-    "path":"objects/obj_clickable_parent/obj_clickable_parent.yy",
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

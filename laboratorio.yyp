@@ -93,7 +93,6 @@
     {"id":{"name":"obj_btn_x","path":"objects/obj_btn_x/obj_btn_x.yy",},},
     {"id":{"name":"obj_catalyst","path":"objects/obj_catalyst/obj_catalyst.yy",},},
     {"id":{"name":"obj_clickable_need_EPI","path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",},},
-    {"id":{"name":"obj_clickable_parent","path":"objects/obj_clickable_parent/obj_clickable_parent.yy",},},
     {"id":{"name":"obj_col_header","path":"objects/obj_col_header/obj_col_header.yy",},},
     {"id":{"name":"obj_context_btn","path":"objects/obj_context_btn/obj_context_btn.yy",},},
     {"id":{"name":"obj_cronometer","path":"objects/obj_cronometer/obj_cronometer.yy",},},

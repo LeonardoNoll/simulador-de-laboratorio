@@ -11,10 +11,7 @@
     "name":"lab_objs",
     "path":"folders/Objects/lab_objs.yy",
   },
-  "parentObjectId":{
-    "name":"obj_clickable_parent",
-    "path":"objects/obj_clickable_parent/obj_clickable_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
