@@ -10,6 +10,7 @@ function remover_pera(){
 		y = base_y
 		pear_on = false
 		options = []
+		on_release = put_pear_on
 		instance_create_depth(pear_inicial_position.x,pear_inicial_position.y, depth-1, obj_suction_pear)
 	}
 }

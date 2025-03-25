@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_test_tube",
-    "path":"sprites/s_test_tube/s_test_tube.yy",
+    "name":"s_test_tube_empty_closed",
+    "path":"sprites/s_test_tube_empty_closed/s_test_tube_empty_closed.yy",
   },
   "spriteMaskId":null,
   "visible":true,
