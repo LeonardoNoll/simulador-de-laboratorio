@@ -55,9 +55,15 @@ switch(option) {
 		remover_pera()
 		break
 	case OPTIONS.IDENFICIAR_NOME:
-		get_input("Marque o recipiente", function(_text) {
+		get_input(x,y,"Marque o recipiente", function(_text) {
 			name = _text
 		})
+		break
+	case OPTIONS.ABRIR_TUBO_DE_ENSAIO: 
+		open_test_tube(parent)
+		break
+	case OPTIONS.FECHER_TUBO_DE_ENSAIO:
+		close_test_tube(parent)
 		break
 }
 
