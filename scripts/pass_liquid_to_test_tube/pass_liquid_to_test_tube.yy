@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pass_liquid_to_test_tube",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pass_liquid_to_test_tube",
+  "parent":{
+    "name":"experimento_3",
+    "path":"folders/Scripts/experimento_3.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

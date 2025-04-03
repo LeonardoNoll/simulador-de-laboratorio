@@ -3,13 +3,11 @@
 /// @param _mls (string): Mls a serem passados para o becker
 /// @param _ph (number): pH da substancia
 /// @param _sprite_index (number): Novo sprite
-function pass_liquid_to_becker(_mls, _ph, _sprite_index){
-	with(instance_nearest(x,y,obj_25ml_becker)){
+function pass_liquid_to_test_tube(_mls, _ph, _sprite_index){
+	with(instance_nearest(x,y,obj_test_tube)){
+		if(closed || ml != 0) return
 		ph = _ph
 		sprite_index = _sprite_index
-		get_input(x, y, "Marque o recipiente", function(_text) {
-			name = _text	
-		})
 	}
 	// Resetar estado da pipeta
 	var _is10ml = object_index == obj_pipett_10ml
@@ -18,5 +16,4 @@ function pass_liquid_to_becker(_mls, _ph, _sprite_index){
 	on_release = get_mls
 	ml = 0
 	ph = 0
-	
 }
