@@ -101,7 +101,6 @@
     {"id":{"name":"obj_example","path":"objects/obj_example/obj_example.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_glove","path":"objects/obj_glove/obj_glove.yy",},},
-    {"id":{"name":"obj_gloves_old","path":"objects/obj_gloves_old/obj_gloves_old.yy",},},
     {"id":{"name":"obj_goggles","path":"objects/obj_goggles/obj_goggles.yy",},},
     {"id":{"name":"obj_input","path":"objects/obj_input/obj_input.yy",},},
     {"id":{"name":"obj_instructions","path":"objects/obj_instructions/obj_instructions.yy",},},

@@ -73,7 +73,6 @@
     {"name":"obj_distiled_water","order":4,"path":"objects/obj_distiled_water/obj_distiled_water.yy",},
     {"name":"obj_game","order":7,"path":"objects/obj_game/obj_game.yy",},
     {"name":"obj_glove","order":1,"path":"objects/obj_glove/obj_glove.yy",},
-    {"name":"obj_gloves_old","order":1,"path":"objects/obj_gloves_old/obj_gloves_old.yy",},
     {"name":"obj_goggles","order":3,"path":"objects/obj_goggles/obj_goggles.yy",},
     {"name":"obj_input","order":8,"path":"objects/obj_input/obj_input.yy",},
     {"name":"obj_inventory_btn","order":3,"path":"objects/obj_inventory_btn/obj_inventory_btn.yy",},

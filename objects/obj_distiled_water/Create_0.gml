@@ -9,7 +9,7 @@ on_release = function() {
 		with(instance_nearest(x,y,obj_25ml_becker)){
 			get_input(x, y, "Mls a passar", function(_text) {
 				if string_digits(_text) == 15 {
-					pass_liquid_to_becker(_text, 7, s_marked_becker_with_water)
+					pass_liquid_to_becker(_text, ph, s_marked_becker_with_water)
 					instance_destroy(obj_distiled_water)
 				}
 				else 

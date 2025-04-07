@@ -1,4 +1,4 @@
-function close_test_tube(_parent) {
+function close_test_tube() {
 	with(global.selected) {
 		closed = true
 		sprite_index = s_test_tube_empty_closed

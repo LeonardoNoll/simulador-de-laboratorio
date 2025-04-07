@@ -11,12 +11,4 @@ function pass_liquid_to_becker(_mls, _ph, _sprite_index){
 			name = _text	
 		})
 	}
-	// Resetar estado da pipeta
-	var _is10ml = object_index == obj_pipett_10ml
-	sprite_index = _is10ml ? s_pipette_10ml_with_pear : s_pipette_5ml_with_pear
-	name = _is10ml ? "Pipeta 10ml" : "Pipeta 5m"
-	on_release = get_mls
-	ml = 0
-	ph = 0
-	
 }

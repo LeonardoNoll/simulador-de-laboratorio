@@ -60,10 +60,10 @@ switch(option) {
 		})
 		break
 	case OPTIONS.ABRIR_TUBO_DE_ENSAIO: 
-		open_test_tube(parent)
+		open_test_tube()
 		break
 	case OPTIONS.FECHER_TUBO_DE_ENSAIO:
-		close_test_tube(parent)
+		close_test_tube()
 		break
 }
 
