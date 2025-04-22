@@ -14,22 +14,16 @@ if (counting_down) {
 			fast_forward = false; // Reseta a aceleração
            // show_debug_message("Minutos Decorridos: " + string(minutes_elapsed));
 
-			// Para as particulas de saliva
-			if(global.particle_sys != noone) {
-				part_system_destroy(global.particle_sys)
-			}
+			on_count_start()
 			
-			
-
             // Lida com a lógica de expiração
             if (minutes_elapsed == expected_minutes) {
-				if(room = rm_1a_normal) room_goto(rm_1b_normal);
-				else /*if(room = rm_1a_estimulada)*/ room_goto(rm_1b_estimulada);
+				on_count_sucess()
             } else {
-                criar_textbox(x + sprite_width, y, ["Você cronometrou o tempo errado"]);
-                minutes_elapsed = 0; // Reinicia o tempo decorrido
+                on_count_fail()
             }
-
+			
+			minutes_elapsed = 0; // Reinicia o tempo decorrido
             return; // Para a execução adicional deste frame
         }
 
@@ -44,6 +38,6 @@ if (counting_down) {
         }
 
         // Depuração: Mostra o horário atual
-        show_debug_message("Tempo Restante: " + string(minutes) + ":" + (seconds < 10 ? "0" : "") + string(seconds));
+        //show_debug_message("Tempo Restante: " + string(minutes) + ":" + (seconds < 10 ? "0" : "") + string(seconds));
     }
 }

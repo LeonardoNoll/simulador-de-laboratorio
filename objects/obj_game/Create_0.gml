@@ -28,7 +28,8 @@ enum OPTIONS {
 	REMOVER_PERA,
 	IDENFICIAR_NOME,
 	ABRIR_TUBO_DE_ENSAIO,
-	FECHER_TUBO_DE_ENSAIO
+	FECHER_TUBO_DE_ENSAIO,
+	AGITAR
 }
 
 options_string = [
@@ -49,5 +50,6 @@ options_string = [
 	"Remover pera",
 	"Idenficar nome",
 	"Abrir tubo de ensaio",
-	"Fechar tubo de ensaio"
+	"Fechar tubo de ensaio",
+	"Agitar"
 ]

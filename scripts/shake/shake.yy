@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"shake",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shake",
+  "parent":{
+    "name":"experimento_3",
+    "path":"folders/Scripts/experimento_3.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

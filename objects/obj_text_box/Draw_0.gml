@@ -1,4 +1,5 @@
 // Calculate number of lines dynamically (based on the full width, ignoring scale)
+draw_set_font(fnt_text); // Needs to be here, otherwise may cause hight errors
 var line_height = string_height("A"); // Base height of one line
 var text_height = string_height_ext(messageText, -1, width - padding * 2); 
 var num_lines = ceil(text_height / line_height); // Calculate the number of lines

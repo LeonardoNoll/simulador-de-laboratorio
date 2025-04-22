@@ -10,7 +10,7 @@ if(!drag_mode) {
 		if(check_EPI(needed_EPI)) {
 			// Logica da criacao de menu
 			global.selected = id 
-			var _my_menu = instance_create_layer(x + (x > room_width/2 ? -(sprite_width+80) : sprite_width), y, "GUI", obj_menu)
+			var _my_menu = instance_create_layer(mouse_x + (mouse_x > room_width/2 ? -200 : sprite_width), mouse_y, "GUI", obj_menu)
 			_my_menu.options = options
 			_my_menu.parent = self
 		} else {

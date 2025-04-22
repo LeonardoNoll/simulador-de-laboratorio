@@ -1,21 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cronometer",
+  "%Name":"obj_capacity_select",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cronometer",
+  "name":"obj_capacity_select",
   "overriddenProperties":[],
   "parent":{
-    "name":"lab_objs",
-    "path":"folders/Objects/lab_objs.yy",
+    "name":"buffer_capacity",
+    "path":"folders/Objects/GUI/notes_table/buffer_capacity.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_base_cell_style",
+    "path":"objects/obj_base_cell_style/obj_base_cell_style.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_cronometer",
-    "path":"sprites/s_cronometer/s_cronometer.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

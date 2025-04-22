@@ -2,7 +2,7 @@ function cronometrar_coleta() {
 	if(instance_exists(obj_parafilm)) {
 		criar_textbox(mouse_x, mouse_y, ["Antes de cronometrar a coleta, de ao paciente o Parafilm para estimular a saliva."])
 	} else {
-	    with (obj_cronometer) {
+	    with (obj_chronometer) {
 			counting_down = true;
 			if (!array_contains(options, OPTIONS.ACELERAR_CONTAGEM)) {
 				array_push(options, OPTIONS.ACELERAR_CONTAGEM);

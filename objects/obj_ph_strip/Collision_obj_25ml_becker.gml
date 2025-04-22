@@ -1,5 +1,5 @@
-if(!counting && other.ph != 0 && name == "Fita de pH") {
+if(!counting && other.ph && !ph) {
 	counting = true
-	becker = other
-	alarm_set(0,60)
+	reference = other
+	alarm_set(0,60) 
 }

@@ -1,5 +1,5 @@
 // Prevenir que a text_box saia da tela
-if(x > 850) {x = 850}
+if(x > 850) x = 850
 
 //Lógica do array de mensagens
 messages = ds_list_create();

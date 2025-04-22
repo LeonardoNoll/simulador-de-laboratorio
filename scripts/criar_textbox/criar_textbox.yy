@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"criar_textbox",
   "parent":{
-    "name":"GUI",
-    "path":"folders/Scripts/GUI.yy",
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

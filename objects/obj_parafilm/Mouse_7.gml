@@ -2,7 +2,7 @@ global.selected = noone
 drag_mode = false;
 
 if(place_meeting(x,y,obj_patient_head)) {
-	if(instance_exists(obj_cronometer)) {
+	if(instance_exists(obj_chronometer)) {
 		instance_destroy(self)
 		return
 	}

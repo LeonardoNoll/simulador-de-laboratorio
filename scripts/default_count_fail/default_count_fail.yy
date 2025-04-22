@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"clean_up_gloves",
+  "%Name":"default_count_fail",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"clean_up_gloves",
+  "name":"default_count_fail",
   "parent":{
-    "name":"sequences",
-    "path":"folders/Scripts/sequences.yy",
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

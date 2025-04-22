@@ -65,6 +65,9 @@ switch(option) {
 	case OPTIONS.FECHER_TUBO_DE_ENSAIO:
 		close_test_tube()
 		break
+	case OPTIONS.AGITAR:
+		shake()
+		break
 }
 
 // Clean up

@@ -2,7 +2,6 @@
 event_inherited();
 
 name = "Fita de pH"
-
 counting = false
-becker = noone
+reference = noone
 ph = 0

@@ -9,6 +9,9 @@ counting_down = false
 fast_forward = false
 expected_minutes = 5
 
+on_count_start = function () {}
+on_count_fail = function () {}
+on_count_sucess = function () {}
 
 name = "Cronômetro"
 locked = true

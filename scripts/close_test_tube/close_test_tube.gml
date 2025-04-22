@@ -1,7 +1,7 @@
 function close_test_tube() {
 	with(global.selected) {
 		closed = true
-		sprite_index = s_test_tube_empty_closed
-		options = [OPTIONS.ABRIR_TUBO_DE_ENSAIO]
+		options = (content != "" && content != "HCl") ? [OPTIONS.ABRIR_TUBO_DE_ENSAIO, OPTIONS.AGITAR] :  [OPTIONS.ABRIR_TUBO_DE_ENSAIO]
+		show_debug_message(content)
 	}
 }
