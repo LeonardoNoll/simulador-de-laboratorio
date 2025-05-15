@@ -36,7 +36,8 @@ for(var i = 0; i < array_length(second_row_names); i++;) {
 	instance_create_depth(x+cell_width*2, margin_top+y+i*cell_height, depth-1, obj_writable_cell)
 }
 
-instance_create_depth(x, y+margin_top + cell_height*3, depth-1, obj_buffer_capacity)
+// Buffer capacity only shows once liquids have been mixed
+try_instantiate_buffer_capacity()
 
 x_btn = instance_create_depth(x+cell_width*2,y-cell_height,depth-10, obj_btn_x)
 x_btn.parent = self

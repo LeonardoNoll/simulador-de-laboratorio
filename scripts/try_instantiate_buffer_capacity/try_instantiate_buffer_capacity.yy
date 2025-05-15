@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"try_instantiate_buffer_capacity",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"try_instantiate_buffer_capacity",
+  "parent":{
+    "name":"experimento_3",
+    "path":"folders/Scripts/experimento_3.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

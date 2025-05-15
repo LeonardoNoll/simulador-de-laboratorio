@@ -2,7 +2,7 @@
 var _colliding_instances = ds_list_create();
 
 // Obtém todas as instâncias na posição do clique
-var _num_instances = instance_place_list(mouse_x, mouse_y, obj_context_btn, _colliding_instances, false);
+var _num_instances = instance_place_list(mouse_x, mouse_y, all, _colliding_instances, false);
 
 // Inicializa a variável que armazenará a instância superior
 var _top_instance = noone;
@@ -15,8 +15,13 @@ for (var i = 0; i < _num_instances; i++) {
     }
 }
 
+show_debug_message(_colliding_instances)
+show_debug_message(_num_instances)
+show_debug_message(_top_instance)
+
 // Checa se não tem nenhum objeto na frente
-if(_top_instance == id || _top_instance == noone) {
+//if(_top_instance == id || _top_instance == noone) {
+if(true) {
 	if (!locked) {
 		// Destroi menu de contexto caso exista
 		if (instance_exists(obj_menu)) {

@@ -7,7 +7,9 @@
   ],
   "managed":true,
   "name":"obj_capacity_select",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_cell_style","path":"objects/obj_base_cell_style/obj_base_cell_style.yy",},"propertyId":{"name":"width","path":"objects/obj_base_cell_style/obj_base_cell_style.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"225",},
+  ],
   "parent":{
     "name":"buffer_capacity",
     "path":"folders/Objects/GUI/notes_table/buffer_capacity.yy",

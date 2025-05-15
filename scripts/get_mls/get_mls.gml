@@ -1,5 +1,6 @@
 function get_mls(){
-	var _hitlist = [obj_acid_bottle, obj_stimulated_saliva, obj_distiled_water, obj_25ml_becker]
+	//var _hitlist = [obj_acid_bottle, obj_stimulated_saliva, obj_distiled_water, obj_25ml_becker]
+	var _hitlist = [obj_25ml_becker]
 	if(place_meeting(mouse_x,mouse_y, _hitlist)) {
 		var _others = ds_list_create()
 		instance_place_list(mouse_x,mouse_y, _hitlist, _others, true)
@@ -8,17 +9,12 @@ function get_mls(){
 		ph = _other.ph
 		content = _other.content
 		
-		show_debug_message(_other.name)
-		show_debug_message(_other.ph)
-		show_debug_message(ph)
-		
 		get_input(mouse_x,mouse_y,"Mls a coletar", function(_text) {	
 			_mls = real(string_digits(_text))
-			if(_mls > (obj_pipett_10ml ? 10 : 5)) {
+			if(_mls > (object_index == obj_pipett_10ml ? 10 : 5)) {
 				criar_textbox(mouse_x, mouse_y, ["Esta pipeta não suporta essas quantia de mls!"])
 				return
-			}
-			sprite_index = object_index == obj_pipett_10ml ? s_pipette_10ml_with_pear_filled : s_pipette_5ml_with_pear_filled
+			}\
 			name = "Pipeta com " + string(_mls) + "ml(s) de " + content
 			ml = _mls
 			on_release = function() {

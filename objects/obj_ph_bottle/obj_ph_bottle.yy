@@ -1,15 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ph_strip",
+  "%Name":"obj_ph_bottle",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_25ml_becker","path":"objects/obj_25ml_becker/obj_25ml_becker.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_test_tube","path":"objects/obj_test_tube/obj_test_tube.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_ph_strip",
+  "name":"obj_ph_bottle",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_3",
@@ -37,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_ph_strip",
-    "path":"sprites/s_ph_strip/s_ph_strip.yy",
+    "name":"s_ph_bottle",
+    "path":"sprites/s_ph_bottle/s_ph_bottle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
