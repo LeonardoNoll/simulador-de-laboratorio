@@ -190,6 +190,8 @@
     {"name":"s_test_tube_empty_closed","order":1,"path":"sprites/s_test_tube_empty_closed/s_test_tube_empty_closed.yy",},
     {"name":"s_test_tube_HCl_closed","order":4,"path":"sprites/s_test_tube_HCl_closed/s_test_tube_HCl_closed.yy",},
     {"name":"s_test_tube_HCl","order":2,"path":"sprites/s_test_tube_HCl/s_test_tube_HCl.yy",},
+    {"name":"s_test_tube_mixed_closed","order":7,"path":"sprites/s_test_tube_mixed_closed/s_test_tube_mixed_closed.yy",},
+    {"name":"s_test_tube_mixed","order":6,"path":"sprites/s_test_tube_mixed/s_test_tube_mixed.yy",},
     {"name":"s_test_tube_water_closed","order":5,"path":"sprites/s_test_tube_water_closed/s_test_tube_water_closed.yy",},
     {"name":"s_test_tube_water","order":3,"path":"sprites/s_test_tube_water/s_test_tube_water.yy",},
     {"name":"s_text_box_9slice_hover","order":4,"path":"sprites/s_text_box_9slice_hover/s_text_box_9slice_hover.yy",},

@@ -19,8 +19,8 @@ if (ph > 0) {
     //else if (ph < 13) _color = make_colour_rgb(102, 71, 158);
     //else if (ph < 14) _color = make_colour_rgb(91, 82, 163);
     //else if (ph < 15) _color = make_colour_rgb(72, 47, 133);
-    else              _color = c_black;
+    else             _color = c_black;
     
     draw_set_color(_color);
-    draw_rectangle(x - sprite_width / 2, y + sprite_height / 2, x + sprite_width / 2 - 1, y + sprite_height / 2 - 18, false);
+    draw_rectangle(x - sprite_width / 2, y + sprite_height / 2, x + sprite_width / 2 , y + sprite_height / 2 - 18, false);
 }

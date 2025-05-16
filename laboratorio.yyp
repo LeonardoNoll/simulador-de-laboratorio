@@ -241,6 +241,8 @@
     {"id":{"name":"s_test_tube_empty_closed","path":"sprites/s_test_tube_empty_closed/s_test_tube_empty_closed.yy",},},
     {"id":{"name":"s_test_tube_HCl_closed","path":"sprites/s_test_tube_HCl_closed/s_test_tube_HCl_closed.yy",},},
     {"id":{"name":"s_test_tube_HCl","path":"sprites/s_test_tube_HCl/s_test_tube_HCl.yy",},},
+    {"id":{"name":"s_test_tube_mixed_closed","path":"sprites/s_test_tube_mixed_closed/s_test_tube_mixed_closed.yy",},},
+    {"id":{"name":"s_test_tube_mixed","path":"sprites/s_test_tube_mixed/s_test_tube_mixed.yy",},},
     {"id":{"name":"s_test_tube_water_closed","path":"sprites/s_test_tube_water_closed/s_test_tube_water_closed.yy",},},
     {"id":{"name":"s_test_tube_water","path":"sprites/s_test_tube_water/s_test_tube_water.yy",},},
     {"id":{"name":"s_test_tube","path":"sprites/s_test_tube/s_test_tube.yy",},},

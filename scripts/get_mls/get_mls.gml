@@ -1,30 +1,61 @@
 function get_mls(){
-	//var _hitlist = [obj_acid_bottle, obj_stimulated_saliva, obj_distiled_water, obj_25ml_becker]
+	// Check collision
 	var _hitlist = [obj_25ml_becker]
 	if(place_meeting(mouse_x,mouse_y, _hitlist)) {
 		var _others = ds_list_create()
 		instance_place_list(mouse_x,mouse_y, _hitlist, _others, true)
 		var _other = ds_list_find_value(_others, 0)
 		
-		ph = _other.ph
-		content = _other.content
-		
-		get_input(mouse_x,mouse_y,"Mls a coletar", function(_text) {	
-			_mls = real(string_digits(_text))
-			if(_mls > (object_index == obj_pipett_10ml ? 10 : 5)) {
-				criar_textbox(mouse_x, mouse_y, ["Esta pipeta não suporta essas quantia de mls!"])
+		take_ml_input(_other)
+
+		ds_list_destroy(_others)
+	}
+}
+
+function take_ml_input(_other) {
+		get_input(mouse_x,mouse_y,"Mls a coletar", function(_text, _other) {
+			var _mls = real(string_digits(_text))
+			var _warning_message = ""
+			
+			// Caso puxou muitos mls
+			_warning_message = ml_capacity_violated(_mls)
+			
+			// Caso puxou a quantia errada de mls de um liquido
+			if(_warning_message == "") {
+				_warning_message = is_ml_amount_correct(real(string_digits(_text)), _other)
+			}
+			
+			// Show message if one exists
+			if(_warning_message != "") {
+				criar_textbox(mouse_x, mouse_y, _warning_message)
 				return
-			}\
-			name = "Pipeta com " + string(_mls) + "ml(s) de " + content
+			}
+			
+			// Sucess case
+			ph = _other.ph
+			content = _other.content
 			ml = _mls
+			name = "Pipeta com " + string(_mls) + "ml(s) de " + content
 			on_release = function() {
-				if(place_meeting(mouse_x,mouse_y,obj_25ml_becker)) {
-					pass_liquid_to_becker(ml, self, ml == 2 ? s_marked_becker_with_HCl : s_marked_becker_with_water)
-				} else if(place_meeting(mouse_x,mouse_y, obj_test_tube)) {
+				if(place_meeting(mouse_x,mouse_y, obj_test_tube)) {
 					pass_liquid_to_test_tube(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water)
 				}
 			}
-		})
-		ds_list_destroy(_others)
+			return
+		}, _other)
+}
+
+function is_ml_amount_correct(_mls, _other) {
+	var _warning_message = ["Esta não é a quantia correta de mls. Consulte o material e tente novamente."]
+	if(_other.content = "HCl" && _mls != 6) return _warning_message
+	else if(_other.content = "Saliva estimulada" && _mls != 2) return _warning_message
+	else if(_other.content = "Água destilada" && _mls != 2) return _warning_message
+	else return ""
+}
+
+function ml_capacity_violated(_mls) {
+	if(_mls > (object_index == obj_pipett_10ml ? 10 : 5)) {
+		return ["Esta pipeta não suporta essa quantia de mls!"]
 	}
+	return ""
 }

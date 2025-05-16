@@ -5,6 +5,6 @@ function shake(){
 		} else if(content == "HCl + Saliva estimulada") {
 			ph = 2
 		}
-		show_debug_message(content + " " + string(ph))
+		//show_debug_message(content + " " + string(ph))
 	}
 }

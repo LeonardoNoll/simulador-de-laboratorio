@@ -2,7 +2,7 @@ if(keyboard_check_pressed(vk_enter)) {
 	if(is_undefined(on_confirm)) 
 		show_message("Nenhum callback definido!")
 	else 
-		on_confirm(string_trim(user_input))
+		on_confirm(string_trim(user_input), optional_args)
 	keyboard_string = ""
 	instance_destroy()
 }
