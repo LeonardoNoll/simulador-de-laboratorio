@@ -1,4 +1,3 @@
-//TODO: fix error
 function remover_pera(){
 	with(global.selected) {
 		var _is10ml = object_index == obj_pipett_10ml

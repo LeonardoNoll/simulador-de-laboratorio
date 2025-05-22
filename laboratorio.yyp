@@ -226,6 +226,7 @@
     {"id":{"name":"s_pipette_5ml_with_pear","path":"sprites/s_pipette_5ml_with_pear/s_pipette_5ml_with_pear.yy",},},
     {"id":{"name":"s_pipette_5ml","path":"sprites/s_pipette_5ml/s_pipette_5ml.yy",},},
     {"id":{"name":"s_pippete_rack","path":"sprites/s_pippete_rack/s_pippete_rack.yy",},},
+    {"id":{"name":"s_reference_afericao","path":"sprites/s_reference_afericao/s_reference_afericao.yy",},},
     {"id":{"name":"s_reference_salometria_e","path":"sprites/s_reference_salometria_e/s_reference_salometria_e.yy",},},
     {"id":{"name":"s_reference_salometria_n","path":"sprites/s_reference_salometria_n/s_reference_salometria_n.yy",},},
     {"id":{"name":"s_reference_tutorial","path":"sprites/s_reference_tutorial/s_reference_tutorial.yy",},},
