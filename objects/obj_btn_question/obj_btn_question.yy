@@ -30,7 +30,11 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"instruction_sprite","filters":[],"listItems":[],"multiselect":false,"name":"instruction_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"instruction_sprite","filters":[],"listItems":[
+        "\"Item 0\"",
+        "\"Item 1\"",
+        "\"Item 2\"",
+      ],"multiselect":false,"name":"instruction_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

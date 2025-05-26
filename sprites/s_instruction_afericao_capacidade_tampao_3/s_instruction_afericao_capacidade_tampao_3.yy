@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"s_instruction_tutorial",
+  "%Name":"s_instruction_afericao_capacidade_tampao_3",
   "bboxMode":0,
   "bbox_bottom":499,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a38ba541-a93f-4c19-83e1-37d0d1f1cbc7","name":"a38ba541-a93f-4c19-83e1-37d0d1f1cbc7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c26d7cba-39c7-4ce8-8c8c-320641949130","name":"c26d7cba-39c7-4ce8-8c8c-320641949130","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":500,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"314e5e0c-589b-412e-8e51-f42c8ba4695f","blendMode":0,"displayName":"default","isLocked":false,"name":"314e5e0c-589b-412e-8e51-f42c8ba4695f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"06b838c6-77bb-4189-b811-2d09bca2b41d","blendMode":0,"displayName":"default","isLocked":false,"name":"06b838c6-77bb-4189-b811-2d09bca2b41d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_instruction_tutorial",
+  "name":"s_instruction_afericao_capacidade_tampao_3",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"s_instruction_tutorial",
+    "%Name":"s_instruction_afericao_capacidade_tampao_3",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,20 +57,22 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_instruction_tutorial",
+    "name":"s_instruction_afericao_capacidade_tampao_3",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":500.0,
+    "seqWidth":349.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a38ba541-a93f-4c19-83e1-37d0d1f1cbc7","path":"sprites/s_instruction_tutorial/s_instruction_tutorial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e88d5c6a-3dfd-4c90-a2f7-d6c7831bf194","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c26d7cba-39c7-4ce8-8c8c-320641949130","path":"sprites/s_instruction_afericao_capacidade_tampao_3/s_instruction_afericao_capacidade_tampao_3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"79e2de25-11de-4460-b8bb-b3fab02add13","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":348,
+  "width":349,
 }

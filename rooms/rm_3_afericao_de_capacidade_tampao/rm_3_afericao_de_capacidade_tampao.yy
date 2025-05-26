@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_7C2DA889_1_1","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
-    {"name":"inst_68C926E4_1_1","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
     {"name":"inst_76C341CB_1_1","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
     {"name":"inst_4FDA581D_1_1","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
     {"name":"inst_7C250ABD_1_1","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
@@ -29,6 +28,7 @@
     {"name":"inst_78CD2B50","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
     {"name":"inst_37DF877B","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
     {"name":"inst_640C8198","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
+    {"name":"inst_68C926E4_1_1","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -36,7 +36,7 @@
     {"$GMRInstanceLayer":"","%Name":"GUI","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_7C2DA889_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C2DA889_1_1","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_68C926E4_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68C926E4_1_1","objectId":{"name":"obj_btn_question","path":"objects/obj_btn_question/obj_btn_question.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_question","path":"objects/obj_btn_question/obj_btn_question.yy",},"propertyId":{"name":"instruction_sprite","path":"objects/obj_btn_question/obj_btn_question.yy",},"resource":{"name":"s_instruction_tutorial","path":"sprites/s_instruction_tutorial/s_instruction_tutorial.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_instruction_tutorial",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_question","path":"objects/obj_btn_question/obj_btn_question.yy",},"propertyId":{"name":"instruction_sprite","path":"objects/obj_btn_question/obj_btn_question.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[s_instruction_afericao_capacidade_tampao_1,s_instruction_afericao_capacidade_tampao_2,s_instruction_afericao_capacidade_tampao_3,s_instruction_afericao_capacidade_tampao_4]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":650.0,"y":40.0,},
         {"$GMRInstance":"v2","%Name":"inst_76C341CB_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76C341CB_1_1","objectId":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},"propertyId":{"name":"reference_sprite","path":"objects/obj_btn_table/obj_btn_table.yy",},"resource":{"name":"s_reference_afericao","path":"sprites/s_reference_afericao/s_reference_afericao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_reference_afericao",},
