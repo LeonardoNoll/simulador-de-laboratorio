@@ -5,12 +5,10 @@
 /// @param _sprite_index (number): Novo sprite
 function pass_liquid_to_becker(_mls, _other, _sprite_index){
 	with(becker){
-		ph = _other.ph
-		content = _other.content
-		sprite_index = _sprite_index
-		get_input(x, y, "Marque o recipiente", function(_text) {
-			name = _text	
-		})
-		instance_destroy(_other)
+		if(name != "Bécker 25ml") {
+			ph = _other.ph
+			content = _other.content
+			sprite_index = _sprite_index
+		}
 	}
 }

@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_bottle_marked_filled",
-    "path":"sprites/s_bottle_marked_filled/s_bottle_marked_filled.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

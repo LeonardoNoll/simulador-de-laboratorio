@@ -26,7 +26,7 @@ enum OPTIONS {
 	ACELERAR_CONTAGEM,
 	FINALIZAR_TUTORIAL,
 	REMOVER_PERA,
-	IDENFICIAR_NOME,
+	IDENFICIAR_RECIPIENTE,
 	ABRIR_TUBO_DE_ENSAIO,
 	FECHER_TUBO_DE_ENSAIO,
 	AGITAR
@@ -48,7 +48,7 @@ options_string = [
 	"Acelerar contagem",
 	"Finalizar tutorial",
 	"Remover pera",
-	"Idenficar nome",
+	"Idenficar recipiente",
 	"Abrir tubo de ensaio",
 	"Fechar tubo de ensaio",
 	"Agitar"
