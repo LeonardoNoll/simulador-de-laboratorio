@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_marked_becker_with_water",
+    "path":"sprites/s_marked_becker_with_water/s_marked_becker_with_water.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

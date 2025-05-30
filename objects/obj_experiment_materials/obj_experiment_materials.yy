@@ -1,0 +1,52 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_experiment_materials",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_experiment_materials",
+  "overriddenProperties":[],
+  "parent":{
+    "name":"nav-btns",
+    "path":"folders/Objects/GUI/btns/nav-btns.yy",
+  },
+  "parentObjectId":{
+    "name":"obj_btn_nav",
+    "path":"objects/obj_btn_nav/obj_btn_nav.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"experiment_materials_btns","filters":[
+        "GMObject",
+      ],"listItems":[
+        "\"Item 0\"",
+        "\"Item 1\"",
+        "\"Item 2\"",
+        "\"Item 3\"",
+      ],"multiselect":false,"name":"experiment_materials_btns","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"s_experiment_materials",
+    "path":"sprites/s_experiment_materials/s_experiment_materials.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

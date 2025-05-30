@@ -6,6 +6,10 @@ function get_mls(){
 		instance_place_list(mouse_x,mouse_y, _hitlist, _others, true)
 		var _other = ds_list_find_value(_others, 0)
 		
+		if(_other.content == "") {
+			criar_textbox(x,y, ["Você não pode coletar o líquido de um recipiente vazio."])	
+			return
+		}
 		take_ml_input(_other)
 
 		ds_list_destroy(_others)

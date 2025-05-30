@@ -36,7 +36,7 @@ if(true) {
 			xx = x-mouse_x;
 			yy = y-mouse_y;
 		} else {
-			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto você deve calçar os EPIs adequados. Calce as luvas e vista seu jaleco."])
+			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto você deve calçar os EPIs adequados. Calce todos os EPIs separados no seu armário."])
 		}
 	}
 }
