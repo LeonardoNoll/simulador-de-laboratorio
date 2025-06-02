@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_phmeter",
-    "path":"sprites/s_phmeter/s_phmeter.yy",
+    "name":"s_ph_table_btn",
+    "path":"sprites/s_ph_table_btn/s_ph_table_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

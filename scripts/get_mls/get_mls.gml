@@ -18,11 +18,17 @@ function get_mls(){
 
 function take_ml_input(_other) {
 		get_input(mouse_x,mouse_y,"Mls a coletar", function(_text, _other) {
-			var _mls = real(string_digits(_text))
 			var _warning_message = ""
-			
+			try {
+				var _mls = real(string_digits(_text))
+			} catch(error){
+				// Não digitou um número
+				_warning_message = ["Você deve digitar um número para realizar esta ação!"]
+			}
 			// Caso puxou muitos mls
-			_warning_message = ml_capacity_violated(_mls)
+			if(_warning_message == "") {
+				_warning_message = ml_capacity_violated(_mls)
+			}
 			
 			// Caso puxou a quantia errada de mls de um liquido
 			if(_warning_message == "") {
