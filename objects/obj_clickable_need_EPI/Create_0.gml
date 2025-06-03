@@ -14,3 +14,4 @@ base_y = y
 
 name = "Não Setado"
 needed_EPI = []
+scale_pulse_data = undefined

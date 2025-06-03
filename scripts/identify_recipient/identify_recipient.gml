@@ -5,6 +5,8 @@ function identify_recipient(){
 			if(object_index == obj_25ml_becker) {
 				sprite_index = s_bottle_marked_empty
 			}
+			scale_pulse(self, 2, 0.15)
+			array_delete_value(options, OPTIONS.IDENFICIAR_RECIPIENTE)
 		})	
 	}
 }

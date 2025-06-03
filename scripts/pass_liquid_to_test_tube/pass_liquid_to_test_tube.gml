@@ -18,6 +18,7 @@ function pass_liquid_to_test_tube(_mls, _ph, _sprite_index){
 		_test_tube.content += " + " + content
 	}
 	_test_tube.name = "Tubo de teste com " + _test_tube.content
+	scale_pulse(_test_tube, 1.5, 0.15)
 	
 		
 	// Resetar estado da pipeta

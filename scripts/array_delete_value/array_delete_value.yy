@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"array_delete_value",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"array_delete_value",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,9 +1,9 @@
 function get_mls(){
 	// Check collision
 	var _hitlist = [obj_25ml_becker]
-	if(place_meeting(mouse_x,mouse_y, _hitlist)) {
+	if(place_meeting(x,y, _hitlist)) {
 		var _others = ds_list_create()
-		instance_place_list(mouse_x,mouse_y, _hitlist, _others, true)
+		instance_place_list(x,y, _hitlist, _others, true)
 		var _other = ds_list_find_value(_others, 0)
 		
 		if(_other.content == "") {
@@ -21,37 +21,39 @@ function take_ml_input(_other) {
 			var _warning_message = ""
 			try {
 				var _mls = real(string_digits(_text))
+
+				// Caso puxou muitos mls
+				if(_warning_message == "") {
+					_warning_message = ml_capacity_violated(_mls)
+				}
+			
+				// Caso puxou a quantia errada de mls de um liquido
+				if(_warning_message == "") {
+					_warning_message = is_ml_amount_correct(real(string_digits(_text)), _other)
+				}
+			
+				// Show message if one exists
+				if(_warning_message != "") {
+					criar_textbox(mouse_x, mouse_y, _warning_message)
+					return
+				}
+			
+				// Sucess case
+				ph = _other.ph
+				content = _other.content
+				ml = _mls
+				name = "Pipeta com " + string(_mls) + "ml(s) de " + content
+				on_release = function() {
+					if(place_meeting(mouse_x,mouse_y, obj_test_tube)) {
+						pass_liquid_to_test_tube(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water)
+					}
+				}
+				scale_pulse(self, 1.5, 0.15)
+				return
 			} catch(error){
 				// Não digitou um número
 				_warning_message = ["Você deve digitar um número para realizar esta ação!"]
 			}
-			// Caso puxou muitos mls
-			if(_warning_message == "") {
-				_warning_message = ml_capacity_violated(_mls)
-			}
-			
-			// Caso puxou a quantia errada de mls de um liquido
-			if(_warning_message == "") {
-				_warning_message = is_ml_amount_correct(real(string_digits(_text)), _other)
-			}
-			
-			// Show message if one exists
-			if(_warning_message != "") {
-				criar_textbox(mouse_x, mouse_y, _warning_message)
-				return
-			}
-			
-			// Sucess case
-			ph = _other.ph
-			content = _other.content
-			ml = _mls
-			name = "Pipeta com " + string(_mls) + "ml(s) de " + content
-			on_release = function() {
-				if(place_meeting(mouse_x,mouse_y, obj_test_tube)) {
-					pass_liquid_to_test_tube(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water)
-				}
-			}
-			return
 		}, _other)
 }
 

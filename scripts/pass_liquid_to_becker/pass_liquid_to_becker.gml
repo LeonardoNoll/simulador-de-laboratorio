@@ -9,6 +9,7 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index){
 			ph = _other.ph
 			content = _other.content
 			sprite_index = _sprite_index
+			scale_pulse(self, 2, 0.15)
 		}
 	}
 }

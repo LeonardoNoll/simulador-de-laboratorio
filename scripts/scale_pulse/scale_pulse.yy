@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scale_pulse",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scale_pulse",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
