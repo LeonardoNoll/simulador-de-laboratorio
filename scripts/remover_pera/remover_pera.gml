@@ -10,6 +10,7 @@ function remover_pera(){
 		y = base_y
 		pear_on = false
 		options = []
+		scale_on_contact_list = [obj_suction_pear]
 		ml = 0
 		ph = 0
 		content = ""

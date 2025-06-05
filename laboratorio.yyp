@@ -181,6 +181,7 @@
     {"id":{"name":"preparar_para_coleta","path":"scripts/preparar_para_coleta/preparar_para_coleta.yy",},},
     {"id":{"name":"put_pear_on","path":"scripts/put_pear_on/put_pear_on.yy",},},
     {"id":{"name":"remover_pera","path":"scripts/remover_pera/remover_pera.yy",},},
+    {"id":{"name":"scale_on_contact","path":"scripts/scale_on_contact/scale_on_contact.yy",},},
     {"id":{"name":"scale_pulse","path":"scripts/scale_pulse/scale_pulse.yy",},},
     {"id":{"name":"shake","path":"scripts/shake/shake.yy",},},
     {"id":{"name":"spawn_tool_tip","path":"scripts/spawn_tool_tip/spawn_tool_tip.yy",},},

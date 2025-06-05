@@ -13,3 +13,5 @@ pear_on = false
 
 HCl_color = #A4D26F
 water_color = #CFE6EE
+
+scale_on_contact_list = [obj_suction_pear]

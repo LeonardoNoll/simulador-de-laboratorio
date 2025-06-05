@@ -6,6 +6,7 @@ content = name
 ph = 1
 needed_EPI = [obj_glove,obj_lab_coat, obj_goggles]
 becker = noone
+scale_on_contact_list = [obj_25ml_becker]
 
 on_release = function() {
 	if(place_meeting(x,y,obj_25ml_becker)) {

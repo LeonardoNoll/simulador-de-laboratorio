@@ -6,7 +6,7 @@
 
 function pass_liquid_to_test_tube(_mls, _ph, _sprite_index){
 	//TODO: E necessário adicionar uma lógica de identificação do tubo
-	var _test_tube = instance_nearest(mouse_x,mouse_y,obj_test_tube)
+	var _test_tube = instance_nearest(x,y,obj_test_tube)
 	if(_test_tube.closed) return 
 	
 	if(_test_tube.content == "") {

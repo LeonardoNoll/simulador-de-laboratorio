@@ -14,4 +14,5 @@ base_y = y
 
 name = "Não Setado"
 needed_EPI = []
+scale_on_contact_list = []
 scale_pulse_data = undefined

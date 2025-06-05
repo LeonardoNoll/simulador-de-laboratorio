@@ -13,6 +13,7 @@ function put_pear_on(){
 			y: obj_suction_pear.base_y
 		}
 		options = [OPTIONS.REMOVER_PERA]
+		scale_on_contact_list = [obj_25ml_becker, obj_test_tube]
 		on_release = get_mls
 		
 		
