@@ -22,11 +22,7 @@ show_debug_message(_top_instance)
 // Checa se não tem nenhum objeto na frente
 //if(_top_instance == id || _top_instance == noone) {
 if(true) {
-	if (!locked) {
-		// Destroi menu de contexto caso exista
-		if (instance_exists(obj_menu)) {
-			instance_destroy(obj_menu)
-		}
+	if (!locked && collision_point(mouse_x,mouse_y,obj_context_btn,false,true) == noone) {
 		// Checa se EPI está equipada
 		// Objetos não dependentes de EPI passam pelo teste automaticamente
 		if(check_EPI(needed_EPI)){
