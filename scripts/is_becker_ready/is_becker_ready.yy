@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"is_becker_ready",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"is_becker_ready",
+  "parent":{
+    "name":"experimento_3",
+    "path":"folders/Scripts/experimento_3.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

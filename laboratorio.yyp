@@ -173,6 +173,7 @@
     {"id":{"name":"get_mls","path":"scripts/get_mls/get_mls.yy",},},
     {"id":{"name":"identificar","path":"scripts/identificar/identificar.yy",},},
     {"id":{"name":"identify_recipient","path":"scripts/identify_recipient/identify_recipient.yy",},},
+    {"id":{"name":"is_becker_ready","path":"scripts/is_becker_ready/is_becker_ready.yy",},},
     {"id":{"name":"mais_1_minuto","path":"scripts/mais_1_minuto/mais_1_minuto.yy",},},
     {"id":{"name":"menos_1_minuto","path":"scripts/menos_1_minuto/menos_1_minuto.yy",},},
     {"id":{"name":"open_test_tube","path":"scripts/open_test_tube/open_test_tube.yy",},},

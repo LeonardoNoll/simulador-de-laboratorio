@@ -44,7 +44,7 @@ function take_ml_input(_other) {
 				ml = _mls
 				name = "Pipeta com " + string(_mls) + "ml(s) de " + content
 				on_release = function() {
-					if(place_meeting(mouse_x,mouse_y, obj_test_tube)) {
+					if(place_meeting(x,y, obj_test_tube)) {
 						pass_liquid_to_test_tube(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water)
 					}
 				}
