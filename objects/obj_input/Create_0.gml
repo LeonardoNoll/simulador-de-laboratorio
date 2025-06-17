@@ -1,6 +1,6 @@
 user_input = ""
 prompt = ""
-optional_args = []
+optional_args = undefined
 on_confirm = undefined
 outline = 2
 max_length = 20

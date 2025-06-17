@@ -1,11 +1,15 @@
 function get_mls(){
 	// Check collision
 	var _hitlist = [obj_25ml_becker]
-	if(place_meeting(x,y, _hitlist)) {
+	if(place_meeting(x,y, _hitlist)) {	
 		var _others = ds_list_create()
 		instance_place_list(x,y, _hitlist, _others, true)
 		var _other = ds_list_find_value(_others, 0)
-		
+	
+		if(used != "" && used !=  _other.content) {
+			criar_textbox(x, y, ["Você não pode utilzar em mais de um líquido a mesma pipeta. Troque a pipeta por uma nova."])
+			return
+		}
 		if(_other.content == "") {
 			criar_textbox(x,y, ["Você não pode coletar o líquido de um recipiente vazio."])	
 			return
@@ -41,6 +45,7 @@ function take_ml_input(_other) {
 				// Sucess case
 				ph = _other.ph
 				content = _other.content
+				used = _other.content
 				ml = _mls
 				name = "Pipeta com " + string(_mls) + "ml(s) de " + content
 				on_release = function() {

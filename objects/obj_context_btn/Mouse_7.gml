@@ -66,6 +66,12 @@ switch(option) {
 	case OPTIONS.AGITAR:
 		shake()
 		break
+	case OPTIONS.SUBSTITUIR_PIPETA:
+		change_pipette()
+		break
+	case OPTIONS.PASSAR_LIQUIDO_AO_BEQUER:
+		pass_liquid_to_becker(15,parent.becker, s_marked_becker_with_HCl)
+		break
 }
 
 // Clean up

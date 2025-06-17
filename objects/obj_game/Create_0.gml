@@ -29,7 +29,9 @@ enum OPTIONS {
 	IDENFICIAR_RECIPIENTE,
 	ABRIR_TUBO_DE_ENSAIO,
 	FECHER_TUBO_DE_ENSAIO,
-	AGITAR
+	AGITAR,
+	SUBSTITUIR_PIPETA,
+	PASSAR_LIQUIDO_AO_BEQUER,
 }
 
 options_string = [
@@ -51,5 +53,7 @@ options_string = [
 	"Idenficar recipiente",
 	"Abrir tubo de ensaio",
 	"Fechar tubo de ensaio",
-	"Agitar"
+	"Agitar",
+	"Substituir pipeta",
+	"Passar liquido ao bequer",
 ]

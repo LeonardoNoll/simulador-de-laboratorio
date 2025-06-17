@@ -16,8 +16,8 @@ function put_pear_on(){
 		scale_on_contact_list = [obj_25ml_becker, obj_test_tube]
 		on_release = get_mls
 		
+		var _auxX = base_x + 200
 		
-
 		instance_destroy(obj_suction_pear)
 	}
 }
