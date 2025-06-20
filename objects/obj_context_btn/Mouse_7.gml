@@ -34,7 +34,7 @@ switch(option) {
 	case OPTIONS.PREPARAR_PARA_COLETA:
 		preparar_para_coleta()
 		break
-	case OPTIONS.CRONOMETRAR_COLETA:
+	case OPTIONS.CRONOMETRAR:
 		cronometrar_coleta()
 		break
 	case OPTIONS.MAIS_1_MINUTO:

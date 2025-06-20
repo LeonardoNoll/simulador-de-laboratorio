@@ -6,5 +6,6 @@ needed_EPI = [obj_glove, obj_lab_coat, obj_goggles]
 options = [OPTIONS.ABRIR_TUBO_DE_ENSAIO]
 content = ""
 closed = true
+use_counter = 0
 ph = 0
 ml = 0 

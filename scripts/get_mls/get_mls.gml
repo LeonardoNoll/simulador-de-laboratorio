@@ -48,6 +48,7 @@ function take_ml_input(_other) {
 				used = _other.content
 				ml = _mls
 				name = "Pipeta com " + string(_mls) + "ml(s) de " + content
+				scale_on_contact_list = [obj_test_tube]
 				on_release = function() {
 					if(place_meeting(x,y, obj_test_tube)) {
 						pass_liquid_to_test_tube(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water)
