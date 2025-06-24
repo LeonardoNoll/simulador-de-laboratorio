@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"remove_pear",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"remove_pear",
+  "parent":{
+    "name":"experimento_3",
+    "path":"folders/Scripts/experimento_3.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

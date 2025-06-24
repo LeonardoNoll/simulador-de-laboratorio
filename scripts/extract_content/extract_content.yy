@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"extract_content",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"extract_content",
+  "parent":{
+    "name":"experimento_1",
+    "path":"folders/Scripts/experimento_1.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

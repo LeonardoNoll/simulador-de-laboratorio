@@ -7,11 +7,11 @@ function get_mls(){
 		var _other = ds_list_find_value(_others, 0)
 	
 		if(used != "" && used !=  _other.content) {
-			criar_textbox(x, y, ["Você não pode utilzar em mais de um líquido a mesma pipeta. Troque a pipeta por uma nova."])
+			create_textbox(x, y, ["Você não pode utilzar em mais de um líquido a mesma pipeta. Troque a pipeta por uma nova."])
 			return
 		}
 		if(_other.content == "") {
-			criar_textbox(x,y, ["Você não pode coletar o líquido de um recipiente vazio."])	
+			create_textbox(x,y, ["Você não pode coletar o líquido de um recipiente vazio."])	
 			return
 		}
 		take_ml_input(_other)
@@ -38,7 +38,7 @@ function take_ml_input(_other) {
 			
 				// Show message if one exists
 				if(_warning_message != "") {
-					criar_textbox(mouse_x, mouse_y, _warning_message)
+					create_textbox(mouse_x, mouse_y, _warning_message)
 					return
 				}
 			
@@ -72,7 +72,7 @@ function is_ml_amount_correct(_mls, _other) {
 }
 
 function ml_capacity_violated(_mls) {
-	if(_mls > (object_index == obj_pipett_10ml ? 10 : 5)) {
+	if(_mls > (object_index == obj_pipette_10ml ? 10 : 5)) {
 		return ["Esta pipeta não suporta essa quantia de mls!"]
 	}
 	return ""

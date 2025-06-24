@@ -14,7 +14,7 @@ function spawn_context_menu(_custom_options = []){
 			_my_menu.options = array_length(_custom_options) > 0 ? _custom_options : options
 			_my_menu.parent = self
 		} else {
-			criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto você deve calçar os EPIs adequados. Calce as luvas e vista seu jaleco."])
+			create_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto você deve calçar os EPIs adequados. Calce as luvas e vista seu jaleco."])
 		}
 	}
 }

@@ -8,6 +8,6 @@ if (!locked && collision_point(mouse_x,mouse_y,obj_context_btn,false,true) == no
 		xx = x-mouse_x;
 		yy = y-mouse_y;
 	} else {
-		criar_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto você deve calçar os EPIs adequados. Calce todos os EPIs separados no seu armário."])
+		create_textbox(x+sprite_width/2, y-sprite_height/2, ["Para interagir com este objeto você deve calçar os EPIs adequados. Calce todos os EPIs separados no seu armário."])
 	}
 }

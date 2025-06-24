@@ -20,6 +20,6 @@ if(_key != noone && _test_tube != noone) {
 	if _user_answer == _right_answer {
 		room_goto(rm_parabens)
 	} else {
-		criar_textbox(x,y, ["Resposta incorreta " + string(_final_ph)])
+		create_textbox(x,y, ["Resposta incorreta " + string(_final_ph)])
 	}
 }

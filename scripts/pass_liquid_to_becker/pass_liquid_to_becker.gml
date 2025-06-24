@@ -28,7 +28,7 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
                 }
             }
         } else {
-            criar_textbox(ctx.x, ctx.y, ["Esta não é a quantia correta de mls. Tente novamente."]);
+            create_textbox(ctx.x, ctx.y, ["Esta não é a quantia correta de mls. Tente novamente."]);
         }
 	}
     // Chama get_input com callback preparado

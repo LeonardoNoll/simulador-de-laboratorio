@@ -10,7 +10,7 @@ function pass_liquid_to_test_tube(_mls, _ph, _sprite_index){
 	if(_test_tube.closed) return 
 	
 	if(_test_tube.use_counter >= 2) {
-		criar_textbox(x, y, ["Você não pode colocar mais líquidos neste tubo de teste"])
+		create_textbox(x, y, ["Você não pode colocar mais líquidos neste tubo de teste"])
 		return
 	}
 	
@@ -27,7 +27,7 @@ function pass_liquid_to_test_tube(_mls, _ph, _sprite_index){
 	} else if(_test_tube.content == "HCl" && content != "HCl") {
 		_test_tube.content += " + " + content
 	} else {
-		criar_textbox(x, y, ["Esta ação não é permitida. Faça as transferências de acordo com o roteiro"])
+		create_textbox(x, y, ["Esta ação não é permitida. Faça as transferências de acordo com o roteiro"])
 		return
 	}
 	
@@ -36,7 +36,7 @@ function pass_liquid_to_test_tube(_mls, _ph, _sprite_index){
 	
 		
 	// Resetar estado da pipeta
-	var _is10ml = object_index == obj_pipett_10ml
+	var _is10ml = object_index == obj_pipette_10ml
 	sprite_index = _is10ml ? s_pipette_10ml_with_pear : s_pipette_5ml_with_pear
 	name = _is10ml ? "Pipeta 10ml" : "Pipeta 5m"
 	content = ""

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"prepare_to_collect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"prepare_to_collect",
+  "parent":{
+    "name":"experimento_1",
+    "path":"folders/Scripts/experimento_1.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

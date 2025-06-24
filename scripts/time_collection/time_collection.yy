@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"time_collection",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"time_collection",
+  "parent":{
+    "name":"cronometro",
+    "path":"folders/Scripts/experimento_1/cronometro.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

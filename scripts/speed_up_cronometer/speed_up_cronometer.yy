@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"speed_up_cronometer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"speed_up_cronometer",
+  "parent":{
+    "name":"cronometro",
+    "path":"folders/Scripts/experimento_1/cronometro.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

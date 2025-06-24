@@ -1,6 +1,6 @@
 if(!drag_mode && !locked) {
 	if(!identificado) {
-		criar_textbox(mouse_x-200, mouse_y-100, ["Você não pode fazer isso. Identifique o pote antes de realizar a coleta "])
+		create_textbox(mouse_x-200, mouse_y-100, ["Você não pode fazer isso. Identifique o pote antes de realizar a coleta "])
 		y = base_y
 		x = base_x
 	} else {

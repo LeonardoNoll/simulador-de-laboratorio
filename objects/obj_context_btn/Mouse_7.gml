@@ -4,55 +4,55 @@
 
 switch(option) {
 	case OPTIONS.CALCAR:
-		calcar()
+		put_on()
 		break
 	case OPTIONS.VERIFICAR:
-		verificar()
+		verify()
 		break
 	case OPTIONS.DIAGNOSTICAR:
-		diagnosticar()
+		diagnose()
 		return
 		break
 	case OPTIONS.EXTRAIR_CONTEUDO:
-		extrair_conteudo()
+		extract_content()
 		break
 	case OPTIONS.HIPOSSALIVACAO:
-		if(room == rm_1b_normal) verificar_resposta(0, 0.1)
-		else verificar_resposta(0, 0.7)
+		if(room == rm_1b_normal) verify_answer(0, 0.1)
+		else verify_answer(0, 0.7)
 		break
 	case OPTIONS.POUCA_SALIVACAO:
-		if(room == rm_1b_normal) verificar_resposta(0.1, 0.25)
-		else verificar_resposta(0.7, 1)
+		if(room == rm_1b_normal) verify_answer(0.1, 0.25)
+		else verify_answer(0.7, 1)
 		break
 	case OPTIONS.SALIVACAO_NORMAL:
-		if(room == rm_1b_normal) verificar_resposta(0.25, 0.35)
-		else verificar_resposta(1, 3)
+		if(room == rm_1b_normal) verify_answer(0.25, 0.35)
+		else verify_answer(1, 3)
 		break
 	case OPTIONS.IDENTIFICAR:
-		identificar()
+		identify()
 		break
 	case OPTIONS.PREPARAR_PARA_COLETA:
-		preparar_para_coleta()
+		prepare_to_collect()
 		break
 	case OPTIONS.CRONOMETRAR:
-		cronometrar_coleta()
+		time_collection()
 		break
 	case OPTIONS.MAIS_1_MINUTO:
-		mais_1_minuto()
+		plus_1_minute()
 		return
 		break
 	case OPTIONS.MENOS_1_MINUTO:
-		menos_1_minuto()
+		minus_1_minute()
 		return
 		break
 	case OPTIONS.ACELERAR_CONTAGEM:
-		acelerar_contagem()
+		speed_up_cronometer()
 		break
 	case OPTIONS.FINALIZAR_TUTORIAL:
-		finalizar_tutorial()
+		end_tutorial()
 		break
 	case OPTIONS.REMOVER_PERA:
-		remover_pera()
+		remove_pear()
 		break
 	case OPTIONS.IDENFICIAR_RECIPIENTE:
 		identify_recipient()

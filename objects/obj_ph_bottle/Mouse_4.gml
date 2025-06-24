@@ -6,5 +6,5 @@ if(!instance_exists(obj_ph_strip)) {
 		event_perform(ev_mouse, ev_left_press)
 	}
 } else {
-	criar_textbox(x,y,["Você deve descartar a fita de pH atual antes de pegar outra."])
+	create_textbox(x,y,["Você deve descartar a fita de pH atual antes de pegar outra."])
 }

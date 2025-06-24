@@ -7,7 +7,7 @@ if(place_meeting(x,y,obj_patient_head)) {
 		return
 	}
 
-	criar_textbox(mouse_x, mouse_y, ["Antes de dar ao paciênte o Parafilm, você deve prepara-lo de acordo com o roteiro."])
+	create_textbox(mouse_x, mouse_y, ["Antes de dar ao paciênte o Parafilm, você deve prepara-lo de acordo com o roteiro."])
 }
 	x = base_x
 	y = base_y
