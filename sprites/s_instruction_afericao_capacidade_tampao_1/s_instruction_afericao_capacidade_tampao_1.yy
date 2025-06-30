@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"81dfc6ae-a0ca-435b-bc68-d11ae6e48259","name":"81dfc6ae-a0ca-435b-bc68-d11ae6e48259","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"85d89a54-e0c1-4b41-b982-c75af1c0c9b4","name":"85d89a54-e0c1-4b41-b982-c75af1c0c9b4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":500,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d8220a40-cae1-4be1-8336-24b252e55cba","blendMode":0,"displayName":"default","isLocked":false,"name":"d8220a40-cae1-4be1-8336-24b252e55cba","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c0911fe8-99a6-497d-aa26-557c0443221c","blendMode":0,"displayName":"default","isLocked":false,"name":"c0911fe8-99a6-497d-aa26-557c0443221c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_instruction_afericao_capacidade_tampao_1",
   "nineSlice":null,
@@ -64,15 +64,15 @@
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
     "seqHeight":500.0,
-    "seqWidth":349.0,
+    "seqWidth":348.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"81dfc6ae-a0ca-435b-bc68-d11ae6e48259","path":"sprites/s_instruction_afericao_capacidade_tampao_1/s_instruction_afericao_capacidade_tampao_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ca87d6dc-b038-4815-872d-4d87d6822aa8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"85d89a54-e0c1-4b41-b982-c75af1c0c9b4","path":"sprites/s_instruction_afericao_capacidade_tampao_1/s_instruction_afericao_capacidade_tampao_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"96d015a1-ed28-4727-88a2-817a63f97a47","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -88,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":349,
+  "width":348,
 }

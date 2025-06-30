@@ -4,6 +4,13 @@
 /// @param _other (Id.instance): Objeto colidindo
 /// @param _sprite_index (number): Novo sprite
 function pass_liquid_to_becker(_mls, _other, _sprite_index) {
+	// Checa se está colocando no béquer certo
+	if(string_lower(parent.content) != string_lower(_other.name)) {
+		create_textbox(x, y, ["Você só pode colocar este líquido no béquer com a marcação certa."])
+		return
+	}
+	
+	
 	var sprite_ctx = parent.object_index == obj_acid_bottle 
 					? s_marked_becker_with_HCl
 					: s_marked_becker_with_water

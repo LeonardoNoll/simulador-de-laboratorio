@@ -1,2 +1,2 @@
 instructions_list = []
-current_sprite = 0
+parent = instance_nearest(x, y, obj_btn_question)

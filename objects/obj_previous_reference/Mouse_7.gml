@@ -1,4 +1,4 @@
-obj_instructions.current_sprite--
-if(obj_instructions.current_sprite == 0) {
+obj_btn_question.page--
+if(obj_btn_question.page == 0) {
 	instance_destroy(self)
 }
