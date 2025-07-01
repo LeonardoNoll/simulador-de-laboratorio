@@ -4,7 +4,7 @@ cell_height = 30
 
 
 col_names = ["Solução", "pH inicial"]
-row_names = ["Água destilada", "Saliva estimulada", "Ácido clorídrico"]
+row_names = ["Saliva estimulada", "Água destilada", "Ácido clorídrico"]
 
 second_col_names = ["Solução", "pH inicial", "pH após 10 min"]
 second_row_names = ["HCl + saliva", "HCl + água"]
