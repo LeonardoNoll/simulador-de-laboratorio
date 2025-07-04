@@ -1,5 +1,6 @@
 function put_pear_on(){
-	if(place_meeting(x,y, obj_suction_pear)) {
+	if(place_meeting(x,y, obj_pipette_10ml)) {
+		with(instance_nearest(x,y,obj_pipette_10ml)) {
 		var _is10ml = object_index == obj_pipette_10ml
 		sprite_index =  _is10ml ? s_pipette_10ml_with_pear : s_pipette_5ml_with_pear
 		// ajust to sprite size
@@ -19,5 +20,6 @@ function put_pear_on(){
 		var _auxX = base_x + 200
 		
 		instance_destroy(obj_suction_pear)
+		}
 	}
 }

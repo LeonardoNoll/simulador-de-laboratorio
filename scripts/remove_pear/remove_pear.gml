@@ -9,13 +9,14 @@ function remove_pear(){
 		x = base_x
 		y = base_y
 		pear_on = false
-		options = used != "" ? [OPTIONS.SUBSTITUIR_PIPETA] : []
+		//options = used != "" ? [OPTIONS.SUBSTITUIR_PIPETA] : []
+		options = []
 		scale_on_contact_list = [obj_suction_pear]
 		ml = 0
 		ph = 0
 		content = ""
 		
-		on_release = put_pear_on
+		on_release = change_pipette
 		instance_create_depth(pear_inicial_position.x,pear_inicial_position.y, depth-1, obj_suction_pear)
 	}
 }

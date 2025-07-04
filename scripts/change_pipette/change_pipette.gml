@@ -1,10 +1,5 @@
 function change_pipette(){
-	with(global.selected) {
 		used = ""
-		options = []
 		scale_pulse(self, 2, 0.15)
-		for(var i; i < 100; i++) {
-			show_debug_message(i)
-		}
-	}
+		obj_pipette_discard.sprite_index = s_pipette_discard_used
 }
