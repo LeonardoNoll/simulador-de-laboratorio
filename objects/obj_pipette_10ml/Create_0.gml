@@ -8,7 +8,7 @@ ml = 0
 ph = 0
 
 
-on_release = change_pipette
+on_release = undefined
 pear_inicial_positon= {}
 pear_on = false  
 

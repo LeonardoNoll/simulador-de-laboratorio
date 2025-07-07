@@ -1,5 +1,5 @@
 if(drag_mode) {
-	on_release()
+	if(on_release != undefined) on_release()
 	
 	global.selected = noone
 	drag_mode = false;

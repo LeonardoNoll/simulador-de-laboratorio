@@ -101,6 +101,7 @@
     {"id":{"name":"obj_capacity_select","path":"objects/obj_capacity_select/obj_capacity_select.yy",},},
     {"id":{"name":"obj_catalyst","path":"objects/obj_catalyst/obj_catalyst.yy",},},
     {"id":{"name":"obj_chronometer","path":"objects/obj_chronometer/obj_chronometer.yy",},},
+    {"id":{"name":"obj_clickable_cell","path":"objects/obj_clickable_cell/obj_clickable_cell.yy",},},
     {"id":{"name":"obj_clickable_need_EPI","path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",},},
     {"id":{"name":"obj_col_header","path":"objects/obj_col_header/obj_col_header.yy",},},
     {"id":{"name":"obj_context_btn","path":"objects/obj_context_btn/obj_context_btn.yy",},},
