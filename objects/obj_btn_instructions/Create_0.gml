@@ -1,4 +1,4 @@
 event_inherited()
 
 name = "Instruções"
-page = 0
+instruction = 0

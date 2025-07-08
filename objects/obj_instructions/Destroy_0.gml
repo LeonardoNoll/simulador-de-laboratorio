@@ -1,3 +1,3 @@
-instance_destroy(obj_btn_x)
+instance_destroy(btn_x)
 instance_destroy(obj_next_reference)
 instance_destroy(obj_previous_reference)
