@@ -9,8 +9,8 @@
   "name":"obj_buffer_capacity",
   "overriddenProperties":[],
   "parent":{
-    "name":"buffer_capacity",
-    "path":"folders/Objects/GUI/notes_table/buffer_capacity.yy",
+    "name":"notes_table",
+    "path":"folders/Objects/GUI/notes_table.yy",
   },
   "parentObjectId":null,
   "persistent":false,

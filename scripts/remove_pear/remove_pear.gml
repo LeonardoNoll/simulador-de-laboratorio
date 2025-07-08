@@ -16,7 +16,7 @@ function remove_pear(){
 		ph = 0
 		content = ""
 		
-		on_release = change_pipette
+		on_release = undefined
 		instance_create_depth(pear_inicial_position.x,pear_inicial_position.y, depth-1, obj_suction_pear)
 	}
 }
