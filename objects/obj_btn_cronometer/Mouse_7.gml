@@ -1,14 +1,14 @@
 event_inherited();
-
-if(chronometer == noone) {
-	chronometer = instance_create_layer(130, 80, "GUI", obj_cronometer)
-	chronometer.on_count_start = on_count_start
-	chronometer.on_count_sucess = on_count_sucess
-	chronometer.on_count_fail = on_count_fail
-	chronometer.expected_minutes = expected_minutes
+if(instance_exists(obj_cronometer)) {
+	instance_destroy(obj_cronometer)
 } else {
-	instance_destroy(chronometer)
-	chronometer = noone
+	var _cronometer_x = room_width - 190
+	var _cronometer_y = 190
+	var _cronometer = instance_create_layer(_cronometer_x, _cronometer_y, "GUI", obj_cronometer)
+	_cronometer.on_count_start = on_count_start
+	_cronometer.on_count_sucess = on_count_sucess
+	_cronometer.on_count_fail = on_count_fail
+	_cronometer.expected_minutes = expected_minutes
 }
 
 
