@@ -1,7 +1,7 @@
 function prepare_to_collect(){
 	if(instance_nearest(0,0,obj_patient_head).pronto_para_coleta) {
 		with (global.selected) {
-			var _cronometer = instance_create_layer(sprite_width + 50, sprite_height, "Instances", obj_chronometer)
+			var _cronometer = instance_create_layer(sprite_width + 50, sprite_height, "Instances", obj_cronometer)
 			// Definir comportamente do inicio da contagem
 			_cronometer.on_count_start = function () {
 				if(global.particle_sys != noone) {

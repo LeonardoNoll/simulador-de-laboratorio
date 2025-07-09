@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_chronometer",
+  "%Name":"obj_cronometer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_chronometer",
+  "name":"obj_cronometer",
   "overriddenProperties":[],
   "parent":{
     "name":"lab_objs",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_chronometer",
-    "path":"sprites/s_chronometer/s_chronometer.yy",
+    "name":"s_cronometer",
+    "path":"sprites/s_cronometer/s_cronometer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

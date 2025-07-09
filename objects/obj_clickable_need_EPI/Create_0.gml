@@ -1,18 +1,13 @@
-// Inherit the parent event
-options = []
-tool_tip = noone
-on_release = function () {
-	return
-}
-
-drag_mode = false;
-locked = false
+name = "Não Setado"
 xx = 0
 yy = 0
 base_x = x 
 base_y = y
-
-name = "Não Setado"
+options = []
 needed_EPI = []
 scale_on_contact_list = []
+tool_tip = noone
+on_release = undefined
+drag_mode = false;
+locked = false
 scale_pulse_data = undefined

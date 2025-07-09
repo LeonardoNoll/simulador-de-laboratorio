@@ -1,3 +1,4 @@
+/// @deprecated Sistema descontinuado!
 function update_buffer_capacity(_value){
 	with(obj_capacity_select) {
 		current_index += _value

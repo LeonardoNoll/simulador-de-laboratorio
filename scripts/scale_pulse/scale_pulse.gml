@@ -10,7 +10,7 @@ function scale_pulse(obj, scale_max, duration) {
         _original_scale_x: obj.image_xscale,
         _original_scale_y: obj.image_yscale,
         _scale_max: scale_max,
-        _duration_frames: duration * room_speed,
+        _duration_frames: duration * game_get_speed(gamespeed_fps),
         _current_frame: 0,
         
         // Define a função de atualização como um método da estrutura

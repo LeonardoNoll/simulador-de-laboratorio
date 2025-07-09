@@ -1,7 +1,7 @@
 function draw_liquid_on_pipette(){
-	
 	if(ml != 0) {
 		draw_set_color(content == "HCl" ? HCl_color : water_color)
+		
 		var _is5ml = self.object_index == obj_pipette_5ml 
 		var _left_corner = x + image_xscale	* 7
 		var _right_corner = x + image_xscale * 14 
