@@ -75,4 +75,4 @@ switch(option) {
 }
 
 // Clean up
-instance_destroy(obj_menu)
+instance_destroy(obj_context_menu)

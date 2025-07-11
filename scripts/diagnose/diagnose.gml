@@ -1,7 +1,7 @@
 function diagnose(){
 			if(obj_syringe_filled.on_rack) {
 			// Menu extra com as opções de resposta
-			var _my_menu = instance_create_depth(x + sprite_width + 20,  y, depth, obj_menu) 
+			var _my_menu = instance_create_depth(x + sprite_width + 20,  y, depth, obj_context_menu) 
 			_my_menu.options = [
 				OPTIONS.HIPOSSALIVACAO,
 				OPTIONS.POUCA_SALIVACAO,
