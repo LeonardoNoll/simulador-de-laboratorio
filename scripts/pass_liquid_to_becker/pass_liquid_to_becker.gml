@@ -6,7 +6,9 @@
 function pass_liquid_to_becker(_mls, _other, _sprite_index) {
 	// Checa se está colocando no béquer certo
 	// TODO: remover "t1983" na versão final
-	if(string_lower(parent.content) != string_lower(_other.name) && _other.name != "t1983") {
+	var parent_normalised = string_normalize("àÀáÁ")
+	var other_normalised = string_normalize(_other.name)
+	if(string_normalize(parent.content) != string_normalize(_other.name) && _other.name != "t1983") {
 		create_textbox(x, y, ["Você só pode colocar este líquido no béquer com a marcação certa."])
 		return
 	}
@@ -33,6 +35,7 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
                     content = ctx.parent.content;
                     sprite_index = ctx.sprite_index;
                     scale_pulse(self, 2, 0.15);
+					options = []
                 }
             }
         } else {
@@ -47,6 +50,7 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
                 content = ctx.parent.content;
                 sprite_index = ctx.sprite_index;
                 scale_pulse(self, 2, 0.15);
+				options = []
             }
         }
 		// TODO: tornar seringa inutilizável

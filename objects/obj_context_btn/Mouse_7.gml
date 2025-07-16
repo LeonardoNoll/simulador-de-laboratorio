@@ -57,6 +57,9 @@ switch(option) {
 	case OPTIONS.IDENFICIAR_RECIPIENTE:
 		identify_recipient()
 		break
+	case OPTIONS.REIDENFICIAR_RECIPIENTE:
+		identify_recipient()
+		break
 	case OPTIONS.ABRIR_TUBO_DE_ENSAIO: 
 		open_test_tube()
 		break

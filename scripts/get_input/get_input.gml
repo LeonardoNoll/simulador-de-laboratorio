@@ -7,7 +7,7 @@
 /// @param _optional_arguments (any): Parametros opcionais
 
 function get_input(_x, _y, _prompt, _callback, _optional_arguments = undefined) {
-    var _input = instance_create_layer(_x, _y, "GUI", obj_input);
+    var _input = instance_create_layer(_x, _y, "Dialog", obj_input);
     
     _input.prompt = _prompt;
     _input.optional_args = _optional_arguments

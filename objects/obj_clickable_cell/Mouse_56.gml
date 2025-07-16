@@ -13,9 +13,9 @@ if(median(x, x + width, mouse_x) == mouse_x
 			var _right_answer = ""
 			var _user_answer = text
 
-			if(_final_ph<= 4.5) _right_answer= "Baixa"
-			else if (_final_ph<= 5.5) _right_answer = "Intermediária"
-			else _right_answer = "Boa"
+			if(_final_ph == 4) _right_answer= "Baixa"
+			else if (_final_ph == 5) _right_answer = "Intermediária"
+			else if (_final_ph == 6) _right_answer = "Boa"
 
 			if _user_answer == _right_answer {
 				room_goto(rm_parabens)

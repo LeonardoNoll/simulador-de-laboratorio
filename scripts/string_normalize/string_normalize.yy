@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"string_normalize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"string_normalize",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

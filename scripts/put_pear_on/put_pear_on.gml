@@ -1,7 +1,7 @@
 
 function put_pear_on(){
 	if(place_meeting(x,y, obj_pipette_10ml)) {
-		with(instance_nearest(x,y,obj_pipette_10ml)) {
+		with(instance_nearest(mouse_x,mouse_y,obj_pipette_10ml)) {
 			var _is10ml = object_index == obj_pipette_10ml
 			sprite_index =  _is10ml ? s_pipette_10ml_with_pear : s_pipette_5ml_with_pear
 			var _pear_x_offset = 10

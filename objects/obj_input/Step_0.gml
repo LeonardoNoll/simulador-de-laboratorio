@@ -17,7 +17,6 @@ if (keyboard_check_pressed(vk_enter)) {
 // Captura caracteres (inclusive acentos)
 var c = keyboard_lastchar;
 if (c != "") {
-	show_debug_message(c)
     var code = ord(c);
     if (code > 31 && string_length(user_input) < max_length) {
         user_input += c;
