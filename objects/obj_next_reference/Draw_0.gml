@@ -1,3 +1,2 @@
-image_xscale = -1
 image_angle = 10
 draw_self()

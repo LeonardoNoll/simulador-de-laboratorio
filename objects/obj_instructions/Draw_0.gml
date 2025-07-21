@@ -1,17 +1,18 @@
 draw_self()
 
 var _padding_x = 50
-var _padding_y = 20
+var _padding_y_next_arrow = 25
+var _padding_y_previous_arrow = _padding_y_next_arrow - 8
 var _instructions = parent.instructions_list
 
 
 if(array_length(_instructions) > 0) {
 	// Arrows control
 	if(parent.instruction > 0 && !instance_exists(obj_previous_reference)) {
-		var _prev_arrow = instance_create_depth(x - sprite_width / 2 + _padding_x*2, y + sprite_height/2 - _padding_y, depth-1, obj_previous_reference)
+		var _prev_arrow = instance_create_depth(x - sprite_width / 2 + _padding_x*2, y + sprite_height/2 - _padding_y_previous_arrow, depth-1, obj_previous_reference)
 	}
 	if(parent.instruction < array_length(_instructions) - 1 && !instance_exists(obj_next_reference)) {
-		var _next_arrow = instance_create_depth(x + sprite_width / 2 - _padding_x, y + sprite_height / 2 - _padding_y, depth-1, obj_next_reference)
+		var _next_arrow = instance_create_depth(x + sprite_width / 2 - _padding_x, y + sprite_height / 2 - _padding_y_next_arrow, depth-1, obj_next_reference)
 	}
 	
 	// Render Text
