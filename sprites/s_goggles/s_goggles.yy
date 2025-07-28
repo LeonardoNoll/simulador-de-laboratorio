@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"inventory_itens",
-    "path":"folders/Sprites/inventory_itens.yy",
+    "name":"locker_inventory_itens",
+    "path":"folders/Sprites/locker_inventory_itens.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
