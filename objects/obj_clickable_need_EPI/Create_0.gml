@@ -11,3 +11,4 @@ on_release = undefined
 drag_mode = false;
 locked = false
 scale_pulse_data = undefined
+default_depth = depth

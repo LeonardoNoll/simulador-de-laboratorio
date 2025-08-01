@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 var _string_seconds = seconds >= 10 ? string(seconds)  :  "0" + string(seconds)
 var _string_minutes = minutes >= 10 ? string(minutes)  :  "0" + string(minutes)
 

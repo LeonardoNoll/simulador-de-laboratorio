@@ -33,6 +33,8 @@ enum OPTIONS {
 	AGITAR,
 	SUBSTITUIR_PIPETA,
 	PASSAR_LIQUIDO_AO_BEQUER,
+	ABRIR_CENTRIFUGA,
+	FECHAR_CENTRIFUGA
 }
 
 options_string = [
@@ -58,4 +60,6 @@ options_string = [
 	"Agitar",
 	"Substituir pipeta",
 	"Passar liquido ao bequer",
+	"Abrir centrífuga",
+	"Fechar centrífuga"
 ]

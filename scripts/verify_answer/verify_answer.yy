@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"verify_answer",
   "parent":{
-    "name":"experimento_1",
-    "path":"folders/Scripts/experimento_1.yy",
+    "name":"experiment_1_2",
+    "path":"folders/Scripts/experiment_1_2.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

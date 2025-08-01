@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stimulated_saliva",
+  "%Name":"obj_accelerate_centrifuge_btn",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_stimulated_saliva",
+  "name":"obj_accelerate_centrifuge_btn",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_3",
-    "path":"folders/Objects/experiment_3.yy",
+    "name":"centrifuge",
+    "path":"folders/Objects/experiment_4/centrifuge.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_base_centrifuge_btn",
+    "path":"objects/obj_base_centrifuge_btn/obj_base_centrifuge_btn.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_syringe_filled",
-    "path":"sprites/s_syringe_filled/s_syringe_filled.yy",
+    "name":"s_centrifuge_btn",
+    "path":"sprites/s_centrifuge_btn/s_centrifuge_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

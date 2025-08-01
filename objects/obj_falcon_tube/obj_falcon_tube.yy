@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_test_tube",
+  "%Name":"obj_falcon_tube",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_test_tube",
+  "name":"obj_falcon_tube",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_3",
-    "path":"folders/Objects/experiment_3.yy",
+    "name":"experiment_4",
+    "path":"folders/Objects/experiment_4.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_test_tube_empty_closed",
-    "path":"sprites/s_test_tube_empty_closed/s_test_tube_empty_closed.yy",
+    "name":"s_falcon_tube_empty",
+    "path":"sprites/s_falcon_tube_empty/s_falcon_tube_empty.yy",
   },
   "spriteMaskId":null,
   "visible":true,

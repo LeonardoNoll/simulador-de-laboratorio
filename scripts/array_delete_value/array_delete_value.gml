@@ -1,6 +1,6 @@
 /// @function array_delete_value(array, value)
-/// @param array        // Referência ao objeto que será escalado
-/// @param value		// Valor máximo de escala (ex: 1.5 para 150%)
+/// @param array        // Array alvo
+/// @param value		// Valor a deletar
 function array_delete_value(array, value){
 	var index = -1;
 

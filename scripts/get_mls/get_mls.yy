@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"get_mls",
   "parent":{
-    "name":"experimento_3",
-    "path":"folders/Scripts/experimento_3.yy",
+    "name":"experiment_3",
+    "path":"folders/Scripts/experiment_3.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

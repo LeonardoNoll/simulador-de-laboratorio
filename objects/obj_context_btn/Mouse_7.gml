@@ -75,6 +75,12 @@ switch(option) {
 	case OPTIONS.PASSAR_LIQUIDO_AO_BEQUER:
 		pass_liquid_to_becker(15,parent.becker, s_marked_becker_with_HCl)
 		break
+	case OPTIONS.ABRIR_CENTRIFUGA:
+		open_centrifuge()
+		break
+	case OPTIONS.FECHAR_CENTRIFUGA:
+		close_centrifuge()
+		break
 }
 
 // Clean up

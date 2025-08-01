@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"format_seconds_mm_ss",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"format_seconds_mm_ss",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

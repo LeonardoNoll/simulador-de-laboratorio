@@ -1,8 +1,8 @@
 if(median(x, x + width, mouse_x) == mouse_x
 	&& median(y, y + height, mouse_y) == mouse_y) {
 		var _test_tube = noone
-		for (var i = 0; i < instance_number(obj_test_tube); i++) {
-			var _curr_test_tube = instance_find(obj_test_tube, i)
+		for (var i = 0; i < instance_number(obj_test_tube_experiment_3); i++) {
+			var _curr_test_tube = instance_find(obj_test_tube_experiment_3, i)
 			if (_curr_test_tube.content == "HCl + Saliva estimulada") {
 				_test_tube = _curr_test_tube
 			}

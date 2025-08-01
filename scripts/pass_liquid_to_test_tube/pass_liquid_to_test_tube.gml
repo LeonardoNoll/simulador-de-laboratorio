@@ -8,7 +8,7 @@ function pass_liquid_to_test_tube(_mls, _ph, _sprite_index){
 	//NOTE:	O roteiro pede para identificar o tubo
 	//		seria interessante adicionar no futuro
 	
-	var _test_tube = instance_nearest(x,y,obj_test_tube)
+	var _test_tube = instance_nearest(x,y,obj_test_tube_experiment_3)
 	if(_test_tube.closed) return 
 	
 	if(_test_tube.use_counter >= 2) {

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"insert_in_centrifuge",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"insert_in_centrifuge",
+  "parent":{
+    "name":"experiment_4",
+    "path":"folders/Scripts/experiment_4.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"experiment_4",
-    "path":"folders/Sprites/experiment_4.yy",
+    "name":"centrifuge",
+    "path":"folders/Sprites/experiment_4/centrifuge.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

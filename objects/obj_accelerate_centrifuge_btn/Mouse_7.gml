@@ -1,0 +1,1 @@
+obj_centrifuge.fast_forward = true

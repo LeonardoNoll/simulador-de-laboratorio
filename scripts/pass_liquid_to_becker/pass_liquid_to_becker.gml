@@ -41,7 +41,7 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
         }
 	}
     // Chama get_input com callback preparado
-	if(ctx.parent.object_index == obj_stimulated_saliva) {
+	if(ctx.parent.object_index == obj_stimulated_saliva_experiment_3) {
 		with (ctx.other) {
             if (content == "") {
                 ph = ctx.parent.ph;

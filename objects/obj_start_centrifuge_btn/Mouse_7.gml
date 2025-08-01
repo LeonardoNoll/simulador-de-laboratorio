@@ -1,0 +1,1 @@
+obj_centrifuge.counting_down = true
