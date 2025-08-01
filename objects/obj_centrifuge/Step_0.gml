@@ -10,13 +10,13 @@ if (counting_down) {
 
         if (seconds == 0) {
             counting_down = false;
-			fast_forward = false;
-
             if (seconds_elapsed == EXPECTED_SECONDS && rpm == 3000) {
 				create_textbox(x,y, ["Sucesso"])
             } else {
 				create_textbox(x,y, ["Falha"])
             }
+			seconds_elapsed = 0
+			options = [OPTIONS.ABRIR_CENTRIFUGA]
             return;
         } 
 

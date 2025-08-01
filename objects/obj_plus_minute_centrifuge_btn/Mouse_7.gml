@@ -1,3 +1,7 @@
+if(obj_centrifuge.counting_down) {
+	return
+}
+
 if(obj_centrifuge.seconds < 60 * 10) {
 	obj_centrifuge.seconds += 60 
 }
