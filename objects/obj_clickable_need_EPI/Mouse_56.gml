@@ -3,6 +3,7 @@ if(drag_mode) {
 	
 	global.selected = noone
 	drag_mode = false;
+	window_set_cursor(cr_arrow)
 
 	y = base_y
 	x = base_x

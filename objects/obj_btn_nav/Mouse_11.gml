@@ -4,3 +4,5 @@ image_yscale = 1;
 if(tool_tip) {
 	instance_destroy(tool_tip)
 }
+
+window_set_cursor(cr_arrow)
