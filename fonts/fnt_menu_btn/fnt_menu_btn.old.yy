@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_menu",
+  "%Name":"fnt_menu_btn",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":37,
@@ -213,7 +213,7 @@
   "last":0,
   "lineHeight":49,
   "maintainGms1Font":false,
-  "name":"fnt_menu",
+  "name":"fnt_menu_btn",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -230,7 +230,10 @@
   "sdfSpread":8,
   "size":28.0,
   "styleName":"Bold",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":false,
 }

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"instructions",
-    "path":"folders/Sprites/GUI/instructions.yy",
+    "name":"instructions_deoprecated",
+    "path":"folders/Sprites/GUI/instructions_deoprecated.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,3 +1,3 @@
-if(x1 < mouse_x && mouse_x < x2 && y1 < mouse_y && mouse_y < y2) {
+if(left < mouse_x && mouse_x < right && top < mouse_y && mouse_y < bottom) {
 	room_goto(target_room);
 }
