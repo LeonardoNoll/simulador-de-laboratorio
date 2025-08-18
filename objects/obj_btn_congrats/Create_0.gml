@@ -1,4 +1,4 @@
-button_text = "Voltar ao menu"
+utton_text = "Voltar ao menu"
 
 width = 200
 height = 40
