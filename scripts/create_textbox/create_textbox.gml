@@ -4,18 +4,23 @@ function create_textbox(_x, _y, _msg){
 		return;
     }
 
-    if (!is_array(_msg)) {
-        show_error("criar_textbox: Argumento _msg deve ser array.", true);
-        return;
-    }
+	close_ui_elements()
+    
 	
-    close_ui_elements()
-	
-	var _text_box = instance_create_layer(_x, _y, "Dialog", obj_text_box)
-	var _list = _text_box.messages
-	for (var _i = 0; _i < array_length(_msg); _i++; ){
-		var _arr = _msg[_i]
-		ds_list_add(_list, _arr)
+	if(is_array(_msg)) {
+		var _text_box = instance_create_layer(_x, _y, "Dialog", obj_text_box)
+		var _list = _text_box.messages
+		for (var _i = 0; _i < array_length(_msg); _i++; ){
+			var _arr = _msg[_i]
+			ds_list_add(_list, _arr)
+		}
+		return _text_box
 	}
-	return _text_box
+	
+	else if(is_string(_msg)) {
+		var _text_box = instance_create_layer(_x, _y, "Dialog", obj_text_box)
+		var _list = _text_box.messages
+		ds_list_add(_list,_msg)
+		return _text_box
+	}
 }
