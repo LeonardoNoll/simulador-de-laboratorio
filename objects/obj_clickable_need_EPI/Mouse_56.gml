@@ -7,4 +7,4 @@ if(drag_mode) {
 
 	y = base_y
 	x = base_x
-}
+}	
