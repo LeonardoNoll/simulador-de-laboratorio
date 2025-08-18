@@ -4,6 +4,8 @@ var _size = 40
 var _x_spacing = 140
 var _y_spacing = 75
 
+if(!is_array(obj_locker_btn.itens)) return
+
 for (var i  = 0 ; i < array_length(obj_locker_btn.itens); i++) {
 		var _xx = x + _x_spacing * (i - (i > 4 ? 7 : 2)) 
 		var _yy = y + (i > 4 ? +_y_spacing : -_y_spacing)		
