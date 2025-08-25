@@ -33,13 +33,13 @@ Além dos conceitos gerais, também é interessante que você se familiarize com
 
 - [Criando um menu de contexto](https://www.youtube.com/watch?v=CdbTBlBptyM)
 - [Criando um menu de contexto - alternativo](https://www.youtube.com/watch?v=rH_Cri-2Ggk)
-- Documentação de [[context-menu]]
+- Documentação de [context-menu](features/context-menu.md)
 
 ### Drag and drop
 
 - [Drag and drop simples](https://www.youtube.com/watch?v=lgF-lmvw2co)
 - [Drag and drop complexo](https://www.youtube.com/watch?v=2Xov6BEm7VM)
-- Documentação de [[generic-clickable-objects]]
+- Documentação de [generic-clickable-objects](features/generic-clickable-objects.md)
 
 ## Botando a mão na massa
 
@@ -54,4 +54,12 @@ Tendo adquirido o conhecimento básico necessário para operar o GameMaker, pode
 7. Tente implementar a sua melhoria, seja ela complexa ou simples;
 
 Exemplo: 
-	O béquer do primeiro experimento deve ser identificado antes de ser utilizado. Atualmente o experimento usa a função **identify**, mas a função **identify_recipient** representa uma representação mais didática do mesmo processo. Atualize o experimento de forma a acomodar o uso da nova função, tornando a representação mais fidedigna.
+> O béquer do primeiro experimento deve ser identificado antes de ser utilizado. Atualmente o experimento usa a função **identify**, mas a função **identify_recipient** representa uma representação mais didática do mesmo processo. Atualize o experimento de forma a acomodar o uso da nova função, tornando a representação mais fidedigna.
+
+--- 
+
+## Considerações finais
+
+Lembre-se, somos um time. Pedir ajuda ou tirar uma dúvida é normal e esperado. Se a qualquer momento você precisar de um esclarecimento, não exite em chamar seus colegas.
+
+Esperamos que os materiais e a atividade proposta deem um "empurrãozinho" no seu aprendizado. Ademais, aproveite este momento para experimentar a ferramenta e deixar a imaginação fluir. 
