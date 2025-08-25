@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"s_torso_headless",
   "bboxMode":0,
   "bbox_bottom":293,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"70c3ba3f-fca7-4d64-b280-1d2dbda4e4ed","name":"70c3ba3f-fca7-4d64-b280-1d2dbda4e4ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"70c3ba3f-fca7-4d64-b280-1d2dbda4e4ed","name":"70c3ba3f-fca7-4d64-b280-1d2dbda4e4ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"s_reference_salometria_n",
   "bboxMode":0,
   "bbox_bottom":495,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fc5b9f64-63c1-4b5f-8dd1-882947ca1a59","name":"fc5b9f64-63c1-4b5f-8dd1-882947ca1a59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc5b9f64-63c1-4b5f-8dd1-882947ca1a59","name":"fc5b9f64-63c1-4b5f-8dd1-882947ca1a59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

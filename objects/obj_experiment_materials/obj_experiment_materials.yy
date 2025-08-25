@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"experiment_materials_btns","filters":[
+    {"$GMObjectProperty":"v2","%Name":"experiment_materials_btns","filters":[
         "GMObject",
       ],"listItems":[
         "\"Item 0\"",

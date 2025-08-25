@@ -30,12 +30,12 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"instruction_sprite","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"instruction_sprite","filters":[],"listItems":[
         "\"Item 0\"",
         "\"Item 1\"",
         "\"Item 2\"",
       ],"multiselect":false,"name":"instruction_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"instructions_list","filters":[],"listItems":[],"multiselect":false,"name":"instructions_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"instructions_list","filters":[],"listItems":[],"multiselect":false,"name":"instructions_list","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

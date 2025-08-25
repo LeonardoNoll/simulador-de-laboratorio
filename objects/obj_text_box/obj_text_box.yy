@@ -29,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"messages","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"messages","filters":[],"listItems":[
         "\"Teste\"",
       ],"multiselect":false,"name":"messages","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Teste\"","varType":6,},
   ],
