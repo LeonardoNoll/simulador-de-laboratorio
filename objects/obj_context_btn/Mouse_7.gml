@@ -81,6 +81,9 @@ switch(option) {
 	case OPTIONS.FECHAR_CENTRIFUGA:
 		close_centrifuge()
 		break
+	case OPTIONS.REMOVER_ITENS:
+		remove_itens_from_centrifuge()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

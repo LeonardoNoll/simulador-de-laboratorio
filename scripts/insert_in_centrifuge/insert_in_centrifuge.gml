@@ -7,5 +7,6 @@ function insert_in_centrifuge(){
 		is_in_centrifuge = true
 		sprite_index = noone
 		on_release = undefined
+		array_push(_centrifuge.options, OPTIONS.REMOVER_ITENS)
 	}
 }

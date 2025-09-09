@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"insert_in_centrifuge",
+  "%Name":"remove_itens_from_centrifuge",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"insert_in_centrifuge",
+  "name":"remove_itens_from_centrifuge",
   "parent":{
     "name":"centrifuge",
     "path":"folders/Scripts/experiment_4/centrifuge.yy",

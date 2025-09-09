@@ -1,0 +1,7 @@
+instance_destroy(visor)
+instance_destroy(start_btn)
+instance_destroy(plus_m_btn)
+instance_destroy(minus_m_btn)
+instance_destroy(plus_rpm_btn)
+instance_destroy(minus_rpm_btn)
+instance_destroy(fast_forward_btn)

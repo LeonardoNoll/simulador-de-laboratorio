@@ -6,7 +6,7 @@ function create_textbox(_x, _y, _msg){
 
 	close_ui_elements()
     
-	
+	// create_textbox(x, y, ["Mensagem 1", "Mensagem 2"])
 	if(is_array(_msg)) {
 		var _text_box = instance_create_layer(_x, _y, "Dialog", obj_text_box)
 		var _list = _text_box.messages
@@ -16,7 +16,7 @@ function create_textbox(_x, _y, _msg){
 		}
 		return _text_box
 	}
-	
+	// create_textbox(x, y, "Mensagem 1")
 	else if(is_string(_msg)) {
 		var _text_box = instance_create_layer(_x, _y, "Dialog", obj_text_box)
 		var _list = _text_box.messages

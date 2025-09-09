@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_centrifuge",
+  "%Name":"obj_water_bath",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_centrifuge",
+  "name":"obj_water_bath",
   "overriddenProperties":[],
   "parent":{
-    "name":"centrifuge",
-    "path":"folders/Objects/experiment_4/centrifuge.yy",
+    "name":"experiment_4",
+    "path":"folders/Objects/experiment_4.yy",
   },
-  "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_centrifuge_closed",
-    "path":"sprites/s_centrifuge_closed/s_centrifuge_closed.yy",
+    "name":"s_water_bath",
+    "path":"sprites/s_water_bath/s_water_bath.yy",
   },
   "spriteMaskId":null,
   "visible":true,

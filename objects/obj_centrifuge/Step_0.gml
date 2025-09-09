@@ -11,9 +11,11 @@ if (counting_down) {
         if (seconds == 0) {
             counting_down = false;
             if (seconds_elapsed == EXPECTED_SECONDS && rpm == 3000) {
-				create_textbox(x,y, ["Sucesso"])
+				obj_falcon_tube.centrifuged = true
+				obj_falcon_tube.name = "Tubo falcon 10ml centrifugado"
+				scale_pulse(self, 2, 0.15)
             } else {
-				create_textbox(x,y, ["Falha"])
+				create_textbox(x,y, "Você não realizou a centrifugação de acordo com o roteiro!")
             }
 			seconds_elapsed = 0
 			options = [OPTIONS.ABRIR_CENTRIFUGA]
