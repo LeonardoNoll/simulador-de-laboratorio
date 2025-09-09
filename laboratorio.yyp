@@ -149,6 +149,7 @@
     {"id":{"name":"obj_rack","path":"objects/obj_rack/obj_rack.yy",},},
     {"id":{"name":"obj_reference_table","path":"objects/obj_reference_table/obj_reference_table.yy",},},
     {"id":{"name":"obj_sample_bottle","path":"objects/obj_sample_bottle/obj_sample_bottle.yy",},},
+    {"id":{"name":"obj_solucao_amido","path":"objects/obj_solucao_amido/obj_solucao_amido.yy",},},
     {"id":{"name":"obj_start_centrifuge_btn","path":"objects/obj_start_centrifuge_btn/obj_start_centrifuge_btn.yy",},},
     {"id":{"name":"obj_stimulated_saliva_experiment_3","path":"objects/obj_stimulated_saliva_experiment_3/obj_stimulated_saliva_experiment_3.yy",},},
     {"id":{"name":"obj_stimulated_saliva_experiment_4","path":"objects/obj_stimulated_saliva_experiment_4/obj_stimulated_saliva_experiment_4.yy",},},
