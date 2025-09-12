@@ -35,7 +35,8 @@ enum OPTIONS {
 	PASSAR_LIQUIDO_AO_BEQUER,
 	ABRIR_CENTRIFUGA,
 	FECHAR_CENTRIFUGA,
-	REMOVER_ITENS
+	REMOVER_ITENS,
+	MUDAR_COR
 }
 
 options_string = [
@@ -63,5 +64,6 @@ options_string = [
 	"Passar líquido ao béquer",
 	"Abrir centrífuga",
 	"Fechar centrífuga",
-	"Remover itens"
+	"Remover itens",
+	"Mudar a cor"
 ]
