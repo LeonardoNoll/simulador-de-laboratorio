@@ -35,7 +35,8 @@ enum OPTIONS {
 	PASSAR_LIQUIDO_AO_BEQUER,
 	ABRIR_CENTRIFUGA,
 	FECHAR_CENTRIFUGA,
-	REMOVER_ITENS
+	REMOVER_ITENS,
+	MUDAR_COR
 }
 
 options_string = [
@@ -54,8 +55,8 @@ options_string = [
 	"Acelerar contagem",
 	"Finalizar tutorial",
 	"Remover pera",
-	"Idenficar recipiente",
-	"Reidenficar recipiente",
+	"Identificar recipiente",
+	"Reidentificar recipiente",
 	"Abrir tubo de ensaio",
 	"Fechar tubo de ensaio",
 	"Agitar",
@@ -63,5 +64,6 @@ options_string = [
 	"Passar líquido ao béquer",
 	"Abrir centrífuga",
 	"Fechar centrífuga",
-	"Remover itens"
+	"Remover itens",
+	"Mudar a cor"
 ]
