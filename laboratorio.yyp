@@ -38,6 +38,7 @@
     {"$GMFolder":"","%Name":"experimento_1_sialometria","folderPath":"folders/Rooms/experimento_1_sialometria.yy","name":"experimento_1_sialometria","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experimento_3_afericao_de_capacidade_tampao","folderPath":"folders/Rooms/experimento_3_afericao_de_capacidade_tampao.yy","name":"experimento_3_afericao_de_capacidade_tampao","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experimento_4_atividade_enzimatica_atividade_salivar","folderPath":"folders/Rooms/experimento_4_atividade_enzimatica_atividade_salivar.yy","name":"experimento_4_atividade_enzimatica_atividade_salivar","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"experimento_5_preparacao_de_meios_de_cultura_em_caldo","folderPath":"folders/Rooms/experimento_5_preparacao_de_meios_de_cultura_em_caldo.yy","name":"experimento_5_preparacao_de_meios_de_cultura_em_caldo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tutorial","folderPath":"folders/Rooms/tutorial.yy","name":"tutorial","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experiment_1_2","folderPath":"folders/Scripts/experiment_1_2.yy","name":"experiment_1_2","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -178,6 +179,7 @@
     {"id":{"name":"rm_experiment_select","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_parabens","path":"rooms/rm_parabens/rm_parabens.yy",},},
+    {"id":{"name":"rm_preparacao_de_meios_de_cultura_em_caldo","path":"rooms/rm_preparacao_de_meios_de_cultura_em_caldo/rm_preparacao_de_meios_de_cultura_em_caldo.yy",},},
     {"id":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
     {"id":{"name":"rm_tutorial_2","path":"rooms/rm_tutorial_2/rm_tutorial_2.yy",},},
     {"id":{"name":"array_delete_value","path":"scripts/array_delete_value/array_delete_value.yy",},},
@@ -343,6 +345,7 @@
     {"roomId":{"name":"rm_3_afericao_de_capacidade_tampao","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},},
     {"roomId":{"name":"rm_4_atividade_enzimatica_atividade_salivar","path":"rooms/rm_4_atividade_enzimatica_atividade_salivar/rm_4_atividade_enzimatica_atividade_salivar.yy",},},
     {"roomId":{"name":"rm_experiment_select","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},},
+    {"roomId":{"name":"rm_preparacao_de_meios_de_cultura_em_caldo","path":"rooms/rm_preparacao_de_meios_de_cultura_em_caldo/rm_preparacao_de_meios_de_cultura_em_caldo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
