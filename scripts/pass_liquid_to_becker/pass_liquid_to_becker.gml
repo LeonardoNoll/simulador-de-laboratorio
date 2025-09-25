@@ -4,9 +4,7 @@
 /// @param _other (Id.instance): Objeto colidindo
 /// @param _sprite_index (number): Novo sprite
 function pass_liquid_to_becker(_mls, _other, _sprite_index) {
-	// Checa se está colocando no béquer certo
-	// TODO: remover "t1983" na versão final
-	if(string_normalize(global.selected.name) != string_normalize(_other.name) && _other.name != "t1983") {
+	if(string_normalize(global.selected.name) != string_normalize(_other.name)) {
 		create_textbox(x, y, ["Você só pode colocar este líquido no béquer com a marcação certa."])
 		return
 	}
