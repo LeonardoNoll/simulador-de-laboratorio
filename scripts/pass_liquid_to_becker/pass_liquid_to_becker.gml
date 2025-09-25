@@ -6,13 +6,11 @@
 function pass_liquid_to_becker(_mls, _other, _sprite_index) {
 	// Checa se está colocando no béquer certo
 	// TODO: remover "t1983" na versão final
-	show_debug_message(1)
 	if(string_normalize(global.selected.name) != string_normalize(_other.name) && _other.name != "t1983") {
 		create_textbox(x, y, ["Você só pode colocar este líquido no béquer com a marcação certa."])
 		return
 	}
 	
-	show_debug_message(2)
 	var sprite_ctx = global.selected.object_index == obj_acid_bottle 
 					? s_marked_becker_with_HCl
 					: s_marked_becker_with_water
@@ -24,6 +22,7 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
         x: x,
         y: y
     };
+
 
     // Define o callback, ligado ao contexto
     var cb = function(_text, ctx) {
@@ -42,22 +41,22 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
             create_textbox(ctx.x, ctx.y, ["Esta não é a quantia correta de mls. Tente novamente."]);
         }
 	}
+	
+	
     // Chama get_input com callback preparado
 	if(ctx.parent.object_index == obj_stimulated_saliva_experiment_3) {
 		with (ctx.other) {
-			show_debug_message(4)
             if (content == "") {
-                ph = ctx.parent.ph;
-                content = ctx.parent.content;
+                ph = global.selected.ph;
+                content = global.selected.content;
                 sprite_index = ctx.sprite_index;
                 scale_pulse(self, 2, 0.15);
 				options = []
             }
         }
-		ctx.parent.sprite_index = s_sirynge_empty
-		ctx.parent.on_release = undefined
-		ctx.parent.scale_on_contact_list = []
-		show_debug_message(5)
+		global.selected.sprite_index = s_sirynge_empty
+		global.selected.on_release = undefined
+		global.selected.scale_on_contact_list = []
 	} else {
 		get_input(x, y, "Mls a despejar", cb, ctx);
 	}
