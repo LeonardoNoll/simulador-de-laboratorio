@@ -311,6 +311,7 @@
     {"id":{"name":"s_reference_salometria_e","path":"sprites/s_reference_salometria_e/s_reference_salometria_e.yy",},},
     {"id":{"name":"s_reference_salometria_n","path":"sprites/s_reference_salometria_n/s_reference_salometria_n.yy",},},
     {"id":{"name":"s_reference_tutorial","path":"sprites/s_reference_tutorial/s_reference_tutorial.yy",},},
+    {"id":{"name":"s_sample_bottle","path":"sprites/s_sample_bottle/s_sample_bottle.yy",},},
     {"id":{"name":"s_sialometria_estimulada","path":"sprites/s_sialometria_estimulada/s_sialometria_estimulada.yy",},},
     {"id":{"name":"s_sialometria_n_estimulada","path":"sprites/s_sialometria_n_estimulada/s_sialometria_n_estimulada.yy",},},
     {"id":{"name":"s_sirynge_empty","path":"sprites/s_sirynge_empty/s_sirynge_empty.yy",},},

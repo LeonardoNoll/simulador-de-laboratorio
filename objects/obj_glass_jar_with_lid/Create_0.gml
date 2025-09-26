@@ -1,4 +1,16 @@
 event_inherited();
 
-name = "Frasco de vidro com tampa"
+identificado = falso
+
+name = "Frasco de vidro tampa"
 needed_EPI = [obj_lab_coat]
+
+options = [
+	OPTIONS.IDENTIFICAR
+]
+
+content
+
+
+
+

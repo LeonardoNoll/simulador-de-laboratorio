@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_glass_jar_with_lid",
-    "path":"sprites/s_glass_jar_with_lid/s_glass_jar_with_lid.yy",
+    "name":"s_sample_bottle",
+    "path":"sprites/s_sample_bottle/s_sample_bottle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
