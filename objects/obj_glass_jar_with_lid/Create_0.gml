@@ -2,15 +2,14 @@ event_inherited();
 
 identificado = falso
 
-name = "Frasco de vidro tampa"
 needed_EPI = [obj_lab_coat]
+name = "Frasco de vidro tampa"
+content = ""
 
-options = [
-	OPTIONS.IDENTIFICAR
-]
-
-content
+options = [OPTIONS.IDENFICIAR_RECIPIENTE]
 
 
+//ao identificar muda de nome
+//função para passar liquido
 
 
