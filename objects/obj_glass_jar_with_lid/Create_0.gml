@@ -1,6 +1,6 @@
 event_inherited();
 
-identificado = falso
+identificado = false
 
 needed_EPI = [obj_lab_coat]
 name = "Frasco de vidro tampa"
