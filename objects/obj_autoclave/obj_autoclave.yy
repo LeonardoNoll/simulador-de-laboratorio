@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_glass_jar_with_lid",
+  "%Name":"obj_autoclave",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_balance","path":"objects/obj_balance/obj_balance.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_glass_jar_with_lid",
+  "name":"obj_autoclave",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_5",
@@ -35,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_glass_jar_with_lid",
-    "path":"sprites/s_glass_jar_with_lid/s_glass_jar_with_lid.yy",
+    "name":"s_autoclave",
+    "path":"sprites/s_autoclave/s_autoclave.yy",
   },
   "spriteMaskId":null,
   "visible":true,
