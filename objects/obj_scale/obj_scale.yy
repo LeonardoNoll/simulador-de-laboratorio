@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_balance",
+  "%Name":"obj_scale",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_balance",
+  "name":"obj_scale",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_5",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_balance",
-    "path":"sprites/s_balance/s_balance.yy",
+    "name":"s_scale",
+    "path":"sprites/s_scale/s_scale.yy",
   },
   "spriteMaskId":null,
   "visible":true,

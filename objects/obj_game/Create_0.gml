@@ -67,5 +67,5 @@ options_string = [
 	"Fechar centrífuga",
 	"Remover itens",
 	"Mudar a cor",
-	"Colocar pote na balança"
+	"Colocar na balança"
 ]

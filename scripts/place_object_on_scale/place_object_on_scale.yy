@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"place_object_on_scale",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"place_object_on_scale",
+  "parent":{
+    "name":"experiment_5",
+    "path":"folders/Scripts/experiment_5.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
