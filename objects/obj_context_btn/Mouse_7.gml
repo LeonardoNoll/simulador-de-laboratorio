@@ -87,10 +87,6 @@ switch(option) {
 	case OPTIONS.MUDAR_COR:
 		mudarCor()
 		break;
-		
-	case OPTIONS.COLOCAR_OBJETO_NA_BALANCA:
-		colocar_objeto_na_balanca()
-		break;
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

@@ -8,7 +8,7 @@ needed_EPI = [obj_lab_coat]
 name = "Frasco de vidro com tampa"
 content = ""
 
-options = [OPTIONS.IDENTIFICAR]
+options = [OPTIONS.IDENFICIAR_RECIPIENTE]
 
 
 //ao identificar muda de nome

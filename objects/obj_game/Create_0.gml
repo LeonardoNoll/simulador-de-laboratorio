@@ -37,7 +37,6 @@ enum OPTIONS {
 	FECHAR_CENTRIFUGA,
 	REMOVER_ITENS,
 	MUDAR_COR,
-	COLOCAR_OBJETO_NA_BALANCA
 }
 
 options_string = [
@@ -67,5 +66,4 @@ options_string = [
 	"Fechar centrífuga",
 	"Remover itens",
 	"Mudar a cor",
-	"Colocar na balança"
 ]
