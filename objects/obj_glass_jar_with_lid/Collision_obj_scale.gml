@@ -5,12 +5,14 @@
 		x = base_x
 		
 	}else{*/
-		instance_destroy(other)
-		instance_create_layer(973, 400, "Instances", obj_glass_jar_with_lid) // coordenadas da balança
+		//instance_destroy(obj_glass_jar_with_lid)
+		//instance_create_layer(925, 390, "Instances", obj_glass_jar_with_lid) // coordenadas da balança
 		options = [OPTIONS.COLOCAR_OBJETO_NA_BALANCA]
 		locked = true
-		x = 550
-		y = 275
+		//x = 550
+		//y = 275
+		base_x = 925
+		base_y = 390
 
 	
 /*	}

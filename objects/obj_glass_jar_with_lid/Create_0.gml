@@ -1,4 +1,4 @@
-global.selected = noone
+
 
 event_inherited();
 
