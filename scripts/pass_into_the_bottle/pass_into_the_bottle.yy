@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pass_into_the_bottle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pass_into_the_bottle",
+  "parent":{
+    "name":"experiment_5",
+    "path":"folders/Scripts/experiment_5.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

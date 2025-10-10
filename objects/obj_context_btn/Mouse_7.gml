@@ -84,9 +84,10 @@ switch(option) {
 	case OPTIONS.REMOVER_ITENS:
 		remove_itens_from_centrifuge()
 		break
-	case OPTIONS.MUDAR_COR:
-		mudarCor()
-		break;
+		
+	case OPTIONS.PASSAR_PARA_O_FRASCO:
+	
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
