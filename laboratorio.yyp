@@ -345,6 +345,7 @@
     {"id":{"name":"s_water_bath","path":"sprites/s_water_bath/s_water_bath.yy",},},
     {"id":{"name":"s_water_droplet","path":"sprites/s_water_droplet/s_water_droplet.yy",},},
     {"id":{"name":"s_x","path":"sprites/s_x/s_x.yy",},},
+    {"id":{"name":"Sprite106","path":"sprites/Sprite106/Sprite106.yy",},},
     {"id":{"name":"Sprite98","path":"sprites/Sprite98/Sprite98.yy",},},
   ],
   "resourceType":"GMProject",

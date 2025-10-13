@@ -5,7 +5,7 @@ needed_EPI = [obj_lab_coat]
 becker = noone
 
 
-on_release() = function(){
+/*on_release() = function(){
 	if(place_meeting(x,y,obj_glass_jar_with_lid)){
 		becker = instance_nearest(x,y,obj_glass_jar_with_lid)
 		if(is_becker_ready(becker)){
@@ -29,4 +29,4 @@ on_release = function() {
 			spawn_context_menu([OPTIONS.PASSAR_LIQUIDO_AO_BEQUER])
 		}
 	}
-}
+}*/
