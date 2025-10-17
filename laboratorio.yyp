@@ -39,6 +39,7 @@
     {"$GMFolder":"","%Name":"experimento_1_sialometria","folderPath":"folders/Rooms/experimento_1_sialometria.yy","name":"experimento_1_sialometria","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experimento_3_afericao_de_capacidade_tampao","folderPath":"folders/Rooms/experimento_3_afericao_de_capacidade_tampao.yy","name":"experimento_3_afericao_de_capacidade_tampao","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experimento_4_atividade_enzimatica_atividade_salivar","folderPath":"folders/Rooms/experimento_4_atividade_enzimatica_atividade_salivar.yy","name":"experimento_4_atividade_enzimatica_atividade_salivar","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"experiment_6_saliva_na_titulacao_de_bebidas_acidas","folderPath":"folders/Rooms/experiment_6_saliva_na_titulacao_de_bebidas_acidas.yy","name":"experiment_6_saliva_na_titulacao_de_bebidas_acidas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tutorial","folderPath":"folders/Rooms/tutorial.yy","name":"tutorial","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experiment_1_2","folderPath":"folders/Scripts/experiment_1_2.yy","name":"experiment_1_2","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -179,6 +180,7 @@
     {"id":{"name":"rm_1b_normal","path":"rooms/rm_1b_normal/rm_1b_normal.yy",},},
     {"id":{"name":"rm_3_afericao_de_capacidade_tampao","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},},
     {"id":{"name":"rm_4_atividade_enzimatica_atividade_salivar","path":"rooms/rm_4_atividade_enzimatica_atividade_salivar/rm_4_atividade_enzimatica_atividade_salivar.yy",},},
+    {"id":{"name":"rm_6_saliva_na_titulacao_de_bebidas_acidas","path":"rooms/rm_6_saliva_na_titulacao_de_bebidas_acidas/rm_6_saliva_na_titulacao_de_bebidas_acidas.yy",},},
     {"id":{"name":"rm_experiment_select","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_parabens","path":"rooms/rm_parabens/rm_parabens.yy",},},
@@ -342,6 +344,7 @@
     {"roomId":{"name":"rm_3_afericao_de_capacidade_tampao","path":"rooms/rm_3_afericao_de_capacidade_tampao/rm_3_afericao_de_capacidade_tampao.yy",},},
     {"roomId":{"name":"rm_4_atividade_enzimatica_atividade_salivar","path":"rooms/rm_4_atividade_enzimatica_atividade_salivar/rm_4_atividade_enzimatica_atividade_salivar.yy",},},
     {"roomId":{"name":"rm_experiment_select","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},},
+    {"roomId":{"name":"rm_6_saliva_na_titulacao_de_bebidas_acidas","path":"rooms/rm_6_saliva_na_titulacao_de_bebidas_acidas/rm_6_saliva_na_titulacao_de_bebidas_acidas.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
