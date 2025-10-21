@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"pass_amido_to_erlenmeyer",
+  "%Name":"pass_starch_to_erlenmeyer",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"pass_amido_to_erlenmeyer",
+  "name":"pass_starch_to_erlenmeyer",
   "parent":{
     "name":"experiment_4",
     "path":"folders/Scripts/experiment_4.yy",

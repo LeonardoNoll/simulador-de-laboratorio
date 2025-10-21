@@ -90,7 +90,7 @@ switch(option) {
 		mudarCor()
 		break;
 	case OPTIONS.PASSAR_LIQUIDO_ERLENMEYER:
-		pass_amido_to_erlenmeyer()
+		pass_starch_to_erlenmeyer()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
