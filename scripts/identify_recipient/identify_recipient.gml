@@ -7,6 +7,7 @@ function identify_recipient(){
 			}
 			array_substitute_value(options, OPTIONS.IDENFICIAR_RECIPIENTE, OPTIONS.REIDENFICIAR_RECIPIENTE)
 			scale_pulse(self, 2, 0.15)
+			identificado = true
 		})	
 	}
 }

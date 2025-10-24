@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"close_lid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"close_lid",
+  "parent":{
+    "name":"experiment_5",
+    "path":"folders/Scripts/experiment_5.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

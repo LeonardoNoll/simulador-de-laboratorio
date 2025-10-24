@@ -36,6 +36,11 @@ enum OPTIONS {
 	ABRIR_CENTRIFUGA,
 	FECHAR_CENTRIFUGA,
 	REMOVER_ITENS,
+	ABRIR_TAMPA, 
+	FECHAR_TAMPA,
+	ABRIR_AUTOCLAVE, 
+	FECHAR_AUTOCLAVE,
+	PASSAR_PARA_O_FRASCO,
 	MUDAR_COR,
 	PASSAR_LIQUIDO_ERLENMEYER
 }
@@ -66,6 +71,11 @@ options_string = [
 	"Abrir centrífuga",
 	"Fechar centrífuga",
 	"Remover itens",
+	"Abrir a tampa",
+	"Fechar a tampa",
+	"Abrir a autoclave",
+	"Fechar autoclave",
+	"Passar para o frasco",
 	"Mudar a cor",
 	"Passar líquido ao erlenmeyer"
 ]

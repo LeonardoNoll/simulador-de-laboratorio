@@ -86,9 +86,21 @@ switch(option) {
 	case OPTIONS.REMOVER_ITENS:
 		remove_itens_from_centrifuge()
 		break
-	case OPTIONS.MUDAR_COR:
-		mudarCor()
-		break;
+	case OPTIONS.ABRIR_TAMPA:
+		open_lid()
+		break
+	case OPTIONS.FECHAR_TAMPA:
+		close_lid()
+		break
+	case OPTIONS.ABRIR_AUTOCLAVE:
+		open_autoclave()
+		break
+	case OPTIONS.FECHAR_AUTOCLAVE:
+		close_autoclave()
+		break
+	case OPTIONS.PASSAR_PARA_O_FRASCO:
+		pass_into_the_bottle(37, global.selected.becker)
+		break
 	case OPTIONS.PASSAR_LIQUIDO_ERLENMEYER:
 		pass_starch_to_erlenmeyer()
 		break

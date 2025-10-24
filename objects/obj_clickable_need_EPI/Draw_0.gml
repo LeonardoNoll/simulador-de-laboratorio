@@ -1,3 +1,5 @@
+//global.selected = noone; // revisar! 
+
 var target_xscale = (global.selected == id) ? 1.2 : 1;
 var target_yscale = (global.selected == id) ? 1.2 : 1;
 
