@@ -10,6 +10,7 @@
     {"name":"inst_3611D472_1","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},
     {"name":"inst_66C80FFA_1","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},
     {"name":"inst_27DD1643_1","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},
+    {"name":"inst_6AF53460","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},
     {"name":"inst_72753DC","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},
   ],
   "isDnd":false,

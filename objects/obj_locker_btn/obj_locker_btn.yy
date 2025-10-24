@@ -32,7 +32,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"itens","filters":[],"listItems":[
         "\"Item 0\"",
-      ],"multiselect":false,"name":"itens","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
+      ],"multiselect":false,"name":"itens","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[obj_glove, obj_lab_coat, obj_goggles]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

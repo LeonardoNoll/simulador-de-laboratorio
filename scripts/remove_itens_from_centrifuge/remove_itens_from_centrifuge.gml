@@ -1,18 +1,28 @@
 // Subject to change
 function remove_itens_from_centrifuge(){
+	update_falcon_tube()
+
 	array_delete_value(obj_centrifuge.options, OPTIONS.REMOVER_ITENS)
+	if(!obj_falcon_tube.centrifuged) {
+		return
+	}
+				
+	spawn_water_bath()
+}   
+
+function update_falcon_tube() {
 	with(obj_falcon_tube) {
 		is_in_centrifuge = false
 		on_release = insert_in_centrifuge // Subject to change
 		sprite_index = s_falcon_tube_filled
 		scale_pulse(self, 2, 0.15)
 	}
-	
-	if(!obj_falcon_tube.centrifuged) return
-				
+}
+
+function spawn_water_bath(){
 	with(global.selected) {
-		instance_create_depth(x - 20, y, depth, obj_water_bath)
-		instance_create_depth(x-190, y - 34, depth, obj_25ml_becker)
-		instance_destroy(global.selected)
+		instance_create_layer(x - 20, y, "Instances", obj_water_bath)
+		instance_create_layer(570, 420, "Instances", obj_erlenmeyer_experiment_4)
+		instance_destroy()
 	}
 }

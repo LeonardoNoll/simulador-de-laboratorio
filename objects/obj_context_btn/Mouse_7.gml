@@ -73,6 +73,8 @@ switch(option) {
 		change_pipette()
 		break
 	case OPTIONS.PASSAR_LIQUIDO_AO_BEQUER:
+		show_debug_message(global.selected.name)
+		show_debug_message(global.selected.becker.name)
 		pass_liquid_to_becker(15,global.selected.becker, s_marked_becker_with_HCl)
 		break
 	case OPTIONS.ABRIR_CENTRIFUGA:
@@ -98,6 +100,9 @@ switch(option) {
 		break
 	case OPTIONS.PASSAR_PARA_O_FRASCO:
 		pass_into_the_bottle(37, global.selected.becker)
+		break
+	case OPTIONS.PASSAR_LIQUIDO_ERLENMEYER:
+		pass_starch_to_erlenmeyer()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])

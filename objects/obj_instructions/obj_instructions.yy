@@ -34,12 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_instruction_sticker",
-    "path":"sprites/s_instruction_sticker/s_instruction_sticker.yy",
+    "name":"s_instructions_sticker",
+    "path":"sprites/s_instructions_sticker/s_instructions_sticker.yy",
   },
-  "spriteMaskId":{
-    "name":"s_instruction_sticker",
-    "path":"sprites/s_instruction_sticker/s_instruction_sticker.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

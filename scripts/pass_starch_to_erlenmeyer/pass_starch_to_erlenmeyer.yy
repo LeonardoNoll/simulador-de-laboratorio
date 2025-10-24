@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pass_starch_to_erlenmeyer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pass_starch_to_erlenmeyer",
+  "parent":{
+    "name":"experiment_4",
+    "path":"folders/Scripts/experiment_4.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
