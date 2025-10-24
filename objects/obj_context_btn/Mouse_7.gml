@@ -84,9 +84,20 @@ switch(option) {
 	case OPTIONS.REMOVER_ITENS:
 		remove_itens_from_centrifuge()
 		break
-		
+	case OPTIONS.ABRIR_TAMPA:
+		open_lid()
+		break
+	case OPTIONS.FECHAR_TAMPA:
+		close_lid()
+		break
+	case OPTIONS.ABRIR_AUTOCLAVE:
+		open_autoclave()
+		break
+	case OPTIONS.FECHAR_AUTOCLAVE:
+		close_autoclave()
+		break
 	case OPTIONS.PASSAR_PARA_O_FRASCO:
-	
+		pass_into_the_bottle(37, global.selected.becker)
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])

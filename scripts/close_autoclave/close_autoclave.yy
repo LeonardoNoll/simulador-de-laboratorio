@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"close_autoclave",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"close_autoclave",
+  "parent":{
+    "name":"experiment_5",
+    "path":"folders/Scripts/experiment_5.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

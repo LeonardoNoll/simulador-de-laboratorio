@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_glass_jar_with_lid",
+  "%Name":"obj_empty",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_scale","path":"objects/obj_scale/obj_scale.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_glass_jar_with_lid",
+  "name":"obj_empty",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_5",
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_glass_jar_with_lid",
-    "path":"sprites/s_glass_jar_with_lid/s_glass_jar_with_lid.yy",
+    "name":"s_empty_flask",
+    "path":"sprites/s_empty_flask/s_empty_flask.yy",
   },
   "spriteMaskId":null,
   "visible":true,
