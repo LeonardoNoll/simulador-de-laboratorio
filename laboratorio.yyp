@@ -19,8 +19,8 @@
     {"$GMFolder":"","%Name":"experiment_3","folderPath":"folders/Objects/experiment_3.yy","name":"experiment_3","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experiment_4","folderPath":"folders/Objects/experiment_4.yy","name":"experiment_4","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"centrifuge","folderPath":"folders/Objects/experiment_4/centrifuge.yy","name":"centrifuge","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"experiment_bebidasAcidas","folderPath":"folders/Objects/experiment_bebidasAcidas.yy","name":"experiment_bebidasAcidas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experiment_5","folderPath":"folders/Objects/experiment_5.yy","name":"experiment_5","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"experiment_bebidasAcidas","folderPath":"folders/Objects/experiment_bebidasAcidas.yy","name":"experiment_bebidasAcidas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GUI","folderPath":"folders/Objects/GUI.yy","name":"GUI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"btns","folderPath":"folders/Objects/GUI/btns.yy","name":"btns","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"congratulations","folderPath":"folders/Objects/GUI/btns/congratulations.yy","name":"congratulations","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -80,7 +80,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.0.884",
+    "IDEVersion":"2024.1400.0.901",
   },
   "name":"laboratorio",
   "resources":[
@@ -325,8 +325,6 @@
     {"id":{"name":"s_reference_salometria_n","path":"sprites/s_reference_salometria_n/s_reference_salometria_n.yy",},},
     {"id":{"name":"s_reference_tutorial","path":"sprites/s_reference_tutorial/s_reference_tutorial.yy",},},
     {"id":{"name":"s_scale","path":"sprites/s_scale/s_scale.yy",},},
-    {"id":{"name":"s_sialometria_estimulada","path":"sprites/s_sialometria_estimulada/s_sialometria_estimulada.yy",},},
-    {"id":{"name":"s_sialometria_n_estimulada","path":"sprites/s_sialometria_n_estimulada/s_sialometria_n_estimulada.yy",},},
     {"id":{"name":"s_sirynge_empty","path":"sprites/s_sirynge_empty/s_sirynge_empty.yy",},},
     {"id":{"name":"s_solucao_amido","path":"sprites/s_solucao_amido/s_solucao_amido.yy",},},
     {"id":{"name":"s_stopwatch","path":"sprites/s_stopwatch/s_stopwatch.yy",},},
@@ -358,6 +356,7 @@
     {"id":{"name":"s_water_droplet","path":"sprites/s_water_droplet/s_water_droplet.yy",},},
     {"id":{"name":"s_x","path":"sprites/s_x/s_x.yy",},},
     {"id":{"name":"Sprite106","path":"sprites/Sprite106/Sprite106.yy",},},
+    {"id":{"name":"Sprite92","path":"sprites/Sprite92/Sprite92.yy",},},
     {"id":{"name":"Sprite98","path":"sprites/Sprite98/Sprite98.yy",},},
   ],
   "resourceType":"GMProject",
@@ -375,6 +374,7 @@
     {"roomId":{"name":"rm_4_atividade_enzimatica_atividade_salivar","path":"rooms/rm_4_atividade_enzimatica_atividade_salivar/rm_4_atividade_enzimatica_atividade_salivar.yy",},},
     {"roomId":{"name":"rm_experiment_select","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},},
     {"roomId":{"name":"rm_preparacao_de_meios_de_cultura_em_caldo","path":"rooms/rm_preparacao_de_meios_de_cultura_em_caldo/rm_preparacao_de_meios_de_cultura_em_caldo.yy",},},
+    {"roomId":{"name":"rm_6_saliva_na_titulacao_de_bebidas_acidas","path":"rooms/rm_6_saliva_na_titulacao_de_bebidas_acidas/rm_6_saliva_na_titulacao_de_bebidas_acidas.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

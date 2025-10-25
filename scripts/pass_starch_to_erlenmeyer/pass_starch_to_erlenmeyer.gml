@@ -1,4 +1,4 @@
-function pass_amido_to_erlenmeyer(){	
+function pass_starch_to_erlenmeyer(){	
     // Define o callback, ligado ao contexto
     var cb = function(_text) {
 		var _meyer = instance_nearest(x, y, obj_erlenmeyer_experiment_4)
