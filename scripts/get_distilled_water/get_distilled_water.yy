@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_grams",
+  "%Name":"get_distilled_water",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_grams",
+  "name":"get_distilled_water",
   "parent":{
     "name":"experiment_5",
     "path":"folders/Scripts/experiment_5.yy",

@@ -99,10 +99,16 @@ switch(option) {
 		close_autoclave()
 		break
 	case OPTIONS.PASSAR_PARA_O_FRASCO:
-		pass_into_the_bottle(37, global.selected.becker)
+		pass_into_the_bottle()
 		break
 	case OPTIONS.PASSAR_LIQUIDO_ERLENMEYER:
 		pass_starch_to_erlenmeyer()
+		break
+	case OPTIONS.PASSAR_LIQUIDO_PARA_O_FRASCO:
+		pass_liquid_to_glass_jar()
+		break
+	case OPTIONS.PEGAR_AGUA_DESTILADA:
+		get_distilled_water()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
