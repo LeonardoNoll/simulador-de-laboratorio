@@ -41,7 +41,7 @@ enum OPTIONS {
 	ABRIR_AUTOCLAVE, 
 	FECHAR_AUTOCLAVE,
 	PASSAR_PARA_O_FRASCO,
-	MUDAR_COR,
+	//MUDAR_COR,
 	PASSAR_LIQUIDO_ERLENMEYER, 
 	PASSAR_LIQUIDO_PARA_O_FRASCO,
 	PEGAR_AGUA_DESTILADA
@@ -77,7 +77,7 @@ options_string = [
 	"Fechar a tampa",
 	"Abrir a autoclave",
 	"Fechar autoclave",
-	"Mudar a cor",
+	//"Mudar a cor",
 	"Passar para o frasco", 
 	"Passar líquido ao erlenmeyer",
 	"Passar a água destilada ao frasco",

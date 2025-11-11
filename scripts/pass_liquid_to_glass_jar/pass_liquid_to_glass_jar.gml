@@ -1,11 +1,7 @@
-//@function pass_liquid_to_glass_jar()
+//@function pass_liquid_to_glass_jar(_jar)
 //@description passa a água destilada para o frasco de vidro 
-
 function pass_liquid_to_glass_jar(){
-	with(global.selected){
-		if(object_index == obj_glass_jar_with_lid){
-			sprite_index = s_glass_bhi_distilled_water
-		}
-	}
-
+	var _glass_jar = instance_nearest(x, y, obj_glass_jar_with_lid)
+	_glass_jar.sprite_index = s_glass_bhi_distilled_water; // muda a sprite
+	_glass_jar.name = "Frasco de vidro com o meio desidratado e água destilada" // muda o nome 
 }

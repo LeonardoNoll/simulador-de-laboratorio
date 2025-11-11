@@ -8,13 +8,15 @@ function pass_into_the_bottle(){
 		//verifica se o valor está correto
         if (string_digits(_text) == 37) {
 			_glass_jar.sprite_index = s_glass_bhi // muda a sprite (frasco com o meio desidratado)
+			_glass_jar.name = "frasco de vidro com 37g de meio desidratado"
         } else {
 			// mensagem de erro
-            create_textbox(_cylinder.x, _cylinder.y, ["Esta não é a quantia correta de g. Tente novamente."]);
+            create_textbox(_glass_jar.x, _glass_jar.y, ["Esta não é a quantia correta de g. Tente novamente."]);
         }
 	}
 	get_input(x, y, "Digite a quantidade de g", cb);
-
+	
+	contem_meio = true
 }
 
 

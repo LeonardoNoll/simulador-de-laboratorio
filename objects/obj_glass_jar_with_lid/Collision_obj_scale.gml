@@ -14,7 +14,7 @@ if(!identificado){
 }else{
 	// posiciona o frasco na balança
 	var _scale = instance_nearest(x, y, obj_scale)
-	base_x = (_scale.x - 23)
-	base_y = (_scale.y - 59)
+	base_x = (_scale.x - 5)
+	base_y = (_scale.y - 36)
 }
 
