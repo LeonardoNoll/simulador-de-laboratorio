@@ -80,7 +80,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.0.901",
+    "IDEVersion":"2024.1400.0.884",
   },
   "name":"laboratorio",
   "resources":[
@@ -118,6 +118,7 @@
     {"id":{"name":"obj_centrifuge","path":"objects/obj_centrifuge/obj_centrifuge.yy",},},
     {"id":{"name":"obj_clickable_cell","path":"objects/obj_clickable_cell/obj_clickable_cell.yy",},},
     {"id":{"name":"obj_clickable_need_EPI","path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",},},
+    {"id":{"name":"Obj_coffeeBottle","path":"objects/Obj_coffeeBottle/Obj_coffeeBottle.yy",},},
     {"id":{"name":"obj_col_header","path":"objects/obj_col_header/obj_col_header.yy",},},
     {"id":{"name":"obj_context_btn","path":"objects/obj_context_btn/obj_context_btn.yy",},},
     {"id":{"name":"obj_context_menu","path":"objects/obj_context_menu/obj_context_menu.yy",},},
