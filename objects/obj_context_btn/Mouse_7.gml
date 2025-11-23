@@ -110,6 +110,9 @@ switch(option) {
 	case OPTIONS.PEGAR_AGUA_DESTILADA:
 		get_distilled_water()
 		break
+	case OPTIONS.LIGAR_AGITADOR_MAGNETICO:
+		magnetic_stirrer()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

@@ -44,7 +44,8 @@ enum OPTIONS {
 	//MUDAR_COR,
 	PASSAR_LIQUIDO_ERLENMEYER, 
 	PASSAR_LIQUIDO_PARA_O_FRASCO,
-	PEGAR_AGUA_DESTILADA
+	PEGAR_AGUA_DESTILADA,
+	LIGAR_AGITADOR_MAGNETICO
 }
 
 options_string = [
@@ -81,5 +82,6 @@ options_string = [
 	"Passar para o frasco", 
 	"Passar líquido ao erlenmeyer",
 	"Passar a água destilada ao frasco",
-	"Pegar água destilada"
+	"Pegar água destilada",
+	"Ligar agitador magnético"
 ]
