@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_coffeeBottle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_cocacolaBottle",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_coffeeBottle",
+  "name":"Obj_cocacolaBottle",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",
     "path":"folders/Objects/experiment_bebidasAcidas.yy",
   },
-  "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_coffeeBottle",
-    "path":"sprites/s_coffeeBottle/s_coffeeBottle.yy",
+    "name":"s_cocacola_bottle",
+    "path":"sprites/s_cocacola_bottle/s_cocacola_bottle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
