@@ -14,6 +14,6 @@ function get_distilled_water(){
             create_textbox(_cylinder.x, _cylinder.y, ["Esta não é a quantia correta de L. Tente novamente."]);
         }
 	}
-	get_input(x, y, "Digite a quantidade de L", cb);
+	get_input(x+10, y, "Quantidade de L", cb);
 }
 

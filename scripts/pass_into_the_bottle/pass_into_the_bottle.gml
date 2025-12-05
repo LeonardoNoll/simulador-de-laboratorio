@@ -14,7 +14,7 @@ function pass_into_the_bottle(){
             create_textbox(_glass_jar.x, _glass_jar.y, ["Esta não é a quantia correta de g. Tente novamente."]);
         }
 	}
-	get_input(x, y, "Digite a quantidade de g", cb);
+	get_input(x+45, y-25, "Quantidade de g", cb);
 	contem_meio = true
 }
 

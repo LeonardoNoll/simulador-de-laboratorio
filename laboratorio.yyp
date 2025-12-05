@@ -197,6 +197,7 @@
     {"id":{"name":"rm_tutorial_2","path":"rooms/rm_tutorial_2/rm_tutorial_2.yy",},},
     {"id":{"name":"array_delete_value","path":"scripts/array_delete_value/array_delete_value.yy",},},
     {"id":{"name":"array_substitute_value","path":"scripts/array_substitute_value/array_substitute_value.yy",},},
+    {"id":{"name":"autoclave","path":"scripts/autoclave/autoclave.yy",},},
     {"id":{"name":"change_pipette","path":"scripts/change_pipette/change_pipette.yy",},},
     {"id":{"name":"check_EPI","path":"scripts/check_EPI/check_EPI.yy",},},
     {"id":{"name":"close_autoclave","path":"scripts/close_autoclave/close_autoclave.yy",},},

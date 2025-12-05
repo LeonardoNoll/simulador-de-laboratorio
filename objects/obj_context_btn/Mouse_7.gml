@@ -113,6 +113,9 @@ switch(option) {
 	case OPTIONS.LIGAR_AGITADOR_MAGNETICO:
 		magnetic_stirrer()
 		break
+	case OPTIONS.LIGAR_AUTOCLAVE:
+		autoclave()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
