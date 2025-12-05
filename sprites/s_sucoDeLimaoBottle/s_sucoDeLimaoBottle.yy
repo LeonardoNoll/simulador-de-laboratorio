@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"s_coffeeBottle",
+  "%Name":"s_sucoDeLimaoBottle",
   "bboxMode":0,
   "bbox_bottom":124,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"14f09b28-a3d7-4bc4-ab98-63ce72e96cc0","name":"14f09b28-a3d7-4bc4-ab98-63ce72e96cc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e290da85-60c6-4cb1-b61d-965adce3bd1d","name":"e290da85-60c6-4cb1-b61d-965adce3bd1d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":125,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1103dd45-d275-4e2b-b599-270fc1a9f8c2","blendMode":0,"displayName":"default","isLocked":false,"name":"1103dd45-d275-4e2b-b599-270fc1a9f8c2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"560c4180-a693-4410-897e-859696a287d5","blendMode":0,"displayName":"default","isLocked":false,"name":"560c4180-a693-4410-897e-859696a287d5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_coffeeBottle",
+  "name":"s_sucoDeLimaoBottle",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"s_coffeeBottle",
+    "%Name":"s_sucoDeLimaoBottle",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_coffeeBottle",
+    "name":"s_sucoDeLimaoBottle",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"14f09b28-a3d7-4bc4-ab98-63ce72e96cc0","path":"sprites/s_coffeeBottle/s_coffeeBottle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7bc8db4e-2f95-4d7b-a63a-e81f38b4fd2f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e290da85-60c6-4cb1-b61d-965adce3bd1d","path":"sprites/s_sucoDeLimaoBottle/s_sucoDeLimaoBottle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ee99ff68-2294-41da-a8b6-de62eea7ebfb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
