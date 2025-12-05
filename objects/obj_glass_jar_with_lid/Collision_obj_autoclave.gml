@@ -3,4 +3,3 @@ base_x = (_autoclave.x - 5)
 base_y = (_autoclave.y - 36)
 
 instance_destroy()
-
