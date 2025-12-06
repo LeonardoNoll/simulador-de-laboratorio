@@ -1,13 +1,23 @@
-function pass_into_the_bottle(obj_bhi_flask, obj_glass_jar_with_lid){
-    if (place_meeting(obj_bhi_flask.x, obj_bhi_flask.y, obj_glass_jar_with_lid)) {
-        if (get_grams()) {
-            // Aqui você pode trocar uma variável de estado dos objetos
-            //jar.has_medium = true;
-            //beaker.has_medium = false;
-
-            show_message("Conteúdo transferido com sucesso!");
+//@function pass_into_the_bottles()
+//@description passa o meio desidratado ao frasco
+function pass_into_the_bottle(){
+	
+	var cb = function(_text) {
+		// verifica a posição do frasco de vidro
+		var _glass_jar = instance_nearest(x, y, obj_glass_jar_with_lid)
+		//verifica se o valor está correto
+        if (string_digits(_text) == 37) {
+			_glass_jar.sprite_index = s_glass_bhi // muda a sprite (frasco com o meio desidratado)
+			_glass_jar.name = "frasco de vidro com 37g de meio desidratado" // muda o nome
+        } else {
+			// mensagem de erro
+            create_textbox(_glass_jar.x, _glass_jar.y, ["Esta não é a quantia correta de g. Tente novamente."]);
         }
-    }
-
-
+	}
+	get_input(x+45, y-25, "Quantidade de g", cb);
+	contem_meio = true
 }
+
+
+
+

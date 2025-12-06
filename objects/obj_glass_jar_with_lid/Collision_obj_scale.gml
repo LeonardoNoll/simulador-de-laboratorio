@@ -1,3 +1,5 @@
+// COLISÃO COM A BALANÇA: verifica se o frasco já foi identificado, se está aberto e o posiciona na balança
+
 // verifica se o frasco foi identificado
 if(!identificado){
 	create_textbox(mouse_x-200, mouse_y-100, ["Você precisa identificar o frasco antes de usar a balança"])
@@ -10,19 +12,9 @@ if(!identificado){
 	y = base_y
 	x = base_x
 }else{
-	base_x = 925
-	base_y = 390
+	// posiciona o frasco na balança
+	var _scale = instance_nearest(x, y, obj_scale)
+	base_x = (_scale.x - 5)
+	base_y = (_scale.y - 36)
 }
 
-/*if(sprite_index == s_glass_jar_with_lid){
-	create_textbox(mouse_x-200, mouse_y-100, ["Você precisa abrir o pote antes de usar a balança"])
-	y = base_y
-	x = base_x
-}else if(!identificado){
-	create_textbox(mouse_x-200, mouse_y-100, ["Você precisa identificar o pote antes de usar a balança"])
-	y = base_y
-	x = base_x
-}else{
-	base_x = 925
-	base_y = 390
-}*/
