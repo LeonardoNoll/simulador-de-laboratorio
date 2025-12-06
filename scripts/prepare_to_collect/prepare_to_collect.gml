@@ -2,7 +2,7 @@ function prepare_to_collect(){
 	if(instance_nearest(0,0,obj_patient_head).pronto_para_coleta) {
 		with (global.selected) {
 			var _cronometer_x = room_width - 190
-			var _cronometer_y = 190
+			var _cronometer_y = 100
 			var _cronometer = instance_create_layer(_cronometer_x, _cronometer_y, "GUI", obj_cronometer)
 			// Definir comportamente do inicio da contagem
 			_cronometer.on_count_start = function () {
