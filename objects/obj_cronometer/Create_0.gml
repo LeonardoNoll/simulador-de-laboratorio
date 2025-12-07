@@ -14,6 +14,7 @@ on_count_fail = function () {}
 on_count_sucess = function () {}
 
 name = "Cronômetro"
+needed_EPI = []
 locked = true
 options = [
 	OPTIONS.MAIS_1_MINUTO,

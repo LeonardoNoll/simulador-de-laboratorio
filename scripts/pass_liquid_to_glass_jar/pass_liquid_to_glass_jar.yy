@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pass_liquid_to_glass_jar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pass_liquid_to_glass_jar",
+  "parent":{
+    "name":"experiment_5",
+    "path":"folders/Scripts/experiment_5.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
