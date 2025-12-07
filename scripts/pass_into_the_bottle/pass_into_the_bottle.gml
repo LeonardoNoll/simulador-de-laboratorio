@@ -2,9 +2,11 @@
 //@description passa o meio desidratado ao frasco
 function pass_into_the_bottle(){
 	
-	if(obj_glass_jar_with_lid.name != "BHI caldo"){
-		create_textbox(x, y, ["Este frasco não foi identificado com o nome correto"])
+	if(obj_glass_jar_with_lid.name != "BHI caldo" && obj_glass_jar_with_lid.name != "bhi caldo"){
+		create_textbox(x, y, ["Este frasco não foi identificado com o nome correto, você deve identificar novamente."])
 	}else{	
+		
+		
 		var cb = function(_text) {
 			// verifica a posição do frasco de vidro
 			var _glass_jar = instance_nearest(x, y, obj_glass_jar_with_lid)

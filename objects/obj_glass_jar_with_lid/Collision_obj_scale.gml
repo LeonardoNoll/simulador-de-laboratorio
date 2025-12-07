@@ -1,4 +1,4 @@
-// COLISÃO COM A BALANÇA: verifica se o frasco já foi identificado, se está aberto e o posiciona na balança
+on_scale = true // verifica se o frasco está na balança
 
 // verifica se o frasco foi identificado
 if(!identificado){

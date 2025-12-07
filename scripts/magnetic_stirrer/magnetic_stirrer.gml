@@ -10,8 +10,8 @@ function magnetic_stirrer(){
 					base_x = (_autoclave.x)
 					base_y = (_autoclave.y)
 
-
-					instance_destroy()
+					// function em outro script e chamar no on_release
+					//instance_destroy()
 				}
 			
 			}
