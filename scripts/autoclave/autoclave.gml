@@ -7,11 +7,11 @@ function autoclave(){
 	//var _cronometer_y = 120 // um pouco mais para cima 
 	var _cronometer = instance_create_layer(_cronometer_x, _cronometer_y, "GUI", obj_cronometer)
 	
-	_cronometer.on_count_start = function () {
+	/*_cronometer.on_count_start = function () {
 		if(global.particle_sys != noone) {
 				part_system_destroy(global.particle_sys)
 		}
-	}
+	}*/
 	
 	/*_cronometer.on_count_sucess = function() {
 			

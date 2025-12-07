@@ -9,5 +9,6 @@ content = ""
 
 options = [OPTIONS.IDENFICIAR_RECIPIENTE, OPTIONS.ABRIR_TAMPA, OPTIONS.FECHAR_TAMPA]
 
+on_scale = false // verifica se está na balança
 
 
