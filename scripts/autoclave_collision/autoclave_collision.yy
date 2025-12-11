@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"autoclave_collision",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"autoclave_collision",
+  "parent":{
+    "name":"experiment_5",
+    "path":"folders/Scripts/experiment_5.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

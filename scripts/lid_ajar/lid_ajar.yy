@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"lid_ajar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"lid_ajar",
+  "parent":{
+    "name":"experiment_5",
+    "path":"folders/Scripts/experiment_5.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

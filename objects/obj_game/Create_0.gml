@@ -37,7 +37,7 @@ enum OPTIONS {
 	FECHAR_CENTRIFUGA,
 	REMOVER_ITENS,
 	ABRIR_TAMPA, 
-	FECHAR_TAMPA,
+	TAMPA_ENTREABERTA,
 	ABRIR_AUTOCLAVE, 
 	FECHAR_AUTOCLAVE,
 	PASSAR_PARA_O_FRASCO,
@@ -46,7 +46,9 @@ enum OPTIONS {
 	PASSAR_LIQUIDO_PARA_O_FRASCO,
 	PEGAR_AGUA_DESTILADA,
 	LIGAR_AGITADOR_MAGNETICO,
-	LIGAR_AUTOCLAVE
+	LIGAR_AUTOCLAVE,
+	REMOVER_FRASCO,
+	FECHAR_TAMPA
 }
 
 options_string = [
@@ -76,7 +78,7 @@ options_string = [
 	"Fechar centrífuga",
 	"Remover itens",
 	"Abrir a tampa",
-	"Fechar a tampa",
+	"Deixar tampa entreaberta",
 	"Abrir a autoclave",
 	"Fechar autoclave",
 	//"Mudar a cor",
@@ -85,5 +87,7 @@ options_string = [
 	"Passar para o frasco",
 	"Pegar água destilada",
 	"Ligar agitador magnético",
-	"Ligar autoclave"
+	"Ligar autoclave",
+	"Remover o frasco de vidro",
+	"Fechar a tampa"
 ]

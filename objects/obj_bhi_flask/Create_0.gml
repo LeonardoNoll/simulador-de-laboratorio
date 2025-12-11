@@ -9,7 +9,7 @@ becker = noone
 
 on_release = function() {
 	
-	becker = instance_nearest(x, y, obj_glass_jar_with_lid);
+	becker = instance_nearest(x, y, obj_glass_jar_with_lid)
 	
 	if (!becker.on_scale) {
 		create_textbox(mouse_x-200, mouse_y-100, ["O frasco precisa estar na balança"])
@@ -18,7 +18,7 @@ on_release = function() {
 
 	if(place_meeting(x, y, obj_glass_jar_with_lid)) {
 		if(is_becker_ready(becker)) {
-			spawn_context_menu([OPTIONS.PASSAR_PARA_O_FRASCO]);
+			spawn_context_menu([OPTIONS.PASSAR_PARA_O_FRASCO])
 		}
 	}
 }

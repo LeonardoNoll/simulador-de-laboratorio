@@ -23,8 +23,8 @@ on_release = function() {
             }
         }
     }else {
-        x = base_x;
-        y = base_y;
+        x = base_x
+        y = base_y
     }
 }
 
