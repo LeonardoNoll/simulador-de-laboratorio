@@ -1,5 +1,4 @@
 if (drag_mode) {
-	window_set_cursor(cr_none)
 	x = mouse_x + xx;
 	y = mouse_y + yy;
 } 

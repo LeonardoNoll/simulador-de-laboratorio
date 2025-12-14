@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_water_bath",
+  "%Name":"obj_water_bath_agitation_btn",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_water_bath",
+  "name":"obj_water_bath_agitation_btn",
   "overriddenProperties":[],
   "parent":{
     "name":"water_bath",
     "path":"folders/Objects/experiment_4/water_bath.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_water_bath_base_btn",
+    "path":"objects/obj_water_bath_base_btn/obj_water_bath_base_btn.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_water_bath",
-    "path":"sprites/s_water_bath/s_water_bath.yy",
+    "name":"s_water_bath_agitation_btn",
+    "path":"sprites/s_water_bath_agitation_btn/s_water_bath_agitation_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

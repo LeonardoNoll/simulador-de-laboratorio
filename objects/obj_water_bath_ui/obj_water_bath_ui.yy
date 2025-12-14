@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_water_bath",
+  "%Name":"obj_water_bath_ui",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_water_bath",
+  "name":"obj_water_bath_ui",
   "overriddenProperties":[],
   "parent":{
     "name":"water_bath",
     "path":"folders/Objects/experiment_4/water_bath.yy",
   },
-  "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_water_bath",
-    "path":"sprites/s_water_bath/s_water_bath.yy",
+    "name":"s_water_bath_ui_background",
+    "path":"sprites/s_water_bath_ui_background/s_water_bath_ui_background.yy",
   },
   "spriteMaskId":null,
   "visible":true,
