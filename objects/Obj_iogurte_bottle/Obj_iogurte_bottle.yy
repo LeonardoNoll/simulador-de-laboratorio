@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_peagametro",
+  "%Name":"Obj_iogurte_bottle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_peagametro",
+  "name":"Obj_iogurte_bottle",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_phmetro",
-    "path":"sprites/s_phmetro/s_phmetro.yy",
+    "name":"s_iogurte_bottle",
+    "path":"sprites/s_iogurte_bottle/s_iogurte_bottle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

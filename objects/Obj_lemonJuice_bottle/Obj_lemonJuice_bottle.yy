@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_lemonJuiceBottle",
-  "eventList":[],
+  "%Name":"Obj_lemonJuice_bottle",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_lemonJuiceBottle",
+  "name":"Obj_lemonJuice_bottle",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",
     "path":"folders/Objects/experiment_bebidasAcidas.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_sucoDeLimaoBottle",
-    "path":"sprites/s_sucoDeLimaoBottle/s_sucoDeLimaoBottle.yy",
+    "name":"s_lemonjuice_bottle",
+    "path":"sprites/s_lemonjuice_bottle/s_lemonjuice_bottle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

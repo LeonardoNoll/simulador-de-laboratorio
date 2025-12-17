@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"s_cocacola_bottle",
+  "%Name":"s_lemonjuice_bottle",
   "bboxMode":0,
   "bbox_bottom":124,
   "bbox_left":0,
-  "bbox_right":36,
+  "bbox_right":37,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"8fcbb7b6-9ba9-4187-9d3a-fa06e5e4c952","name":"8fcbb7b6-9ba9-4187-9d3a-fa06e5e4c952","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a7caf2c0-6d99-45e1-88c8-ba9dd6e90a64","name":"a7caf2c0-6d99-45e1-88c8-ba9dd6e90a64","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":125,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c3e00b82-f533-42e7-91d4-ce6ce9e5683e","blendMode":0,"displayName":"default","isLocked":false,"name":"c3e00b82-f533-42e7-91d4-ce6ce9e5683e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"bd8ce817-838a-4ac3-be30-bffad0bd0403","blendMode":0,"displayName":"default","isLocked":false,"name":"bd8ce817-838a-4ac3-be30-bffad0bd0403","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"s_cocacola_bottle",
+  "name":"s_lemonjuice_bottle",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"s_cocacola_bottle",
+    "%Name":"s_lemonjuice_bottle",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"s_cocacola_bottle",
+    "name":"s_lemonjuice_bottle",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8fcbb7b6-9ba9-4187-9d3a-fa06e5e4c952","path":"sprites/s_cocacola_bottle/s_cocacola_bottle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dda8d5ee-d5d4-4189-9573-48362d93ef42","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7caf2c0-6d99-45e1-88c8-ba9dd6e90a64","path":"sprites/s_lemonjuice_bottle/s_lemonjuice_bottle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f0cc4f3f-f420-4d1b-9ed5-382e0fab5595","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -88,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":37,
+  "width":38,
 }

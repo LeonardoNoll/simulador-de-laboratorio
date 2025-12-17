@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_coffeeBottle",
+  "%Name":"Obj_coffee_bottle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_coffeeBottle",
+  "name":"Obj_coffee_bottle",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_coffeeBottle",
-    "path":"sprites/s_coffeeBottle/s_coffeeBottle.yy",
+    "name":"s_coffee_bottle",
+    "path":"sprites/s_coffee_bottle/s_coffee_bottle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
