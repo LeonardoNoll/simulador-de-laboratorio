@@ -1,14 +1,2 @@
+event_inherited();
 name = "Café"
-xx = 0
-yy = 0
-base_x = x 
-base_y = y
-options = []
-needed_EPI = [obj_lab_coat]
-scale_on_contact_list = []
-tool_tip = noone
-on_release = undefined
-drag_mode = false;
-locked = false
-scale_pulse_data = undefined
-default_depth = depth

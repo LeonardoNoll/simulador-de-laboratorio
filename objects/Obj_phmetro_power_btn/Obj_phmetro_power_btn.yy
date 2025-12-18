@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_peagametro",
+  "%Name":"Obj_phmetro_power_btn",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_peagametro",
+  "name":"Obj_phmetro_power_btn",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_phmetro",
-    "path":"sprites/s_phmetro/s_phmetro.yy",
+    "name":"s_phmetro_power_btn",
+    "path":"sprites/s_phmetro_power_btn/s_phmetro_power_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,
