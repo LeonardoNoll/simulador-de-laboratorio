@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_phmetro_btn_parent",
+  "%Name":"obj_phmetro_btn_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_phmetro_btn_parent",
+  "name":"obj_phmetro_btn_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",

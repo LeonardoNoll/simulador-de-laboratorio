@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_energetico_bottle",
+  "%Name":"obj_energetico_bottle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_energetico_bottle",
+  "name":"obj_energetico_bottle",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",

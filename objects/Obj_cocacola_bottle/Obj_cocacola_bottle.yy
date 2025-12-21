@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_cocacola_bottle",
+  "%Name":"obj_cocacola_bottle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_cocacola_bottle",
+  "name":"obj_cocacola_bottle",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",

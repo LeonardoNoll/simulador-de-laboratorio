@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_isotonico_bottle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_phmetro_medicao_btn",
+  "eventList":[],
   "managed":true,
-  "name":"obj_isotonico_bottle",
+  "name":"obj_phmetro_medicao_btn",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_bebidasAcidas",
     "path":"folders/Objects/experiment_bebidasAcidas.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_phmetro_btn_parent",
+    "path":"objects/obj_phmetro_btn_parent/obj_phmetro_btn_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_isotonico_bottle",
-    "path":"sprites/s_isotonico_bottle/s_isotonico_bottle.yy",
+    "name":"s_phmetro_white_btn",
+    "path":"sprites/s_phmetro_white_btn/s_phmetro_white_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

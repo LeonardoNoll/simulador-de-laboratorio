@@ -1,1 +1,1 @@
-Obj_peagametro.power_on = True
+obj_peagametro.power_on = True
