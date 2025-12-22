@@ -9,8 +9,8 @@
   "name":"obj_peagametro",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_bebidasAcidas",
-    "path":"folders/Objects/experiment_bebidasAcidas.yy",
+    "name":"experiment_6",
+    "path":"folders/Objects/experiment_6.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",

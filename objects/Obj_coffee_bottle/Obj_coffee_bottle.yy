@@ -8,12 +8,12 @@
   "name":"obj_coffee_bottle",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_bebidasAcidas",
-    "path":"folders/Objects/experiment_bebidasAcidas.yy",
+    "name":"experiment_6",
+    "path":"folders/Objects/experiment_6.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_bottle_parent",
+    "path":"objects/obj_bottle_parent/obj_bottle_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

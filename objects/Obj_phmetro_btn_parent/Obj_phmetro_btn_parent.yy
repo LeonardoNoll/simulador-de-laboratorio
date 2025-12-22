@@ -10,8 +10,8 @@
   "name":"obj_phmetro_btn_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_bebidasAcidas",
-    "path":"folders/Objects/experiment_bebidasAcidas.yy",
+    "name":"experiment_6",
+    "path":"folders/Objects/experiment_6.yy",
   },
   "parentObjectId":null,
   "persistent":false,

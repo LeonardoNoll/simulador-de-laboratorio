@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_phmetro_power_btn",
+  "%Name":"obj_becker_experiment_6",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_phmetro_power_btn",
+  "name":"obj_becker_experiment_6",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_6",
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_phmetro_power_btn",
-    "path":"sprites/s_phmetro_power_btn/s_phmetro_power_btn.yy",
+    "name":"s_bottle_empty",
+    "path":"sprites/s_bottle_empty/s_bottle_empty.yy",
   },
   "spriteMaskId":null,
   "visible":true,
