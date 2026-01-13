@@ -1,0 +1,1 @@
+if(water_bath.temperature > 0) water_bath.temperature--

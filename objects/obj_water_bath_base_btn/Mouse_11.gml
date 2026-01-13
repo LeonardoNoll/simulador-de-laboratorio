@@ -1,0 +1,1 @@
+if(tool_tip != noone) instance_destroy(tool_tip)
