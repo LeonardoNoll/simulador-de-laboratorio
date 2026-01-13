@@ -9,6 +9,11 @@ counting_down = false
 fast_forward = false
 expected_minutes = 5
 
+// verifica a room para marcar o tempo necessário 
+if(room == rm_preparacao_de_meios_de_cultura_em_caldo){
+	expected_minutes = 15
+}
+
 on_count_start = function () {}
 on_count_fail = function () {}
 on_count_sucess = function () {}

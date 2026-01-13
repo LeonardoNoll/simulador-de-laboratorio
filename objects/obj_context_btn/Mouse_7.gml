@@ -1,4 +1,4 @@
-// As opções do switch devem cobrir todas os itens existentes
+ // As opções do switch devem cobrir todas os itens existentes
 // no array "OPTIONS", que pertence ao obj_game. Opções
 // com "return" antes do "break" não fecharão o menu imediatamente.
 
@@ -89,8 +89,8 @@ switch(option) {
 	case OPTIONS.ABRIR_TAMPA:
 		open_lid()
 		break
-	case OPTIONS.FECHAR_TAMPA:
-		close_lid()
+	case OPTIONS.TAMPA_ENTREABERTA:
+		lid_ajar()
 		break
 	case OPTIONS.ABRIR_AUTOCLAVE:
 		open_autoclave()
@@ -115,6 +115,12 @@ switch(option) {
 		break
 	case OPTIONS.LIGAR_AUTOCLAVE:
 		autoclave()
+		break
+	case OPTIONS.REMOVER_FRASCO:
+		remove_glass_jar()
+		break
+	case OPTIONS.FECHAR_TAMPA:
+		close_lid()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
