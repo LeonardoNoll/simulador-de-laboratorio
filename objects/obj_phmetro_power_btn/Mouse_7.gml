@@ -1,0 +1,1 @@
+obj_peagametro.power_on = true
