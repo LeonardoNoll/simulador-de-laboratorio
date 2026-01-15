@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_mls_with_pipette",
+  "%Name":"take_ml_input",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_mls_with_pipette",
+  "name":"take_ml_input",
   "parent":{
     "name":"pipette_related",
     "path":"folders/Scripts/utils/pipette_related.yy",

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_mls_with_pipette",
+  "%Name":"find_closest_on_interaction_list",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_mls_with_pipette",
+  "name":"find_closest_on_interaction_list",
   "parent":{
     "name":"pipette_related",
     "path":"folders/Scripts/utils/pipette_related.yy",
