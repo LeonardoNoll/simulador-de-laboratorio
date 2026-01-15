@@ -42,6 +42,7 @@
     {"$GMFolder":"","%Name":"experimento_3_afericao_de_capacidade_tampao","folderPath":"folders/Rooms/experimento_3_afericao_de_capacidade_tampao.yy","name":"experimento_3_afericao_de_capacidade_tampao","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experimento_4_atividade_enzimatica_atividade_salivar","folderPath":"folders/Rooms/experimento_4_atividade_enzimatica_atividade_salivar.yy","name":"experimento_4_atividade_enzimatica_atividade_salivar","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experimento_5_preparacao_de_meios_de_cultura_em_caldo","folderPath":"folders/Rooms/experimento_5_preparacao_de_meios_de_cultura_em_caldo.yy","name":"experimento_5_preparacao_de_meios_de_cultura_em_caldo","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"experimento_7_preparacao_de_meios_de_cultura_em_agar","folderPath":"folders/Rooms/experimento_7_preparacao_de_meios_de_cultura_em_agar.yy","name":"experimento_7_preparacao_de_meios_de_cultura_em_agar","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tutorial","folderPath":"folders/Rooms/tutorial.yy","name":"tutorial","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experiment_1_2","folderPath":"folders/Scripts/experiment_1_2.yy","name":"experiment_1_2","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -195,6 +196,7 @@
     {"id":{"name":"rm_experiment_select","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_parabens","path":"rooms/rm_parabens/rm_parabens.yy",},},
+    {"id":{"name":"rm_preparacao_de_meios_de_cultura_em_agar","path":"rooms/rm_preparacao_de_meios_de_cultura_em_agar/rm_preparacao_de_meios_de_cultura_em_agar.yy",},},
     {"id":{"name":"rm_preparacao_de_meios_de_cultura_em_caldo","path":"rooms/rm_preparacao_de_meios_de_cultura_em_caldo/rm_preparacao_de_meios_de_cultura_em_caldo.yy",},},
     {"id":{"name":"rm_tutorial_1","path":"rooms/rm_tutorial_1/rm_tutorial_1.yy",},},
     {"id":{"name":"rm_tutorial_2","path":"rooms/rm_tutorial_2/rm_tutorial_2.yy",},},
@@ -387,6 +389,7 @@
     {"roomId":{"name":"rm_experiment_select","path":"rooms/rm_experiment_select/rm_experiment_select.yy",},},
     {"roomId":{"name":"rm_preparacao_de_meios_de_cultura_em_caldo","path":"rooms/rm_preparacao_de_meios_de_cultura_em_caldo/rm_preparacao_de_meios_de_cultura_em_caldo.yy",},},
     {"roomId":{"name":"rm_6_saliva_na_titulacao_de_bebidas_acidas","path":"rooms/rm_6_saliva_na_titulacao_de_bebidas_acidas/rm_6_saliva_na_titulacao_de_bebidas_acidas.yy",},},
+    {"roomId":{"name":"rm_preparacao_de_meios_de_cultura_em_agar","path":"rooms/rm_preparacao_de_meios_de_cultura_em_agar/rm_preparacao_de_meios_de_cultura_em_agar.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
