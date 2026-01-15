@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"pass_liquid_to_test_tube",
+  "%Name":"pass_liquid_to_test_tube_3",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"pass_liquid_to_test_tube",
+  "name":"pass_liquid_to_test_tube_3",
   "parent":{
     "name":"experiment_3",
     "path":"folders/Scripts/experiment_3.yy",
