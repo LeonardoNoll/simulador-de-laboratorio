@@ -25,7 +25,7 @@ Você pode jogar a versão hospedada do simulador em:
 
 👉 https://odo.poa.ifrs.edu.br/
 
-Essa versão já permite acesso aos experimentos e interfaces desenvolvidos. :contentReference[oaicite:2]{index=2}
+Essa versão já permite acesso aos experimentos e interfaces desenvolvidos. 
 
 ---
 
