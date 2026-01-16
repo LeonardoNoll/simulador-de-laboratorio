@@ -10,7 +10,7 @@ function autoclave(){
 	        } 
 	}
 	
-	get_input(x+45, y-25, "Libras de pressão:", lb);
+	get_input(x-5, y-25, "Libras de pressão:", lb);
 	
 	var _cronometer_x = room_width - 190
 	var _cronometer_y = 120
