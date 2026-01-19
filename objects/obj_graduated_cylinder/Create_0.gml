@@ -16,7 +16,7 @@ on_release = function() {
             create_textbox(mouse_x - 200, mouse_y - 100, ["A proveta graduada está vazia"])
         }else{
             // verifica se o frasco contém o meio desidratado
-            if (obj_glass_jar_with_lid.sprite_index == s_glass_bhi) {
+            if (obj_glass_jar_with_lid.sprite_index == s_glass_bhi || obj_glass_jar_with_lid.sprite_index == s_glass_agar ) {
                 spawn_context_menu([OPTIONS.PASSAR_LIQUIDO_PARA_O_FRASCO]);
             }else{
                 create_textbox(mouse_x - 200, mouse_y - 100, ["O frasco precisa conter o meio desidratado"])
