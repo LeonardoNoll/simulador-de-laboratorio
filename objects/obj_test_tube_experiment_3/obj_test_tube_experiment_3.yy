@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_test_tube_experiment_3",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
@@ -13,8 +12,8 @@
     "path":"folders/Objects/experiment_3.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_test_tube",
+    "path":"objects/obj_test_tube/obj_test_tube.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

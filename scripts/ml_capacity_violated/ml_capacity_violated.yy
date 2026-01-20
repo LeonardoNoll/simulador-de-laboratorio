@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_mls_with_pipette",
+  "%Name":"ml_capacity_violated",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_mls_with_pipette",
+  "name":"ml_capacity_violated",
   "parent":{
     "name":"pipette_related",
     "path":"folders/Scripts/utils/pipette_related.yy",
