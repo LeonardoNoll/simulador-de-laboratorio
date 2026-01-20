@@ -28,7 +28,7 @@ function take_ml_input(_other) {
 				name = "Pipeta com " + string(_mls) + "ml(s) de " + content
 				scale_on_contact_list = [obj_test_tube_experiment_3, obj_test_tube_experiment_4]
 				on_release = function() {
-						pass_liquid_to_test_tube(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water)
+						pass_liquid_to_test_tube_3(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water)
 				}
 				scale_pulse(self, 1.5, 0.15)
 				return

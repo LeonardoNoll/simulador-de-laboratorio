@@ -1,4 +1,4 @@
-/// @function pass_liquid_to_test_tube(_mls, _ph, _sprite_index)
+/// @function pass_liquid_to_test_tube_3(_mls, _ph, _sprite_index)
 /// @description Exibe um campo de input e chama a função callback quando finalizar.
 /// @param _mls (string): Mls a serem passados para o becker
 /// @param _ph (number): pH da substancia

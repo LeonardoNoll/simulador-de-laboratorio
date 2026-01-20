@@ -7,3 +7,4 @@ options = [OPTIONS.ABRIR_TUBO_DE_ENSAIO,OPTIONS.IDENFICIAR_RECIPIENTE]
 content = ""
 closed = true
 ml = 0 
+use_counter = 0
