@@ -11,7 +11,6 @@ function autoclave_collision(){
 				if(room = rm_preparacao_de_meios_de_cultura_em_caldo){
 					_autoclave.sprite_index = s_open_autoclave_glass_jar
 					
-					
 				}else if(room = rm_preparacao_de_meios_de_cultura_em_agar){
 					_autoclave.sprite_index = s_open_autoclave_glass_jar_2
 				}
