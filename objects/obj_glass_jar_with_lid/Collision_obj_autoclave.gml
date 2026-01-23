@@ -1,6 +1,6 @@
 var _autoclave = instance_nearest(x, y, obj_autoclave)
 
-if (sprite_index == s_glass_mixed || sprite_index = s_glass_agar_mixed) {
+if (sprite_index == s_glass_mixed || sprite_index == s_glass_agar_mixed) {
         create_textbox(mouse_x-50, mouse_y-100,
             ["Você precisa deixar a tampa do frasco entreaberta antes de usar a autoclave."])
         return

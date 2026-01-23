@@ -3,7 +3,7 @@
 function pass_into_the_bottle(){
 	
 	// para a room do experimento: preparação de meios de cultura em caldo
-	if(room = rm_preparacao_de_meios_de_cultura_em_caldo){
+	if(room == rm_preparacao_de_meios_de_cultura_em_caldo){
 		if(obj_glass_jar_with_lid.name != "BHI caldo" && obj_glass_jar_with_lid.name != "bhi caldo"){
 			create_textbox(x, y, ["Este frasco não foi identificado com o nome correto, você deve identificar novamente."])
 		}else{	
@@ -25,7 +25,7 @@ function pass_into_the_bottle(){
 		}	
 	
 	// para a room do experimento: preparação de meios de cultura em ágar
-	}else if(room = rm_preparacao_de_meios_de_cultura_em_agar){
+	}else if(room == rm_preparacao_de_meios_de_cultura_em_agar){
 		if(obj_glass_jar_with_lid.name != "BHI sangue" && obj_glass_jar_with_lid.name != "bhi sangue"){
 			create_textbox(x, y, ["Este frasco não foi identificado com o nome correto, você deve identificar novamente."])
 		}else{	

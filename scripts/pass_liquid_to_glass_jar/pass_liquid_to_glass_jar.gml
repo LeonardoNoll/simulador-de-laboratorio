@@ -3,10 +3,10 @@
 function pass_liquid_to_glass_jar(){
 	var _glass_jar = instance_nearest(x, y, obj_glass_jar_with_lid)
 	
-	if(room = rm_preparacao_de_meios_de_cultura_em_caldo){
+	if(room == rm_preparacao_de_meios_de_cultura_em_caldo){
 		_glass_jar.sprite_index = s_glass_bhi_distilled_water; // muda a sprite
 		
-	}else if (room = rm_preparacao_de_meios_de_cultura_em_agar){
+	}else if (room == rm_preparacao_de_meios_de_cultura_em_agar){
 		_glass_jar.sprite_index = s_glass_agar_distilled_water; // muda a sprite
 	}
 	

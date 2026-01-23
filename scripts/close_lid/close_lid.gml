@@ -5,7 +5,7 @@ function close_lid(){
 		if(object_index == obj_glass_jar_with_lid){
 			
 			// finaliza o experimento: preparação de meios de cultura em caldo
-			if(room = rm_preparacao_de_meios_de_cultura_em_caldo){
+			if(room == rm_preparacao_de_meios_de_cultura_em_caldo){
 				sprite_index = s_glass_jar_with_lid_2
 			
 			//finaliza o experimento
