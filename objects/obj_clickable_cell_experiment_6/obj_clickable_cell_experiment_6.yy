@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_peagametro",
+  "%Name":"obj_clickable_cell_experiment_6",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_peagametro",
+  "name":"obj_clickable_cell_experiment_6",
   "overriddenProperties":[],
   "parent":{
-    "name":"phametro",
-    "path":"folders/Objects/experiment_6/phametro.yy",
+    "name":"notes_table_experiment_6",
+    "path":"folders/Objects/experiment_6/notes_table_experiment_6.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_base_cell_style",
+    "path":"objects/obj_base_cell_style/obj_base_cell_style.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_phmetro",
-    "path":"sprites/s_phmetro/s_phmetro.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

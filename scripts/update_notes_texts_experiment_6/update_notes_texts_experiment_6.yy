@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"update_notes_texts_experiment_6",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"update_notes_texts_experiment_6",
+  "parent":{
+    "name":"experment_6",
+    "path":"folders/Scripts/experment_6.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

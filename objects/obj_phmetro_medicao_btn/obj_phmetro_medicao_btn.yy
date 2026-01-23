@@ -6,8 +6,8 @@
   "name":"obj_phmetro_medicao_btn",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_6",
-    "path":"folders/Objects/experiment_6.yy",
+    "name":"phametro",
+    "path":"folders/Objects/experiment_6/phametro.yy",
   },
   "parentObjectId":{
     "name":"obj_phmetro_btn_parent",

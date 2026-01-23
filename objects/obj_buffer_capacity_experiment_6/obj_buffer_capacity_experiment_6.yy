@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_iogurte_bottle",
+  "%Name":"obj_buffer_capacity_experiment_6",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_iogurte_bottle",
+  "name":"obj_buffer_capacity_experiment_6",
   "overriddenProperties":[],
   "parent":{
-    "name":"bottles_experiment_6",
-    "path":"folders/Objects/experiment_6/bottles_experiment_6.yy",
+    "name":"notes_table_experiment_6",
+    "path":"folders/Objects/experiment_6/notes_table_experiment_6.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bottle_parent",
-    "path":"objects/obj_bottle_parent/obj_bottle_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_iogurte_bottle",
-    "path":"sprites/s_iogurte_bottle/s_iogurte_bottle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
