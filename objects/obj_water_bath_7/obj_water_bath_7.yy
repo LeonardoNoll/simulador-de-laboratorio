@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_water_bath",
+  "%Name":"obj_water_bath_7",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_water_bath",
+  "name":"obj_water_bath_7",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_4",
-    "path":"folders/Objects/experiment_4.yy",
+    "name":"experiment_7",
+    "path":"folders/Objects/experiment_7.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_water_bath",
-    "path":"sprites/s_water_bath/s_water_bath.yy",
+    "name":"s_water_bath_7",
+    "path":"sprites/s_water_bath_7/s_water_bath_7.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -10,7 +10,11 @@ function close_lid(){
 			
 			//finaliza o experimento
 			room_goto(rm_parabens)
-			}	
+			
+			// fecha a tampa do frasco do experimento: preparação de meios de cultura em caldo 
+			}else if(room == rm_preparacao_de_meios_de_cultura_em_agar){
+				sprite_index = s_glass_agar_with_lid
+			}
 			
 			
 			

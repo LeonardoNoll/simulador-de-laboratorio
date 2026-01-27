@@ -122,6 +122,9 @@ switch(option) {
 	case OPTIONS.FECHAR_TAMPA:
 		close_lid()
 		break
+	case OPTIONS.BANHO_MARIA:
+		turn_on_water_bath()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
