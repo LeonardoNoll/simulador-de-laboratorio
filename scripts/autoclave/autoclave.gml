@@ -34,7 +34,7 @@ function autoclave(){
           create_textbox(x + sprite_width, y,
               ["Você cronometrou o tempo errado. Tente novamente"])	
       }
-        options = []
+        options = [OPTIONS.ABRIR_AUTOCLAVE]
         return
 }
 

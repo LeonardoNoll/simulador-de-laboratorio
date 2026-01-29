@@ -2,19 +2,22 @@ function water_bath(){
 
 	on_release = function() {
 		
-		if(place_meeting(x,y, obj_water_bath)) {
+		if(place_meeting(x,y, obj_water_bath_7)) {
 			
 			if(obj_glass_jar_with_lid.sprite_index == s_glass_agar_with_lid){
-				var _water_bath = instance_nearest(x, y, obj_water_bath)
+				var _water_bath = instance_nearest(x, y, obj_water_bath_7)
 				
-				if(room == rm_preparacao_de_meios_de_cultura_em_agar){
-					
-					// substitui e reposiciona a sprite 
-					_water_bath.sprite_index = s_agar_glass_jar_water_bath
-					_water_bath.x = 273
-					_water_bath.y = 419
-					
-				}
+				base_x = 270
+				base_y = 428
+				
+				on_release = undefined
+				locked = true
+				
+			}else{
+				create_textbox(mouse_x-50, mouse_y-100,
+		            ["O frasco com a mistura de ágar e água destilada precisa estar fechado."])
+		        return
+			
 			}
 		}
 	}
