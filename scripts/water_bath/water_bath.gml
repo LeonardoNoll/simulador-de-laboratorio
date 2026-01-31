@@ -13,6 +13,15 @@ function water_bath(){
 				on_release = undefined
 				locked = true
 				
+				var gr = function(_text) {
+				// verificação da temperatura 
+					if(real(_text) != 45) {
+						create_textbox(mouse_x, mouse_y,
+						      ["Este não é o valor correto. Tente novamente."])
+					}
+				}
+				get_input(x - 5, y - 25, "Temperatura:", gr)
+	
 			}else{
 				create_textbox(mouse_x-50, mouse_y-100,
 		            ["O frasco com a mistura de ágar e água destilada precisa estar fechado."])
