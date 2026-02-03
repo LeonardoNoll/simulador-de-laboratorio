@@ -17,3 +17,5 @@ options = [OPTIONS.IDENFICIAR_RECIPIENTE, OPTIONS.ABRIR_TAMPA]
 on_scale = false // verifica se está na balança
 
 locked = false
+
+can_remove_glass_jar = false // verifica quando pode ser removida da autoclave 

@@ -123,7 +123,7 @@ switch(option) {
 		close_lid()
 		break
 	case OPTIONS.BANHO_MARIA:
-		turn_on_water_bath()
+		water_bath()
 		break
 	case OPTIONS.LIGAR_LUZ_ULTRAVIOLETA:
 		turn_on_UV()

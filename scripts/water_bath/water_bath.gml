@@ -20,6 +20,7 @@ function water_bath(){
 					if(real(_text) != 45) {
 						create_textbox(mouse_x, mouse_y,
 						      ["Este não é o valor correto. Tente novamente."])
+					    get_input(x - 5, y - 25, "Temperatura:", gr); 
 					}
 				}
 				get_input(x - 5, y - 25, "Temperatura:", gr)
@@ -28,9 +29,12 @@ function water_bath(){
 				create_textbox(mouse_x-50, mouse_y-100,
 		            ["O frasco com a mistura de ágar e água destilada precisa estar fechado."])
 		        return
-			
 			}
+			
+			with(obj_laminar_flow_hood){
+				options = [OPTIONS.LIGAR_LUZ_ULTRAVIOLETA]
+			}
+			
 		}
-	}
-	
+	}	
 }

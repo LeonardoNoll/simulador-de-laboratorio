@@ -8,3 +8,6 @@ if(sprite_index == s_glass_bhi_distilled_water || sprite_index == s_glass_agar_d
 	options = [OPTIONS.TAMPA_ENTREABERTA]
 }
 
+with(obj_autoclave){
+	options = [OPTIONS.ABRIR_AUTOCLAVE]
+}

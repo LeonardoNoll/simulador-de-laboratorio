@@ -11,7 +11,7 @@ if(room == rm_preparacao_de_meios_de_cultura_em_agar){
 }
 
 
-options = [OPTIONS.ABRIR_AUTOCLAVE]
+//options = [OPTIONS.ABRIR_AUTOCLAVE]
 
 
 
