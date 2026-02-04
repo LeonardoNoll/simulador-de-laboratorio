@@ -73,8 +73,6 @@ switch(option) {
 		change_pipette()
 		break
 	case OPTIONS.PASSAR_LIQUIDO_AO_BEQUER:
-		show_debug_message(global.selected.name)
-		show_debug_message(global.selected.becker.name)
 		pass_liquid_to_becker(15,global.selected.becker, s_marked_becker_with_HCl)
 		break
 	case OPTIONS.ABRIR_CENTRIFUGA:
@@ -121,6 +119,9 @@ switch(option) {
 		break
 	case OPTIONS.FECHAR_TAMPA:
 		close_lid()
+		break
+	case OPTIONS.PASSAR_AO_TUBO_DE_ENSAIO:
+		pass_liquid_to_test_tube_experiment_4()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
