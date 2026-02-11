@@ -1,12 +1,4 @@
-function turn_on_UV(){
-	
-	// muda a sprite 
-	with(global.selected){
-		if(object_index == obj_laminar_flow_hood){
-			sprite_index = s_laminar_flow_hood_ready
-		}
-	} 
-	
+function cronometer(){
 	// verifica se o cronômetro existe 
 	if (instance_exists(obj_cronometer)) {
         return
@@ -17,9 +9,19 @@ function turn_on_UV(){
     )
 
     obj_cronometer.on_count_sucess = function() {
+		
+		// verifica a room
+		if(room == rm_preparacao_de_meios_de_cultura_em_caldo){
+			 create_textbox(x + sprite_width, y,
+            ["O frasco já pode ser retirado da autoclave."])
 
-        create_textbox(x + sprite_width, y,
+	        with (obj_autoclave) {
+	            options = [OPTIONS.REMOVER_FRASCO]
+	        }
+		}else if(room == rm_preparacao_de_meios_de_cultura_em_agar){
+			create_textbox(x + sprite_width, y,
             ["A capela de fluxo laminar já está pronta para o uso."])
+		}
 
         // destrói o cronômetro
         with (obj_cronometer) instance_destroy()
@@ -31,5 +33,6 @@ function turn_on_UV(){
             ["Você cronometrou o tempo errado. Tente novamente"])
         with (obj_cronometer) instance_destroy()
     }
+	
 
 }

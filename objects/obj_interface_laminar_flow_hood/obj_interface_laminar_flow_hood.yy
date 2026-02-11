@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_graduated_cylinder_7",
+  "%Name":"obj_interface_laminar_flow_hood",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_graduated_cylinder_7",
+  "name":"obj_interface_laminar_flow_hood",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_7",
     "path":"folders/Objects/experiment_7.yy",
   },
-  "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_graduated_cylinder",
-    "path":"sprites/s_graduated_cylinder/s_graduated_cylinder.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
