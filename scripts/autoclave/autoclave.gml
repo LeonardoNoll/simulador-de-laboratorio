@@ -12,17 +12,18 @@ function autoclave(){
 	
     get_input(x - 5, y - 25, "Libras de pressão:", check_pressure)
 	
+	
 	// verifica se o cronômetro existe 
 	if (instance_exists(obj_cronometer)) {
         return
     }
 	
 	// cria o cronômetro 
-    instance_create_layer(
+    var _cronometer = instance_create_layer(
         room_width - 190, 120, "GUI", obj_cronometer
     )
 
-    obj_cronometer.on_count_sucess = function() {
+    _cronometer.on_count_sucess = function() {
 
         create_textbox(x + sprite_width, y,
             ["O frasco já pode ser retirado da autoclave."])
@@ -34,12 +35,15 @@ function autoclave(){
         with (obj_cronometer) instance_destroy()
     }
    
-    obj_cronometer.on_count_fail = function () {
+    _cronometer.on_count_fail = function () {
 
         create_textbox(x + sprite_width, y,
             ["Você cronometrou o tempo errado. Tente novamente"])
         with (obj_cronometer) instance_destroy()
     }
+
+
+
 
 }
 

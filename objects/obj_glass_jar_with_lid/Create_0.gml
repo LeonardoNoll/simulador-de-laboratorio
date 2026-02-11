@@ -27,3 +27,7 @@ if(room == rm_preparacao_de_meios_de_cultura_em_agar && base_x == 270 && base_y 
 	options = [OPTIONS.BANHO_MARIA]
 }
 
+if(can_remove_glass_jar == true){
+	options = [OPTIONS.REMOVER_FRASCO]
+}
+

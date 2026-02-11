@@ -222,7 +222,6 @@
     {"id":{"name":"close_test_tube","path":"scripts/close_test_tube/close_test_tube.yy",},},
     {"id":{"name":"close_ui_elements","path":"scripts/close_ui_elements/close_ui_elements.yy",},},
     {"id":{"name":"create_textbox","path":"scripts/create_textbox/create_textbox.yy",},},
-    {"id":{"name":"cronometer","path":"scripts/cronometer/cronometer.yy",},},
     {"id":{"name":"default_count_fail","path":"scripts/default_count_fail/default_count_fail.yy",},},
     {"id":{"name":"diagnose","path":"scripts/diagnose/diagnose.yy",},},
     {"id":{"name":"draw_liquid_on_pipette","path":"scripts/draw_liquid_on_pipette/draw_liquid_on_pipette.yy",},},
