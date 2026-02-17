@@ -16,10 +16,11 @@ if (scale_pulse_data != undefined) {
     scale_pulse_data.update();
 }
 
-if (place_meeting(x, y, obj_laminar_flow_hood)) {
+/*if (place_meeting(x, y, obj_laminar_flow_hood)) {
     // só cria a janela se ainda não existir
     if (!instance_exists(obj_interface_laminar_flow_hood)) {
         var interface = instance_create_layer(room_width/2, room_height/2, "UI", obj_interface_laminar_flow_hood);
         interface.active = true;
     }
-}
+	
+}*/
