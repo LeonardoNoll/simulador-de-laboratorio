@@ -21,6 +21,8 @@ locked = false
 
 can_remove_glass_jar = false // verifica quando pode ser removida da autoclave 
 
+ready_for_laminar_flow_hood = false // passa o frasco somente se as placas de petri já estiverem na capela de fluxo laminar 
+
 
 // verifica se o frasco está em banho-maria 
 if(room == rm_preparacao_de_meios_de_cultura_em_agar && base_x == 270 && base_y == 428){
