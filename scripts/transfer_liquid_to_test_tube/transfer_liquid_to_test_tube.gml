@@ -11,6 +11,7 @@ function transfer_liquid_to_test_tube(_liquid_id, _test_tube, _liquids, _test_tu
     if (is_undefined(_test_tube)) return transfer_liquid_result_fail("test_tube_missing");
     if (is_undefined(_liquids) || !variable_struct_exists(_liquids, _liquid_id)) return transfer_liquid_result_fail("liquid_not_found");
     if (is_undefined(_test_tubes)) return transfer_liquid_result_fail("test_tube_definition_not_found");
+	
 	var _test_tube_def;
 
     if (is_undefined(_test_tube_id) || _test_tube_id == "") {
@@ -22,7 +23,7 @@ function transfer_liquid_to_test_tube(_liquid_id, _test_tube, _liquids, _test_tu
         if (!variable_struct_exists(_test_tubes, _test_tube_id)) return transfer_liquid_result_fail("test_tube_definition_not_found");
         _test_tube_def = _test_tubes[_test_tube_id];
     }
-    if (!is_marked_correctly(_test_tube, _test_tube_def)) return transfer_liquid_result_fail("test_tube_label_mismatch");
+    if (!is_marked_correctly(_test_tube, _test_tube_def, _ml)) return transfer_liquid_result_fail("test_tube_label_mismatch");
 
     if (!variable_struct_exists(_test_tube_def, "liquids")
         || !variable_struct_exists(_test_tube_def.liquids, _liquid_id)) return transfer_liquid_result_fail("liquid_not_allowed");

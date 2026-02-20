@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-content = undefined
+content_id = undefined
