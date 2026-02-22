@@ -226,6 +226,7 @@
     {"id":{"name":"autoclave_collision","path":"scripts/autoclave_collision/autoclave_collision.yy",},},
     {"id":{"name":"autoclave","path":"scripts/autoclave/autoclave.yy",},},
     {"id":{"name":"can_mix","path":"scripts/can_mix/can_mix.yy",},},
+    {"id":{"name":"can_transfer_liquid_to_test_tube","path":"scripts/can_transfer_liquid_to_test_tube/can_transfer_liquid_to_test_tube.yy",},},
     {"id":{"name":"change_pipette","path":"scripts/change_pipette/change_pipette.yy",},},
     {"id":{"name":"check_EPI","path":"scripts/check_EPI/check_EPI.yy",},},
     {"id":{"name":"close_autoclave","path":"scripts/close_autoclave/close_autoclave.yy",},},

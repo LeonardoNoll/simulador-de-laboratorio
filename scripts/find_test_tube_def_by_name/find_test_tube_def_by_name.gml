@@ -21,20 +21,6 @@ function find_test_tube_def_by_name(_test_tubes_struct, _tube_name) {
 			show_debug_message(_out)
 	        return _out;
 		}
-		
-		//for(var j = 0; j < array_length(_test_tube_def_liquids); j++) {
-		//	var _liquid = _curr_test_tube_def.liquids[$ _test_tube_def_liquids[j]] 
-		//	//var _liquid = _test_tube_def_liquids[j]
-		//	//NOTE: Talvez deveria considerar considerar se os mls presentes 
-		//	//		no caller estão corretos
-		//	if(!is_struct(_liquid) || !is_undefined(_liquid.name)) return _out
-		//	if (string_normalize(_liquid.name) == string_normalize(_tube_name)) {
-	    //        _out.id = _id;
-	    //        _out.def = _curr_test_tube_def;
-		//		show_debug_message(_out)
-	    //        return _out;
-		//	}
-		//}
     }
     return _out;
 }
