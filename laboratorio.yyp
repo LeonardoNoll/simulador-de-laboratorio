@@ -247,6 +247,8 @@
     {"id":{"name":"format_seconds_mm_ss","path":"scripts/format_seconds_mm_ss/format_seconds_mm_ss.yy",},},
     {"id":{"name":"get_distilled_water","path":"scripts/get_distilled_water/get_distilled_water.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
+    {"id":{"name":"get_liquid_def","path":"scripts/get_liquid_def/get_liquid_def.yy",},},
+    {"id":{"name":"get_mix_result","path":"scripts/get_mix_result/get_mix_result.yy",},},
     {"id":{"name":"get_mls_with_pipette","path":"scripts/get_mls_with_pipette/get_mls_with_pipette.yy",},},
     {"id":{"name":"get_mls","path":"scripts/get_mls/get_mls.yy",},},
     {"id":{"name":"get_test_tube_current_liquid_id","path":"scripts/get_test_tube_current_liquid_id/get_test_tube_current_liquid_id.yy",},},

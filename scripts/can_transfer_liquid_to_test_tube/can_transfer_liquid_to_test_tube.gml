@@ -6,13 +6,3 @@ function can_transfer_liquid_to_test_tube(_test_tube_def,_liquid_def, _ml){
 	
 	return _target_liquid == _ml
 }
-
-//starch_control: {
-//		id: "starch_control",
-//		name: "Controle de Amido",
-//		liquids: {
-//			distilled_water: 3,
-//			iodine: 2,
-//			starch: 1
-//		}
-//	},
