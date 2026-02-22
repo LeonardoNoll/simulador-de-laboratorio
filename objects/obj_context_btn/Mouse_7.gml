@@ -122,6 +122,9 @@ switch(option) {
 	case OPTIONS.FECHAR_TAMPA:
 		close_lid()
 		break
+	case OPTIONS.LIMPAR_BECKER:
+		clean_jar()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
