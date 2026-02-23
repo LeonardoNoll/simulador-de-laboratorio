@@ -8,6 +8,7 @@ on_release = function(){
 			create_textbox(x, y, "O Béquer ainda possui um conteúdo")
 			return
 		}
+		_becker.sprite_index = parse_becker_sprite_by_liquid(sprite_index)
 		_becker.PH = PH
 		_becker.name = "Béquer com " + name
 		instance_destroy()

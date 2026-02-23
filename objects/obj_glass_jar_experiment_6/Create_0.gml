@@ -16,7 +16,10 @@ on_release = function(){
 			create_textbox(x, y, "O Béquer ainda possui um conteúdo")
 			return
 		}
-		obj_glass_jar_experiment_6.sprite_index = s_becker_cocacola
+	
+		sprite_index = s_becker_cocacola	
+		
+		_becker.sprite_index = s_becker_cocacola
 		_becker.PH = PH
 		
 		instance_destroy()
