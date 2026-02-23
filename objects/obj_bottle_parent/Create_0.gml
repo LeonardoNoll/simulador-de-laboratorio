@@ -11,6 +11,7 @@ on_release = function(){
 		_becker.sprite_index = parse_becker_sprite_by_liquid(sprite_index)
 		_becker.PH = PH
 		_becker.name = "Béquer com " + name
+		_becker.options = [OPTIONS.LIMPAR_BECKER]
 		instance_destroy()
 	}
 

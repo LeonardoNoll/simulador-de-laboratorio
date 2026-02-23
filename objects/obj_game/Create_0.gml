@@ -49,7 +49,10 @@ enum OPTIONS {
 	LIGAR_AUTOCLAVE,
 	REMOVER_FRASCO,
 	FECHAR_TAMPA,
-	LIMPAR_BECKER
+	LIMPAR_BECKER,
+	LIGAR_PHMETRO,
+	AJUSTAR_PHMETRO,
+	MEDIR_PH
 }
 
 options_string = [
@@ -91,5 +94,8 @@ options_string = [
 	"Ligar autoclave",
 	"Remover o frasco de vidro",
 	"Fechar a tampa",
-	"Limpar o Becker"
+	"Limpar o Becker",
+	"Ligar Peagâmetro",
+	"ajustar Peagâmetro",
+	"Medir PH"
 ]

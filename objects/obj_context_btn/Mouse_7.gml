@@ -125,6 +125,15 @@ switch(option) {
 	case OPTIONS.LIMPAR_BECKER:
 		clean_jar()
 		break
+	case OPTIONS.LIGAR_PHMETRO:
+		turn_phmetro_on()
+		break
+	case OPTIONS.AJUSTAR_PHMETRO:
+		ajustar_phmetro()
+		break
+	case OPTIONS.MEDIR_PH:
+		measure_ph()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

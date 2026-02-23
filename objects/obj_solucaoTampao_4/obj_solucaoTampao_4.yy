@@ -3,6 +3,7 @@
   "%Name":"obj_solucaoTampao_4",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_magnetic_stirrer_experiment_6","path":"objects/obj_magnetic_stirrer_experiment_6/obj_magnetic_stirrer_experiment_6.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_solucaoTampao_4",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bottle_empty",
-    "path":"sprites/s_bottle_empty/s_bottle_empty.yy",
+    "name":"s_marked_becker_with_water",
+    "path":"sprites/s_marked_becker_with_water/s_marked_becker_with_water.yy",
   },
   "spriteMaskId":null,
   "visible":true,
