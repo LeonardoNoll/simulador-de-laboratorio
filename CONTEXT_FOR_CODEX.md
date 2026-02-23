@@ -27,6 +27,17 @@ Also updated `objects/obj_distiled_water_experiment_4/Create_0.gml`:
 - Bidirectional mix support: if incoming mix not found, tries current mix.
 - Passes `_ml` into `is_marked_correctly`:
   `is_marked_correctly(_test_tube, _test_tube_def, _ml)`
+- Fixed `get_liquid_def` argument order.
+- Validates `_liquid_def` before use.
+- Always checks `can_transfer_liquid_to_test_tube` even for empty tube.
+- When tube is empty, returns `transfer_liquid_result_ok(_liquid_def, ...)` (no undefined `_incoming_liquid`).
+- Applies `required_ml` from mix result:
+  - `ml_required` if `_ml` undefined
+  - `insufficient_ml` if `_ml` < required
+- Returns standardized result via `transfer_liquid_result_ok` with resulting liquid from mix.
+
+### `can_transfer_liquid_to_test_tube` (`scripts/can_transfer_liquid_to_test_tube/can_transfer_liquid_to_test_tube.gml`)
+- Now validates that `_test_tube_def` has `liquids` before `struct_get`.
 
 ### `can_mix` (`scripts/can_mix/can_mix.gml`)
 - Bidirectional compatibility: checks `from.mix_results[to]` or `to.mix_results[from]`.
@@ -61,24 +72,7 @@ Runtime error when transferring distilled water to test tube in room `rm_4_ativi
 unable to convert string "starch_control" to int64
 at gml_Script_find_test_tube_def_by_name (line 46) - var _def2 = _test_tubes_struct[_id];
 ```
-This indicates `_test_tubes_struct` behaves like an array (string index -> int64 conversion) or is an instance id. The function has been modified to handle array + ds_map + struct, but still fails in struct branch.
-
-## `find_test_tube_def_by_name` changes
-File: `scripts/find_test_tube_def_by_name/find_test_tube_def_by_name.gml`
-- Now handles:
-  1) Array: iterates items.
-  2) ds_map: uses `ds_exists(map, ds_type_map)` and `ds_map_keys_to_array`.
-  3) Struct: uses `variable_struct_get_names`.
-- Early return if `_test_tubes_struct` is instance id (`is_real` + `instance_exists`).
-
-Current code (important part):
-```
-if (is_array(_test_tubes_struct)) { ... return; }
-if (is_real(_test_tubes_struct) && ds_exists(_test_tubes_struct, ds_type_map)) { ... return; }
-if (!is_struct(_test_tubes_struct) || is_real(_test_tubes_struct)) return _out;
-// struct branch uses variable_struct_get_names + _test_tubes_struct[_id]
-```
-Still crashing at struct branch, meaning `_test_tubes_struct` is not a plain struct.
+This indicates `_test_tubes_struct` behaves like an array (string index -> int64 conversion) or is an instance id. `find_test_tube_def_by_name` currently accepts only struct, so the runtime type must be confirmed.
 
 ## What to debug next
 In `transfer_liquid_to_test_tube`, right before `find_test_tube_def_by_name`, log:
@@ -92,6 +86,9 @@ show_debug_message(_test_tubes);
 ```
 Need to confirm actual type of `_test_tubes` at runtime.
 
+## Pending (not applied)
+- Consider saving `_ml` on the test tube inside `try_to_pass_liquid_to_test_tube_experiment_4` (e.g., `_test_tube.ml = _ml`) to preserve volume state; user requested to remember this change but not apply yet.
+
 ## Notes
 - User requested not to use `obj_test_tube`, use `obj_test_tube_experiment_4`.
 - `obj_test_tube_experiment_4` currently only sets `content = undefined` in Create. It does NOT set `content_id` or `ml` by default.
@@ -104,5 +101,6 @@ Need to confirm actual type of `_test_tubes` at runtime.
 - `scripts/can_mix/can_mix.gml`
 - `scripts/transfer_liquid_result_ok/transfer_liquid_result_ok.gml`
 - `scripts/transfer_liquid_result_fail/transfer_liquid_result_fail.gml`
+- `scripts/can_transfer_liquid_to_test_tube/can_transfer_liquid_to_test_tube.gml`
 - `scripts/is_name_correct/is_name_correct.gml`
 - `scripts/find_test_tube_def_by_name/find_test_tube_def_by_name.gml`
