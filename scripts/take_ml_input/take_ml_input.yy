@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"take_ml_input",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"take_ml_input",
+  "parent":{
+    "name":"pipette_related",
+    "path":"folders/Scripts/utils/pipette_related.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
