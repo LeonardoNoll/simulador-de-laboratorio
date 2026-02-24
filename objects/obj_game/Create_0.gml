@@ -48,7 +48,9 @@ enum OPTIONS {
 	LIGAR_AGITADOR_MAGNETICO,
 	LIGAR_AUTOCLAVE,
 	REMOVER_FRASCO,
-	FECHAR_TAMPA
+	FECHAR_TAMPA,
+	BANHO_MARIA,
+	LIGAR_LUZ_ULTRAVIOLETA
 }
 
 options_string = [
@@ -89,5 +91,7 @@ options_string = [
 	"Ligar agitador magnético",
 	"Ligar autoclave",
 	"Remover o frasco de vidro",
-	"Fechar a tampa"
+	"Fechar a tampa",
+	"Levar para o banho maria",
+	"Ligar a luz ultravioleta"
 ]

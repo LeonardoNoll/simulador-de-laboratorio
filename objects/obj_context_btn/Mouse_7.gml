@@ -122,6 +122,12 @@ switch(option) {
 	case OPTIONS.FECHAR_TAMPA:
 		close_lid()
 		break
+	case OPTIONS.BANHO_MARIA:
+		water_bath()
+		break
+	case OPTIONS.LIGAR_LUZ_ULTRAVIOLETA:
+		turn_on_UV()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

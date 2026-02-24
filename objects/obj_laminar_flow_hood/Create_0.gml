@@ -1,0 +1,11 @@
+event_inherited()
+
+needed_EPI =[obj_glove,obj_lab_coat, obj_goggles]
+name = "Capela de Fluxo Laminar"
+
+laminar_flow_hood_is_ready = false
+
+locked = true
+
+
+
