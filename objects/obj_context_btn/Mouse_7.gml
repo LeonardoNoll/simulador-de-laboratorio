@@ -134,6 +134,9 @@ switch(option) {
 	case OPTIONS.MEDIR_PH:
 		measure_ph()
 		break
+	case OPTIONS.PARAR_DE_MEDIR:
+		stop_measure()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

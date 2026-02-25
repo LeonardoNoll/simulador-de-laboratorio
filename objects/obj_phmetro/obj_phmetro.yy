@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_magnetic_stirrer_experiment_6",
+  "%Name":"obj_phmetro",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_magnetic_stirrer_experiment_6",
+  "name":"obj_phmetro",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_6",
-    "path":"folders/Objects/experiment_6.yy",
+    "name":"phametro",
+    "path":"folders/Objects/experiment_6/phametro.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_magnetic_stirrer_experiment_6",
-    "path":"sprites/s_magnetic_stirrer_experiment_6/s_magnetic_stirrer_experiment_6.yy",
+    "name":"s_phmetro",
+    "path":"sprites/s_phmetro/s_phmetro.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_peagametro",
+  "%Name":"obj_saliva_artificial",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_peagametro",
+  "name":"obj_saliva_artificial",
   "overriddenProperties":[],
   "parent":{
-    "name":"phametro",
-    "path":"folders/Objects/experiment_6/phametro.yy",
+    "name":"experiment_6",
+    "path":"folders/Objects/experiment_6.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_phmetro",
-    "path":"sprites/s_phmetro/s_phmetro.yy",
+    "name":"s_marked_becker_with_water",
+    "path":"sprites/s_marked_becker_with_water/s_marked_becker_with_water.yy",
   },
   "spriteMaskId":null,
   "visible":true,

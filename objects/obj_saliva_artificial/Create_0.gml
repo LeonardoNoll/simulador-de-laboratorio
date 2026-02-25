@@ -4,7 +4,8 @@ event_inherited();
 
 
 needed_EPI = [obj_lab_coat]
-name = "Béquer 50ml"
+name = "Saliva artificial"
 content = ""
 options = []
+locked = true
 
