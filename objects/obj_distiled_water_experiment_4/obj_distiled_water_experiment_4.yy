@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_test_tube_experiment_4",
+  "%Name":"obj_distiled_water_experiment_4",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_test_tube_experiment_4",
+  "name":"obj_distiled_water_experiment_4",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_4",
     "path":"folders/Objects/experiment_4.yy",
   },
   "parentObjectId":{
-    "name":"obj_test_tube",
-    "path":"objects/obj_test_tube/obj_test_tube.yy",
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_test_tube_empty_closed",
-    "path":"sprites/s_test_tube_empty_closed/s_test_tube_empty_closed.yy",
+    "name":"s_wash_bottle",
+    "path":"sprites/s_wash_bottle/s_wash_bottle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
