@@ -1,10 +1,13 @@
 // verifica se o frasco contém o meio desidratado e a água destilada
-if(sprite_index == s_glass_bhi_distilled_water){ 
+if(sprite_index == s_glass_bhi_distilled_water || sprite_index == s_glass_agar_distilled_water){ 
 	var _magnetic = instance_nearest(x, y, obj_magnetic_stirrer)
-	base_x = (_magnetic.x - 2)
-	base_y = (_magnetic.y - 37)
+	base_x = (_magnetic.x - 1)
+	base_y = (_magnetic.y - 33)
 	options = [OPTIONS.LIGAR_AGITADOR_MAGNETICO]
-}else if(sprite_index == s_glass_mixed){
+}else if(sprite_index == s_glass_mixed || sprite_index == s_glass_agar_mixed){
 	options = [OPTIONS.TAMPA_ENTREABERTA]
 }
 
+with(obj_autoclave){
+	options = [OPTIONS.ABRIR_AUTOCLAVE]
+}

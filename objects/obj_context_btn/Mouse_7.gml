@@ -122,6 +122,11 @@ switch(option) {
 		break
 	case OPTIONS.PASSAR_AO_TUBO_DE_ENSAIO:
 		pass_liquid_to_test_tube_experiment_4()
+	case OPTIONS.BANHO_MARIA:
+		water_bath()
+		break
+	case OPTIONS.LIGAR_LUZ_ULTRAVIOLETA:
+		turn_on_UV()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
