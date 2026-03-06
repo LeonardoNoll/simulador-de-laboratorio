@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"experiment_5",
-    "path":"folders/Sprites/experiment_5.yy",
+    "path":"folders/experiment_5.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

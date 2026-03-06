@@ -13,7 +13,7 @@ on_release = function() {
 	becker = instance_nearest(x, y, obj_glass_jar_with_lid)
 	
 	if (!becker.on_scale) {
-		create_textbox(mouse_x-200, mouse_y-100, ["O frasco precisa estar na balança"])
+		create_textbox(mouse_x-200, mouse_y-100, "O frasco precisa estar na balança")
 		return
 	}
 

@@ -11,7 +11,7 @@ function get_distilled_water(){
 			_cylinder.name = "Proveta graduada com 1L de água destilada" // muda o nome
         } else {
 			// mensagem de erro
-            create_textbox(_cylinder.x, _cylinder.y, ["Esta não é a quantia correta de L. Tente novamente."])
+            create_textbox(_cylinder.x, _cylinder.y, "Esta não é a quantia correta de L. Tente novamente.")
         }
 	}
 	get_input(x+20, y-5, "Quantidade de L", cb)

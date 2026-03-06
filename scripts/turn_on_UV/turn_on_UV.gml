@@ -20,7 +20,7 @@ function turn_on_UV(){
 
         create_textbox(x + sprite_width, y,
 		
-            ["A capela de fluxo laminar já está pronta para o uso."])
+            "A capela de fluxo laminar já está pronta para o uso.")
 			
 		// permite que a placa de petri seja posicionada na capela de fluxo laminar 	
 		with (obj_laminar_flow_hood) {
@@ -34,7 +34,7 @@ function turn_on_UV(){
     _cronometer.on_count_fail = function () {
 
         create_textbox(x + sprite_width, y,
-            ["Você cronometrou o tempo errado. Tente novamente"])
+           "Você cronometrou o tempo errado. Tente novamente")
         with (obj_cronometer) instance_destroy()
     }
 	
