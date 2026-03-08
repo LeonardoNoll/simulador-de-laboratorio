@@ -9,3 +9,5 @@ content = ""
 options = []
 var _becker = instance_nearest(x, y, obj_glass_jar_experiment_6)
 
+x_original = base_x
+y_original = base_y

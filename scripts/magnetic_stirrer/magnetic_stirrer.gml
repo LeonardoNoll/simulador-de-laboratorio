@@ -8,6 +8,8 @@ function magnetic_stirrer(_becker = undefined){
 	if rm_6_saliva_na_titulacao_de_bebidas_acidas{
 		with global.selected{
 			name = name + " - agitando"		
+			options = [OPTIONS.REMOVER_DO_PHMETRO]
+			
 		}
 	}
 }

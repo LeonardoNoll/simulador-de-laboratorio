@@ -137,6 +137,9 @@ switch(option) {
 	case OPTIONS.PARAR_DE_MEDIR:
 		stop_measure()
 		break
+	case OPTIONS.REMOVER_DO_PHMETRO:
+		remove_becker()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

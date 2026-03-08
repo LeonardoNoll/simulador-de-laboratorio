@@ -285,6 +285,7 @@
     {"id":{"name":"prepare_to_collect","path":"scripts/prepare_to_collect/prepare_to_collect.yy",},},
     {"id":{"name":"put_on","path":"scripts/put_on/put_on.yy",},},
     {"id":{"name":"put_pear_on","path":"scripts/put_pear_on/put_pear_on.yy",},},
+    {"id":{"name":"remove_becker","path":"scripts/remove_becker/remove_becker.yy",},},
     {"id":{"name":"remove_glass_jar","path":"scripts/remove_glass_jar/remove_glass_jar.yy",},},
     {"id":{"name":"remove_itens_from_centrifuge","path":"scripts/remove_itens_from_centrifuge/remove_itens_from_centrifuge.yy",},},
     {"id":{"name":"remove_pear","path":"scripts/remove_pear/remove_pear.yy",},},

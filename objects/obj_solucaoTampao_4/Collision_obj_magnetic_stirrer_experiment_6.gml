@@ -5,5 +5,6 @@ if(sprite_index == s_bottle_empty){
 	base_x = (_magnetic.x - 1)
 	base_y = (_magnetic.y - 37)
 	options = []
+	becker = true
 	locked = true
 }

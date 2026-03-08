@@ -3,6 +3,7 @@ function stop_measure(){
 		if sprite_index == s_phmetro_medindo{
 			sprite_index = s_phmetro
 			display_text = ""
+			options = [OPTIONS.LIGAR_PHMETRO, OPTIONS.AJUSTAR_PHMETRO, OPTIONS.MEDIR_PH]
 			
 		}
 	}
