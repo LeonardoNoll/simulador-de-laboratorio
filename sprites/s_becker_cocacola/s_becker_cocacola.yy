@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"s_becker_cocacola",
   "bboxMode":0,
-  "bbox_bottom":69,
+  "bbox_bottom":68,
   "bbox_left":0,
   "bbox_right":60,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"cfbcf856-6c88-4742-8585-00fc65373a3a","name":"cfbcf856-6c88-4742-8585-00fc65373a3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b52f9e2b-be3d-4d41-a4f2-7003a4b11095","name":"b52f9e2b-be3d-4d41-a4f2-7003a4b11095","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":70,
+  "height":69,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"13e7abd9-9b06-4dd5-ad4b-117f14d12156","blendMode":0,"displayName":"default","isLocked":false,"name":"13e7abd9-9b06-4dd5-ad4b-117f14d12156","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"81be1f87-b4d4-4c77-915a-b45bec98f177","blendMode":0,"displayName":"default","isLocked":false,"name":"81be1f87-b4d4-4c77-915a-b45bec98f177","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_becker_cocacola",
   "nineSlice":{
@@ -88,14 +88,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfbcf856-6c88-4742-8585-00fc65373a3a","path":"sprites/s_becker_cocacola/s_becker_cocacola.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4a1b16c6-2ee5-4240-b9b7-152ed1e95878","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b52f9e2b-be3d-4d41-a4f2-7003a4b11095","path":"sprites/s_becker_cocacola/s_becker_cocacola.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"91083d8c-19c9-4888-a166-d62232f50849","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":30,
-    "yorigin":35,
+    "yorigin":34,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
