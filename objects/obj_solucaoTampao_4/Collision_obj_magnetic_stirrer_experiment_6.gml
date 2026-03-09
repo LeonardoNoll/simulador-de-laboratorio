@@ -4,7 +4,7 @@ if(sprite_index == s_bottle_empty){
 	var _magnetic = instance_nearest(x, y, obj_magnetic_stirrer_experiment_6)
 	base_x = (_magnetic.x - 1)
 	base_y = (_magnetic.y - 37)
-	options = []
+	options = [OPTIONS.REMOVER_DO_PHMETRO]
 	becker = true
 	locked = true
 }
