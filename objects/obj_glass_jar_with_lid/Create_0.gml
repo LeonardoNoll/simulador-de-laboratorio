@@ -33,3 +33,8 @@ if(can_remove_glass_jar == true){
 	options = [OPTIONS.REMOVER_FRASCO]
 }
 
+if (room == s_rm_laminar_flow_hood) {
+    image_xscale = 2;
+    image_yscale = 2;
+}
+
