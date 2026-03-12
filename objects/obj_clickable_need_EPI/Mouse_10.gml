@@ -1,3 +1,5 @@
+if(global.modal_open) return
+
 tool_tip = spawn_tool_tip(name)
 
 if(!locked || array_length(options) > 0) {

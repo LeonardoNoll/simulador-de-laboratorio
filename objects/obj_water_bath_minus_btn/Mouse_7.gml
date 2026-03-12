@@ -1,1 +1,1 @@
-if(water_bath.temperature > 0) water_bath.temperature--
+if(obj_water_bath.temperature > 0) obj_water_bath.temperature--

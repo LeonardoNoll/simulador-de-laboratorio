@@ -9,4 +9,3 @@ y2 = y+height/2
 
 instance_create_depth(x - 50, y + 20, depth-1, obj_btn_home_accept)
 instance_create_depth(x + 50, y + 20, depth-1, obj_btn_home_decline)
-

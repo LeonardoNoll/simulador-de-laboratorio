@@ -1,4 +1,3 @@
-
 var _visor_hitbox = {
 	left: x + 75,
 	right: x + 125,
@@ -13,5 +12,6 @@ var _mouse_on_visor = mouse_x >= _visor_hitbox.left
 					
 if(_mouse_on_visor){
 	close_ui_elements()
+	open_modal()
 	instance_create_layer(room_width/2, room_height/2, "GUI", obj_water_bath_ui)
 }

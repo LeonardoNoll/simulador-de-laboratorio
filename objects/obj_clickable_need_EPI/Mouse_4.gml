@@ -1,7 +1,12 @@
 var _is_context_btn_overlaping = collision_point(mouse_x,mouse_y,obj_context_btn,false,true) != noone
 var _is_x_overlaping = collision_point(mouse_x,mouse_y,obj_btn_x,false,true) != noone
 
-if (locked || _is_context_btn_overlaping || _is_x_overlaping) {
+if (
+	locked
+	|| _is_context_btn_overlaping 
+	|| _is_x_overlaping
+	|| global.modal_open
+	) {
 	return
 }
 

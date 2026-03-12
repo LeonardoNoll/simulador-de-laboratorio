@@ -1,5 +1,6 @@
 global.selected = noone
 global.particle_sys = noone
+global.modal_open = false
 
 randomize()
 

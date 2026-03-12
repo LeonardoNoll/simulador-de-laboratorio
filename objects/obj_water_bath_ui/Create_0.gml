@@ -1,5 +1,3 @@
-water_bath = instance_nearest(x,y,obj_water_bath)
-
 var _x_spacing = 75
 var _starting_point_x = x-95
 var _starting_point_y = y + 40
