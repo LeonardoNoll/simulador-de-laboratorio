@@ -13,5 +13,6 @@ var _mouse_on_visor = mouse_x >= _visor_hitbox.left
 if(_mouse_on_visor){
 	close_ui_elements()
 	open_modal()
+	//show_debug_message(string_concat("is modal open: ", global.modal_open))
 	instance_create_layer(room_width/2, room_height/2, "GUI", obj_water_bath_ui)
 }

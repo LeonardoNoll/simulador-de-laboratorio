@@ -1,4 +1,4 @@
-if(global.modal_open) return
+if(global.modal_open) return;
 
 tool_tip = spawn_tool_tip(name)
 
