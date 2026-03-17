@@ -18,18 +18,26 @@ function turn_on_UV(){
 
     _cronometer.on_count_sucess = function() {
 
-        create_textbox(x + sprite_width, y,
+       /* create_textbox(x + sprite_width, y,
 		
-            "A capela de fluxo laminar já está pronta para o uso.")
+            "A capela de fluxo laminar já está pronta para o uso.")*/
+		create_textbox(x + sprite_width, y,
+		
+            "A capela de fluxo laminar já está pronta para o uso, desligue a luz UV antes de utilizá-la.")
 			
 		// permite que a placa de petri seja posicionada na capela de fluxo laminar 	
 		with (obj_laminar_flow_hood) {
 	        laminar_flow_hood_is_ready = true
+			options = [OPTIONS.DESLIGAR_LUZ_ULTRAVIOLETA]
 	    }
+	
 	
         // destrói o cronômetro
         with (obj_cronometer) instance_destroy()
+		
+		
     }
+	
    
     _cronometer.on_count_fail = function () {
 

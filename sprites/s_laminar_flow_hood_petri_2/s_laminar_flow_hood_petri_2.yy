@@ -19,7 +19,6 @@
   "height":520,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8cee344d-4a22-476b-8213-66e3ea2a827c","blendMode":3,"displayName":"default (2)","isLocked":false,"name":"8cee344d-4a22-476b-8213-66e3ea2a827c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"8dca6dec-6f53-45b3-82de-785eb539f30a","blendMode":0,"displayName":"default","isLocked":false,"name":"8dca6dec-6f53-45b3-82de-785eb539f30a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_laminar_flow_hood_petri_2",

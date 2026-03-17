@@ -50,7 +50,8 @@ enum OPTIONS {
 	REMOVER_FRASCO,
 	FECHAR_TAMPA,
 	BANHO_MARIA,
-	LIGAR_LUZ_ULTRAVIOLETA
+	LIGAR_LUZ_ULTRAVIOLETA,
+	DESLIGAR_LUZ_ULTRAVIOLETA
 }
 
 options_string = [
@@ -93,5 +94,6 @@ options_string = [
 	"Remover o frasco de vidro",
 	"Fechar a tampa",
 	"Levar para o banho maria",
-	"Ligar a luz ultravioleta"
+	"Ligar a luz ultravioleta",
+	"Desligar a luz ultravioleta"
 ]

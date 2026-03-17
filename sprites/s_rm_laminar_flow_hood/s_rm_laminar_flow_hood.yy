@@ -19,7 +19,6 @@
   "height":600,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"300ff23d-c16b-4899-93c1-c076979901fc","blendMode":3,"displayName":"default (2)","isLocked":false,"name":"300ff23d-c16b-4899-93c1-c076979901fc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"a95a74d3-14d5-4969-8afa-a80f7418878b","blendMode":0,"displayName":"default","isLocked":false,"name":"a95a74d3-14d5-4969-8afa-a80f7418878b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_rm_laminar_flow_hood",

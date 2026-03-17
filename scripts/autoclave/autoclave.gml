@@ -1,16 +1,5 @@
 // liga a autoclave
 function autoclave(){
-	
-	// verifica a pressão
-	function check_pressure(_text){
-		if (real(_text) != 15) {
-            create_textbox(mouse_x, mouse_y, "Este não é o valor correto. Tente novamente.")
-            get_input(x - 5, y - 25, "Libras de pressão:", check_pressure)
-		}
-	}
-	
-    get_input(x - 5, y - 25, "Libras de pressão:", check_pressure)
-	
 	// verifica se o cronômetro existe 
 	if (instance_exists(obj_cronometer)) {
         return

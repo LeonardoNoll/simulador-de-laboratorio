@@ -19,7 +19,6 @@
   "height":520,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d4daeaba-b0be-4019-8a1b-797c8bd85fde","blendMode":3,"displayName":"default (2)","isLocked":false,"name":"d4daeaba-b0be-4019-8a1b-797c8bd85fde","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"8dca6dec-6f53-45b3-82de-785eb539f30a","blendMode":0,"displayName":"default","isLocked":false,"name":"8dca6dec-6f53-45b3-82de-785eb539f30a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_laminar_flow_hood_glass_jar",

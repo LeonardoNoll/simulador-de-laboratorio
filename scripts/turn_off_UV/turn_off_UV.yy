@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script65",
+  "%Name":"turn_off_UV",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script65",
+  "name":"turn_off_UV",
   "parent":{
     "name":"experiment_7",
     "path":"folders/Scripts/experiment_7.yy",
