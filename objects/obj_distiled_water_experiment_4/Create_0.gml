@@ -9,4 +9,6 @@ ph = 7
 test_tube = noone
 content_id = "distilled_water"
 
-on_release = try_to_pass_liquid_to_test_tube_experiment_4
+on_release = function() {
+	get_input(x,y, "Mililitros a misturar", try_to_pass_liquid_to_test_tube_experiment_4)
+}

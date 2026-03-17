@@ -1,6 +1,4 @@
 function try_to_pass_liquid_to_test_tube_experiment_4(_ml) {
-	if (argument_count < 1) _ml = undefined;
-
 	var _test_tube = instance_nearest(x, y, obj_test_tube_experiment_4);
 	if (!place_meeting(x, y, _test_tube)) return;
 
