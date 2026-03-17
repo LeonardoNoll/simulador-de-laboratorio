@@ -4,7 +4,9 @@ function turn_off_UV(){
 	with(global.selected){
 		if(object_index == obj_laminar_flow_hood){
 			sprite_index = s_laminar_flow_hood
+			uv_off = true // avisa que a luz UV foi desligada
 		}
-	} 
-
+	}
+	
+	
 }
