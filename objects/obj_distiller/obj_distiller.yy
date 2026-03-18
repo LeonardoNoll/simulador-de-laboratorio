@@ -8,8 +8,8 @@
   "name":"obj_distiller",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_5",
-    "path":"folders/Objects/experiment_5.yy",
+    "name":"experiment_1_2",
+    "path":"folders/Objects/experiment_1_2.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",

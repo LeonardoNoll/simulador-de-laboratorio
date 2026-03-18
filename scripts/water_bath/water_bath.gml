@@ -7,11 +7,11 @@ function water_bath(){
 				if (real(_text) != 45) {
 		            create_textbox(mouse_x, mouse_y, "Este não é o valor correto. Tente novamente.")
          
-		            get_input(x - 5, y - 25, "Temperatura:", check_temp)
+		            get_input(x - 5, y - 25, "Temperatura", check_temp)
 				}
 			}
 	
-			get_input(x - 5, y - 25, "Temperatura:", check_temp)
+			get_input(x - 5, y - 25, "Temperatura", check_temp)
 		}else{
 			create_textbox(mouse_x-50, mouse_y-100,
 		            "O frasco com a mistura de ágar e água destilada precisa estar fechado.")
