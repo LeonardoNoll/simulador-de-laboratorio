@@ -1,18 +1,18 @@
 global.liquids_experiment_4 = {
 	saliva: {
 		id: "saliva",
-		color: #333333,
+		color: #00FFFF,
 		name: "Saliva Dil. 5x",
 		mix_results: {
-			distilled_water:"saliva_with_water"
+			distilled_water:"distilled_saliva"
 		}
 	} ,
 	distilled_water: {
 		id: "distilled_water",
-		color: #333333,
+		color: #00FFFF,
 		name: "Agua destilada",
 		mix_results: {
-			saliva: "saliva_with_water",
+			saliva: "distilled_saliva",
 			iodine: "iodine_control"
 		}
 	},		
@@ -29,21 +29,26 @@ global.liquids_experiment_4 = {
 	},
 	iodine: {
 		id: "iodine",
-		color: #121212,
+		color: #663600,
 		name: "Iodo",
 		mix_results: {
 		}
 	},
 	iodine_control: {
 		id: "iodine_control",
-		color: #333333,
+		color: #543105,
 		name: "Controle de Iodo",
 	},
 	starch_control: {
 		id: "starch_control",
 		color: #111111,
 		name: "Controle de Amido"
-	}
+	},
+	distilled_saliva: {
+		id: "distilled_saliva",
+		color: #00FFFF,
+		name: "Saliva Diluida"
+	},
 }
 
 global.test_tubes_experiment_4 = {
@@ -60,7 +65,7 @@ global.test_tubes_experiment_4 = {
 		id: "iodine_control",
 		name: "Controle de Iodo",
 		liquids: {
-			distilled_water: 3,
+			distilled_water: 4,
 			iodine: 2
 		}
 	},
