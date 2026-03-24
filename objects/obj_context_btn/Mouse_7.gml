@@ -131,6 +131,9 @@ switch(option) {
 	case OPTIONS.DESLIGAR_LUZ_ULTRAVIOLETA:
 		turn_off_UV()
 		break
+	case OPTIONS.HOMOGENEIZAR:
+		homogenize()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

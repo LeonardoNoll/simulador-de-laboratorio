@@ -51,7 +51,8 @@ enum OPTIONS {
 	FECHAR_TAMPA,
 	BANHO_MARIA,
 	LIGAR_LUZ_ULTRAVIOLETA,
-	DESLIGAR_LUZ_ULTRAVIOLETA
+	DESLIGAR_LUZ_ULTRAVIOLETA,
+	HOMOGENEIZAR
 }
 
 options_string = [
@@ -95,5 +96,6 @@ options_string = [
 	"Fechar a tampa",
 	"Levar para o banho maria",
 	"Ligar a luz ultravioleta",
-	"Desligar a luz ultravioleta"
+	"Desligar a luz ultravioleta",
+	"Homogeneizar mistura"
 ]
