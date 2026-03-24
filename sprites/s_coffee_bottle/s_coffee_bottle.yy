@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ccca47b3-583c-46f3-8251-8a63d7b3e109","name":"ccca47b3-583c-46f3-8251-8a63d7b3e109","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2aa12d6-39d8-4a69-b33f-93edeaf63870","name":"a2aa12d6-39d8-4a69-b33f-93edeaf63870","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":123,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2832f618-deff-499e-bc64-63d181dfa527","blendMode":0,"displayName":"default","isLocked":false,"name":"2832f618-deff-499e-bc64-63d181dfa527","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8ace5efe-ce37-400c-b303-691b39044f23","blendMode":0,"displayName":"default","isLocked":false,"name":"8ace5efe-ce37-400c-b303-691b39044f23","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_coffee_bottle",
   "nineSlice":null,
@@ -63,7 +63,7 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":125.0,
+    "seqHeight":123.0,
     "seqWidth":37.0,
     "showBackdrop":true,
     "showBackdropImage":false,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccca47b3-583c-46f3-8251-8a63d7b3e109","path":"sprites/s_coffee_bottle/s_coffee_bottle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"96584168-b069-48bd-82d7-9135ca8d0238","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2aa12d6-39d8-4a69-b33f-93edeaf63870","path":"sprites/s_coffee_bottle/s_coffee_bottle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f5d7f806-b0fc-4df9-a8f2-6d213faaea62","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

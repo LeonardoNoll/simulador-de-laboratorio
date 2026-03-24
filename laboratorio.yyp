@@ -90,7 +90,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.2.941",
+    "IDEVersion":"2024.1400.0.884",
   },
   "name":"laboratorio",
   "resources":[
@@ -299,6 +299,7 @@
     {"id":{"name":"string_normalize","path":"scripts/string_normalize/string_normalize.yy",},},
     {"id":{"name":"time_collection","path":"scripts/time_collection/time_collection.yy",},},
     {"id":{"name":"try_instantiate_buffer_capacity","path":"scripts/try_instantiate_buffer_capacity/try_instantiate_buffer_capacity.yy",},},
+    {"id":{"name":"turn_of_magnetic_stirrer","path":"scripts/turn_of_magnetic_stirrer/turn_of_magnetic_stirrer.yy",},},
     {"id":{"name":"turn_phmetro_on","path":"scripts/turn_phmetro_on/turn_phmetro_on.yy",},},
     {"id":{"name":"update_buffer_capacity","path":"scripts/update_buffer_capacity/update_buffer_capacity.yy",},},
     {"id":{"name":"update_notes_texts_experiment_6","path":"scripts/update_notes_texts_experiment_6/update_notes_texts_experiment_6.yy",},},

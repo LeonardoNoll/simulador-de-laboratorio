@@ -54,7 +54,8 @@ enum OPTIONS {
 	AJUSTAR_PHMETRO,
 	MEDIR_PH,
 	PARAR_DE_MEDIR,
-	REMOVER_DO_PHMETRO
+	REMOVER_DO_PHMETRO,
+	DESLIGAR_AGITADOR
 }
 
 options_string = [
@@ -101,5 +102,6 @@ options_string = [
 	"ajustar Peagâmetro",
 	"Medir PH",
 	"Parar de Medir",
-	"Remover do Phmetro"
+	"Remover do Phmetro",
+	"Desligar Agitador"
 ]

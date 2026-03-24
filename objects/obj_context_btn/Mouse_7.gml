@@ -140,6 +140,9 @@ switch(option) {
 	case OPTIONS.REMOVER_DO_PHMETRO:
 		remove_becker()
 		break
+	case OPTIONS.DESLIGAR_AGITADOR:
+		turn_of_magnetic_stirrer()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
