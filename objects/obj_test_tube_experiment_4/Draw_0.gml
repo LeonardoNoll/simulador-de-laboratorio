@@ -11,7 +11,3 @@ if(!is_undefined(content)) {
 }
 
 event_inherited();
-
-
-
-
