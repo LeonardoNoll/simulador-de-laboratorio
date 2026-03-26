@@ -9,5 +9,5 @@ if(sprite_index == s_bottle_empty){
 	locked = true
 }
 if name != original_name {
-	options = [OPTIONS.REMOVER_DO_PHMETRO]
+	options = [OPTIONS.REMOVER_DO_PHMETRO, OPTIONS.DESLIGAR_AGITADOR]
 }

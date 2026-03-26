@@ -9,6 +9,7 @@ function magnetic_stirrer(_becker = undefined){
 		with global.selected{
 			name = name + " - agitando"		
 			options = [OPTIONS.DESLIGAR_AGITADOR, OPTIONS.REMOVER_DO_PHMETRO]
+			create_textbox(x, y, "batata")
 			
 		}
 	}
