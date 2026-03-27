@@ -227,6 +227,7 @@
     {"id":{"name":"end_tutorial","path":"scripts/end_tutorial/end_tutorial.yy",},},
     {"id":{"name":"exercicio2","path":"scripts/exercicio2/exercicio2.yy",},},
     {"id":{"name":"extract_content","path":"scripts/extract_content/extract_content.yy",},},
+    {"id":{"name":"fill_petri_dish","path":"scripts/fill_petri_dish/fill_petri_dish.yy",},},
     {"id":{"name":"format_seconds_mm_ss","path":"scripts/format_seconds_mm_ss/format_seconds_mm_ss.yy",},},
     {"id":{"name":"get_distilled_water","path":"scripts/get_distilled_water/get_distilled_water.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
