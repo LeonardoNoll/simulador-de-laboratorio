@@ -93,7 +93,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.4.1003",
+    "IDEVersion":"2024.1400.4.1030",
   },
   "name":"laboratorio",
   "resources":[
@@ -202,6 +202,7 @@
     {"id":{"name":"obj_sterile_petri_dish","path":"objects/obj_sterile_petri_dish/obj_sterile_petri_dish.yy",},},
     {"id":{"name":"obj_stimulated_saliva_experiment_3","path":"objects/obj_stimulated_saliva_experiment_3/obj_stimulated_saliva_experiment_3.yy",},},
     {"id":{"name":"obj_stimulated_saliva_experiment_4","path":"objects/obj_stimulated_saliva_experiment_4/obj_stimulated_saliva_experiment_4.yy",},},
+    {"id":{"name":"obj_suction_pear_experiment_4","path":"objects/obj_suction_pear_experiment_4/obj_suction_pear_experiment_4.yy",},},
     {"id":{"name":"obj_suction_pear","path":"objects/obj_suction_pear/obj_suction_pear.yy",},},
     {"id":{"name":"obj_syringe_filled","path":"objects/obj_syringe_filled/obj_syringe_filled.yy",},},
     {"id":{"name":"obj_syringe","path":"objects/obj_syringe/obj_syringe.yy",},},
@@ -267,6 +268,7 @@
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
     {"id":{"name":"get_liquid_def","path":"scripts/get_liquid_def/get_liquid_def.yy",},},
     {"id":{"name":"get_mix_result","path":"scripts/get_mix_result/get_mix_result.yy",},},
+    {"id":{"name":"get_mls_experiment_4","path":"scripts/get_mls_experiment_4/get_mls_experiment_4.yy",},},
     {"id":{"name":"get_mls_with_pipette","path":"scripts/get_mls_with_pipette/get_mls_with_pipette.yy",},},
     {"id":{"name":"get_mls","path":"scripts/get_mls/get_mls.yy",},},
     {"id":{"name":"get_test_tube_current_liquid_id","path":"scripts/get_test_tube_current_liquid_id/get_test_tube_current_liquid_id.yy",},},
@@ -298,6 +300,7 @@
     {"id":{"name":"position_erlenmeyer_on_water_bath","path":"scripts/position_erlenmeyer_on_water_bath/position_erlenmeyer_on_water_bath.yy",},},
     {"id":{"name":"prepare_to_collect","path":"scripts/prepare_to_collect/prepare_to_collect.yy",},},
     {"id":{"name":"put_on","path":"scripts/put_on/put_on.yy",},},
+    {"id":{"name":"put_pear_on_experiment_4","path":"scripts/put_pear_on_experiment_4/put_pear_on_experiment_4.yy",},},
     {"id":{"name":"put_pear_on","path":"scripts/put_pear_on/put_pear_on.yy",},},
     {"id":{"name":"remove_glass_jar","path":"scripts/remove_glass_jar/remove_glass_jar.yy",},},
     {"id":{"name":"remove_itens_from_centrifuge","path":"scripts/remove_itens_from_centrifuge/remove_itens_from_centrifuge.yy",},},
