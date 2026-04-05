@@ -382,6 +382,7 @@
     {"id":{"name":"s_sheep_blood","path":"sprites/s_sheep_blood/s_sheep_blood.yy",},},
     {"id":{"name":"s_sirynge_empty","path":"sprites/s_sirynge_empty/s_sirynge_empty.yy",},},
     {"id":{"name":"s_solucao_amido","path":"sprites/s_solucao_amido/s_solucao_amido.yy",},},
+    {"id":{"name":"s_sterile_petri_dish_blood","path":"sprites/s_sterile_petri_dish_blood/s_sterile_petri_dish_blood.yy",},},
     {"id":{"name":"s_sterile_petri_dish_laminar_flow_hood","path":"sprites/s_sterile_petri_dish_laminar_flow_hood/s_sterile_petri_dish_laminar_flow_hood.yy",},},
     {"id":{"name":"s_sterile_petri_dish","path":"sprites/s_sterile_petri_dish/s_sterile_petri_dish.yy",},},
     {"id":{"name":"s_stopwatch","path":"sprites/s_stopwatch/s_stopwatch.yy",},},

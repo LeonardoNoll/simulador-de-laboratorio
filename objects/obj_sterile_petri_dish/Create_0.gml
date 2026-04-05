@@ -1,4 +1,5 @@
 event_inherited()
+petri_dish_id = 0
 
 if(rm_preparacao_de_meios_de_cultura_em_agar){
 	needed_EPI = []
