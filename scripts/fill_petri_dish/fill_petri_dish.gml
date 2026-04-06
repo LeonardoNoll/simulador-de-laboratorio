@@ -8,5 +8,5 @@ function fill_petri_dish(){
 			other.sprite_index = s_sterile_petri_dish_blood
 		}
 	}
-
+	room_goto(rm_parabens)
 }
