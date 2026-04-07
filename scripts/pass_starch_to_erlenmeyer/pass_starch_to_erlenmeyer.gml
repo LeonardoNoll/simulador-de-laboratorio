@@ -4,6 +4,7 @@ function pass_starch_to_erlenmeyer(){
         if (string_digits(_text) == 50) {
 			_meyer.sprite_index = s_flask_blue
 			_meyer.on_release = position_erlenmeyer_on_water_bath
+			_meyer.content_id = global.liquids_experiment_4.starch.id
 			obj_solucao_amido.on_release = undefined
         } else {
             create_textbox(_meyer.x, _meyer.y, ["Esta não é a quantia correta de mls. Tente novamente."]);

@@ -2,7 +2,7 @@ global.liquids_experiment_4 = {
 	saliva: {
 		id: "saliva",
 		color: #00FFFF,
-		name: "Saliva Dil. 5x",
+		name: "Saliva Diluida",
 		mix_results: {
 			distilled_water:"distilled_saliva"
 		}
@@ -47,9 +47,16 @@ global.liquids_experiment_4 = {
 	distilled_saliva: {
 		id: "distilled_saliva",
 		color: #00FFFF,
-		name: "Saliva Diluida"
+		name: "Saliva Dil. 5x"
 	},
+	erlenmeyer_mix: {
+		id: "erlenmeyer_mix",
+		color: c_fuchsia,
+		name: "Mix Erlenmeyer"
+	}
 }
+
+
 
 global.test_tubes_experiment_4 = {
 	starch_control: {
@@ -71,10 +78,19 @@ global.test_tubes_experiment_4 = {
 	},
 	distilled_saliva: {
 		id: "distilled_saliva",
-		name: "Saliva Diluida",
+		name: "Saliva Dil. 5x",
 		liquids: {
 			saliva: 1,
 			distilled_water: 4
+		}
+	},
+	"0": {
+		id: 0,
+		name: "0",
+		liquids: {
+			saliva: 1,
+			distilled_water: 3,
+			iodine: 2
 		}
 	}
 }
