@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lugol",
+  "%Name":"obj_iodine",
   "eventList":[],
   "managed":true,
-  "name":"obj_lugol",
+  "name":"obj_iodine",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_4",
