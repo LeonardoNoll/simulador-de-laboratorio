@@ -13,7 +13,7 @@ function remove_itens_from_centrifuge(){
 function update_falcon_tube() {
 	with(obj_falcon_tube) {
 		is_in_centrifuge = false
-		on_release = insert_in_centrifuge // Subject to change
+		on_release = centrifuged ? undefined : insert_in_centrifuge
 		sprite_index = s_falcon_tube_filled
 		scale_pulse(self, 2, 0.15)
 	}

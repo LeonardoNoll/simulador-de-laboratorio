@@ -1,4 +1,4 @@
-// As opções do switch devem cobrir todas os itens existentes
+ // As opções do switch devem cobrir todas os itens existentes
 // no array "OPTIONS", que pertence ao obj_game. Opções
 // com "return" antes do "break" não fecharão o menu imediatamente.
 

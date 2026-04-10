@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"find_closest_on_interaction_list",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"find_closest_on_interaction_list",
+  "parent":{
+    "name":"pipette_related",
+    "path":"folders/Scripts/utils/pipette_related.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

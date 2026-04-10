@@ -4,6 +4,7 @@
 /// @param _other (Id.instance): Objeto colidindo
 /// @param _sprite_index (number): Novo sprite
 function pass_liquid_to_becker(_mls, _other, _sprite_index) {
+	
 	if(string_normalize(global.selected.name) != string_normalize(_other.name)) {
 		create_textbox(x, y, ["Você só pode colocar este líquido no béquer com a marcação certa."])
 		return
@@ -24,7 +25,6 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
 
     // Define o callback, ligado ao contexto
     var cb = function(_text, ctx) {
-		show_debug_message(3)
         if (string_digits(_text) == 15) {
             with (ctx.other) {
                 if (content == "") {

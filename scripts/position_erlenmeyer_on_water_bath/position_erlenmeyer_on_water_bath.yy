@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"position_erlenmeyer_on_water_bath",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"position_erlenmeyer_on_water_bath",
+  "parent":{
+    "name":"experiment_4",
+    "path":"folders/Scripts/experiment_4.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

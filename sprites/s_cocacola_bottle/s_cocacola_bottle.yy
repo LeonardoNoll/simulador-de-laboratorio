@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"patient",
-    "path":"folders/Sprites/patient.yy",
+    "name":"experiment_6",
+    "path":"folders/Sprites/experiment_6.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
