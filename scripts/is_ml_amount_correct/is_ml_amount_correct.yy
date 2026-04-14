@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"is_ml_amount_correct",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"is_ml_amount_correct",
+  "parent":{
+    "name":"pipette_related",
+    "path":"folders/Scripts/utils/pipette_related.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -10,7 +10,7 @@ fast_forward = false
 expected_minutes = 5
 
 // verifica a room para marcar o tempo necessário 
-if(room == rm_preparacao_de_meios_de_cultura_em_caldo){
+if(room == rm_preparacao_de_meios_de_cultura_em_caldo || room == rm_preparacao_de_meios_de_cultura_em_agar){
 	expected_minutes = 15
 }
 

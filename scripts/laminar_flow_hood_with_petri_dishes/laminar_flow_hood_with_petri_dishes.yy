@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"laminar_flow_hood_with_petri_dishes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"laminar_flow_hood_with_petri_dishes",
+  "parent":{
+    "name":"experiment_7",
+    "path":"folders/Scripts/experiment_7.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

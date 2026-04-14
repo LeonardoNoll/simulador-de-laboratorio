@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"laminar_flow_hood_with_glass_jar_with_lid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"laminar_flow_hood_with_glass_jar_with_lid",
+  "parent":{
+    "name":"experiment_7",
+    "path":"folders/Scripts/experiment_7.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"get_mls_with_pipette",
   "parent":{
-    "name":"utils",
-    "path":"folders/Scripts/utils.yy",
+    "name":"pipette_related",
+    "path":"folders/Scripts/utils/pipette_related.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

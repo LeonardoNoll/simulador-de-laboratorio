@@ -1,5 +1,6 @@
 global.selected = noone
 global.particle_sys = noone
+global.modal_open = false
 
 randomize()
 
@@ -55,7 +56,12 @@ enum OPTIONS {
 	MEDIR_PH,
 	PARAR_DE_MEDIR,
 	REMOVER_DO_PHMETRO,
-	DESLIGAR_AGITADOR
+	DESLIGAR_AGITADOR,
+	PASSAR_AO_TUBO_DE_ENSAIO,
+	BANHO_MARIA,
+	LIGAR_LUZ_ULTRAVIOLETA,
+	DESLIGAR_LUZ_ULTRAVIOLETA,
+	HOMOGENEIZAR
 }
 
 options_string = [
@@ -103,5 +109,10 @@ options_string = [
 	"Medir PH",
 	"Parar de Medir",
 	"Remover do Phmetro",
-	"Desligar Agitador"
+	"Desligar Agitador",
+	"Passar ao tubo de ensaio",
+	"Levar para o banho maria",
+	"Ligar a luz ultravioleta",
+	"Desligar a luz ultravioleta",
+	"Homogeneizar mistura"
 ]

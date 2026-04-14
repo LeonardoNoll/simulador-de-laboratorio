@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"water_bath",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"water_bath",
+  "parent":{
+    "name":"experiment_7",
+    "path":"folders/Scripts/experiment_7.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

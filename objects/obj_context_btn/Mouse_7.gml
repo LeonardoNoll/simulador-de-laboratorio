@@ -73,8 +73,6 @@ switch(option) {
 		change_pipette()
 		break
 	case OPTIONS.PASSAR_LIQUIDO_AO_BEQUER:
-		show_debug_message(global.selected.name)
-		show_debug_message(global.selected.becker.name)
 		pass_liquid_to_becker(15,global.selected.becker, s_marked_becker_with_HCl)
 		break
 	case OPTIONS.ABRIR_CENTRIFUGA:
@@ -142,6 +140,21 @@ switch(option) {
 		break
 	case OPTIONS.DESLIGAR_AGITADOR:
 		turn_of_magnetic_stirrer()
+      break
+	case OPTIONS.PASSAR_AO_TUBO_DE_ENSAIO:
+		pass_liquid_to_test_tube_experiment_4()
+      break
+	case OPTIONS.BANHO_MARIA:
+		water_bath()
+		break
+	case OPTIONS.LIGAR_LUZ_ULTRAVIOLETA:
+		turn_on_UV()
+		break
+	case OPTIONS.DESLIGAR_LUZ_ULTRAVIOLETA:
+		turn_off_UV()
+		break
+	case OPTIONS.HOMOGENEIZAR:
+		homogenize()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
