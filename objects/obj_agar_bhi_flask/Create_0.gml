@@ -2,7 +2,12 @@ event_inherited()
 
 name = "Frasco de ágar BHI"
 
-needed_EPI = [obj_glove,obj_lab_coat, obj_goggles]
+if(rm_preparacao_de_meios_de_cultura_em_agar){
+	needed_EPI = []
+}else{
+	needed_EPI = [obj_glove,obj_lab_coat, obj_goggles]
+}
+
 content = name 
 
 scale_on_contact_list = [obj_glass_jar_with_lid]
@@ -13,7 +18,7 @@ on_release = function() {
 	becker = instance_nearest(x, y, obj_glass_jar_with_lid)
 	
 	if (!becker.on_scale) {
-		create_textbox(mouse_x-200, mouse_y-100, ["O frasco precisa estar na balança"])
+		create_textbox(mouse_x-200, mouse_y-100, "O frasco precisa estar na balança")
 		return
 	}
 

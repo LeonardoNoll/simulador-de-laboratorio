@@ -8,10 +8,12 @@ contem_meio = false  // verifica se já possui o meio desidratado
 
 if(room == rm_preparacao_de_meios_de_cultura_em_agar){
 	needed_EPI = [obj_glove,obj_lab_coat, obj_goggles]
+}else if(room == rm_laminar_flow_hood){
+	needed_EPI = []
+	options = [OPTIONS.ABRIR_TAMPA]
 }else{
 	needed_EPI = [obj_lab_coat]
 }
-
 
 options = [OPTIONS.IDENFICIAR_RECIPIENTE, OPTIONS.ABRIR_TAMPA]
 
@@ -24,6 +26,7 @@ can_remove_glass_jar = false // verifica quando pode ser removida da autoclave
 ready_for_laminar_flow_hood = false // passa o frasco somente se as placas de petri já estiverem na capela de fluxo laminar 
 
 
+
 // verifica se o frasco está em banho-maria 
 if(room == rm_preparacao_de_meios_de_cultura_em_agar && base_x == 270 && base_y == 428){
 	options = [OPTIONS.BANHO_MARIA]
@@ -31,5 +34,10 @@ if(room == rm_preparacao_de_meios_de_cultura_em_agar && base_x == 270 && base_y 
 
 if(can_remove_glass_jar == true){
 	options = [OPTIONS.REMOVER_FRASCO]
+}
+
+if (room == s_rm_laminar_flow_hood) {
+    image_xscale = 2;
+    image_yscale = 2;
 }
 

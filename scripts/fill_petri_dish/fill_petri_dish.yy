@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fill_petri_dish",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fill_petri_dish",
+  "parent":{
+    "name":"experiment_7",
+    "path":"folders/Scripts/experiment_7.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

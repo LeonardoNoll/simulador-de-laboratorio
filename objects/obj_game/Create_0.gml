@@ -52,7 +52,9 @@ enum OPTIONS {
 	FECHAR_TAMPA,
 	PASSAR_AO_TUBO_DE_ENSAIO,
 	BANHO_MARIA,
-	LIGAR_LUZ_ULTRAVIOLETA
+	LIGAR_LUZ_ULTRAVIOLETA,
+	DESLIGAR_LUZ_ULTRAVIOLETA,
+	HOMOGENEIZAR
 }
 
 options_string = [
@@ -96,5 +98,7 @@ options_string = [
 	"Fechar a tampa",
 	"Passar ao tubo de ensaio",
 	"Levar para o banho maria",
-	"Ligar a luz ultravioleta"
+	"Ligar a luz ultravioleta",
+	"Desligar a luz ultravioleta",
+	"Homogeneizar mistura"
 ]

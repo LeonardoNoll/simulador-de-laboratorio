@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"homogenize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"homogenize",
+  "parent":{
+    "name":"experiment_7",
+    "path":"folders/Scripts/experiment_7.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mix_blood_with_agar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mix_blood_with_agar",
+  "parent":{
+    "name":"experiment_7",
+    "path":"folders/Scripts/experiment_7.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

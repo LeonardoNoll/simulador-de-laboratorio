@@ -1,0 +1,1 @@
+on_release = mix_blood_with_agar()
