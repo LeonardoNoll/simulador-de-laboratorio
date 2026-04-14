@@ -2,7 +2,7 @@
 
 **Simulador de laboratório virtual 2D para o ensino de Bioquímica e Microbiologia**
 
-Este projeto é um ambiente interativo de simulação criado para apoiar a **formação de alunos de graduação em Odontologia**, permitindo a prática de experimentos de bioquímica e microbiologia de maneira segura, acessível e gamificada. O simulador foi desenvolvido em **GameMaker Studio** e está disponível para uso online. :contentReference[oaicite:0]{index=0}
+Este projeto é um ambiente interativo de simulação criado para apoiar a **formação de alunos de graduação em Odontologia**, permitindo a prática de experimentos de bioquímica e microbiologia de maneira segura, acessível e gamificada. O simulador foi desenvolvido em **GameMaker Studio** e está disponível para uso online.
 
 ---
 

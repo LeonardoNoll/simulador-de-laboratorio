@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"close_modal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"close_modal",
+  "parent":{
+    "name":"modal",
+    "path":"folders/Scripts/utils/modal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

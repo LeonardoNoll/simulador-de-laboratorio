@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"can_mix",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"can_mix",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
