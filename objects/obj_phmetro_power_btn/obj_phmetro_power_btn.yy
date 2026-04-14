@@ -9,8 +9,8 @@
   "name":"obj_phmetro_power_btn",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_6",
-    "path":"folders/Objects/experiment_6.yy",
+    "name":"phametro",
+    "path":"folders/Objects/experiment_6/phametro.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",
