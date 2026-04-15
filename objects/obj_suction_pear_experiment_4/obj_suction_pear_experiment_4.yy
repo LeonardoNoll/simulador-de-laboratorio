@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lugol",
-  "eventList":[],
+  "%Name":"obj_suction_pear_experiment_4",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_lugol",
+  "name":"obj_suction_pear_experiment_4",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_4",
     "path":"folders/Objects/experiment_4.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_suction_pear",
+    "path":"objects/obj_suction_pear/obj_suction_pear.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_lugol",
-    "path":"sprites/s_lugol/s_lugol.yy",
+    "name":"s_suction_pear",
+    "path":"sprites/s_suction_pear/s_suction_pear.yy",
   },
   "spriteMaskId":{
-    "name":"s_lugol",
-    "path":"sprites/s_lugol/s_lugol.yy",
+    "name":"s_suction_pear",
+    "path":"sprites/s_suction_pear/s_suction_pear.yy",
   },
   "visible":true,
 }

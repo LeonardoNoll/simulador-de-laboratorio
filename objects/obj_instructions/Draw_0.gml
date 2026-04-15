@@ -7,9 +7,6 @@ var _padding_y_previous_arrow = _padding_y_next_arrow - 8
 var _parent = obj_btn_instructions
 
 if(!is_array(instructions) || array_length(instructions) == 0) return
-	
-// Arrows control
-show_debug_message(_parent.object_index)
 
 if(_parent.instruction > 0 && !instance_exists(obj_previous_reference)) {
 	var _prev_arrow = instance_create_depth(x - sprite_width / 2 + _padding_x*2, y + sprite_height/2 - _padding_y_previous_arrow, depth-1, obj_previous_reference)

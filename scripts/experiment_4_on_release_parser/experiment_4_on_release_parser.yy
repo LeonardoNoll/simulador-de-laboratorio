@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"experiment_4_on_release_parser",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"experiment_4_on_release_parser",
+  "parent":{
+    "name":"experiment_4",
+    "path":"folders/Scripts/experiment_4.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

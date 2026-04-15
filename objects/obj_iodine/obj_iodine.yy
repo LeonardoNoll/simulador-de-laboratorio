@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_test_tube_experiment_4",
+  "%Name":"obj_iodine",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_test_tube_experiment_4",
+  "name":"obj_iodine",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_4",
     "path":"folders/Objects/experiment_4.yy",
   },
   "parentObjectId":{
-    "name":"obj_test_tube",
-    "path":"objects/obj_test_tube/obj_test_tube.yy",
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,9 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_test_tube_empty_closed",
-    "path":"sprites/s_test_tube_empty_closed/s_test_tube_empty_closed.yy",
+    "name":"s_lugol",
+    "path":"sprites/s_lugol/s_lugol.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"s_lugol",
+    "path":"sprites/s_lugol/s_lugol.yy",
+  },
   "visible":true,
 }

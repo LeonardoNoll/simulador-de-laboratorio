@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-content_id = undefined
+on_release = put_pear_on_experiment_4

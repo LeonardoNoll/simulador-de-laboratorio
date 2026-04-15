@@ -21,7 +21,7 @@ function transfer_liquid_to_test_tube(_liquid_id, _test_tube, _liquids, _test_tu
         _test_tube_def = _found.def;
     } else {
         if (!variable_struct_exists(_test_tubes, _test_tube_id)) return transfer_liquid_result_fail("test_tube_definition_not_found");
-        _test_tube_def = _test_tubes[_test_tube_id];
+        _test_tube_def = _test_tubes[$ _test_tube_id];
     }
 	
 	var _liquid_def = get_liquid_def(_liquids, _liquid_id)
