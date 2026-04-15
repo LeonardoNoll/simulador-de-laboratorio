@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"find_test_tube_def_by_name",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"find_test_tube_def_by_name",
+  "parent":{
+    "name":"transfer_liquid_to_test_tube",
+    "path":"folders/Scripts/utils/transfer_liquid_to_test_tube.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

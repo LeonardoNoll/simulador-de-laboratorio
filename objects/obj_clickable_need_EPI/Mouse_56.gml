@@ -1,3 +1,5 @@
+if(global.modal_open) return
+
 if(drag_mode) {
 	window_set_cursor(cr_default)
 	if(on_release != undefined) on_release()

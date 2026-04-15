@@ -1,5 +1,6 @@
 global.selected = noone
 global.particle_sys = noone
+global.modal_open = false
 
 randomize()
 
@@ -49,6 +50,7 @@ enum OPTIONS {
 	LIGAR_AUTOCLAVE,
 	REMOVER_FRASCO,
 	FECHAR_TAMPA,
+	PASSAR_AO_TUBO_DE_ENSAIO,
 	BANHO_MARIA,
 	LIGAR_LUZ_ULTRAVIOLETA,
 	DESLIGAR_LUZ_ULTRAVIOLETA,
@@ -94,6 +96,7 @@ options_string = [
 	"Ligar autoclave",
 	"Remover o frasco de vidro",
 	"Fechar a tampa",
+	"Passar ao tubo de ensaio",
 	"Levar para o banho maria",
 	"Ligar a luz ultravioleta",
 	"Desligar a luz ultravioleta",
