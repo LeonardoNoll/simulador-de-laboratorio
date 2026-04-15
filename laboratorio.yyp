@@ -95,9 +95,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[
-    {"link":"io.gamemaker.gm_filter_tintfilter-1.0.0","name":"io.gamemaker.gm_filter_tintfilter-1.0.0","path":"io.gamemaker.gm_filter_tintfilter-1.0.0.yyp",},
-  ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -182,7 +180,6 @@
     {"id":{"name":"obj_locker_btn","path":"objects/obj_locker_btn/obj_locker_btn.yy",},},
     {"id":{"name":"obj_locker_generic_item","path":"objects/obj_locker_generic_item/obj_locker_generic_item.yy",},},
     {"id":{"name":"obj_locker_GUI","path":"objects/obj_locker_GUI/obj_locker_GUI.yy",},},
-    {"id":{"name":"obj_lugol","path":"objects/obj_lugol/obj_lugol.yy",},},
     {"id":{"name":"obj_magnetic_stirrer_experiment_6","path":"objects/obj_magnetic_stirrer_experiment_6/obj_magnetic_stirrer_experiment_6.yy",},},
     {"id":{"name":"obj_magnetic_stirrer","path":"objects/obj_magnetic_stirrer/obj_magnetic_stirrer.yy",},},
     {"id":{"name":"obj_minus_minute_centrifuge_btn","path":"objects/obj_minus_minute_centrifuge_btn/obj_minus_minute_centrifuge_btn.yy",},},
