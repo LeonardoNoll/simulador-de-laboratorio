@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ajustar_phmetro",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ajustar_phmetro",
+  "parent":{
+    "name":"experment_6",
+    "path":"folders/Scripts/experment_6.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

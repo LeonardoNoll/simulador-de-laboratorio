@@ -50,9 +50,18 @@ enum OPTIONS {
 	LIGAR_AUTOCLAVE,
 	REMOVER_FRASCO,
 	FECHAR_TAMPA,
+	LIMPAR_BECKER,
+	LIGAR_PHMETRO,
+	AJUSTAR_PHMETRO,
+	MEDIR_PH,
+	PARAR_DE_MEDIR,
+	REMOVER_DO_PHMETRO,
+	DESLIGAR_AGITADOR,
 	PASSAR_AO_TUBO_DE_ENSAIO,
 	BANHO_MARIA,
-	LIGAR_LUZ_ULTRAVIOLETA
+	LIGAR_LUZ_ULTRAVIOLETA,
+	DESLIGAR_LUZ_ULTRAVIOLETA,
+	HOMOGENEIZAR
 }
 
 options_string = [
@@ -94,7 +103,16 @@ options_string = [
 	"Ligar autoclave",
 	"Remover o frasco de vidro",
 	"Fechar a tampa",
+	"Limpar o Becker",
+	"Ligar Peagâmetro",
+	"ajustar Peagâmetro",
+	"Medir PH",
+	"Parar de Medir",
+	"Remover do Phmetro",
+	"Desligar Agitador",
 	"Passar ao tubo de ensaio",
 	"Levar para o banho maria",
-	"Ligar a luz ultravioleta"
+	"Ligar a luz ultravioleta",
+	"Desligar a luz ultravioleta",
+	"Homogeneizar mistura"
 ]

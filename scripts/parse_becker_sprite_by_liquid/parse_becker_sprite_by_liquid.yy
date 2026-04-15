@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"parse_becker_sprite_by_liquid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"parse_becker_sprite_by_liquid",
+  "parent":{
+    "name":"experment_6",
+    "path":"folders/Scripts/experment_6.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

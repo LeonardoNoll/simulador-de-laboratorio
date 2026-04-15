@@ -1,0 +1,5 @@
+instance_destroy(obj_writable_cell_experiment_6)
+instance_destroy(obj_base_cell_style_experiment_6)
+instance_destroy(obj_col_header_experiment_6)
+instance_destroy(obj_buffer_capacity_experiment_6)
+instance_destroy(x_btn)

@@ -1,6 +1,9 @@
 function try_to_pass_liquid_to_test_tube_experiment_4(_ml) {
 	var _test_tube = instance_nearest(x, y, obj_test_tube_experiment_4);
-	if (!place_meeting(x, y, _test_tube)) return;
+	if (!place_meeting(x, y, _test_tube)) {
+		show_debug_message("not_meeting_test_tube")
+		return
+	} 
 
 	var _result = transfer_liquid_to_test_tube(
 		content_id,

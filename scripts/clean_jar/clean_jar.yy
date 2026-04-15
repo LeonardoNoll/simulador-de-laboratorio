@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"clean_jar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"clean_jar",
+  "parent":{
+    "name":"experment_6",
+    "path":"folders/Scripts/experment_6.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
