@@ -1,0 +1,1 @@
+{"\$GMFolder":"","%Name":"experimento_4_atividade_enzimatica_atividade_salivar","folderPath":"folders/Rooms/experimento_4_atividade_enzimatica_atividade_salivar.yy","name":"experimento_4_atividade_enzimatica_atividade_salivar","resourceType":"GMFolder","resourceVersion":"2.0"}

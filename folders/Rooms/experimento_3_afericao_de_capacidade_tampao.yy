@@ -1,0 +1,1 @@
+{"\$GMFolder":"","%Name":"experimento_3_afericao_de_capacidade_tampao","folderPath":"folders/Rooms/experimento_3_afericao_de_capacidade_tampao.yy","name":"experimento_3_afericao_de_capacidade_tampao","resourceType":"GMFolder","resourceVersion":"2.0"}

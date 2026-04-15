@@ -1,0 +1,1 @@
+{"\$GMFolder":"","%Name":"experimento_5_preparacao_de_meios_de_cultura_em_caldo","folderPath":"folders/Rooms/experimento_5_preparacao_de_meios_de_cultura_em_caldo.yy","name":"experimento_5_preparacao_de_meios_de_cultura_em_caldo","resourceType":"GMFolder","resourceVersion":"2.0"}

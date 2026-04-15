@@ -1,0 +1,1 @@
+{"\$GMFolder":"","%Name":"experiment_6_saliva_na_titulacao_de_bebidas_acidas","folderPath":"folders/Rooms/experiment_6_saliva_na_titulacao_de_bebidas_acidas.yy","name":"experiment_6_saliva_na_titulacao_de_bebidas_acidas","resourceType":"GMFolder","resourceVersion":"2.0"}
