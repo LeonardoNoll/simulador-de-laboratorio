@@ -8,8 +8,8 @@
   "name":"obj_coffee_bottle",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_6",
-    "path":"folders/Objects/experiment_6.yy",
+    "name":"bottles_experiment_6",
+    "path":"folders/Objects/experiment_6/bottles_experiment_6.yy",
   },
   "parentObjectId":{
     "name":"obj_bottle_parent",

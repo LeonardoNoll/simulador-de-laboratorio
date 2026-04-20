@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"turn_phmetro_on",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"turn_phmetro_on",
+  "parent":{
+    "name":"experment_6",
+    "path":"folders/Scripts/experment_6.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

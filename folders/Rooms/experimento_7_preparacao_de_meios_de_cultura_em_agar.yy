@@ -1,0 +1,1 @@
+{"\$GMFolder":"","%Name":"experimento_7_preparacao_de_meios_de_cultura_em_agar","folderPath":"folders/Rooms/experimento_7_preparacao_de_meios_de_cultura_em_agar.yy","name":"experimento_7_preparacao_de_meios_de_cultura_em_agar","resourceType":"GMFolder","resourceVersion":"2.0"}

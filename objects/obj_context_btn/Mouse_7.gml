@@ -120,8 +120,30 @@ switch(option) {
 	case OPTIONS.FECHAR_TAMPA:
 		close_lid()
 		break
+	case OPTIONS.LIMPAR_BECKER:
+		clean_jar()
+		break
+	case OPTIONS.LIGAR_PHMETRO:
+		turn_phmetro_on()
+		break
+	case OPTIONS.AJUSTAR_PHMETRO:
+		ajustar_phmetro()
+		break
+	case OPTIONS.MEDIR_PH:
+		measure_ph()
+		break
+	case OPTIONS.PARAR_DE_MEDIR:
+		stop_measure()
+		break
+	case OPTIONS.REMOVER_DO_PHMETRO:
+		remove_becker()
+		break
+	case OPTIONS.DESLIGAR_AGITADOR:
+		turn_of_magnetic_stirrer()
+      break
 	case OPTIONS.PASSAR_AO_TUBO_DE_ENSAIO:
 		pass_liquid_to_test_tube_experiment_4()
+      break
 	case OPTIONS.BANHO_MARIA:
 		water_bath()
 		break
