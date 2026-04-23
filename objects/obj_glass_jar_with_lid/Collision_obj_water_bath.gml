@@ -5,3 +5,15 @@ if(sprite_index == s_glass_agar_with_lid){
     //locked = true
 	depth = obj_water_bath.depth + 1; // deixa o frasco dentro, sem ficar na frente
 }
+
+
+/*if(obj_water_bath.temperature != 45){
+	create_textbox(mouse_x-50, mouse_y-100,"Temperatura incorreta.")
+}*/
+
+with(obj_laminar_flow_hood){
+	if(!laminar_flow_hood_is_ready){ // verifica se já não foi ligada anteriormente
+		options = [OPTIONS.LIGAR_LUZ_ULTRAVIOLETA]
+	}
+}
+

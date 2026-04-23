@@ -281,6 +281,7 @@
     {"id":{"name":"exercicio2","path":"scripts/exercicio2/exercicio2.yy",},},
     {"id":{"name":"experiment_4_on_release_parser","path":"scripts/experiment_4_on_release_parser/experiment_4_on_release_parser.yy",},},
     {"id":{"name":"extract_content","path":"scripts/extract_content/extract_content.yy",},},
+    {"id":{"name":"fill_petri_dish","path":"scripts/fill_petri_dish/fill_petri_dish.yy",},},
     {"id":{"name":"find_closest_on_interaction_list","path":"scripts/find_closest_on_interaction_list/find_closest_on_interaction_list.yy",},},
     {"id":{"name":"find_test_tube_def_by_name","path":"scripts/find_test_tube_def_by_name/find_test_tube_def_by_name.yy",},},
     {"id":{"name":"format_seconds_mm_ss","path":"scripts/format_seconds_mm_ss/format_seconds_mm_ss.yy",},},

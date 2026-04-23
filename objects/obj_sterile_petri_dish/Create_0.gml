@@ -16,3 +16,4 @@ if (room == s_rm_laminar_flow_hood) {
     image_yscale = 2;
 }
 
+filled = false
