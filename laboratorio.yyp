@@ -366,6 +366,7 @@
     {"id":{"name":"s_arrow_buffer_capacity","path":"sprites/s_arrow_buffer_capacity/s_arrow_buffer_capacity.yy",},},
     {"id":{"name":"s_arrow_right","path":"sprites/s_arrow_right/s_arrow_right.yy",},},
     {"id":{"name":"s_autoclave","path":"sprites/s_autoclave/s_autoclave.yy",},},
+    {"id":{"name":"s_background_2","path":"sprites/s_background_2/s_background_2.yy",},},
     {"id":{"name":"s_background","path":"sprites/s_background/s_background.yy",},},
     {"id":{"name":"s_backpack","path":"sprites/s_backpack/s_backpack.yy",},},
     {"id":{"name":"s_becker_cocacola","path":"sprites/s_becker_cocacola/s_becker_cocacola.yy",},},
