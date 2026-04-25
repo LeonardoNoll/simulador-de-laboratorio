@@ -101,7 +101,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.4.1030",
+    "IDEVersion":"2024.1400.5.1043",
   },
   "name":"laboratorio",
   "resources":[
@@ -136,6 +136,7 @@
     {"id":{"name":"obj_btn_notes_table","path":"objects/obj_btn_notes_table/obj_btn_notes_table.yy",},},
     {"id":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},},
     {"id":{"name":"obj_btn_ph_table","path":"objects/obj_btn_ph_table/obj_btn_ph_table.yy",},},
+    {"id":{"name":"obj_btn_tabela_bebida","path":"objects/obj_btn_tabela_bebida/obj_btn_tabela_bebida.yy",},},
     {"id":{"name":"obj_btn_table","path":"objects/obj_btn_table/obj_btn_table.yy",},},
     {"id":{"name":"obj_btn_x","path":"objects/obj_btn_x/obj_btn_x.yy",},},
     {"id":{"name":"obj_buffer_capacity_experiment_6","path":"objects/obj_buffer_capacity_experiment_6/obj_buffer_capacity_experiment_6.yy",},},
