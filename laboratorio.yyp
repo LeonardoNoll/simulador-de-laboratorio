@@ -51,6 +51,7 @@
     {"$GMFolder":"","%Name":"experimento_7_preparacao_de_meios_de_cultura_em_agar","folderPath":"folders/Rooms/experimento_7_preparacao_de_meios_de_cultura_em_agar.yy","name":"experimento_7_preparacao_de_meios_de_cultura_em_agar","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tutorial","folderPath":"folders/Rooms/tutorial.yy","name":"tutorial","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"callbacks","folderPath":"folders/Scripts/callbacks.yy","name":"callbacks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experiment_1_2","folderPath":"folders/Scripts/experiment_1_2.yy","name":"experiment_1_2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"cronometro","folderPath":"folders/Scripts/experiment_1_2/cronometro.yy","name":"cronometro","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"experiment_3","folderPath":"folders/Scripts/experiment_3.yy","name":"experiment_3","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -100,7 +101,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.4.1030",
+    "IDEVersion":"2024.1400.5.1052",
   },
   "name":"laboratorio",
   "resources":[
@@ -293,6 +294,7 @@
     {"id":{"name":"get_mls_with_pipette","path":"scripts/get_mls_with_pipette/get_mls_with_pipette.yy",},},
     {"id":{"name":"get_mls","path":"scripts/get_mls/get_mls.yy",},},
     {"id":{"name":"get_test_tube_current_liquid_id","path":"scripts/get_test_tube_current_liquid_id/get_test_tube_current_liquid_id.yy",},},
+    {"id":{"name":"gmcallback_teste","path":"scripts/gmcallback_teste/gmcallback_teste.yy",},},
     {"id":{"name":"homogenize","path":"scripts/homogenize/homogenize.yy",},},
     {"id":{"name":"identify_recipient","path":"scripts/identify_recipient/identify_recipient.yy",},},
     {"id":{"name":"identify","path":"scripts/identify/identify.yy",},},
