@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gmcallback_teste",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gmcallback_teste",
+  "parent":{
+    "name":"callbacks",
+    "path":"folders/Scripts/callbacks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
