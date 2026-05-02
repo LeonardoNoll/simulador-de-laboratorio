@@ -11,7 +11,8 @@ function try_to_pass_liquid_to_test_tube_experiment_4() {
 	};
 	
 	get_input(x, y, "Mililitros a misturar", function(_val, _args) {
-		var _ml = real(_val);
+		try {
+		var _ml = real(string_digits(_val));
 		var _result = transfer_liquid_to_test_tube(
 			_args.liquid_id,
 			_args.test_tube,
@@ -29,5 +30,10 @@ function try_to_pass_liquid_to_test_tube_experiment_4() {
 		_args.test_tube.content_id = _result.resulting_liquid_id
 		_args.test_tube.content = _result.resulting_liquid;
 		show_debug_message(_args.test_tube.content)
+		} catch (error) {
+			show_debug_message("Error: " + error)
+		}
+		
+		
 	}, _context);
 }
