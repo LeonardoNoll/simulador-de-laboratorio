@@ -14,7 +14,7 @@ global.liquids_experiment_4 = {
 		mix_results: {
 			saliva: "distilled_saliva",
 			iodine: "iodine_control",
-			starch: "distilled_water_startch"
+			starch: "distilled_water_starch"
 		}
 	},		
 	starch: {
@@ -55,8 +55,8 @@ global.liquids_experiment_4 = {
 		color: c_fuchsia,
 		name: "Mix Erlenmeyer"
 	},
-	distilled_water_startch: {
-		id: "distilled_water_startch",
+	distilled_water_starch: {
+		id: "distilled_water_starch",
 		color: c_blue,
 		name: "Água Destilada com Amido",
 		mix_results: {
