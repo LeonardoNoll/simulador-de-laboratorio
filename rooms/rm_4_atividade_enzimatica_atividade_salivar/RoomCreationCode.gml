@@ -13,7 +13,8 @@ global.liquids_experiment_4 = {
 		name: "Agua destilada",
 		mix_results: {
 			saliva: "distilled_saliva",
-			iodine: "iodine_control"
+			iodine: "iodine_control",
+			starch: "distilled_water_startch"
 		}
 	},		
 	starch: {
@@ -37,12 +38,12 @@ global.liquids_experiment_4 = {
 	iodine_control: {
 		id: "iodine_control",
 		color: #543105,
-		name: "Controle de Iodo",
+		name: "Controle Iodo",
 	},
 	starch_control: {
 		id: "starch_control",
 		color: #111111,
-		name: "Controle de Amido"
+		name: "Controle Amido"
 	},
 	distilled_saliva: {
 		id: "distilled_saliva",
@@ -53,6 +54,14 @@ global.liquids_experiment_4 = {
 		id: "erlenmeyer_mix",
 		color: c_fuchsia,
 		name: "Mix Erlenmeyer"
+	},
+	distilled_water_startch: {
+		id: "distilled_water_startch",
+		color: c_blue,
+		name: "Água Destilada com Amido",
+		mix_results: {
+			iodine: "starch_control",
+		}
 	}
 }
 
@@ -61,7 +70,7 @@ global.liquids_experiment_4 = {
 global.test_tubes_experiment_4 = {
 	starch_control: {
 		id: "starch_control",
-		name: "Controle de Amido",
+		name: "Controle Amido",
 		liquids: {
 			distilled_water: 3,
 			iodine: 2,
@@ -70,7 +79,7 @@ global.test_tubes_experiment_4 = {
 	},
 	iodine_control: {
 		id: "iodine_control",
-		name: "Controle de Iodo",
+		name: "Controle Iodo",
 		liquids: {
 			distilled_water: 4,
 			iodine: 2
