@@ -156,6 +156,9 @@ switch(option) {
 	case OPTIONS.HOMOGENEIZAR:
 		homogenize()
 		break
+	case OPTIONS.DESENHAR_LINHA:
+		draw_a_line()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
