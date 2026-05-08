@@ -1,17 +1,11 @@
 function get_mls_experiment_4() {
 	var _allowed_sources = [
-		obj_solucao_amido,
-		obj_test_tube_experiment_4,
+		obj_solucao_amido, 
+		obj_test_tube_experiment_4, 
 		obj_falcon_tube
 	];
 
-	var _source = noone;
-	for (var _i = 0; _i < array_length(_allowed_sources); _i++) {
-		_source = instance_place(x, y, _allowed_sources[_i]);
-		if (_source != noone) {
-			break;
-		}
-	}
+	var _source = instance_place(x, y, _allowed_sources);
 
 	if (_source == noone) {
 		return;
@@ -25,7 +19,7 @@ function get_mls_experiment_4() {
 			return;
 		}
 
-		if (_mls > 10) {
+		if(_mls > 10) {
 			// TOOD: Criar um arquivo para os macros
 			create_textbox(x, y, "Esta pipeta não suporta esta quantia de ml");
 			return;
@@ -34,7 +28,7 @@ function get_mls_experiment_4() {
 		if (instance_exists(_captured_source)) {
 			content_id = _captured_source.content_id;
 			ml = _mls;
-			on_release = experiment_4_on_release_parser;
+			on_release = experiment_4_on_release_parser
 		}
 	};
 
