@@ -1,6 +1,7 @@
 global.selected = noone
 global.particle_sys = noone
 global.modal_open = false
+global.previous_room = ds_list_create()
 
 randomize()
 

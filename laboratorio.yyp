@@ -209,6 +209,7 @@
     {"id":{"name":"obj_plus_minute_centrifuge_btn","path":"objects/obj_plus_minute_centrifuge_btn/obj_plus_minute_centrifuge_btn.yy",},},
     {"id":{"name":"obj_plus_rpm_centrifuge_btn","path":"objects/obj_plus_rpm_centrifuge_btn/obj_plus_rpm_centrifuge_btn.yy",},},
     {"id":{"name":"obj_previous_reference","path":"objects/obj_previous_reference/obj_previous_reference.yy",},},
+    {"id":{"name":"obj_previous_room_arrow","path":"objects/obj_previous_room_arrow/obj_previous_room_arrow.yy",},},
     {"id":{"name":"obj_rack","path":"objects/obj_rack/obj_rack.yy",},},
     {"id":{"name":"obj_reference_table","path":"objects/obj_reference_table/obj_reference_table.yy",},},
     {"id":{"name":"obj_saliva_artificial","path":"objects/obj_saliva_artificial/obj_saliva_artificial.yy",},},
