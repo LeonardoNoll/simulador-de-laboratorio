@@ -5,7 +5,6 @@ function experiment_4_on_release_parser(){
 	}
 	
 	if(place_meeting(x,y, obj_erlenmeyer_experiment_4)) {
-		// Adicionar comportamento
 		if(ml != 50) {
 			create_textbox(x, y, "Esta não é a quantia correta de mls")
 			return
@@ -15,6 +14,4 @@ function experiment_4_on_release_parser(){
 		_erlenmeyer.with_startch = true
 		
 	}
-	
-	// Adicionar ló
 }
