@@ -92,14 +92,19 @@ global.test_tubes_experiment_4 = {
 			saliva: 1,
 			distilled_water: 4
 		}
-	},
-	"0": {
-		id: 0,
-		name: "0",
+	}
+}
+
+var _tubes_to_add = 7;
+for (var i = 0; i <= _tubes_to_add; i++) {
+	var _name = string(i);
+	global.test_tubes_experiment_4[$ _name] = {
+		id: i,
+		name: _name,
 		liquids: {
 			saliva: 1,
 			distilled_water: 3,
 			iodine: 2
 		}
-	}
+	};
 }
