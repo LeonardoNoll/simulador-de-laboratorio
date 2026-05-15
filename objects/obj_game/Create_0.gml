@@ -62,7 +62,8 @@ enum OPTIONS {
 	LIGAR_LUZ_ULTRAVIOLETA,
 	DESLIGAR_LUZ_ULTRAVIOLETA,
 	HOMOGENEIZAR,
-	DESENHAR_LINHA
+	DESENHAR_LINHA,
+	IDENTIFICAR_OVO
 }
 
 options_string = [
@@ -116,5 +117,6 @@ options_string = [
 	"Ligar a luz ultravioleta",
 	"Desligar a luz ultravioleta",
 	"Homogeneizar mistura",
-	"Desenhar linha"
+	"Desenhar linha",
+	"Identificar o ovo"
 ]
