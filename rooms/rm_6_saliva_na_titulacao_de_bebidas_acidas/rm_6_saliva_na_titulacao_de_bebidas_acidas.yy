@@ -38,6 +38,7 @@
     {"name":"inst_660C779A","path":"rooms/rm_6_saliva_na_titulacao_de_bebidas_acidas/rm_6_saliva_na_titulacao_de_bebidas_acidas.yy",},
     {"name":"inst_74B9A18","path":"rooms/rm_6_saliva_na_titulacao_de_bebidas_acidas/rm_6_saliva_na_titulacao_de_bebidas_acidas.yy",},
     {"name":"inst_1497176F","path":"rooms/rm_6_saliva_na_titulacao_de_bebidas_acidas/rm_6_saliva_na_titulacao_de_bebidas_acidas.yy",},
+    {"name":"inst_45B6DFA7","path":"rooms/rm_6_saliva_na_titulacao_de_bebidas_acidas/rm_6_saliva_na_titulacao_de_bebidas_acidas.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -82,6 +83,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Energético",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_tabela_bebida","path":"objects/obj_btn_tabela_bebida/obj_btn_tabela_bebida.yy",},"propertyId":{"name":"textos_cabecalho","path":"objects/obj_btn_tabela_bebida/obj_btn_tabela_bebida.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[\"25 ml\", \"90 ml\", \"180 ml\"]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":719.5,"y":-101.0,},
+        {"$GMRInstance":"v4","%Name":"inst_45B6DFA7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45B6DFA7","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":32.0,},
       ],"layers":[],"name":"GUI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Visual_Effects","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Visual_Effects","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Front_Assets","assets":[

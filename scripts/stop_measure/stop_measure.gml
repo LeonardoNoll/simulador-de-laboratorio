@@ -6,5 +6,8 @@ function stop_measure(){
 			options = [OPTIONS.LIGAR_PHMETRO, OPTIONS.AJUSTAR_PHMETRO, OPTIONS.MEDIR_PH]
 			
 		}
+		if verificar_4 and verificar_7{
+			options = [OPTIONS.LIGAR_PHMETRO, OPTIONS.MEDIR_PH]
+		}
 	}
 }

@@ -5,7 +5,8 @@ needed_EPI = [obj_lab_coat]
 on_release = function(){
 	if place_meeting(x, y, obj_glass_jar_experiment_6){
 		var _becker = instance_nearest(x, y, obj_glass_jar_experiment_6)
-		if _becker.name != "Béquer 50ml"{
+		obj_glass_jar_experiment_6.PH = PH
+		if _becker.name != "Béquer 100ml"{
 			create_textbox(x, y, "O Béquer ainda possui um conteúdo")
 			return
 		}
