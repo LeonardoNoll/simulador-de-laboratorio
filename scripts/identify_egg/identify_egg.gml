@@ -3,7 +3,7 @@ function identify_egg(){
 	var cb = function(_text) {
 		var _egg = instance_nearest(x, y, obj_egg)
 		
-		if(global.selected_egg.sprite_index != s_egg){
+		if(global.selected_egg.sprite_index != s_egg && global.selected_egg.sprite_index != s_marked_egg){
 			 create_textbox(_egg.x, _egg.y, "Ovo já identificado.")
 			 return
 		}
@@ -18,7 +18,7 @@ function identify_egg(){
             break
 
             case "GF":
-                global.selected_egg.sprite_index = s_egg_GF
+                global.selected_egg.sprite_index = s_egg_FG
             break
 			
             default:

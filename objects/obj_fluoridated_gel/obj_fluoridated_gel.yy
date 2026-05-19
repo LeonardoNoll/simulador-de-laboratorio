@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_toothpaste_with_fluoride",
+  "%Name":"obj_fluoridated_gel",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_egg","path":"objects/obj_egg/obj_egg.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_toothpaste_with_fluoride",
+  "name":"obj_fluoridated_gel",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_8",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_toothpaste_with_fluoride",
-    "path":"sprites/s_toothpaste_with_fluoride/s_toothpaste_with_fluoride.yy",
+    "name":"s_fluoridated_gel",
+    "path":"sprites/s_fluoridated_gel/s_fluoridated_gel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
