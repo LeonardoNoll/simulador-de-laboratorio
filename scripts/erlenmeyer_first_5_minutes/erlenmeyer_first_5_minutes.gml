@@ -15,11 +15,16 @@ function erlenmeyer_first_5_minutes(){
 		create_textbox(x,y, "Vocễ não usou a temperatura correta para o banho Maria. Consulte o roteiro e tente novamente.")
 	}
 	
-	_erlenmeyer.minutes_passed_on_water_bath = 5
 	scale_pulse(_erlenmeyer,  1.5, 0.15)
+	
+	if (is_struct(_erlenmeyer.content) && variable_struct_exists(_erlenmeyer.content, "state")) {
+		_erlenmeyer.content.state.minutes_passed = 5
+	}
+	
 	var _chronometer_btn = instance_nearest(x,y, obj_btn_cronometer)
 	var _chronometer = instance_nearest(x,y,obj_cronometer)
-	_chronometer.on_count_sucess = undefined // trocar
-	_chronometer_btn.on_count_sucess = undefined
-	show_debug_message("sucesso")
+	_chronometer.on_count_sucess = erlenmeyer_one_more_minute
+	_chronometer_btn.on_count_sucess = erlenmeyer_one_more_minute
+	_chronometer.expected_minutes =	1
+	_chronometer_btn.expected_minutes =	1
 }

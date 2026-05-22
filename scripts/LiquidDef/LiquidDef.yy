@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LiquidDef",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LiquidDef",
+  "parent":{
+    "name":"constructors",
+    "path":"folders/Scripts/constructors.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

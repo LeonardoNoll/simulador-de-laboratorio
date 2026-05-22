@@ -40,11 +40,22 @@ function collect_liquid() {
 		if (instance_exists(_captured_source)) {
 			// Sucesso na coleta
 			ph = variable_instance_exists(_captured_source, "ph") ? _captured_source.ph : 0;
-			content = variable_instance_exists(_captured_source, "content") ? _captured_source.content : "líquido";
+			
+			// Assegura que a fonte tem uma LiquidInstance
+			var _raw_content = ensure_liquid_instance(_captured_source);
+			
+			// Se o conteúdo for uma LiquidInstance, clonamos para tirar um snapshot do estado no momento da coleta
+			if (is_struct(_raw_content) && variable_struct_exists(_raw_content, "clone")) {
+				content = _raw_content.clone();
+			} else {
+				content = _raw_content;
+			}
+			
 			content_id = variable_instance_exists(_captured_source, "content_id") ? _captured_source.content_id : "";
 			used = content;
 			ml = _mls;
-			name = "Pipeta com " + string(_mls) + "ml(s) de " + content;
+			var _content_name = is_struct(content) ? content.name : string(content);
+			name = "Pipeta com " + string(_mls) + "ml(s) de " + _content_name;
 			
 			scale_pulse(self, 1.5, 0.15);
 			
