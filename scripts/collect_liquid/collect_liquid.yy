@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"collect_liquid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"collect_liquid",
+  "parent":{
+    "name":"pipette_related",
+    "path":"folders/Scripts/utils/pipette_related.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

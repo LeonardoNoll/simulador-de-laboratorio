@@ -7,10 +7,22 @@
 /// @param _test_tube_id (string): Id esperado do tubo de teste
 /// @param _ml (real): Quantidade em ml transferida (opcional)
 
-function transfer_liquid_to_test_tube(_liquid_id, _test_tube, _liquids, _test_tubes, _test_tube_id, _ml) {
+function transfer_liquid_to_test_tube(_incoming, _test_tube, _liquids, _test_tubes, _test_tube_id, _ml) {
     if (is_undefined(_test_tube)) return transfer_liquid_result_fail("test_tube_missing");
-    if (is_undefined(_liquids) || !variable_struct_exists(_liquids, _liquid_id)) return transfer_liquid_result_fail("liquid_not_found");
+    if (is_undefined(_liquids)) return transfer_liquid_result_fail("liquids_missing");
     if (is_undefined(_test_tubes)) return transfer_liquid_result_fail("test_tube_definition_not_found");
+
+	// Resolve o liquido de entrada para uma LiquidInstance
+	var _incoming_instance = undefined;
+	if (is_string(_incoming)) {
+		var _def = _liquids[$ _incoming];
+		if (is_undefined(_def)) return transfer_liquid_result_fail("liquid_not_found");
+		_incoming_instance = new LiquidInstance(_def);
+	} else if (is_struct(_incoming)) {
+		_incoming_instance = _incoming.clone();
+	}
+	
+	if (is_undefined(_incoming_instance)) return transfer_liquid_result_fail("invalid_incoming_liquid");
 	
 	var _test_tube_def;
 
@@ -21,23 +33,33 @@ function transfer_liquid_to_test_tube(_liquid_id, _test_tube, _liquids, _test_tu
         _test_tube_def = _found.def;
     } else {
         if (!variable_struct_exists(_test_tubes, _test_tube_id)) return transfer_liquid_result_fail("test_tube_definition_not_found");
-        _test_tube_def = _test_tubes[_test_tube_id];
+        _test_tube_def = _test_tubes[$ _test_tube_id];
     }
 	
-	var _liquid_def = get_liquid_def(_liquids, _liquid_id)
-	if (is_undefined(_liquid_def)) return transfer_liquid_result_fail("liquid_not_found");
+	var _liquid_def = _incoming_instance.def;
 
-	var _current_id = get_test_tube_current_liquid_id(_test_tube)
-	var _current_liquid = get_liquid_def(_liquids, _current_id)
+	// Resolve o liquido atual do tubo para uma LiquidInstance
+	var _current_content = _test_tube.content;
+	var _current_instance = undefined;
+	if (is_string(_current_content) && _current_content != "") {
+		var _def = _liquids[$ _current_content];
+		if (!is_undefined(_def)) _current_instance = new LiquidInstance(_def);
+	} else if (is_struct(_current_content)) {
+		_current_instance = _current_content;
+	}
 
-	if(!can_transfer_liquid_to_test_tube(_test_tube_def,_liquid_def, _ml)) return transfer_liquid_result_fail("liquid_test_tube_mismatch")
+	if(!can_transfer_liquid_to_test_tube(_test_tube_def, _liquid_def, _ml)) return transfer_liquid_result_fail("liquid_test_tube_mismatch")
 
 	// Se o tubo estiver vazio, aceita o liquido sem misturar.
-    if(_current_id == "" || is_undefined(_current_id)) return transfer_liquid_result_ok(_liquid_def, undefined);
-    if(!variable_struct_exists(_liquids, _current_id)) return transfer_liquid_result_fail("current_liquid_not_found");
-    if(!can_mix(_liquid_def, _current_liquid)) return transfer_liquid_result_fail("incompatible_liquids");
+    if(is_undefined(_current_instance)) {
+		// Garante que o resultado seja uma instância independente, não o mesmo objeto da origem
+		var _new_instance = _incoming_instance.clone();
+		return transfer_liquid_result_ok(_new_instance, undefined);
+	}
+    
+    if(!can_mix(_incoming_instance, _current_instance)) return transfer_liquid_result_fail("incompatible_liquids");
 	
-	var _mix_raw = get_mix_result(_liquid_def,_current_liquid);
+	var _mix_raw = get_mix_result(_incoming_instance, _current_instance);
 	
     var _mix_info = parse_mix_result(_mix_raw);
     if (_mix_info.id == "" || is_undefined(_mix_info.id)) return transfer_liquid_result_fail("invalid_mix_result");
@@ -48,8 +70,11 @@ function transfer_liquid_to_test_tube(_liquid_id, _test_tube, _liquids, _test_tu
 		if (_ml < _mix_info.required_ml) return transfer_liquid_result_fail("insufficient_ml");
 	}
 
-	var _result_liquid = get_liquid_def(_liquids, _mix_info.id);
-	if (is_undefined(_result_liquid)) return transfer_liquid_result_fail("result_liquid_not_found");
-	return transfer_liquid_result_ok(_result_liquid, _mix_info.required_ml);
+	var _result_def = _liquids[$ _mix_info.id];
+	if (is_undefined(_result_def)) return transfer_liquid_result_fail("result_liquid_not_found");
 	
+	// Retorna uma nova LiquidInstance para o resultado
+	var _result_instance = new LiquidInstance(_result_def);
+	
+	return transfer_liquid_result_ok(_result_instance, _mix_info.required_ml);
 }

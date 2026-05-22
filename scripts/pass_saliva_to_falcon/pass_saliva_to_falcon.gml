@@ -1,7 +1,6 @@
 function pass_saliva_to_falcon(){
 	var _is_touching_falcon_tube = place_meeting(x, y, obj_falcon_tube)
 	
-	show_debug_message(_is_touching_falcon_tube)
 	if(!_is_touching_falcon_tube) {
 		return	
 	}

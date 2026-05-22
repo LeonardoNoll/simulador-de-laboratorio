@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_63B31909","path":"rooms/rm_1a_normal/rm_1a_normal.yy",},
     {"name":"inst_1848A11B","path":"rooms/rm_1a_normal/rm_1a_normal.yy",},
     {"name":"inst_651350EE","path":"rooms/rm_1a_normal/rm_1a_normal.yy",},
     {"name":"inst_5C7ACA8","path":"rooms/rm_1a_normal/rm_1a_normal.yy",},
@@ -19,7 +18,6 @@
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Dialog","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Dialog","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"GUI","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_63B31909","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63B31909","objectId":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_5C7ACA8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C7ACA8","objectId":{"name":"obj_btn_instructions","path":"objects/obj_btn_instructions/obj_btn_instructions.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_instructions","path":"objects/obj_btn_instructions/obj_btn_instructions.yy",},"propertyId":{"name":"instructions_list","path":"objects/obj_btn_instructions/obj_btn_instructions.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[\"Vista a luva e o jaleco;\", \"Identifique o Becker de amostra;\", \"De o pote para o paciente;\", \"Posicione a cabeça do paciente acima do pote, no ângulo de 45º;\", \"Colete a saliva por 5 minutos;\", \"Transfira a saliva coletada para uma seringa;\", \"Confira a quantidade de saliva e utilize a tabela referência para calcular os ml/min\", \"Diagnostique o resultado de acordo com a referência.\"]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":650.0,"y":40.0,},

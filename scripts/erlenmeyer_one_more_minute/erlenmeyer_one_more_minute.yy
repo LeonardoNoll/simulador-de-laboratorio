@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"erlenmeyer_one_more_minute",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"erlenmeyer_one_more_minute",
+  "parent":{
+    "name":"chronometer",
+    "path":"folders/Scripts/experiment_4/chronometer.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
