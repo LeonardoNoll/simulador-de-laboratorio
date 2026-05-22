@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_mls",
+  "%Name":"ensure_liquid_instance",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_mls",
+  "name":"ensure_liquid_instance",
   "parent":{
-    "name":"experiment_3",
-    "path":"folders/Scripts/experiment_3.yy",
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
