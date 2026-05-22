@@ -3,6 +3,7 @@ draw_set_valign(fa_middle);
 
 var _is_mouse_hovering = left < mouse_x && mouse_x < right && top < mouse_y && mouse_y < bottom
 var _y_offset = _is_mouse_hovering ? 12 : 0
+var _primary_color = room_exists(target_room) ? #7EC1FF : #808080
 
 if(!_is_mouse_hovering) {
 	draw_set_color(#5C81A4)
