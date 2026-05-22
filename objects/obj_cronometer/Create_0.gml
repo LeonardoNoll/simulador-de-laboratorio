@@ -14,6 +14,10 @@ if(room == rm_preparacao_de_meios_de_cultura_em_caldo || room == rm_preparacao_d
 	expected_minutes = 15
 }
 
+if(room = rm_acao_do_fluoreto_na_casca_do_ovo){
+	expected_minutes = 60
+}
+
 on_count_start = function () {}
 on_count_fail = function () {}
 on_count_sucess = function () {}
