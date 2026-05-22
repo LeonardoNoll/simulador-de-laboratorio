@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"apply_product",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"apply_product",
+  "parent":{
+    "name":"experiment_8",
+    "path":"folders/Scripts/experiment_8.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

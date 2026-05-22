@@ -1,0 +1,3 @@
+apply_product("toothpaste")
+
+
