@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"take_ml_input",
+  "%Name":"collect_liquid",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"take_ml_input",
+  "name":"collect_liquid",
   "parent":{
     "name":"pipette_related",
     "path":"folders/Scripts/utils/pipette_related.yy",

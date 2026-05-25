@@ -23,3 +23,23 @@ function find_test_tube_def_by_name(_test_tubes_struct, _tube_name) {
     }
     return _out;
 }
+
+/// @function TestTubeDef(_id, _name, _liquids)
+/// @description Constructor for test tube definitions.
+/// @param _id (any): Identifier for the definition
+/// @param _name (string): Display name
+/// @param _liquids (struct): Struct containing liquid quantities
+function TestTubeDef(_id, _name, _liquids = undefined) constructor {
+	id = _id;
+	name = _name;
+	
+	if (is_undefined(_liquids)) {
+		liquids = {
+			saliva: 1,
+			distilled_water: 3,
+			iodine: 2
+		};
+	} else {
+		liquids = _liquids;
+	}
+}
