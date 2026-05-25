@@ -34,7 +34,7 @@ function apply_product(_product){
 			break
 	}
 	
-	if(global.egg = 3){
+	if(global.egg == 3){
 		// verifica se o cronômetro já existe
 		if (instance_exists(obj_cronometer)) {
 	        return
@@ -47,7 +47,6 @@ function apply_product(_product){
 	    )
 
 	    _cronometer.on_count_sucess = function() {
-
 	        create_textbox(x + sprite_width, y,
 	            "Você já pode remover o produto.")
 
@@ -56,7 +55,6 @@ function apply_product(_product){
 	    }
    
 	    _cronometer.on_count_fail = function () {
-
 	        create_textbox(x + sprite_width, y,
 	            "Você cronometrou o tempo errado. Tente novamente")
 	        with (obj_cronometer) instance_destroy()
