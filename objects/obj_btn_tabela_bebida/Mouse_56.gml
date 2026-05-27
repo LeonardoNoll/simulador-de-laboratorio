@@ -9,14 +9,12 @@ var _bottom = y + _half_h;
 
 // 2. Verifica se o clique foi liberado dentro da área correta e atualizada
 if (_left < mouse_x && mouse_x < _right && _top < mouse_y && mouse_y < _bottom) {
+	instance_destroy(obj_notes_table_experiment_6)
 	
-	//instance_create_depth(x,y+100, depth-1,obj_col_header, {
-	//	 text: textos_cabecalho[0]
-	//})
-	
-	instance_create_depth(x, y+50, depth-1, obj_notes_table_experiment_6, {
+	instance_create_depth(x, y + height*2, depth-1, obj_notes_table_experiment_6, {
 		textos_cabecalho: textos_cabecalho,
-		valores_ml: valores_ml
+		valores_ml: valores_ml,
+		parent: id
 	})
     
     // Se for reativar a criação do objeto, ele também usará o x e y atualizados:

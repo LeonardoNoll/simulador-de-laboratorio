@@ -29,6 +29,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"textos_cabecalho","filters":[],"listItems":[],"multiselect":false,"name":"textos_cabecalho","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"valores_ml","filters":[],"listItems":[],"multiselect":false,"name":"valores_ml","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"parent","filters":[],"listItems":[],"multiselect":false,"name":"parent","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varDescription":"Parente","varFriendlyName":"parent","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
