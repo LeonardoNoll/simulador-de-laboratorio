@@ -1,3 +1,3 @@
-apply_product("toothpaste")
+on_release = apply_product("toothpaste")
 
 

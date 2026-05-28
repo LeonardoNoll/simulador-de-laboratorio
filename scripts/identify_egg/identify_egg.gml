@@ -1,4 +1,4 @@
-// identifica o ovo
+// //@description identifica o ovo
 function identify_egg(){
 		
 	var cb = function(_text){
