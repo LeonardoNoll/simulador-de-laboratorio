@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"s_sink",
   "bboxMode":0,
-  "bbox_bottom":599,
+  "bbox_bottom":600,
   "bbox_left":0,
   "bbox_right":1299,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"dae38136-5b18-4e6b-b466-9281619bdb23","name":"dae38136-5b18-4e6b-b466-9281619bdb23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2184c2a1-c8b5-4e66-85ea-be1d27fae750","name":"2184c2a1-c8b5-4e66-85ea-be1d27fae750","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":600,
+  "height":601,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5c07a469-e705-4350-be91-559b59a7ab8b","blendMode":0,"displayName":"default","isLocked":false,"name":"5c07a469-e705-4350-be91-559b59a7ab8b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b8b3321c-80d8-414c-b638-cc884b7bf2ae","blendMode":0,"displayName":"default","isLocked":false,"name":"b8b3321c-80d8-414c-b638-cc884b7bf2ae","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_sink",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dae38136-5b18-4e6b-b466-9281619bdb23","path":"sprites/s_sink/s_sink.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"458c4315-f8d8-45cf-bea8-2276db444299","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2184c2a1-c8b5-4e66-85ea-be1d27fae750","path":"sprites/s_sink/s_sink.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0faa7fc3-f52c-4011-8b92-9d313590a9b2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

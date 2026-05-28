@@ -1,1 +1,1 @@
-global.egg_id = 2
+global.egg_2 = id

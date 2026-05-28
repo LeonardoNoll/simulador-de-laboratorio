@@ -1,2 +1,5 @@
 global.selected_egg = id
-options = [OPTIONS.IDENTIFICAR_OVO]
+
+if(sprite_index == s_marked_egg || sprite_index == s_egg){
+	options = [OPTIONS.IDENTIFICAR_OVO]
+}

@@ -1,0 +1,1 @@
+global.eggs = 0
