@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_a_line",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_a_line",
+  "parent":{
+    "name":"experiment_8",
+    "path":"folders/Scripts/experiment_8.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -62,7 +62,9 @@ enum OPTIONS {
 	BANHO_MARIA,
 	LIGAR_LUZ_ULTRAVIOLETA,
 	DESLIGAR_LUZ_ULTRAVIOLETA,
-	HOMOGENEIZAR
+	HOMOGENEIZAR,
+	DESENHAR_LINHA,
+	IDENTIFICAR_OVO
 }
 
 options_string = [
@@ -115,5 +117,7 @@ options_string = [
 	"Levar para o banho maria",
 	"Ligar a luz ultravioleta",
 	"Desligar a luz ultravioleta",
-	"Homogeneizar mistura"
+	"Homogeneizar mistura",
+	"Desenhar linha",
+	"Identificar o ovo"
 ]

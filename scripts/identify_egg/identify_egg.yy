@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"identify_egg",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"identify_egg",
+  "parent":{
+    "name":"experiment_8",
+    "path":"folders/Scripts/experiment_8.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

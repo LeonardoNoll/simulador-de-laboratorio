@@ -29,7 +29,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"table_type","filters":[],"listItems":[],"multiselect":false,"name":"table_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_notes_table","path":"objects/obj_notes_table/obj_notes_table.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_notes_table","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
