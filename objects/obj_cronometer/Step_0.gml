@@ -17,7 +17,7 @@ if (counting_down) {
 			on_count_start()
 			
             // Lida com a lógica de expiração
-            if (minutes_elapsed == expected_minutes) {
+            if (minutes_elapsed == expected_minutes || debug_mode) {
 				on_count_sucess()
             } else {
                 on_count_fail()

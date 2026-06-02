@@ -168,6 +168,9 @@ switch(option) {
 	case OPTIONS.FECHAR_TORNEIRA:
 		turn_off_the_faucet()
 		break
+	case OPTIONS.PASSAR_ACIDO_ACETICO:
+		pour_acetic_acid()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_becker_8",
-    "path":"sprites/s_becker_8/s_becker_8.yy",
+    "name":"s_becker_acetic_acid",
+    "path":"sprites/s_becker_acetic_acid/s_becker_acetic_acid.yy",
   },
   "spriteMaskId":null,
   "visible":true,
