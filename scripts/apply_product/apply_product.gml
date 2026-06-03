@@ -52,6 +52,8 @@ function apply_product(_product){
 	
 	if(global.eggs == 3){
 		
+		cronometer()
+		/*
 		// verifica se o cronômetro já existe
 		if (instance_exists(obj_cronometer)) {
 	        return
@@ -79,7 +81,7 @@ function apply_product(_product){
 	        create_textbox(x + sprite_width, y,
 	            "Você cronometrou o tempo errado. Tente novamente")
 	        with (obj_cronometer) instance_destroy()
-	    }
+	    }*/
 	}
 	
 }
