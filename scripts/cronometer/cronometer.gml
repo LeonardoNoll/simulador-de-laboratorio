@@ -36,18 +36,6 @@ function cronometer(){
 					break				
 			}
 			
-			/* verifica o que precisa ser feito em cada room 
-			if(room == rm_acao_do_fluoreto_na_casca_do_ovo){
-		        create_textbox(x + sprite_width, y,"Você já pode remover o produto.")
-				
-			}else if(room == rm_preparacao_de_meios_de_cultura_em_caldo || room == rm_preparacao_de_meios_de_cultura_em_agar){
-				create_textbox(x + sprite_width, y,
-		            "O frasco já pode ser retirado da autoclave.")
-		        with (obj_autoclave) {
-		            options = [OPTIONS.REMOVER_FRASCO]
-		        }
-			}*/
-			
 	        // destrói o cronômetro
 	        with (obj_cronometer) instance_destroy()
 	    }

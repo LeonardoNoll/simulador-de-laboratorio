@@ -1,1 +1,4 @@
-on_release = apply_product("toothpaste_with_fluoride")
+on_release = function(){
+	apply_product("toothpaste with fluoride")
+}
+
