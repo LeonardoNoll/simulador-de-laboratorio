@@ -14,6 +14,5 @@ function rinse_off(_sprite){
 	case s_egg_with_SF:
 		sprite_index = s_egg_SF
 		break
-		
 	}
 }

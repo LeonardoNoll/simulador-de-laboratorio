@@ -2,8 +2,7 @@
 
 function pour_acetic_acid(_becker){
  
-	var cb = function(_text, _args) {
-		var _becker = _args[0]
+	var cb = function(_text, _becker) {
 		//verifica se o valor está correto
         if (real(_text) == 200) {
 			_becker.sprite_index = s_becker_8_2
@@ -13,5 +12,5 @@ function pour_acetic_acid(_becker){
 			create_textbox(_becker.x, _becker.y, "Esta não é a quantia correta de mL. Tente novamente.")
         }
 	}
-	get_input(x+20, y-5, "Quantidade de mililitros", cb, [_becker])
+	get_input(x+20, y-5, "Quantidade de mililitros", cb, _becker)
 }
