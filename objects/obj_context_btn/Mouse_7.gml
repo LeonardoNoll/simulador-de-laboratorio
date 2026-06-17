@@ -169,7 +169,7 @@ switch(option) {
 		turn_off_the_faucet()
 		break
 	case OPTIONS.PASSAR_ACIDO_ACETICO:
-		pour_acetic_acid()
+		pour_acetic_acid(_becker)
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])

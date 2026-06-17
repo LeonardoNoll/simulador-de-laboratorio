@@ -8,7 +8,7 @@ canPourAceticAcid = false // verifica se pode usar o ácido acético
 
 // passa o ácido acético para o béquer 
 on_release = function() {
-	if(canPourAceticAcid){
+	if(canPourAceticAcid = true){
 		// verifica se colidiu com o béquer 
 	    if (place_meeting(x, y, obj_becker_8)) { 
 			var _becker =  instance_nearest(x, y, obj_becker_8)
