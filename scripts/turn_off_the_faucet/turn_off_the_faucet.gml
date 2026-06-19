@@ -6,6 +6,9 @@ function turn_off_the_faucet(){
 			options = []
 		}	
 	}
-	canPourAceticAcid = true 
+	
+	with(obj_acetic_acid){
+		canPourAceticAcid = true 
+	}
 }
 

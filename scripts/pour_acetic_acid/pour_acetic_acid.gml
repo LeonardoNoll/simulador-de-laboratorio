@@ -13,4 +13,9 @@ function pour_acetic_acid(_becker){
         }
 	}
 	get_input(x+20, y-5, "Quantidade de mililitros", cb, _becker)
+	
+	with(obj_egg){
+		canPlaceEggInBecker = true
+	}
+	
 }

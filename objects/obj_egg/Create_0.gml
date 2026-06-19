@@ -9,4 +9,4 @@ identified = false
 
 has_product = false // verifica se tem produto
 
-canPlaceEggInBeaker = false // verifica se pode ir para o béquer
+canPlaceEggInBecker = false // verifica se pode ir para o béquer
