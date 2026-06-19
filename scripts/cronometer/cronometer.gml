@@ -24,6 +24,9 @@ function cronometer(){
 			
 				case rm_acao_do_fluoreto_na_casca_do_ovo:
 					create_textbox(x + sprite_width, y,"Você já pode remover o produto.")
+					with(obj_egg){
+						can_rinse = true
+					}
 					break
 					
 				case rm_preparacao_de_meios_de_cultura_em_agar:

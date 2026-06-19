@@ -1,6 +1,6 @@
 // passa o ácido acético para o béquer 
 on_release = function() {
-	if(canPourAceticAcid){
+	if(can_pour_acetic_acid){
 		// verifica se colidiu com o béquer 
 	    if (place_meeting(x, y, obj_becker_8)) { 
 			var _becker =  instance_nearest(x, y, obj_becker_8)

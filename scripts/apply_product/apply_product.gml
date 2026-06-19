@@ -2,16 +2,19 @@
 function apply_product(_product){
 	
 	var _egg = instance_nearest(x, y, obj_egg)
-
-    // verifica se o ovo já recebeu produto
-    if(_egg.has_product){
-        return
-    }
 	
-	if(_egg.sprite_index == s_marked_egg){
-		create_textbox(_egg.x, _egg.y, "Primeiro você precisa identificar o ovo.")
+	if(_egg.sprite_index == s_egg){
+		create_textbox(_egg.x, _egg.y, "Você precisa fazer a marcação.")
+		return 
+	}else if(_egg.sprite_index == s_marked_egg){
+		create_textbox(_egg.x, _egg.y, "Antes de aplicar o produto, você precisa identificar o ovo.")
 		return
 	}
+	
+	// verifica se o ovo já recebeu produto
+	if(_egg.has_product){  
+        return
+    }
 	
 	// verifica qual é o produto que vai ser aplicado, e então verifica se é o ovo correto
 	switch(_product){
@@ -53,7 +56,9 @@ function apply_product(_product){
 	// verifica se os 3 ovos estão com os produtos 
 	if(global.eggs == 3){
 		cronometer()
-		with(obj_sink_faucet) options = [OPTIONS.ABRIR_TORNEIRA] 
+		with(obj_sink_faucet){
+			options = [OPTIONS.ABRIR_TORNEIRA]
+		} 
 	}
 	
 }

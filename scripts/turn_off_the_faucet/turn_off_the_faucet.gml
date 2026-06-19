@@ -3,12 +3,8 @@ function turn_off_the_faucet(){
 	with(global.selected){
 		if(sprite_index == s_sink_faucet_2){
 			sprite_index = s_sink_faucet
-			options = []
+			options = [OPTIONS.ABRIR_TORNEIRA]
 		}	
-	}
-	
-	with(obj_acetic_acid){
-		canPourAceticAcid = true 
 	}
 }
 
