@@ -8,4 +8,5 @@ verificar_4 = false
 verificar_7 = false
 calibrated = false
 display_text = ""
+display_on_off = ""
 options = [OPTIONS.LIGAR_PHMETRO, OPTIONS.AJUSTAR_PHMETRO, OPTIONS.MEDIR_PH]
