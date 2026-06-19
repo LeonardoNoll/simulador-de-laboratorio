@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_becker_experiment_6",
+  "%Name":"obj_pipette_50ml_experiment_6",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_becker_experiment_6",
+  "name":"obj_pipette_50ml_experiment_6",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_6",
-    "path":"folders/Objects/experiment_6.yy",
+    "name":"pipetas",
+    "path":"folders/Objects/experiment_6/pipetas.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bottle_empty",
-    "path":"sprites/s_bottle_empty/s_bottle_empty.yy",
+    "name":"s_pipette_10ml",
+    "path":"sprites/s_pipette_10ml/s_pipette_10ml.yy",
   },
   "spriteMaskId":null,
   "visible":true,
