@@ -1,0 +1,27 @@
+if(global.modal_open) return
+
+if (drag_mode) {
+	x = mouse_x + xx;
+	y = mouse_y + yy;
+	
+	if(place_meeting(x,y, obj_becker_8)){
+		sprite_index = s_acetic_acid_3	
+	}else{
+		sprite_index = s_acetic_acid_2
+	}
+	
+}else{
+	sprite_index = s_acetic_acid
+}
+
+if(array_length(scale_on_contact_list) > 0) {
+		for(var i = 0; i < array_length(scale_on_contact_list); i++) {
+			if(place_meeting(x,y,scale_on_contact_list[i]))
+				scale_on_contact(instance_nearest(x,y,scale_on_contact_list[i]))		
+		}
+}
+
+if (scale_pulse_data != undefined) {
+    scale_pulse_data.update();
+}
+

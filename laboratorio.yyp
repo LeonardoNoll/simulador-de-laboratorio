@@ -408,6 +408,8 @@
     {"id":{"name":"water_bath","path":"scripts/water_bath/water_bath.yy",},},
     {"id":{"name":"seq_congrats_glow","path":"sequences/seq_congrats_glow/seq_congrats_glow.yy",},},
     {"id":{"name":"seq_congrats_trophy","path":"sequences/seq_congrats_trophy/seq_congrats_trophy.yy",},},
+    {"id":{"name":"s_acetic_acid_2","path":"sprites/s_acetic_acid_2/s_acetic_acid_2.yy",},},
+    {"id":{"name":"s_acetic_acid_3","path":"sprites/s_acetic_acid_3/s_acetic_acid_3.yy",},},
     {"id":{"name":"s_acetic_acid","path":"sprites/s_acetic_acid/s_acetic_acid.yy",},},
     {"id":{"name":"s_agar_and_blood_2","path":"sprites/s_agar_and_blood_2/s_agar_and_blood_2.yy",},},
     {"id":{"name":"s_agar_and_blood","path":"sprites/s_agar_and_blood/s_agar_and_blood.yy",},},
