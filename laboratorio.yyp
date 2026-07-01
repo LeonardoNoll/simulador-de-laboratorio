@@ -113,7 +113,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.5.1052",
+    "IDEVersion":"2024.1400.5.1043",
   },
   "name":"laboratorio",
   "resources":[
@@ -519,6 +519,7 @@
     {"id":{"name":"s_pipette_10ml_with_pear_filled","path":"sprites/s_pipette_10ml_with_pear_filled/s_pipette_10ml_with_pear_filled.yy",},},
     {"id":{"name":"s_pipette_10ml_with_pear","path":"sprites/s_pipette_10ml_with_pear/s_pipette_10ml_with_pear.yy",},},
     {"id":{"name":"s_pipette_10ml","path":"sprites/s_pipette_10ml/s_pipette_10ml.yy",},},
+    {"id":{"name":"s_pipette_20ml_with_pear","path":"sprites/s_pipette_20ml_with_pear/s_pipette_20ml_with_pear.yy",},},
     {"id":{"name":"s_pipette_20ml","path":"sprites/s_pipette_20ml/s_pipette_20ml.yy",},},
     {"id":{"name":"s_pipette_5ml_with_pear_filled","path":"sprites/s_pipette_5ml_with_pear_filled/s_pipette_5ml_with_pear_filled.yy",},},
     {"id":{"name":"s_pipette_5ml_with_pear","path":"sprites/s_pipette_5ml_with_pear/s_pipette_5ml_with_pear.yy",},},

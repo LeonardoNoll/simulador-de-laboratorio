@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_pipette_20ml",
+    "path":"sprites/s_pipette_20ml/s_pipette_20ml.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
