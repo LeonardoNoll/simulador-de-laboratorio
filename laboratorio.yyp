@@ -595,6 +595,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_acao_do_fluoreto_2","path":"rooms/rm_acao_do_fluoreto_2/rm_acao_do_fluoreto_2.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_1b_normal","path":"rooms/rm_1b_normal/rm_1b_normal.yy",},},
     {"roomId":{"name":"rm_1a_normal","path":"rooms/rm_1a_normal/rm_1a_normal.yy",},},
@@ -624,7 +625,6 @@
     {"roomId":{"name":"rm_categories_fluor_levels","path":"rooms/rm_categories_fluor_levels/rm_categories_fluor_levels.yy",},},
     {"roomId":{"name":"rm_categories_fluor_level_2","path":"rooms/rm_categories_fluor_level_2/rm_categories_fluor_level_2.yy",},},
     {"roomId":{"name":"rm_categories_fluor_level_3","path":"rooms/rm_categories_fluor_level_3/rm_categories_fluor_level_3.yy",},},
-    {"roomId":{"name":"rm_acao_do_fluoreto_2","path":"rooms/rm_acao_do_fluoreto_2/rm_acao_do_fluoreto_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

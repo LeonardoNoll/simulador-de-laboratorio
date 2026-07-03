@@ -47,7 +47,7 @@ function cronometer(){
 	    _cronometer.on_count_fail = function () {
 	        create_textbox(x + sprite_width, y,
 	            "Você cronometrou o tempo errado. Tente novamente")
-	        with (obj_cronometer) instance_destroy()
+	     //   with (obj_cronometer) instance_destroy()
 	    }
 	}
 	
