@@ -7,7 +7,7 @@ on_release = function(){
 			rinse_off(sprite_index)
 		}
 	}else{
-		create_textbox(x + sprite_width, y, "Você precisa esperar o produto agir durante 60 min.")
+		create_textbox(x + sprite_width, y, "Você precisa esperar o produto agir durante 60 minutos.")
 	}
 }
 
