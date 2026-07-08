@@ -22,7 +22,7 @@ for (var i = 0; i < array_length(titulos); i++) {
             width: width
         })
 
-        instance_create_layer(start_x + (width * colunas), y + 60, "GUI", obj_writable_cell, {
+        instance_create_layer(start_x + (width * colunas), y + 60, "GUI", obj_writable_cell_experiment_8, {
             text: texts[j + i * 2],
             width: width
         })

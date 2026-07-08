@@ -2,8 +2,7 @@ event_inherited()
 
 writable = false 
 
-max_text_length = 15
-
+max_text_length = 100
 
 cursor_visible = true;
 cursor_timer = 0;
