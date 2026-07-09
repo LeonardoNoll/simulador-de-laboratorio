@@ -1,8 +1,9 @@
 function put_pear_on(){
 	var _pear = id;
-	
-	if(place_meeting(x,y, obj_pipette_10ml)) {
-		with(instance_nearest(mouse_x,mouse_y,obj_pipette_10ml)) {
+	show_debug_message(name)
+	if(place_meeting(x,y, scale_on_contact_list)) {
+		with(array_instance_nearest(scale_on_contact_list)) {
+			show_debug_message(name)
 			sprite_index = pear_sprite;
 			var _pear_x_offset = 10;
 			base_x -= _pear_x_offset;

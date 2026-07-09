@@ -1,4 +1,4 @@
 
 		ml = 10
-		draw_liquid_on_pipette()
+		sprite_index = s_pipette_10ml_with_pear_filled
 		create_textbox(x,y, "batataaaaa")

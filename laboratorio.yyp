@@ -300,6 +300,7 @@
     {"id":{"name":"ajustar_phmetro","path":"scripts/ajustar_phmetro/ajustar_phmetro.yy",},},
     {"id":{"name":"apply_product","path":"scripts/apply_product/apply_product.yy",},},
     {"id":{"name":"array_delete_value","path":"scripts/array_delete_value/array_delete_value.yy",},},
+    {"id":{"name":"array_instance_nearest","path":"scripts/array_instance_nearest/array_instance_nearest.yy",},},
     {"id":{"name":"array_substitute_value","path":"scripts/array_substitute_value/array_substitute_value.yy",},},
     {"id":{"name":"autoclave_collision","path":"scripts/autoclave_collision/autoclave_collision.yy",},},
     {"id":{"name":"autoclave","path":"scripts/autoclave/autoclave.yy",},},
