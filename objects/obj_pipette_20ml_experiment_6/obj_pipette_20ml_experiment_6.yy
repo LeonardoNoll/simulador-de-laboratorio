@@ -9,7 +9,10 @@
     "name":"pipetas",
     "path":"folders/Objects/experiment_6/pipetas.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_pipette_10ml",
+    "path":"objects/obj_pipette_10ml/obj_pipette_10ml.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
