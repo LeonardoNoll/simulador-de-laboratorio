@@ -15,9 +15,10 @@ function put_pear_on(){
 			on_release = _pear.pipette_on_release;
 			
 			pear_on = true;
-			pear_inicial_position = {
+			pear_instancing_info = {
 				x: _pear.base_x,
-				y: _pear.base_y
+				y: _pear.base_y,
+				asset_type: _pear.object_index
 			};
 			//instance_nearest(x,y,)
 			instance_destroy(_pear);
