@@ -3,8 +3,15 @@ function put_pear_on(){
 	
 	if(place_meeting(x,y, scale_on_contact_list)) {
 		with(array_instance_nearest(scale_on_contact_list)) {
-			sprite_index = pear_sprite;
 			var _pear_x_offset = 10;
+			pear_equipped_info = {
+				pipette_sprite: sprite_index,
+				pipette_name: name,
+				pear_x_offset: _pear_x_offset,
+				pear_y_offset: pear_y_offset
+			};
+			
+			sprite_index = pear_sprite;
 			base_x -= _pear_x_offset;
 			base_y -= pear_y_offset;
 			x = base_x;
