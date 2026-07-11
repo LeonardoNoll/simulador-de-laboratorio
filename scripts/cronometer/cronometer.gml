@@ -11,7 +11,7 @@ function cronometer(){
 	
 		// cria o cronômetro 
 		if(room == rm_acao_do_fluoreto_na_casca_do_ovo){
-			_cronometer = instance_create_layer(room_width - 1180, 60, "GUI", obj_cronometer)
+			_cronometer = instance_create_layer(room_width - 120, 70, "GUI", obj_cronometer)
 		}else{
 			 _cronometer = instance_create_layer(room_width - 190, 120, "GUI", obj_cronometer)
 		}

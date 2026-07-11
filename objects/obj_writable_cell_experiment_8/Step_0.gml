@@ -13,14 +13,18 @@ if(device_mouse_check_button_released(0, mb_left)) {
 if(writable) {
 	if(string_length(keyboard_string) < max_text_length ) {
 		text = keyboard_string
-		update_notes_texts()
+		var _btn = instance_find(obj_btn_notes_table_8, 0)
+
+		if (instance_exists(_btn)) {
+			update_notes_texts_experiment_8(_btn)
+		}
 		try_instantiate_buffer_capacity()
 	}
 	
-	cursor_timer += 1;
+	cursor_timer += 1
 	if (cursor_timer >= cursor_interval) {
-		cursor_visible = !cursor_visible;
-		cursor_timer = 0;
+		cursor_visible = !cursor_visible
+		cursor_timer = 0
 	}
 }
 

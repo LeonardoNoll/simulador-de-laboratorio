@@ -7,9 +7,5 @@ draw_set_color(c_black)
 draw_rectangle(x, y, x+width, y+height, true)
 draw_set_font(fnt_text)
 
-// Alteração - Mariana 
-if(room == rm_acao_do_fluoreto_2){
-	draw_text_ext_transformed(x+padding, y+padding, text, -1, width - padding*2, 1, 1, 0)
-}else{
-	draw_text_ext_transformed(x+padding, y+padding, text, 100, width, 1, 1, 0)
-}
+draw_text_ext_transformed(x+padding, y+padding, text, -1, width - padding*2, 1, 1, 0)
+

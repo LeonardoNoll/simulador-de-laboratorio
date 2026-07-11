@@ -11,7 +11,7 @@
   "managed":true,
   "name":"obj_writable_cell_experiment_8",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_cell_style_experiment_8","path":"objects/obj_base_cell_style_experiment_8/obj_base_cell_style_experiment_8.yy",},"propertyId":{"name":"height","path":"objects/obj_base_cell_style_experiment_8/obj_base_cell_style_experiment_8.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"70",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_base_cell_style_experiment_8","path":"objects/obj_base_cell_style_experiment_8/obj_base_cell_style_experiment_8.yy",},"propertyId":{"name":"height","path":"objects/obj_base_cell_style_experiment_8/obj_base_cell_style_experiment_8.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"170",},
   ],
   "parent":{
     "name":"experiment_8",

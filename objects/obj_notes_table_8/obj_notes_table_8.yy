@@ -3,6 +3,7 @@
   "%Name":"obj_notes_table_8",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_notes_table_8",
@@ -26,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"texts","filters":[],"listItems":[],"multiselect":false,"name":"texts","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[\"A\",\"B\",\"C\",\"D\",\"E\",\"F\"]","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"texts","filters":[],"listItems":[],"multiselect":false,"name":"texts","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[\"\",\"\",\"\",\"\",\"\",\"\"]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
