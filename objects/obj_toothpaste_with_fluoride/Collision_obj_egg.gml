@@ -1,0 +1,1 @@
+on_release = apply_product("toothpaste_with_fluoride")

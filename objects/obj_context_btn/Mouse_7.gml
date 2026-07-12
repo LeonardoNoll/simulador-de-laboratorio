@@ -156,6 +156,18 @@ switch(option) {
 	case OPTIONS.HOMOGENEIZAR:
 		homogenize()
 		break
+	case OPTIONS.DESENHAR_LINHA:
+		draw_a_line()
+		break
+	case OPTIONS.IDENTIFICAR_OVO:
+		identify_egg()
+		break
+	case OPTIONS.ABRIR_TORNEIRA:
+		turn_on_the_faucet()
+		break
+	case OPTIONS.FECHAR_TORNEIRA:
+		turn_off_the_faucet()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

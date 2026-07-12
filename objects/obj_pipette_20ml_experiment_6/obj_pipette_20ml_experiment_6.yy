@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_becker_experiment_6",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_pipette_20ml_experiment_6",
+  "eventList":[],
   "managed":true,
-  "name":"obj_becker_experiment_6",
+  "name":"obj_pipette_20ml_experiment_6",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_6",
-    "path":"folders/Objects/experiment_6.yy",
+    "name":"pipetas",
+    "path":"folders/Objects/experiment_6/pipetas.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_pipette_10ml",
+    "path":"objects/obj_pipette_10ml/obj_pipette_10ml.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bottle_empty",
-    "path":"sprites/s_bottle_empty/s_bottle_empty.yy",
+    "name":"s_pipette_20ml",
+    "path":"sprites/s_pipette_20ml/s_pipette_20ml.yy",
   },
   "spriteMaskId":null,
   "visible":true,

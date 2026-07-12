@@ -1,0 +1,1 @@
+global.egg_1 = id
