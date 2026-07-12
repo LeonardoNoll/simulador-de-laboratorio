@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"turn_on_the_faucet",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"turn_on_the_faucet",
+  "parent":{
+    "name":"experiment_8",
+    "path":"folders/Scripts/experiment_8.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

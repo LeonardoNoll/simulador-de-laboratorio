@@ -1,1 +1,1 @@
-apply_product("toothpaste_with_fluoride")
+on_release = apply_product("toothpaste_with_fluoride")

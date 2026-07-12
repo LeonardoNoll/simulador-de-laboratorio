@@ -162,6 +162,12 @@ switch(option) {
 	case OPTIONS.IDENTIFICAR_OVO:
 		identify_egg()
 		break
+	case OPTIONS.ABRIR_TORNEIRA:
+		turn_on_the_faucet()
+		break
+	case OPTIONS.FECHAR_TORNEIRA:
+		turn_off_the_faucet()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

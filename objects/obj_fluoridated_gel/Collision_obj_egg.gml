@@ -1,1 +1,5 @@
-apply_product("fluoridated_gel")
+on_release = apply_product("fluoridated_gel")
+
+
+
+
