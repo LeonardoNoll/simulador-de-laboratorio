@@ -10,8 +10,8 @@
     "path":"folders/Objects/experiment_6/pipetas.yy",
   },
   "parentObjectId":{
-    "name":"obj_pipette_10ml",
-    "path":"objects/obj_pipette_10ml/obj_pipette_10ml.yy",
+    "name":"obj_pipette_50ml_experiment_6",
+    "path":"objects/obj_pipette_50ml_experiment_6/obj_pipette_50ml_experiment_6.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

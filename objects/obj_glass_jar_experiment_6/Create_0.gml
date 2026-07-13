@@ -10,3 +10,5 @@ options = []
 x_original = base_x
 y_original = base_y
 original_name = name
+PH = []
+indice_ph = 0
