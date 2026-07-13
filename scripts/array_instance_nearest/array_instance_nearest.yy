@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"array_instance_nearest",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"array_instance_nearest",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
