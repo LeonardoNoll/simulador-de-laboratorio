@@ -12,7 +12,8 @@ if(device_mouse_check_button_released(0, mb_left)) {
 
 if(writable) {
 	if(string_length(keyboard_string) < max_text_length ) {
-		text = string_digits(keyboard_string)
+		//text = string_digits(keyboard_string)
+		text = keyboard_string
 		update_notes_texts()
 		try_instantiate_buffer_capacity()
 	}
@@ -23,5 +24,7 @@ if(writable) {
 		cursor_timer = 0;
 	}
 }
+
+
 	
 

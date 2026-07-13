@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cronometer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cronometer",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

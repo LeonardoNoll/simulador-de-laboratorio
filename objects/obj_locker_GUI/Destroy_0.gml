@@ -5,3 +5,4 @@ while(array_length(itens) > 0) {
 }
 
 instance_destroy(obj_btn_x)
+close_modal()

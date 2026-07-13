@@ -13,6 +13,5 @@ function get_input(_x, _y, _prompt, _callback, _optional_arguments = undefined) 
     _input.optional_args = _optional_arguments
 	_input.on_confirm = _callback; // Função a ser chamada com o valor digitado
     
-	
     return _input.on_confirm; // Se quiser guardar uma referência
 }
