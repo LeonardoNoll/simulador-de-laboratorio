@@ -3,6 +3,6 @@ function colect_saliva(){
 	if !place_meeting(x, y, _becker){
 		return
 	}
-	//draw_liquid_on_pipette
+	//to do draw_liquid_on_pipette
 	on_release = pass_saliva_to_becker
 }
