@@ -1,5 +1,7 @@
 event_inherited();
 name = "Iogurte Natural"
-PH  = [4.12, 4.27, 4.54, 4.88, 5.37]
-//ainda falta colocar mais casas s´ó tem que 
-//decidir como incrementar
+PH  = [
+    4.12, 4.12, 4.17, 4.22, 4.27, 4.32, 4.39, 4.48, 
+    4.54, 4.61, 4.69, 4.79, 4.88, 4.98, 5.09, 5.2, 
+    5.37, 5.49, 5.64
+]

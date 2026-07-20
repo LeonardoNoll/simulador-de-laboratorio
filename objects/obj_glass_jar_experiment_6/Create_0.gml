@@ -12,3 +12,4 @@ y_original = base_y
 original_name = name
 PH = []
 indice_ph = 0
+agitando = false

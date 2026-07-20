@@ -1,5 +1,6 @@
 event_inherited();
 name = "Eneregético"
-PH = [3.51,4.03,4.54,5.14]
-//falta decidir como vai incrementar
-//a principio ta indo de 20 em 20, mas falta uma casa
+PH = [
+    3.51, 3.63, 3.76, 3.91, 4.03, 4.16, 4.29, 4.42,
+    4.54, 4.69, 4.84, 4.99, 5.14, 5.28, 5.43, 5.56
+]
