@@ -54,6 +54,7 @@ function collect_liquid() {
 			content_id = variable_instance_exists(_captured_source, "content_id") ? _captured_source.content_id : "";
 			used = content;
 			ml = _mls;
+			liquid_draw_setup.liquid_color = variable_instance_exists(_captured_source, "liquid_color") ? _captured_source.liquid_color : c_white;
 			var _content_name = is_struct(content) ? content.name : string(content);
 			name = "Pipeta com " + string(_mls) + "ml(s) de " + _content_name;
 			

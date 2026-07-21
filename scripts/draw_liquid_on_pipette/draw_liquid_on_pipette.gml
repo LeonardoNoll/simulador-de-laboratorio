@@ -25,6 +25,7 @@ function draw_liquid_on_pipette() {
 	
 	var _right_corner = x + image_xscale * _setup.right_offset;
 	var _liquid_base = y + image_yscale * _setup.base_offset;
+
 	
 	draw_set_color(_setup.liquid_color);
 	draw_rectangle(_left_corner, _liquid_base - _actual_pixels, _right_corner, _liquid_base, false);

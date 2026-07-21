@@ -7,6 +7,7 @@ scale_on_contact_list = [obj_25ml_becker]
 content = name
 ph = 7
 becker = noone
+liquid_color = #CFE6EE
 
 on_release = function() {
 	if(place_meeting(x,y,obj_25ml_becker)) {
