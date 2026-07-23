@@ -8,8 +8,9 @@ pear_y_offset = 40;
 liquid_draw_setup = {
 	capacity_ml:5,
 	liquid_color: c_white,
-	left_offset: 6,
-    right_offset: 5,
-    base_offset: 60,
-    max_liquid_pixels: 120
+	left_offset: -5,
+    right_offset: 14,
+    base_offset: 108,
+    max_liquid_pixels: 500,
+	pixels_per_ml: 16
 }
