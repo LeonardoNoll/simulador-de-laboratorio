@@ -1,7 +1,8 @@
 function pass_saliva_to_becker(){
 	var _becker = instance_nearest(x,y, obj_glass_jar_experiment_6)
 	on_release = colect_saliva
-	//to do esvaziar pipeta
+	ml = 0
+	liquid_draw_setup.liquid_color = c_white
 	if _becker.agitando{
 		if(_becker.indice_ph + max_ml > array_length(_becker.PH) * 5){
 		create_textbox(x,y, "Quantidade de saliva excedeu o limite")
