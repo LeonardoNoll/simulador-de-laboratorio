@@ -15,8 +15,8 @@ function magnetic_stirrer(_becker = undefined){
 	if rm_6_saliva_na_titulacao_de_bebidas_acidas{
 		with global.selected{
 			name = name + " - agitando"		
+			agitando = true
 			options = [OPTIONS.DESLIGAR_AGITADOR, OPTIONS.REMOVER_DO_PHMETRO]
-			create_textbox(x, y, "batata")
 			
 		}
 	}
