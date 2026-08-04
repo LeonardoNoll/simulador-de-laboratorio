@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_instructions",
+  "%Name":"obj_col_header_experiment_9",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_instructions",
+  "name":"obj_col_header_experiment_9",
   "overriddenProperties":[],
   "parent":{
-    "name":"laboratorio",
-    "path":"laboratorio.yyp",
+    "name":"experiment_9",
+    "path":"folders/Objects/experiment_9.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_base_cell_style_experiment_9",
+    "path":"objects/obj_base_cell_style_experiment_9/obj_base_cell_style_experiment_9.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,16 +29,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"instructions","filters":[],"listItems":[],"multiselect":false,"name":"instructions","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_instructions_sticker",
-    "path":"sprites/s_instructions_sticker/s_instructions_sticker.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
