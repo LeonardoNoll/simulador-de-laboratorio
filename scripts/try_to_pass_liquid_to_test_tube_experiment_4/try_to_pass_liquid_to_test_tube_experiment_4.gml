@@ -1,19 +1,22 @@
 function try_to_pass_liquid_to_test_tube_experiment_4() {
-	var _test_tube = instance_nearest(x, y, obj_test_tube_experiment_4);
+	var _test_tube = instance_place(x, y, obj_test_tube_experiment_4);
 
-	if (!place_meeting(x, y, _test_tube) || _test_tube.closed) {
+	if (!instance_exists(_test_tube) || _test_tube.closed) {
 		return;
 	}
 
 	// Resolve o líquido para uma LiquidInstance se necessário
 	var _liquid_to_pass = ensure_liquid_instance(id);
 
+	var _liquids = variable_struct_exists(global, "liquids_experiment_4") ? global.liquids_experiment_4 : undefined;
+	var _test_tubes = variable_struct_exists(global, "test_tubes_experiment_4") ? global.test_tubes_experiment_4 : undefined;
+
 	var _context = {
 		source: id,
 		test_tube: _test_tube,
 		liquid: _liquid_to_pass,
-		liquids: global.liquids_experiment_4,
-		test_tubes: global.test_tubes_experiment_4,
+		liquids: _liquids,
+		test_tubes: _test_tubes,
 	};
 
 	var _callback = function(_val, _args) {
@@ -44,9 +47,9 @@ function try_to_pass_liquid_to_test_tube_experiment_4() {
 				_args.source.content = undefined;
 				_args.source.content_id = "";
 				
-				// Se tiver função de reset de sprite/nome (comum em pipetas)
-				if (variable_instance_exists(_args.source, "prepare_to_collect")) {
-					_args.source.prepare_to_collect();
+				if (variable_instance_exists(_args.source, "max_ml")) {
+					var _is10 = _args.source.max_ml == 10;
+					_args.source.name = _is10 ? "Pipeta 10ml" : "Pipeta 5ml";
 				}
 			}
 			
