@@ -1,5 +1,7 @@
 
 
+	//if(name != "Tubo de teste") show_debug_message(name)
+
 if(!is_undefined(content)) {
 	var _half_width = 7
 	draw_set_color(content.color)

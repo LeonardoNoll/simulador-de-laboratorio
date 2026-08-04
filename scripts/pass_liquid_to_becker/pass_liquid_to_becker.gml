@@ -33,6 +33,7 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
 					ph = ctx.parent.ph;
 					content = ctx.parent.content;
 					sprite_index = ctx.sprite_index;
+					show_debug_message(name) // Aparentemente isso está resolvendo 
 					scale_pulse(self, 2, 0.15);
 					options = [];
 					liquid_color = ctx.parent.liquid_color;
