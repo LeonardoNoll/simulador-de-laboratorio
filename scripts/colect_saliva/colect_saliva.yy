@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"colect_saliva",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"colect_saliva",
+  "parent":{
+    "name":"experment_6",
+    "path":"folders/Scripts/experment_6.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

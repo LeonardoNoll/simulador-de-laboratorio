@@ -17,3 +17,4 @@ on_release = function() {
 	}
 }
 
+liquid_color = #A4D26F

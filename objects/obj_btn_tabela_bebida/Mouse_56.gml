@@ -7,11 +7,12 @@ var _right  = x + _half_w;
 var _top    = y - _half_h;
 var _bottom = y + _half_h;
 
+var _table_spawn_point = room_width/2 - array_length(textos_cabecalho) * 150/2
 // 2. Verifica se o clique foi liberado dentro da área correta e atualizada
 if (_left < mouse_x && mouse_x < _right && _top < mouse_y && mouse_y < _bottom) {
 	instance_destroy(obj_notes_table_experiment_6)
 	
-	instance_create_depth(x, y + height*2, depth-1, obj_notes_table_experiment_6, {
+	instance_create_depth(_table_spawn_point, y + height*2, depth-1, obj_notes_table_experiment_6, {
 		textos_cabecalho: textos_cabecalho,
 		valores_ml: valores_ml,
 		parent: id
