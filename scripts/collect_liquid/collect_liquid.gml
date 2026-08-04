@@ -54,6 +54,7 @@ function collect_liquid() {
 			content_id = variable_instance_exists(_captured_source, "content_id") ? _captured_source.content_id : "";
 			used = content;
 			ml = _mls;
+			liquid_draw_setup.liquid_color = variable_instance_exists(_captured_source, "liquid_color") ? _captured_source.liquid_color : c_white;
 			var _content_name = is_struct(content) ? content.name : string(content);
 			name = "Pipeta com " + string(_mls) + "ml(s) de " + _content_name;
 			
@@ -65,7 +66,11 @@ function collect_liquid() {
 			} else {
 				scale_on_contact_list = [obj_test_tube_experiment_3, obj_test_tube_experiment_4];
 				on_release = function() {
-					pass_liquid_to_test_tube_3(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water);
+					if (place_meeting(x, y, obj_test_tube_experiment_4)) {
+						try_to_pass_liquid_to_test_tube_experiment_4();
+					} else {
+						pass_liquid_to_test_tube_3(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water);
+					}
 				}
 			}
 		}

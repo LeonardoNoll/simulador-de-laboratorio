@@ -7,10 +7,17 @@
 /// @param _optional_arguments (any): Parametros opcionais
 
 function get_input(_x, _y, _prompt, _callback, _optional_arguments = undefined) {
+    if (instance_exists(obj_input)) {
+        instance_destroy(obj_input);
+    }
+
+    keyboard_string = "";
+    keyboard_lastchar = "";
+
     var _input = instance_create_layer(_x, _y, "Dialog", obj_input);
     
     _input.prompt = _prompt;
-    _input.optional_args = _optional_arguments
+    _input.optional_args = _optional_arguments;
 	_input.on_confirm = _callback; // Função a ser chamada com o valor digitado
     
     return _input.on_confirm; // Se quiser guardar uma referência

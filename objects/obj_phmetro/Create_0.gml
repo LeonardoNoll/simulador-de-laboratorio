@@ -2,7 +2,7 @@ event_inherited();
 name = "peagâmetro"
 needed_EPI = [obj_lab_coat]
 locked = true
-PH = 0
+becker = noone
 power_on = false
 verificar_4 = false
 verificar_7 = false

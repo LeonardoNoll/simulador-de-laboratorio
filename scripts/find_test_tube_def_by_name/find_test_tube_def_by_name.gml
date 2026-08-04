@@ -13,7 +13,7 @@ function find_test_tube_def_by_name(_test_tubes_struct, _tube_name) {
         var _id = _keys[i];
         var _curr_test_tube_def = _test_tubes_struct[$ _id];
         
-		if (!is_struct(_curr_test_tube_def) || !variable_struct_exists(_curr_test_tube_def, "name")) return _out		
+		if (!is_struct(_curr_test_tube_def) || !variable_struct_exists(_curr_test_tube_def, "name")) continue;
 		if(string_normalize(_curr_test_tube_def.name) == string_normalize(_tube_name)) {
 			_out.id = _id;
 	        _out.def = _curr_test_tube_def;
