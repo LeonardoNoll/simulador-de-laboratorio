@@ -6,4 +6,3 @@ if(obj_btn_agar.visible = true){
 }else{
 	obj_btn_agar.visible = true // mostra os botões para cada tabela  
 }
-

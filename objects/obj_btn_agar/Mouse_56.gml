@@ -9,11 +9,6 @@ var _bottom = y + _half_h
 
 if (_left < mouse_x && mouse_x < _right && _top < mouse_y && mouse_y < _bottom) {
 
-    // Destrói a tabela anterior, se existir
-    if (instance_exists(obj_notes_table_9)) {
-        instance_destroy(obj_notes_table_9)
-    }
-
     // largura total da tabela
     var _table_width = 180 * array_length(textos_cabecalho)
 

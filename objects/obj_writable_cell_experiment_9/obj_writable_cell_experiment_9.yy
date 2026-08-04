@@ -16,8 +16,8 @@
     "path":"folders/Objects/experiment_9.yy",
   },
   "parentObjectId":{
-    "name":"obj_base_cell_style_experiment_9",
-    "path":"objects/obj_base_cell_style_experiment_9/obj_base_cell_style_experiment_9.yy",
+    "name":"obj_base_cell_style",
+    "path":"objects/obj_base_cell_style/obj_base_cell_style.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
