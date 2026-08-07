@@ -117,7 +117,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.4.1030",
+    "IDEVersion":"2026.100.0.1110",
   },
   "name":"laboratorio",
   "resources":[
@@ -209,6 +209,7 @@
     {"id":{"name":"obj_locker_GUI","path":"objects/obj_locker_GUI/obj_locker_GUI.yy",},},
     {"id":{"name":"obj_magnetic_stirrer_experiment_6","path":"objects/obj_magnetic_stirrer_experiment_6/obj_magnetic_stirrer_experiment_6.yy",},},
     {"id":{"name":"obj_magnetic_stirrer","path":"objects/obj_magnetic_stirrer/obj_magnetic_stirrer.yy",},},
+    {"id":{"name":"obj_micropipette","path":"objects/obj_micropipette/obj_micropipette.yy",},},
     {"id":{"name":"obj_minus_minute_centrifuge_btn","path":"objects/obj_minus_minute_centrifuge_btn/obj_minus_minute_centrifuge_btn.yy",},},
     {"id":{"name":"obj_minus_rpm_centrifuge_btn","path":"objects/obj_minus_rpm_centrifuge_btn/obj_minus_rpm_centrifuge_btn.yy",},},
     {"id":{"name":"obj_modal_controller","path":"objects/obj_modal_controller/obj_modal_controller.yy",},},
@@ -536,6 +537,7 @@
     {"id":{"name":"s_marked_egg","path":"sprites/s_marked_egg/s_marked_egg.yy",},},
     {"id":{"name":"s_menu_btn_base","path":"sprites/s_menu_btn_base/s_menu_btn_base.yy",},},
     {"id":{"name":"s_menu_btn_pressed","path":"sprites/s_menu_btn_pressed/s_menu_btn_pressed.yy",},},
+    {"id":{"name":"s_micropipette","path":"sprites/s_micropipette/s_micropipette.yy",},},
     {"id":{"name":"s_monitor","path":"sprites/s_monitor/s_monitor.yy",},},
     {"id":{"name":"s_notes","path":"sprites/s_notes/s_notes.yy",},},
     {"id":{"name":"s_open_autoclave_glass_jar_2","path":"sprites/s_open_autoclave_glass_jar_2/s_open_autoclave_glass_jar_2.yy",},},
