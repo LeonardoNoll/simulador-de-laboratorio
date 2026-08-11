@@ -408,6 +408,7 @@
     {"id":{"name":"spawn_tool_tip","path":"scripts/spawn_tool_tip/spawn_tool_tip.yy",},},
     {"id":{"name":"speed_up_cronometer","path":"scripts/speed_up_cronometer/speed_up_cronometer.yy",},},
     {"id":{"name":"stop_measure","path":"scripts/stop_measure/stop_measure.yy",},},
+    {"id":{"name":"string_digits_with_decimal","path":"scripts/string_digits_with_decimal/string_digits_with_decimal.yy",},},
     {"id":{"name":"string_normalize","path":"scripts/string_normalize/string_normalize.yy",},},
     {"id":{"name":"time_collection","path":"scripts/time_collection/time_collection.yy",},},
     {"id":{"name":"transfer_liquid_result_fail","path":"scripts/transfer_liquid_result_fail/transfer_liquid_result_fail.yy",},},
