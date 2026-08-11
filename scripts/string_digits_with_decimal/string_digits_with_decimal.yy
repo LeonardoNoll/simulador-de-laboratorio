@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"string_digits_with_decimal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"string_digits_with_decimal",
+  "parent":{
+    "name":"utils",
+    "path":"folders/Scripts/utils.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
