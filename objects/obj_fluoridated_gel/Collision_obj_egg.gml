@@ -1,4 +1,6 @@
-on_release = apply_product("fluoridated_gel")
+on_release = function(){
+	apply_product("fluoridated gel")
+}
 
 
 
