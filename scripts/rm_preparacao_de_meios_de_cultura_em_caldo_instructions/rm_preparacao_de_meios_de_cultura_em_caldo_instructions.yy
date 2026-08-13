@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rm_preparacao_de_meios_de_cultura_em_caldo_instructions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rm_preparacao_de_meios_de_cultura_em_caldo_instructions",
+  "parent":{
+    "name":"instructions",
+    "path":"folders/Scripts/instructions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
