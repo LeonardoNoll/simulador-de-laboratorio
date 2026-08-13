@@ -16,7 +16,7 @@ default_depth = depth
 needed_EPI = []
 
 if(instance_exists(obj_locker_btn)) {
-	var _locker = instance_find(obj_locker_btn,1)
+	var _locker = instance_find(obj_locker_btn,0)
 	needed_EPI = _locker.itens
 } else {
 	needed_EPI = [obj_glove,obj_lab_coat, obj_goggles]
