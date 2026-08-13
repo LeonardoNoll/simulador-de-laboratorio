@@ -1,0 +1,1 @@
+placed_items[$ other.type]+=1

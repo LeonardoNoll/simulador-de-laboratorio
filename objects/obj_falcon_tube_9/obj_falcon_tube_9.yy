@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_micropipette",
+  "%Name":"obj_falcon_tube_9",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_laminar_flow_hood","path":"objects/obj_laminar_flow_hood/obj_laminar_flow_hood.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_micropipette",
+  "name":"obj_falcon_tube_9",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_9",
     "path":"folders/Objects/experiment_9.yy",
   },
   "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+    "name":"obj_falcon_tube",
+    "path":"objects/obj_falcon_tube/obj_falcon_tube.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_micropipette",
-    "path":"sprites/s_micropipette/s_micropipette.yy",
+    "name":"s_falcon_tube_empty",
+    "path":"sprites/s_falcon_tube_empty/s_falcon_tube_empty.yy",
   },
   "spriteMaskId":null,
   "visible":true,
