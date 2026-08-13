@@ -14,15 +14,6 @@ uv_off = false
 locked = true
 
 if(rm_coleta_de_biofilme_supragengival){
-	necessary_items = {
-		falcon: 5,
-		permanent_marker: 1,
-		micropipette: 1,
-		rack: 1,
-		one_ml_pipette_tip: 1,
-		phosphate_buffered_saline : 1
-	}
-	
 	// controla a quantidade de objetos colocados na capela 
 	placed_items = {
 		falcon: 0,
@@ -31,7 +22,6 @@ if(rm_coleta_de_biofilme_supragengival){
 		rack: 0,
 		one_ml_pipette_tip: 0,
 		phosphate_buffered_saline : 0
-	
 	}
 
 	
