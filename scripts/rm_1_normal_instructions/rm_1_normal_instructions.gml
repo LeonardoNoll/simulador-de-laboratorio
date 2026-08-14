@@ -1,8 +1,8 @@
 function rm_1_normal_instructions() {
 	return [
 		"Vista a luva e o jaleco;",
-		"Identifique o Becker de amostra;",
-		"De o pote para o paciente;",
+		"Identifique o béquer de amostra;",
+		"De o béquer para o paciente;",
 		"Posicione a cabeça do paciente acima do pote, no ângulo de 45º;",
 		"Colete a saliva por 5 minutos;",
 		"Transfira a saliva coletada para uma seringa;",
