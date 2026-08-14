@@ -6,12 +6,12 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_7C250ABD_2","path":"rooms/rm_1b_estimulada/rm_1b_estimulada.yy",},
     {"name":"inst_511CEA03_1","path":"rooms/rm_1b_estimulada/rm_1b_estimulada.yy",},
     {"name":"inst_56A01A80_1","path":"rooms/rm_1b_estimulada/rm_1b_estimulada.yy",},
     {"name":"inst_68C926E4_2","path":"rooms/rm_1b_estimulada/rm_1b_estimulada.yy",},
     {"name":"inst_76C341CB_2","path":"rooms/rm_1b_estimulada/rm_1b_estimulada.yy",},
     {"name":"inst_4FDA581D_2","path":"rooms/rm_1b_estimulada/rm_1b_estimulada.yy",},
-    {"name":"inst_7C250ABD_2","path":"rooms/rm_1b_estimulada/rm_1b_estimulada.yy",},
     {"name":"inst_3E3CA8C2_2","path":"rooms/rm_1b_estimulada/rm_1b_estimulada.yy",},
   ],
   "isDnd":false,
