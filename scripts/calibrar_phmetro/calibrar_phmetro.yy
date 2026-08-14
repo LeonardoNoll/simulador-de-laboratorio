@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"ajustar_phmetro",
+  "%Name":"calibrar_phmetro",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ajustar_phmetro",
+  "name":"calibrar_phmetro",
   "parent":{
     "name":"experment_6",
     "path":"folders/Scripts/experment_6.yy",

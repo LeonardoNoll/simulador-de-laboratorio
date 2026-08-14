@@ -127,7 +127,7 @@ switch(option) {
 		turn_phmetro_on()
 		break
 	case OPTIONS.AJUSTAR_PHMETRO:
-		ajustar_phmetro()
+		calibrar_phmetro()
 		break
 	case OPTIONS.MEDIR_PH:
 		measure_ph()
@@ -161,15 +161,6 @@ switch(option) {
 		break
 	case OPTIONS.IDENTIFICAR_OVO:
 		identify_egg()
-		break
-	case OPTIONS.ABRIR_TORNEIRA:
-		turn_on_the_faucet()
-		break
-	case OPTIONS.FECHAR_TORNEIRA:
-		turn_off_the_faucet()
-		break
-	case OPTIONS.PASSAR_ACIDO_ACETICO:
-		pour_acetic_acid(_becker)
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
