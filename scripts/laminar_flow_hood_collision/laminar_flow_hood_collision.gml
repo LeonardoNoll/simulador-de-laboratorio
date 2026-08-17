@@ -31,6 +31,6 @@ function laminar_flow_hood_collision(_hood,_object){
 		_hood.placed_items.one_ml_pipette_tip == 1 &&
 		_hood.placed_items.micropipette == 1 &&
 		_hood.placed_items.phosphate_buffered_saline == 1){
-			room_goto(rm_laminar_flow_hood_9)
+			room_goto(rm_coleta_de_biofilme_supragengival_2)
 		}
 }
