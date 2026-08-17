@@ -10,7 +10,10 @@ function pass_liquid_to_test_tube_3(_mls, _ph, _sprite_index){
 	if(!place_meeting(x,y, obj_test_tube_experiment_3)) return
 	
 	var _test_tube = instance_nearest(x,y,obj_test_tube_experiment_3)
-	if(_test_tube.closed) return 
+	if(_test_tube.closed) {
+		create_textbox(x, y, ["Este tubo de teste está fechado"])
+		return
+	}
 	
 	if(_test_tube.use_counter >= 2) {
 		create_textbox(x, y, ["Você não pode colocar mais líquidos neste tubo de teste"])
