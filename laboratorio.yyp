@@ -397,6 +397,7 @@
     {"id":{"name":"remove_glass_jar","path":"scripts/remove_glass_jar/remove_glass_jar.yy",},},
     {"id":{"name":"remove_itens_from_centrifuge","path":"scripts/remove_itens_from_centrifuge/remove_itens_from_centrifuge.yy",},},
     {"id":{"name":"remove_pear","path":"scripts/remove_pear/remove_pear.yy",},},
+    {"id":{"name":"resolve_dynamic_mix","path":"scripts/resolve_dynamic_mix/resolve_dynamic_mix.yy",},},
     {"id":{"name":"rinse_off","path":"scripts/rinse_off/rinse_off.yy",},},
     {"id":{"name":"rm_1_estimulada_instructions","path":"scripts/rm_1_estimulada_instructions/rm_1_estimulada_instructions.yy",},},
     {"id":{"name":"rm_1_normal_instructions","path":"scripts/rm_1_normal_instructions/rm_1_normal_instructions.yy",},},

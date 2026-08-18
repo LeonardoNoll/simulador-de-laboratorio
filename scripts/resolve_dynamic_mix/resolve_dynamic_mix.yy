@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"resolve_dynamic_mix",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"resolve_dynamic_mix",
+  "parent":{
+    "name":"transfer_liquid_to_test_tube",
+    "path":"folders/Scripts/utils/transfer_liquid_to_test_tube.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
