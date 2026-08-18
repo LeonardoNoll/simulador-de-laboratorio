@@ -440,6 +440,7 @@
     {"id":{"name":"water_bath","path":"scripts/water_bath/water_bath.yy",},},
     {"id":{"name":"seq_congrats_glow","path":"sequences/seq_congrats_glow/seq_congrats_glow.yy",},},
     {"id":{"name":"seq_congrats_trophy","path":"sequences/seq_congrats_trophy/seq_congrats_trophy.yy",},},
+    {"id":{"name":"s_1ml_pipette_tip_open","path":"sprites/s_1ml_pipette_tip_open/s_1ml_pipette_tip_open.yy",},},
     {"id":{"name":"s_1ml_pipette_tip","path":"sprites/s_1ml_pipette_tip/s_1ml_pipette_tip.yy",},},
     {"id":{"name":"s_acetic_acid_2","path":"sprites/s_acetic_acid_2/s_acetic_acid_2.yy",},},
     {"id":{"name":"s_acetic_acid_3","path":"sprites/s_acetic_acid_3/s_acetic_acid_3.yy",},},
