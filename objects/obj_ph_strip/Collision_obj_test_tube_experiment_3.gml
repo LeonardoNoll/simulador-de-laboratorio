@@ -1,16 +1,14 @@
-show_debug_message(other);
-
 if (counting) {
 	return;
 }
 if (is_undefined(other.content)) {
 	return;
 }
-if (other.content.ph == 0) {
+if (!variable_struct_exists(other.content, "state") || other.content.state.ph == 0) {
 	return;
 }
 if (other.closed) {
-	return 
+	return
 }
 
 counting = true;
