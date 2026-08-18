@@ -24,7 +24,7 @@ function pass_liquid_to_test_tube_3(_mls, _ph, _sprite_index){
 	// ainda está meio bugado, em função de não ser
 	// o esperado pelo roteiro. É necessário propor
 	// uma ideia para este cenário.
-	if(_test_tube.content == "") {
+	if(is_undefined(_test_tube.content)) {
 		_test_tube.sprite_index = _sprite_index
 		_test_tube.content = content
 		// NOTE: Apesar de parecer inútil, essa linha evita que um bug aconteça com o ph
