@@ -10,8 +10,8 @@
   "name":"obj_instructions",
   "overriddenProperties":[],
   "parent":{
-    "name":"laboratorio",
-    "path":"laboratorio.yyp",
+    "name":"instructions",
+    "path":"folders/Objects/GUI/instructions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

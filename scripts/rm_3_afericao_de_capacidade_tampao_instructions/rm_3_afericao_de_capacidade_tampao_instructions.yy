@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rm_3_afericao_de_capacidade_tampao_instructions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rm_3_afericao_de_capacidade_tampao_instructions",
+  "parent":{
+    "name":"instructions",
+    "path":"folders/Scripts/instructions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

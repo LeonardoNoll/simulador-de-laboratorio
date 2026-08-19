@@ -3,6 +3,7 @@ event_inherited();
 
 name = "HCl"
 content = name
+content_id = "hcl"
 ph = 1
 needed_EPI = [obj_glove,obj_lab_coat, obj_goggles]
 becker = noone
