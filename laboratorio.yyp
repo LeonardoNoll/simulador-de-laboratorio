@@ -435,6 +435,7 @@
     {"id":{"name":"update_notes_texts_experiment_8","path":"scripts/update_notes_texts_experiment_8/update_notes_texts_experiment_8.yy",},},
     {"id":{"name":"update_notes_texts","path":"scripts/update_notes_texts/update_notes_texts.yy",},},
     {"id":{"name":"update_test_tube_ph_10_min","path":"scripts/update_test_tube_ph_10_min/update_test_tube_ph_10_min.yy",},},
+    {"id":{"name":"use_water_bath","path":"scripts/use_water_bath/use_water_bath.yy",},},
     {"id":{"name":"verify_answer","path":"scripts/verify_answer/verify_answer.yy",},},
     {"id":{"name":"verify","path":"scripts/verify/verify.yy",},},
     {"id":{"name":"water_bath","path":"scripts/water_bath/water_bath.yy",},},

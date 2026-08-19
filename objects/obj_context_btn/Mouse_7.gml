@@ -171,6 +171,9 @@ switch(option) {
 	case OPTIONS.PASSAR_ACIDO_ACETICO:
 		pour_acetic_acid(_becker)
 		break
+	case OPTIONS.USAR_BANHO_MARIA:
+		use_water_bath()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
