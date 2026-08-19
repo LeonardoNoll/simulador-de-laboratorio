@@ -12,16 +12,19 @@ function pass_liquid_to_test_tube_3(){
 	}
 
 	var _liquid_to_pass = ensure_liquid_instance(id);
-	var _result = transfer_liquid_to_test_tube(_liquid_to_pass, _test_tube, global.liquids_experiment_3, global.test_tubes_experiment_3, "tubo_teste", ml);
+	var _result = transfer_liquid_to_test_tube(_liquid_to_pass, _test_tube, global.liquids_experiment_3, global.test_tubes_experiment_3, "", ml);
 
 	if (!_result.success) {
-		create_textbox(x, y, ["Esta ação não é permitida. Faça as transferências de acordo com o roteiro"])
+		if (_result.error_reason == "test_tube_definition_not_found") {
+			create_textbox(x, y, ["Identifique o tubo de teste (Agua ou Saliva) antes de usá-lo"])
+		} else {
+			create_textbox(x, y, ["Esta ação não é permitida. Faça as transferências de acordo com o roteiro"])
+		}
 		return
 	}
 
 	_test_tube.content_id = _result.resulting_liquid_id;
 	_test_tube.content = _result.resulting_liquid;
-	_test_tube.name = "Tubo de teste com " + _test_tube.content.name;
 	scale_pulse(_test_tube, 1.5, 0.15)
 
 	// Resetar estado da pipeta

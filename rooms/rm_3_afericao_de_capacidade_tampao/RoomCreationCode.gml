@@ -14,9 +14,12 @@ global.liquids_experiment_3 = {
 }
 
 global.test_tubes_experiment_3 = {
-	tubo_teste: new TestTubeDef("tubo_teste", "Tubo de teste", {
+	agua: new TestTubeDef("agua", "Agua", {
 		hcl: 6,
-		saliva_estimulada: 2,
 		agua_destilada: 2
+	}),
+	saliva: new TestTubeDef("saliva", "Saliva", {
+		hcl: 6,
+		saliva_estimulada: 2
 	})
 }
