@@ -1,8 +1,8 @@
 function rm_4_atividade_enzimatica_atividade_salivar_instructions() {
 	return [
-		"Realize a coleta de aproximadamente 15 mL de  saliva estimulada seguindo o passo a passo descrito no experimento anterior.",
+		"Seguindo o passo a passo descrito no experimento de Sialometria Estimulada, foram coletados 15mL de saliva estimulada e acondicionados em uma seringa.",
 		"Com auxílio da seringa, transfira a saliva coletada para um tubo falcon de 10 mL",
-		"Leve o tubo para a centrífuga e centrifugue a amostra por 5 minutos a 3000g.",
+		"Leve o tubo para a centrífuga e centrifugue a amostra por 5 minutos a 3000RPM.",
 		"Separe 11 tubos de ensaio e posicione-os na estante.",
 		"Identifique o primeiro tubo como Saliva dil. 5x.",
 		"Identifique o segundo tubo como Controle Iodo.",
