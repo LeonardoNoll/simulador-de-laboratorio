@@ -14,7 +14,7 @@ global.liquids_experiment_4 = {
 		}
 	}),
 	iodine: new LiquidDef("iodine", #663600, "Iodo"),
-	iodine_control: new LiquidDef("iodine_control", #543105, "Controle Iodo"),
+	iodine_control: new LiquidDef("iodine_control", #FFF176, "Controle Iodo"),
 	starch_control: new LiquidDef("starch_control", #111111, "Controle Amido"),
 	distilled_saliva: new LiquidDef("distilled_saliva", #00FFFF, "Saliva Dil. 5x"),
 	erlenmeyer_mix: new LiquidDef("erlenmeyer_mix", c_fuchsia, "Mix Erlenmeyer"),
