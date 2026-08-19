@@ -12,7 +12,7 @@ function rm_4_atividade_enzimatica_atividade_salivar_instructions() {
 		"Adicione 3 mL de água destilada nos demais tubos.",
 		"Com o auxílio da pipeta, adicione 1 mL da solução de amido 1% ao tubo Controle amido.",
 		"Adicione 2 gotas de iodo em todos os tubos, exceto no tubo Saliva dil. 5x.",
-		"Agite cuidadosamente os tubos para homogeneizar.",
+		"Feche e agite cuidadosamente os tubos para homogeneizar",
 		"Com auxílio de uma pipeta, transfira 1mL do sobrenadante da saliva centrifugada para o tubo Saliva dil. 5x.",
 		"Adicione 50 mL da solução de amido 1% a um erlenmeyer.",
 		"Leve o erlenmeyer com amido para o banho maria a 37ª por 5 minutos.",
