@@ -174,6 +174,9 @@ switch(option) {
 	case OPTIONS.USAR_BANHO_MARIA:
 		use_water_bath()
 		break
+	case OPTIONS.ABRIR:
+		open()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

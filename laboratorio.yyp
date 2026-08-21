@@ -377,6 +377,7 @@
     {"id":{"name":"open_lid","path":"scripts/open_lid/open_lid.yy",},},
     {"id":{"name":"open_modal","path":"scripts/open_modal/open_modal.yy",},},
     {"id":{"name":"open_test_tube","path":"scripts/open_test_tube/open_test_tube.yy",},},
+    {"id":{"name":"open","path":"scripts/open/open.yy",},},
     {"id":{"name":"parse_becker_sprite_by_liquid","path":"scripts/parse_becker_sprite_by_liquid/parse_becker_sprite_by_liquid.yy",},},
     {"id":{"name":"parse_mix_result","path":"scripts/parse_mix_result/parse_mix_result.yy",},},
     {"id":{"name":"pass_into_the_bottle","path":"scripts/pass_into_the_bottle/pass_into_the_bottle.yy",},},

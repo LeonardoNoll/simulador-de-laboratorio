@@ -1,9 +1,9 @@
 function try_to_pass_liquid_to_test_tube_experiment_4() {
-	var _test_tube = instance_place(x, y, obj_test_tube_experiment_4);
-
-	if (!instance_exists(_test_tube)) {
+	if (!place_meeting(x, y, obj_test_tube_experiment_4)) {
 		return;
 	}
+
+	var _test_tube = instance_nearest(x, y, obj_test_tube_experiment_4);
 
 	if (_test_tube.closed) {
 		create_textbox(x, y, ["Este tubo de teste está fechado"])
