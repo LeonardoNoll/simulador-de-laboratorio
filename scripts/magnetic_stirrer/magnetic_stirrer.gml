@@ -14,7 +14,7 @@ function magnetic_stirrer(_becker = undefined){
 	}
 	if rm_6_saliva_na_titulacao_de_bebidas_acidas{
 			obj_glass_jar_experiment_6.name = obj_glass_jar_experiment_6.name + " - agitando"		
-			obj_glass_jar_experiment_6.agitando = true
+			obj_phmetro.becker.agitando = true
 			obj_magnetic_stirrer_experiment_6.options = [OPTIONS.DESLIGAR_AGITADOR]
 		
 	}
