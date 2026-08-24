@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_falcon_tube_9",
+  "%Name":"obj_microtube",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_laminar_flow_hood","path":"objects/obj_laminar_flow_hood/obj_laminar_flow_hood.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_falcon_tube_9",
+  "name":"obj_microtube",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_9",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_falcon_tube_empty",
-    "path":"sprites/s_falcon_tube_empty/s_falcon_tube_empty.yy",
+    "name":"s_microtube",
+    "path":"sprites/s_microtube/s_microtube.yy",
   },
   "spriteMaskId":null,
   "visible":true,
