@@ -16,7 +16,7 @@ locked = true
 if(rm_coleta_de_biofilme_supragengival){
 	// controla a quantidade de objetos colocados na capela 
 	placed_items = {
-		falcon: 0,
+		microtube: 0,
 		permanent_marker: 0,
 		micropipette: 0,
 		rack: 0,

@@ -3,8 +3,8 @@ function laminar_flow_hood_collision(_hood,_object){
 		
 	// verifica o tipo do objeto que está sendo levado para a capela de fluxo laminar e incrementa 
 	switch(_object.type){
-		case "falcon":
-			_hood.placed_items.falcon++
+		case "microtube":
+			_hood.placed_items.microtube++
 			break
 		case "permanent_marker":
 			_hood.placed_items.permanent_marker++
@@ -25,7 +25,7 @@ function laminar_flow_hood_collision(_hood,_object){
 	instance_destroy(_object) 
 	
 	// verifica se todos os objetos necessários já estão na capela de fluxo laminar 
-	if( _hood.placed_items.falcon == 5 &&
+	if( _hood.placed_items.microtube == 5 &&
 		_hood.placed_items.permanent_marker == 1 &&
 		_hood.placed_items.rack == 1 &&
 		_hood.placed_items.one_ml_pipette_tip == 1 &&

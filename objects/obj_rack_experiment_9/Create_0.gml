@@ -7,3 +7,4 @@ if(room == rm_coleta_de_biofilme_supragengival_2){
  
 name = "estante"
 type = "rack"
+locked = true
