@@ -117,7 +117,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.5.1052",
+    "IDEVersion":"2026.100.0.1083",
   },
   "name":"laboratorio",
   "resources":[
@@ -145,6 +145,7 @@
     {"id":{"name":"obj_btn_agar","path":"objects/obj_btn_agar/obj_btn_agar.yy",},},
     {"id":{"name":"obj_btn_congrats","path":"objects/obj_btn_congrats/obj_btn_congrats.yy",},},
     {"id":{"name":"obj_btn_cronometer","path":"objects/obj_btn_cronometer/obj_btn_cronometer.yy",},},
+    {"id":{"name":"obj_btn_grafico","path":"objects/obj_btn_grafico/obj_btn_grafico.yy",},},
     {"id":{"name":"obj_btn_home_accept","path":"objects/obj_btn_home_accept/obj_btn_home_accept.yy",},},
     {"id":{"name":"obj_btn_home_decline","path":"objects/obj_btn_home_decline/obj_btn_home_decline.yy",},},
     {"id":{"name":"obj_btn_home_dialog","path":"objects/obj_btn_home_dialog/obj_btn_home_dialog.yy",},},
@@ -194,6 +195,7 @@
     {"id":{"name":"obj_glove","path":"objects/obj_glove/obj_glove.yy",},},
     {"id":{"name":"obj_goggles","path":"objects/obj_goggles/obj_goggles.yy",},},
     {"id":{"name":"obj_graduated_cylinder","path":"objects/obj_graduated_cylinder/obj_graduated_cylinder.yy",},},
+    {"id":{"name":"obj_grafico_final","path":"objects/obj_grafico_final/obj_grafico_final.yy",},},
     {"id":{"name":"obj_input","path":"objects/obj_input/obj_input.yy",},},
     {"id":{"name":"obj_instructions","path":"objects/obj_instructions/obj_instructions.yy",},},
     {"id":{"name":"obj_inventory_btn","path":"objects/obj_inventory_btn/obj_inventory_btn.yy",},},
@@ -515,6 +517,7 @@
     {"id":{"name":"s_goggles","path":"sprites/s_goggles/s_goggles.yy",},},
     {"id":{"name":"s_graduated_cylinder_2","path":"sprites/s_graduated_cylinder_2/s_graduated_cylinder_2.yy",},},
     {"id":{"name":"s_graduated_cylinder","path":"sprites/s_graduated_cylinder/s_graduated_cylinder.yy",},},
+    {"id":{"name":"s_grafico_final","path":"sprites/s_grafico_final/s_grafico_final.yy",},},
     {"id":{"name":"s_head","path":"sprites/s_head/s_head.yy",},},
     {"id":{"name":"s_home","path":"sprites/s_home/s_home.yy",},},
     {"id":{"name":"s_instructions_sticker","path":"sprites/s_instructions_sticker/s_instructions_sticker.yy",},},

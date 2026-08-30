@@ -16,8 +16,23 @@ if (_left < mouse_x && mouse_x < _right && _top < mouse_y && mouse_y < _bottom) 
 		textos_cabecalho: textos_cabecalho,
 		valores_ml: valores_ml,
 		parent: id
+		
+	
 	})
-    
+//	se a tabela tiver toda pronta, executa isso, mas não ta finalizado pq eu n~ão entendi tudo
+//eu preciso criar testar toda a atabela pra mostrar um sprite de um gráfico, mas só vai mostrarse
+//tiver tudo certo
+
+    for (var i = 0;instance_find(obj_btn_tabela_bebida,i); i++){
+		with (instance_find(obj_btn_tabela_bebida,i)){
+			for (var j = 0; j < array_length(valores_ml); j++){
+				if (valores_ml[j] == 0 || valores_ml[j] == ""){
+					return
+				}
+			}
+		}
+	}
+	instance_create_depth(950, 25, depth -1, obj_btn_grafico)
     // Se for reativar a criação do objeto, ele também usará o x e y atualizados:
     // instance_create_layer(x, y, layer, obj_tabela_bebida, {
     //     liquid_name: name,
