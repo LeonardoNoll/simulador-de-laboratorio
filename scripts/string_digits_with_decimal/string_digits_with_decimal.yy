@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"exercicio2",
+  "%Name":"string_digits_with_decimal",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"exercicio2",
+  "name":"string_digits_with_decimal",
   "parent":{
     "name":"utils",
     "path":"folders/Scripts/utils.yy",

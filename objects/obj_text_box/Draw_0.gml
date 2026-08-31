@@ -33,7 +33,7 @@ if(popup_progress >= 1) {
 }
 
 // Create the close button (if the pop-up animation is complete)
-if (popup_progress >= 1 && !instance_exists(obj_btn_x)) {
-    var _btn_x = instance_create_depth(x + width - 5, y, depth - 1, obj_btn_x);
-    _btn_x.parent = self;
+if (popup_progress >= 1 && btn_x == noone) {
+    btn_x = instance_create_depth(x + width - 5, y, depth - 1, obj_btn_x);
+    btn_x.parent = self;
 }
