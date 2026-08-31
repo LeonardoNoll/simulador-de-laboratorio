@@ -1,8 +1,8 @@
 function shake(){
 	with(global.selected) {
-		if(content == "HCl + Água destilada" || content == "HCl + Saliva estimulada") {
-			ph = 2
+		if(!is_undefined(content) && (content.id == "hcl_agua_mix" || content.id == "hcl_saliva_mix")) {
+			content.state.ph = 2
 			scale_pulse(self, 2, 0.15)
-		} 
+		}
 	}
 }

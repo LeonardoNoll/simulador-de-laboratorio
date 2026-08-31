@@ -1,1 +1,1 @@
-instance_destroy(obj_btn_x)
+instance_destroy(btn_x)

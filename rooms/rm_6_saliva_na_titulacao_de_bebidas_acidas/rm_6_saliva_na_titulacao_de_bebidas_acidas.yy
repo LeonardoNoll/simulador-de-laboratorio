@@ -124,8 +124,8 @@
   ],
   "name":"rm_6_saliva_na_titulacao_de_bebidas_acidas",
   "parent":{
-    "name":"experiment_6_saliva_na_titulacao_de_bebidas_acidas",
-    "path":"folders/Rooms/experiment_6_saliva_na_titulacao_de_bebidas_acidas.yy",
+    "name":"experimento_6_saliva_na_titulacao_de_bebidas_acidas",
+    "path":"folders/Rooms/experimento_6_saliva_na_titulacao_de_bebidas_acidas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
