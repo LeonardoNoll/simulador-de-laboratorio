@@ -21,3 +21,5 @@ padding = 24;
 // Setup animação
 popup_timer = 0;          // Timer for the pop-up animation
 popup_duration = 5;      // Total duration of the animation in frames
+
+btn_x = noone
