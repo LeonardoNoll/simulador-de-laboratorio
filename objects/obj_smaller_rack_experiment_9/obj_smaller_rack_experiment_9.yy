@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_permanent_pen",
+  "%Name":"obj_smaller_rack_experiment_9",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_egg","path":"objects/obj_egg/obj_egg.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_laminar_flow_hood","path":"objects/obj_laminar_flow_hood/obj_laminar_flow_hood.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_permanent_pen",
+  "name":"obj_smaller_rack_experiment_9",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_8",
-    "path":"folders/Objects/experiment_8.yy",
+    "name":"experiment_9",
+    "path":"folders/Objects/experiment_9.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_permanent_pen",
-    "path":"sprites/s_permanent_pen/s_permanent_pen.yy",
+    "name":"s_smaller_rack_experiment_9",
+    "path":"sprites/s_smaller_rack_experiment_9/s_smaller_rack_experiment_9.yy",
   },
   "spriteMaskId":null,
   "visible":true,

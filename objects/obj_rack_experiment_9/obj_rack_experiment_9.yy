@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_rack_experiment_9",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_rack_experiment_9",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"experiment_9",
     "path":"folders/Objects/experiment_9.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_rack_experiment_9",
+    "path":"sprites/s_rack_experiment_9/s_rack_experiment_9.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"laminar_flow_hood_collision",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"laminar_flow_hood_collision",
+  "parent":{
+    "name":"experiment_9",
+    "path":"folders/Scripts/experiment_9.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
