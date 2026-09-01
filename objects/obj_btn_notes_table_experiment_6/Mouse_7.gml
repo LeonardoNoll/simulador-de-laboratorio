@@ -6,4 +6,3 @@ activated = !activated
 //	instance_find(obj_writable_cell_experiment_6,i).text = texts[i]
 //}
 
-

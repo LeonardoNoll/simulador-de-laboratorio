@@ -13,10 +13,10 @@ if(device_mouse_check_button_released(0, mb_left)) {
 if(writable) {
 	if(string_length(keyboard_string) < max_text_length ) {
 		text = keyboard_string
-		var _btn = instance_find(obj_btn_notes_table_9, 0)
+		//var _btn = instance_find(obj_btn_agar, 0)
 
-		if (instance_exists(_btn)) {
-			update_notes_texts_experiment_9(_btn)
+		if (instance_exists(parent.parent)) {
+			update_notes_texts_experiment_9(parent.parent)
 		}
 		try_instantiate_buffer_capacity()
 	}

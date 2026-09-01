@@ -6,6 +6,7 @@ function measure_ph(){
 				sprite_index = s_phmetro_medindo
 				display_text = becker.PH[max(0,(becker.indice_ph/5))]
 				options = [OPTIONS.LIGAR_PHMETRO, OPTIONS.MEDIR_PH, OPTIONS.PARAR_DE_MEDIR]
+				create_textbox(x,y,string_concat("Saliva total adicionada: ", obj_glass_jar_experiment_6.indice_ph,"ml"))
 				}else{
 					create_textbox(x,y,"a bebida deve estar em agitação constante")
 				}

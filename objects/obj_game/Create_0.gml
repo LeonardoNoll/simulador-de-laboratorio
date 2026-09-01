@@ -113,7 +113,7 @@ options_string = [
 	"Fechar a tampa",
 	"Limpar o Becker",
 	"Ligar Peagâmetro",
-	"ajustar Peagâmetro",
+	"Calibrar Peagâmetro",
 	"Medir PH",
 	"Parar de Medir",
 	"Remover do Phmetro",

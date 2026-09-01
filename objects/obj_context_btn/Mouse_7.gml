@@ -127,7 +127,7 @@ switch(option) {
 		turn_phmetro_on()
 		break
 	case OPTIONS.AJUSTAR_PHMETRO:
-		ajustar_phmetro()
+		calibrar_phmetro()
 		break
 	case OPTIONS.MEDIR_PH:
 		measure_ph()
