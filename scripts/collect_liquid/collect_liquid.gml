@@ -1,3 +1,4 @@
+
 function collect_liquid() {
 	var _pipette = id;
 	var _allowed_sources = scale_on_contact_list;
@@ -11,9 +12,13 @@ function collect_liquid() {
 	// Validação de segurança para propriedades que podem não existir em todos os objetos
 	var _source_content = variable_instance_exists(_source, "content") ? _source.content : "";
 	var _source_ph = variable_instance_exists(_source, "ph") ? _source.ph : 0;
-	
+
+	// Structs (LiquidInstance) comparam por referência em GML; normaliza para o id antes de comparar
+	var _source_content_id = (is_struct(_source_content) && variable_struct_exists(_source_content, "id")) ? _source_content.id : _source_content;
+	var _used_id = (is_struct(used) && variable_struct_exists(used, "id")) ? used.id : used;
+
 	// Validação de reuso de pipeta
-	if(used != "" && used != _source_content && _source_content != "") {
+	if(used != "" && _used_id != _source_content_id && _source_content != "") {
 		create_textbox(x, y, ["Você não pode utilzar em mais de um líquido a mesma pipeta. Troque a pipeta por uma nova."])
 		return
 	}
@@ -69,7 +74,7 @@ function collect_liquid() {
 					if (place_meeting(x, y, obj_test_tube_experiment_4)) {
 						try_to_pass_liquid_to_test_tube_experiment_4();
 					} else {
-						pass_liquid_to_test_tube_3(ml, self, ph == 2 ? s_test_tube_HCl : s_test_tube_water);
+						pass_liquid_to_test_tube_3();
 					}
 				}
 			}

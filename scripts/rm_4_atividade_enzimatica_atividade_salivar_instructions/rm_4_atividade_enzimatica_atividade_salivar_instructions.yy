@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rm_4_atividade_enzimatica_atividade_salivar_instructions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rm_4_atividade_enzimatica_atividade_salivar_instructions",
+  "parent":{
+    "name":"instructions",
+    "path":"folders/Scripts/instructions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

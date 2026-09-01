@@ -10,3 +10,6 @@ for (var i  = 0 ; i < array_length(obj_inventory_btn.itens); i++) {
 		var _currItem = array_push(itens, instance_create_depth(_xx, _yy, depth-1, obj_inventory_btn.itens[i]))
 		itens[i].equipable = false
 }
+
+x_btn = instance_create_depth(x+400, y-200, depth-1, obj_btn_x)
+x_btn.parent = id

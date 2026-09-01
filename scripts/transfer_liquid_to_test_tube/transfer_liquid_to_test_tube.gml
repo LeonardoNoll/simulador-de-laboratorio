@@ -19,7 +19,8 @@ function transfer_liquid_to_test_tube(_incoming, _test_tube, _liquids, _test_tub
 		if (is_undefined(_def)) return transfer_liquid_result_fail("liquid_not_found");
 		_incoming_instance = new LiquidInstance(_def);
 	} else if (is_struct(_incoming)) {
-		_incoming_instance = _incoming.clone();
+		// Se for uma LiquidInstance de verdade usa clone(); se for uma LiquidDef crua, envolve numa instância nova
+		_incoming_instance = variable_struct_exists(_incoming, "clone") ? _incoming.clone() : new LiquidInstance(_incoming);
 	}
 	
 	if (is_undefined(_incoming_instance)) return transfer_liquid_result_fail("invalid_incoming_liquid");

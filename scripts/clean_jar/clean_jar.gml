@@ -3,5 +3,6 @@ function clean_jar(){
 		sprite_index = s_bottle_empty
 		options = []
 		name = "Béquer 100ml"
+		indice_ph = 0
 	}
 }

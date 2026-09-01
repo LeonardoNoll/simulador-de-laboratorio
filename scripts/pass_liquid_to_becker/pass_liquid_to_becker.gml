@@ -32,8 +32,9 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
 				if (content == "") {
 					ph = ctx.parent.ph;
 					content = ctx.parent.content;
+					content_id = ctx.parent.content_id;
 					sprite_index = ctx.sprite_index;
-					show_debug_message(name) // Aparentemente isso está resolvendo 
+					show_debug_message(name) // Aparentemente isso está resolvendo
 					scale_pulse(self, 2, 0.15);
 					options = [];
 					liquid_color = ctx.parent.liquid_color;
@@ -54,6 +55,7 @@ function pass_liquid_to_becker(_mls, _other, _sprite_index) {
 			if (content == "") {
 				ph = global.selected.ph;
 				content = global.selected.content;
+				content_id = global.selected.content_id;
 				sprite_index = ctx.sprite_index;
 				scale_pulse(self, 2, 0.15);
 				options = [];

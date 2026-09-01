@@ -4,7 +4,7 @@ function measure_ph(){
 			if verificar_4 and verificar_7{
 				if becker.agitando == true{
 				sprite_index = s_phmetro_medindo
-				display_text = becker.PH[max(0,(becker.indice_ph/5)-1)]
+				display_text = becker.PH[max(0,(becker.indice_ph/5))]
 				options = [OPTIONS.LIGAR_PHMETRO, OPTIONS.MEDIR_PH, OPTIONS.PARAR_DE_MEDIR]
 				}else{
 					create_textbox(x,y,"a bebida deve estar em agitação constante")

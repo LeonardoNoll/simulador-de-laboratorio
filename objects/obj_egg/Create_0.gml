@@ -2,7 +2,7 @@ event_inherited()
 
 name = "Ovo cozido"
 
-needed_EPI = [obj_glove,obj_lab_coat, obj_goggles]
+needed_EPI = [obj_glove,obj_lab_coat]
 
 global.marked_egg = false
 identified = false 
