@@ -1,4 +1,4 @@
-function ajustar_phmetro(){
+function calibrar_phmetro(){
 	with global.selected{
 		if power_on {
 				if verificar_4 == false or verificar_7 == false{
@@ -20,6 +20,9 @@ function ajustar_phmetro(){
 						options = [OPTIONS.LIGAR_PHMETRO, OPTIONS.AJUSTAR_PHMETRO, OPTIONS.MEDIR_PH, OPTIONS.PARAR_DE_MEDIR]
 						if verificar_4 and verificar_7{
 							create_textbox(x,y,"o phmetro concluiu a calibração com sucesso!")
+							instance_destroy(obj_solucaoTampao_4)
+							instance_destroy(obj_solucaoTampao_7)
+							stop_measure()
 						}else{
 							create_textbox(x, y, "substitua a solução tampão 7 pela 4")
 						}

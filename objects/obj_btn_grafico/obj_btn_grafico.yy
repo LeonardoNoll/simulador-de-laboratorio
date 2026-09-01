@@ -1,16 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_btn_tabela_bebida",
+  "%Name":"obj_btn_grafico",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_btn_tabela_bebida",
+  "name":"obj_btn_grafico",
   "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Exibir Gráfico",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"propertyId":{"name":"width","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"propertyId":{"name":"height","path":"objects/obj_btn_parent/obj_btn_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
   ],
@@ -35,9 +33,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"textos_cabecalho","filters":[],"listItems":[],"multiselect":false,"name":"textos_cabecalho","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[\"20 ml\"]","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

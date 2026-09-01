@@ -1,7 +1,7 @@
 function turn_of_magnetic_stirrer(){
-	with global.selected{
-		name = original_name
-		agitando = false
-		options = [OPTIONS.LIGAR_AGITADOR_MAGNETICO, OPTIONS.REMOVER_DO_PHMETRO] 
-	}
+
+		obj_glass_jar_experiment_6.name = obj_glass_jar_experiment_6.original_name
+		obj_phmetro.becker.agitando = false
+		obj_magnetic_stirrer_experiment_6.options = [OPTIONS.LIGAR_AGITADOR_MAGNETICO] 
+	
 }
