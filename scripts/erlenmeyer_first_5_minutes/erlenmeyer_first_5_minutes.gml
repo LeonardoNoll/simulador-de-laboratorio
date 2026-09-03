@@ -25,6 +25,6 @@ function erlenmeyer_first_5_minutes(){
 	var _chronometer = instance_nearest(x,y,obj_cronometer)
 	_chronometer.on_count_sucess = erlenmeyer_one_more_minute
 	_chronometer_btn.on_count_sucess = erlenmeyer_one_more_minute
-	_chronometer.expected_minutes =	1
-	_chronometer_btn.expected_minutes =	1
+	_chronometer.expected_minutes =	2
+	_chronometer_btn.expected_minutes =	2
 }

@@ -44,5 +44,11 @@ global.test_tubes_experiment_4 = {
 var _tubes_to_add = 7;
 for (var i = 0; i <= _tubes_to_add; i++) {
 	var _name = string(i);
-	global.test_tubes_experiment_4[$ _name] = new TestTubeDef(i, _name);
+	// Mesma preparação inicial do Controle Amido (água + iodo); o amido chega depois,
+	// em alíquotas de 1mL retiradas do erlenmeyer a cada 2 minutos.
+	global.test_tubes_experiment_4[$ _name] = new TestTubeDef(i, _name, {
+		distilled_water: 3,
+		iodine: 2,
+		starch: 1
+	});
 }
