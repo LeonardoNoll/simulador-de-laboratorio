@@ -8,13 +8,26 @@ function collect_liquid() {
 	if (_source == noone) {
 		return;
 	}
-	
+
+	// Recipientes que podem ser fechados (tubo falcon, tubos de ensaio) só liberam
+	// a coleta quando abertos
+	if (variable_instance_exists(_source, "closed") && _source.closed) {
+		create_textbox(x, y, ["Este recipiente está fechado"])
+		return
+	}
+
 	// Validação de segurança para propriedades que podem não existir em todos os objetos
 	var _source_content = variable_instance_exists(_source, "content") ? _source.content : "";
 	var _source_ph = variable_instance_exists(_source, "ph") ? _source.ph : 0;
 
-	// Structs (LiquidInstance) comparam por referência em GML; normaliza para o id antes de comparar
-	var _source_content_id = (is_struct(_source_content) && variable_struct_exists(_source_content, "id")) ? _source_content.id : _source_content;
+	// Structs (LiquidInstance) comparam por referência em GML; normaliza para o id antes de comparar.
+	// Prioriza content_id: em fontes do experimento 4 ele já existe desde o Create, enquanto
+	// content só vira uma LiquidInstance de verdade dentro do callback (ensure_liquid_instance),
+	// então nesse ponto ainda estaria undefined mesmo com a fonte perfeitamente identificada.
+	var _has_source_content_id = variable_instance_exists(_source, "content_id") && !is_undefined(_source.content_id) && _source.content_id != "";
+	var _source_content_id = _has_source_content_id
+		? _source.content_id
+		: ((is_struct(_source_content) && variable_struct_exists(_source_content, "id")) ? _source_content.id : _source_content);
 	var _used_id = (is_struct(used) && variable_struct_exists(used, "id")) ? used.id : used;
 
 	// Validação de reuso de pipeta

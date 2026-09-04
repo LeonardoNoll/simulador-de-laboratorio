@@ -162,6 +162,24 @@ switch(option) {
 	case OPTIONS.IDENTIFICAR_OVO:
 		identify_egg()
 		break
+	case OPTIONS.ABRIR_TORNEIRA:
+		turn_on_the_faucet()
+		break
+	case OPTIONS.FECHAR_TORNEIRA:
+		turn_off_the_faucet()
+		break
+	case OPTIONS.PASSAR_ACIDO_ACETICO:
+		pour_acetic_acid(_becker)
+		break
+	case OPTIONS.USAR_BANHO_MARIA:
+		use_water_bath()
+		break
+	case OPTIONS.ABRIR:
+		open()
+		break
+	case OPTIONS.FECHAR:
+		close()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

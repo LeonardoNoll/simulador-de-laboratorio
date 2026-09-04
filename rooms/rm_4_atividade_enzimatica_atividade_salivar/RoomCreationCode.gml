@@ -14,7 +14,7 @@ global.liquids_experiment_4 = {
 		}
 	}),
 	iodine: new LiquidDef("iodine", #663600, "Iodo"),
-	iodine_control: new LiquidDef("iodine_control", #543105, "Controle Iodo"),
+	iodine_control: new LiquidDef("iodine_control", #FFF176, "Controle Iodo"),
 	starch_control: new LiquidDef("starch_control", #111111, "Controle Amido"),
 	distilled_saliva: new LiquidDef("distilled_saliva", #00FFFF, "Saliva Dil. 5x"),
 	erlenmeyer_mix: new LiquidDef("erlenmeyer_mix", c_fuchsia, "Mix Erlenmeyer"),
@@ -44,5 +44,11 @@ global.test_tubes_experiment_4 = {
 var _tubes_to_add = 7;
 for (var i = 0; i <= _tubes_to_add; i++) {
 	var _name = string(i);
-	global.test_tubes_experiment_4[$ _name] = new TestTubeDef(i, _name);
+	// Mesma preparação inicial do Controle Amido (água + iodo); o amido chega depois,
+	// em alíquotas de 1mL retiradas do erlenmeyer a cada 2 minutos.
+	global.test_tubes_experiment_4[$ _name] = new TestTubeDef(i, _name, {
+		distilled_water: 3,
+		iodine: 2,
+		starch: 1
+	});
 }

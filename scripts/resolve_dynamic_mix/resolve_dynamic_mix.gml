@@ -23,15 +23,34 @@ function resolve_dynamic_mix(_incoming, _current) {
 		var _state = _starch.state;
 		var _mins = struct_get(_state, "minutes_passed") ?? 0;
 		var _has_saliva = struct_get(_state, "saliva_added") ?? false;
-		
-		// Se tem saliva e passou tempo suficiente (ex: 8 min), o amido foi hidrolisado.
-		// Quando hidrolisado, ele não reage com o iodo (mantém a cor do iodo = iodine_control).
-		// Se NÃO hidrolisado, reage e fica azul/preto (starch_control).
-		if (_has_saliva && _mins >= 8) {
-			return "iodine_control";
+
+		// Sem saliva não há hidrólise em andamento: cor estática de starch_control (reage com iodo).
+		if (!_has_saliva) {
+			return "starch_control";
 		}
-		
-		return "starch_control";
+
+		// Com saliva, o amido vai sendo hidrolisado ao longo do tempo (0 a 8 min) e reage cada
+		// vez menos com o iodo. Interpola a cor entre starch_control (escuro) e iodine_control
+		// (claro) para que cada alíquota tirada a cada 2 min mostre uma cor diferente. O id
+		// (starch_control/iodine_control) continua binário no corte de 8 min só para fins de
+		// interpretação/correção; a cor é que reflete o gradiente.
+		var _t = clamp(_mins / 8, 0, 1);
+		var _color = merge_colour(
+			global.liquids_experiment_4.starch_control.color,
+			global.liquids_experiment_4.iodine_control.color,
+			_t
+		);
+		var _result_id = (_t >= 1) ? "iodine_control" : "starch_control";
+
+		// Carrega o estado da alíquota para o resultado. from_erlenmeyer distingue um tubo que
+		// recebeu alíquota de um que só tem água + iodo -- ambos terminam como iodine_control.
+		var _result_state = {
+			minutes_passed: _mins,
+			saliva_added: _has_saliva,
+			from_erlenmeyer: true
+		};
+
+		return { result: _result_id, color: _color, state: _result_state };
 	}
 
 	return undefined;
