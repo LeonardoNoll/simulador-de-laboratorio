@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"restore_pipette_collect_mode",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"restore_pipette_collect_mode",
+  "parent":{
+    "name":"pipette_related",
+    "path":"folders/Scripts/utils/pipette_related.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -20,6 +20,11 @@ function put_pear_on(){
 			options = [OPTIONS.REMOVER_PERA];
 			scale_on_contact_list = _pear.pipette_scale_on_contact_list;
 			on_release = _pear.pipette_on_release;
+
+			// Guardado para restaurar o modo de coleta sempre que a pipeta esvaziar
+			// (ver restore_pipette_collect_mode)
+			collect_scale_on_contact_list = _pear.pipette_scale_on_contact_list;
+			collect_on_release = _pear.pipette_on_release;
 			
 			pear_on = true;
 			pear_instancing_info = {

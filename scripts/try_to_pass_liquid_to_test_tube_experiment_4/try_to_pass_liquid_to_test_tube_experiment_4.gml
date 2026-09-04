@@ -76,11 +76,14 @@ function try_to_pass_liquid_to_test_tube_experiment_4() {
 				_args.source.ml = 0;
 				_args.source.content = undefined;
 				_args.source.content_id = "";
-				
+
 				if (variable_instance_exists(_args.source, "max_ml")) {
 					var _is10 = _args.source.max_ml == 10;
 					_args.source.name = _is10 ? "Pipeta 10ml" : "Pipeta 5ml";
 				}
+
+				// Vazia de novo, a pipeta volta a poder coletar
+				restore_pipette_collect_mode(_args.source);
 			}
 			
 			show_debug_message("Transferência concluída: " + string(_args.test_tube.content_id));
