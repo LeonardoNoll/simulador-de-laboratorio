@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rm_6_saliva_na_titulacao_de_bebidas_acidas_instructions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rm_6_saliva_na_titulacao_de_bebidas_acidas_instructions",
+  "parent":{
+    "name":"instructions",
+    "path":"folders/Scripts/instructions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
