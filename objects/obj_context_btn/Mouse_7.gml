@@ -174,6 +174,9 @@ switch(option) {
 	case OPTIONS.CALIBRAR_MICROPIPETA:
 		calibrate_micropipette()
 		break
+	case OPTIONS.ABRIR_TAMPAO_FOSFATO:
+		open_phosphate_buffered_saline()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

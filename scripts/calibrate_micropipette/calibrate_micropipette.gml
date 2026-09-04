@@ -5,7 +5,7 @@ function calibrate_micropipette(){
 		
 		var _micropipette = instance_nearest(x, y, obj_micropipette)
 		//verifica se o valor está correto
-		if (string_digits(_text) == 1000) {
+		if (real(_text) == 1000) {
 			_micropipette.name = "micropipeta calibrada em 1000 uL"
 			_micropipette.calibrated = true
         }else{
