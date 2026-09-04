@@ -14,7 +14,7 @@ function update_falcon_tube() {
 	with(obj_falcon_tube) {
 		is_in_centrifuge = false
 		on_release = centrifuged ? try_to_pass_liquid_to_test_tube_experiment_4 : insert_in_centrifuge
-		sprite_index = s_falcon_tube_filled
+		// O sprite é resolvido no Step a partir de closed/filled
 		content_id = global.liquids_experiment_4.saliva.id
 		scale_pulse(self, 2, 0.15)
 	}

@@ -8,7 +8,14 @@ function collect_liquid() {
 	if (_source == noone) {
 		return;
 	}
-	
+
+	// Recipientes que podem ser fechados (tubo falcon, tubos de ensaio) só liberam
+	// a coleta quando abertos
+	if (variable_instance_exists(_source, "closed") && _source.closed) {
+		create_textbox(x, y, ["Este recipiente está fechado"])
+		return
+	}
+
 	// Validação de segurança para propriedades que podem não existir em todos os objetos
 	var _source_content = variable_instance_exists(_source, "content") ? _source.content : "";
 	var _source_ph = variable_instance_exists(_source, "ph") ? _source.ph : 0;

@@ -177,6 +177,9 @@ switch(option) {
 	case OPTIONS.ABRIR:
 		open()
 		break
+	case OPTIONS.FECHAR:
+		close()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

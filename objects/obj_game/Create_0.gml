@@ -70,6 +70,7 @@ enum OPTIONS {
 	PASSAR_ACIDO_ACETICO,
 	USAR_BANHO_MARIA,
 	ABRIR,
+	FECHAR,
 }
 
 options_string = [
@@ -129,5 +130,6 @@ options_string = [
 	"Fechar a torneira",
 	"Adicionar ácido acético",
 	"Usar banho maria",
-	"Abrir"
+	"Abrir",
+	"Fechar"
 ]

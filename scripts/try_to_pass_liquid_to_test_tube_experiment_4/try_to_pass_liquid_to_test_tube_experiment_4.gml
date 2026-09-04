@@ -10,6 +10,12 @@ function try_to_pass_liquid_to_test_tube_experiment_4() {
 		return;
 	}
 
+	// A origem também pode ser um recipiente que fecha (ex. o tubo falcon despejado direto)
+	if (variable_instance_exists(id, "closed") && closed) {
+		create_textbox(x, y, ["Este recipiente está fechado"])
+		return;
+	}
+
 	// Resolve o líquido para uma LiquidInstance se necessário
 	var _liquid_to_pass = ensure_liquid_instance(id);
 
