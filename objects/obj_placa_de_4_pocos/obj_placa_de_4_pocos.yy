@@ -1,13 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"obj_placa_de_4_pocos",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_esmalte","path":"objects/obj_esmalte/obj_esmalte.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_dentina","path":"objects/obj_dentina/obj_dentina.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_placa_de_4_pocos",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_9",
-    "path":"folders/Objects/experiment_9.yy",
+    "name":"experiment_12",
+    "path":"folders/Objects/experiment_12.yy",
   },
   "parentObjectId":null,
   "persistent":false,

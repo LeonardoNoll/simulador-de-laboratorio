@@ -6,8 +6,8 @@
   "name":"obj_dentina",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_9",
-    "path":"folders/Objects/experiment_9.yy",
+    "name":"experiment_12",
+    "path":"folders/Objects/experiment_12.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",
