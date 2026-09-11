@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"close_filled_tube",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"close_filled_tube",
+  "parent":{
+    "name":"experiment_11",
+    "path":"folders/Scripts/experiment_11.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

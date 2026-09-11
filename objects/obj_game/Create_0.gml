@@ -67,7 +67,9 @@ enum OPTIONS {
 	IDENTIFICAR_OVO,
 	ABRIR_TORNEIRA,
 	FECHAR_TORNEIRA,
-	PASSAR_ACIDO_ACETICO
+	PASSAR_ACIDO_ACETICO,
+	ABRIR_TUBO_CHEIO,
+	FECHAR_TUBO_CHEIO
 }
 
 options_string = [
@@ -125,5 +127,7 @@ options_string = [
 	"Identificar o ovo",
 	"Abrir a torneira",
 	"Fechar a torneira",
-	"Adicionar ácido acético"
+	"Adicionar ácido acético",
+	"Abrir tubo de ensaio",
+	"Fechar tubo de ensaio"
 ]

@@ -171,6 +171,13 @@ switch(option) {
 	case OPTIONS.PASSAR_ACIDO_ACETICO:
 		pour_acetic_acid(_becker)
 		break
+	case OPTIONS.ABRIR_TUBO_CHEIO:
+		open_filled_tube()
+		break
+	case OPTIONS.FECHAR_TUBO_CHEIO:
+		close_filled_tube()
+		break
+		
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
