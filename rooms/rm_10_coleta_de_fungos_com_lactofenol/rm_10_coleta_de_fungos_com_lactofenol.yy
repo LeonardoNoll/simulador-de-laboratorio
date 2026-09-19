@@ -12,6 +12,7 @@
     {"name":"inst_785CCEA5_1","path":"rooms/rm_10_coleta_de_fungos_com_lactofenol/rm_10_coleta_de_fungos_com_lactofenol.yy",},
     {"name":"inst_735AD974_1","path":"rooms/rm_10_coleta_de_fungos_com_lactofenol/rm_10_coleta_de_fungos_com_lactofenol.yy",},
     {"name":"inst_447B0FB2","path":"rooms/rm_10_coleta_de_fungos_com_lactofenol/rm_10_coleta_de_fungos_com_lactofenol.yy",},
+    {"name":"inst_BEAD6BE","path":"rooms/rm_10_coleta_de_fungos_com_lactofenol/rm_10_coleta_de_fungos_com_lactofenol.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -30,6 +31,7 @@
     {"$GMRAssetLayer":"","%Name":"Visual_Effects","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Visual_Effects","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_447B0FB2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_447B0FB2","objectId":{"name":"obj_bunsen","path":"objects/obj_bunsen/obj_bunsen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":893.0,"y":459.0,},
+        {"$GMRInstance":"v4","%Name":"inst_BEAD6BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_BEAD6BE","objectId":{"name":"obj_plantinum_loop","path":"objects/obj_plantinum_loop/obj_plantinum_loop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":499.0,"y":263.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Back_Assets","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_42D314EE1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_42D314EE1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"s_table","path":"sprites/s_table/s_table.yy",},"x":224.0,"y":576.0,},
