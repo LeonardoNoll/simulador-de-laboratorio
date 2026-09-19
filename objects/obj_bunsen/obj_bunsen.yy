@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_bunsen",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_bunsen",
   "overriddenProperties":[],
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bunsen_off",
-    "path":"sprites/bunsen_off/bunsen_off.yy",
+    "name":"s_bunsen_off",
+    "path":"sprites/s_bunsen_off/s_bunsen_off.yy",
   },
   "spriteMaskId":null,
   "visible":true,

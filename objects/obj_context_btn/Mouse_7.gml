@@ -180,6 +180,12 @@ switch(option) {
 	case OPTIONS.FECHAR:
 		close()
 		break
+	case OPTIONS.LIGAR_BUNSEN:
+		ligar_bico_de_bunsen()
+		break
+	case OPTIONS.DESLIGAR_BUNSEN:
+		desligar_bico_de_bunsen()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

@@ -71,6 +71,8 @@ enum OPTIONS {
 	USAR_BANHO_MARIA,
 	ABRIR,
 	FECHAR,
+	LIGAR_BUNSEN,
+	DESLIGAR_BUNSEN
 }
 
 options_string = [
@@ -131,5 +133,7 @@ options_string = [
 	"Adicionar ácido acético",
 	"Usar banho maria",
 	"Abrir",
-	"Fechar"
+	"Fechar",
+	"Ligar bico de bunsen",
+	"Desligar bico de bunsen"
 ]

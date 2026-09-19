@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ligar_bico_de_bunsen",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ligar_bico_de_bunsen",
+  "parent":{
+    "name":"experiment_10",
+    "path":"folders/Scripts/experiment_10.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
