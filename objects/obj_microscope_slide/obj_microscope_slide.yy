@@ -1,11 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_microscope",
+  "%Name":"obj_microscope_slide",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_microscope",
+  "name":"obj_microscope_slide",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_10",
@@ -33,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_microscope",
-    "path":"sprites/s_microscope/s_microscope.yy",
+    "name":"s_microscope_slide",
+    "path":"sprites/s_microscope_slide/s_microscope_slide.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -186,6 +186,12 @@ switch(option) {
 	case OPTIONS.DESLIGAR_BUNSEN:
 		desligar_bico_de_bunsen()
 		break
+	case OPTIONS.PEGAR_LAMINA:
+		pegar_lamina()
+		break
+	case OPTIONS.IDENTIFICAR_LAMINA:
+		identificar_lamina()
+		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break

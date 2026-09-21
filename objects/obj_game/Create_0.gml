@@ -72,7 +72,9 @@ enum OPTIONS {
 	ABRIR,
 	FECHAR,
 	LIGAR_BUNSEN,
-	DESLIGAR_BUNSEN
+	DESLIGAR_BUNSEN,
+	PEGAR_LAMINA,
+	IDENTIFICAR_LAMINA
 }
 
 options_string = [
@@ -135,5 +137,7 @@ options_string = [
 	"Abrir",
 	"Fechar",
 	"Ligar bico de bunsen",
-	"Desligar bico de bunsen"
+	"Desligar bico de bunsen",
+	"Pegar lâmina",
+	"Identificar lado da lâmina"
 ]

@@ -1,0 +1,1 @@
+if (visible) event_inherited();

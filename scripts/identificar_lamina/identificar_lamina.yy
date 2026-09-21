@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"identificar_lamina",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"identificar_lamina",
+  "parent":{
+    "name":"experiment_10",
+    "path":"folders/Scripts/experiment_10.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

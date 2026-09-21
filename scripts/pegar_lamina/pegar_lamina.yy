@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pegar_lamina",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pegar_lamina",
+  "parent":{
+    "name":"experiment_10",
+    "path":"folders/Scripts/experiment_10.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
