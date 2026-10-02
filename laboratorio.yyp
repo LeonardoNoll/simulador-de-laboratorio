@@ -424,6 +424,7 @@
     {"id":{"name":"rm_acao_do_fluoreto_2_instructions","path":"scripts/rm_acao_do_fluoreto_2_instructions/rm_acao_do_fluoreto_2_instructions.yy",},},
     {"id":{"name":"rm_acao_do_fluoreto_na_casca_do_ovo_instructions","path":"scripts/rm_acao_do_fluoreto_na_casca_do_ovo_instructions/rm_acao_do_fluoreto_na_casca_do_ovo_instructions.yy",},},
     {"id":{"name":"rm_laminar_flow_hood_instructions","path":"scripts/rm_laminar_flow_hood_instructions/rm_laminar_flow_hood_instructions.yy",},},
+    {"id":{"name":"rm_preparacao_de_meios_de_cultura_em_agar_instructions","path":"scripts/rm_preparacao_de_meios_de_cultura_em_agar_instructions/rm_preparacao_de_meios_de_cultura_em_agar_instructions.yy",},},
     {"id":{"name":"rm_preparacao_de_meios_de_cultura_em_caldo_instructions","path":"scripts/rm_preparacao_de_meios_de_cultura_em_caldo_instructions/rm_preparacao_de_meios_de_cultura_em_caldo_instructions.yy",},},
     {"id":{"name":"rm_tutorial_instructions","path":"scripts/rm_tutorial_instructions/rm_tutorial_instructions.yy",},},
     {"id":{"name":"scale_on_contact","path":"scripts/scale_on_contact/scale_on_contact.yy",},},

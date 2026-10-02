@@ -22,7 +22,6 @@ if(rm_coleta_de_biofilme_supragengival){
 		rack: 0,
 		one_ml_pipette_tip: 0,
 		phosphate_buffered_saline : 0
-	}
-
-	
+	}	
 }
+
