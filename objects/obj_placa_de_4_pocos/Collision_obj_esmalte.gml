@@ -23,3 +23,8 @@ sprite_index = s_placa_de_4_pocos_22
 instance_destroy(other)
 esmalte = esmalte + 1
 }
+else if esmalte = 0 and dentina =2{
+sprite_index = s_placa_de_4_pocos_12
+instance_destroy(other)
+esmalte = esmalte + 1
+}

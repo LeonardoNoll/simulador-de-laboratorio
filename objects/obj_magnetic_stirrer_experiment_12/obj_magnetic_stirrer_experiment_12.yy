@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gel_fluoretado_acidulado",
+  "%Name":"obj_magnetic_stirrer_experiment_12",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gel_fluoretado_acidulado",
+  "name":"obj_magnetic_stirrer_experiment_12",
   "overriddenProperties":[],
   "parent":{
     "name":"experiment_12",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_gel_fluoretado_acidulado",
-    "path":"sprites/s_gel_fluoretado_acidulado/s_gel_fluoretado_acidulado.yy",
+    "name":"s_magnetic_stirrer_experiment_6",
+    "path":"sprites/s_magnetic_stirrer_experiment_6/s_magnetic_stirrer_experiment_6.yy",
   },
   "spriteMaskId":null,
   "visible":true,

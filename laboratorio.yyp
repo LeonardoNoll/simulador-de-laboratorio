@@ -114,7 +114,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"laboratorio",
   "resources":[
@@ -204,6 +204,7 @@
     {"id":{"name":"obj_locker_btn","path":"objects/obj_locker_btn/obj_locker_btn.yy",},},
     {"id":{"name":"obj_locker_generic_item","path":"objects/obj_locker_generic_item/obj_locker_generic_item.yy",},},
     {"id":{"name":"obj_locker_GUI","path":"objects/obj_locker_GUI/obj_locker_GUI.yy",},},
+    {"id":{"name":"obj_magnetic_stirrer_experiment_12","path":"objects/obj_magnetic_stirrer_experiment_12/obj_magnetic_stirrer_experiment_12.yy",},},
     {"id":{"name":"obj_magnetic_stirrer_experiment_6","path":"objects/obj_magnetic_stirrer_experiment_6/obj_magnetic_stirrer_experiment_6.yy",},},
     {"id":{"name":"obj_magnetic_stirrer","path":"objects/obj_magnetic_stirrer/obj_magnetic_stirrer.yy",},},
     {"id":{"name":"obj_minus_minute_centrifuge_btn","path":"objects/obj_minus_minute_centrifuge_btn/obj_minus_minute_centrifuge_btn.yy",},},
@@ -546,6 +547,9 @@
     {"id":{"name":"s_placa_de_4_pocos_20","path":"sprites/s_placa_de_4_pocos_20/s_placa_de_4_pocos_20.yy",},},
     {"id":{"name":"s_placa_de_4_pocos_21","path":"sprites/s_placa_de_4_pocos_21/s_placa_de_4_pocos_21.yy",},},
     {"id":{"name":"s_placa_de_4_pocos_22","path":"sprites/s_placa_de_4_pocos_22/s_placa_de_4_pocos_22.yy",},},
+    {"id":{"name":"s_placa_de_4_pocos_22a","path":"sprites/s_placa_de_4_pocos_22a/s_placa_de_4_pocos_22a.yy",},},
+    {"id":{"name":"s_placa_de_4_pocos_22ab","path":"sprites/s_placa_de_4_pocos_22ab/s_placa_de_4_pocos_22ab.yy",},},
+    {"id":{"name":"s_placa_de_4_pocos_22b","path":"sprites/s_placa_de_4_pocos_22b/s_placa_de_4_pocos_22b.yy",},},
     {"id":{"name":"s_plastic_bottle_empty","path":"sprites/s_plastic_bottle_empty/s_plastic_bottle_empty.yy",},},
     {"id":{"name":"s_reference_afericao","path":"sprites/s_reference_afericao/s_reference_afericao.yy",},},
     {"id":{"name":"s_reference_salometria_e","path":"sprites/s_reference_salometria_e/s_reference_salometria_e.yy",},},

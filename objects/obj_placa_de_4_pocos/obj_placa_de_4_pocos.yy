@@ -15,7 +15,10 @@
     "name":"experiment_12",
     "path":"folders/Objects/experiment_12.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

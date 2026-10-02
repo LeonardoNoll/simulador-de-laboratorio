@@ -14,7 +14,7 @@ instance_destroy(other)
 dentina = dentina + 1
 }
 else if esmalte = 1 and dentina = 1{
-sprite_index = s_placa_de_4_pocos_11
+sprite_index = s_placa_de_4_pocos_12
 instance_destroy(other)
 dentina = dentina + 1
 }
