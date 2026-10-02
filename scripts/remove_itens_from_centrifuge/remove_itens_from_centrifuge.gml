@@ -1,13 +1,18 @@
 // Subject to change
 function remove_itens_from_centrifuge(){
-	update_falcon_tube()
+	if (room == rm_da_concentracao_de_fluor_soluvel_FST){
+		update_test_tube()
+	}else{
+		update_falcon_tube()
 
-	array_delete_value(obj_centrifuge.options, OPTIONS.REMOVER_ITENS)
-	if(!obj_falcon_tube.centrifuged) {
-		return
-	}
+		array_delete_value(obj_centrifuge.options, OPTIONS.REMOVER_ITENS)
+		if(!obj_falcon_tube.centrifuged) {
+			return
+		}
 				
-	spawn_water_bath()
+		spawn_water_bath()
+	}
+	
 }   
 
 function update_falcon_tube() {
@@ -19,6 +24,32 @@ function update_falcon_tube() {
 		scale_pulse(self, 2, 0.15)
 	}
 }
+
+function update_test_tube() {
+	with(obj_filled_test_tube_1){
+		is_in_centrifuge = false
+		sprite_index = s_tubo_test
+		scale_pulse(self, 2, 0.15)
+	}
+	with(obj_filled_test_tube_2){
+		is_in_centrifuge = false
+		sprite_index = s_tubo_test
+		scale_pulse(self, 2, 0.15)
+	}
+	with(obj_filled_test_tube_3){
+		is_in_centrifuge = false
+		sprite_index = s_tubo_test
+		scale_pulse(self, 2, 0.15)
+	}
+	with(obj_filled_test_tube_4){
+		is_in_centrifuge = false
+		sprite_index = s_tubo_test
+		scale_pulse(self, 2, 0.15)
+	}
+}
+
+
+
 
 function spawn_water_bath(){
 	with(global.selected) {

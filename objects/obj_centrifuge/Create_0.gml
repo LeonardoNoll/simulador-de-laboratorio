@@ -20,3 +20,4 @@ counting_down = false
 fast_forward = false
 seconds_elapsed = 0
 #macro EXPECTED_SECONDS 60*5
+#macro SEGUNDOS_ESPERADOS 60*10
