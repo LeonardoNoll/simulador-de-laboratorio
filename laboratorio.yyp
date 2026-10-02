@@ -119,7 +119,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"laboratorio",
   "resources":[
@@ -211,6 +211,7 @@
     {"id":{"name":"obj_isotonico_bottle","path":"objects/obj_isotonico_bottle/obj_isotonico_bottle.yy",},},
     {"id":{"name":"obj_lab_coat","path":"objects/obj_lab_coat/obj_lab_coat.yy",},},
     {"id":{"name":"obj_lactofenol","path":"objects/obj_lactofenol/obj_lactofenol.yy",},},
+    {"id":{"name":"obj_lactofenol_azul","path":"objects/obj_lactofenol_azul/obj_lactofenol_azul.yy",},},
     {"id":{"name":"obj_laminar_flow_hood","path":"objects/obj_laminar_flow_hood/obj_laminar_flow_hood.yy",},},
     {"id":{"name":"obj_lemonJuice_bottle","path":"objects/obj_lemonJuice_bottle/obj_lemonJuice_bottle.yy",},},
     {"id":{"name":"obj_locker_btn","path":"objects/obj_locker_btn/obj_locker_btn.yy",},},
@@ -246,6 +247,7 @@
     {"id":{"name":"obj_pipette_10ml","path":"objects/obj_pipette_10ml/obj_pipette_10ml.yy",},},
     {"id":{"name":"obj_pipette_20ml_experiment_6","path":"objects/obj_pipette_20ml_experiment_6/obj_pipette_20ml_experiment_6.yy",},},
     {"id":{"name":"obj_pipette_50ml_experiment_6","path":"objects/obj_pipette_50ml_experiment_6/obj_pipette_50ml_experiment_6.yy",},},
+    {"id":{"name":"obj_pipette_5ml_1","path":"objects/obj_pipette_5ml_1/obj_pipette_5ml_1.yy",},},
     {"id":{"name":"obj_pipette_5ml_experiment_6","path":"objects/obj_pipette_5ml_experiment_6/obj_pipette_5ml_experiment_6.yy",},},
     {"id":{"name":"obj_pipette_5ml","path":"objects/obj_pipette_5ml/obj_pipette_5ml.yy",},},
     {"id":{"name":"obj_pipette_discard","path":"objects/obj_pipette_discard/obj_pipette_discard.yy",},},
