@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"calibrate_micropipette",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"calibrate_micropipette",
+  "parent":{
+    "name":"experiment_9",
+    "path":"folders/Scripts/experiment_9.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
