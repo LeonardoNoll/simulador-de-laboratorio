@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"ajustar_phmetro",
+  "%Name":"use_water_bath",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ajustar_phmetro",
+  "name":"use_water_bath",
   "parent":{
-    "name":"experment_6",
-    "path":"folders/Scripts/experment_6.yy",
+    "name":"experiment_4",
+    "path":"folders/Scripts/experiment_4.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

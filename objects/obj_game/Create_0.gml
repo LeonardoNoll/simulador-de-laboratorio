@@ -69,7 +69,10 @@ enum OPTIONS {
 	FECHAR_TORNEIRA,
 	PASSAR_ACIDO_ACETICO,
 	CALIBRAR_MICROPIPETA,
-	ABRIR_TAMPAO_FOSFATO
+	ABRIR_TAMPAO_FOSFATO,
+	USAR_BANHO_MARIA,
+	ABRIR,
+	FECHAR,
 }
 
 options_string = [
@@ -113,7 +116,7 @@ options_string = [
 	"Fechar a tampa",
 	"Limpar o Becker",
 	"Ligar Peagâmetro",
-	"ajustar Peagâmetro",
+	"Calibrar Peagâmetro",
 	"Medir PH",
 	"Parar de Medir",
 	"Remover do Phmetro",
@@ -130,4 +133,7 @@ options_string = [
 	"Adicionar ácido acético",
 	"Calibrar a micropipeta",
 	"Abrir a tampa"
+	"Usar banho maria",
+	"Abrir",
+	"Fechar"
 ]

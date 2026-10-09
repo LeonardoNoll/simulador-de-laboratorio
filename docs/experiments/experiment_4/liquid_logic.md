@@ -19,8 +19,8 @@ O amido (`starch`) possui estados específicos controlados no Erlenmeyer:
 - `saliva_added`: Booleano que indica se a saliva (enzima) foi adicionada.
 
 A hidrólise é decidida dinamicamente no script `resolve_dynamic_mix.gml`:
-- Se `saliva_added == true` AND `minutes_passed >= 8` -> O amido é hidrolisado (o teste de iodo resultará na cor do controle de iodo).
-- Caso contrário -> O amido reage com o iodo (cor azul/preto).
+- Sem `saliva_added` -> não há hidrólise; o amido reage com o iodo (`starch_control`, escuro).
+- Com `saliva_added`, a cor é **interpolada** ao longo do tempo em vez de decidida por um corte binário. Ver [reaction_and_results](reaction_and_results.md) para o funcionamento completo do gradiente, da cadência do cronômetro e da propagação de estado.
 
 ### 4. Como Criar Novos Reagentes
 Para adicionar um novo reagente compatível com este sistema, configure o `Create` do objeto:

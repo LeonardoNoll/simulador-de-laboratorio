@@ -4,7 +4,7 @@ name = "Pipeta 5ml"
 max_ml = 5;
 pear_sprite = s_pipette_5ml_with_pear;
 pear_y_offset = 40;
-
+needed_EPI = [obj_lab_coat]
 liquid_draw_setup = {
 	capacity_ml:5,
 	liquid_color: c_white,

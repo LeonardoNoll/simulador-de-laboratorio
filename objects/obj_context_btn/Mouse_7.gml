@@ -127,7 +127,7 @@ switch(option) {
 		turn_phmetro_on()
 		break
 	case OPTIONS.AJUSTAR_PHMETRO:
-		ajustar_phmetro()
+		calibrar_phmetro()
 		break
 	case OPTIONS.MEDIR_PH:
 		measure_ph()
@@ -176,6 +176,15 @@ switch(option) {
 		break
 	case OPTIONS.ABRIR_TAMPAO_FOSFATO:
 		open_phosphate_buffered_saline()
+      break
+	case OPTIONS.USAR_BANHO_MARIA:
+		use_water_bath()
+		break
+	case OPTIONS.ABRIR:
+		open()
+		break
+	case OPTIONS.FECHAR:
+		close()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])
