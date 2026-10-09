@@ -1,6 +1,7 @@
 // Subject to change
 function remove_itens_from_centrifuge(){
 	if (room == rm_da_concentracao_de_fluor_soluvel_FST){
+		//criar IF para saber se foi centrifugado, posso criar dentro da função, ou aqui
 		update_test_tube()
 	}else{
 		update_falcon_tube()
@@ -18,8 +19,9 @@ function remove_itens_from_centrifuge(){
 function update_falcon_tube() {
 	with(obj_falcon_tube) {
 		is_in_centrifuge = false
+		//checa se ele foi centrifugado, em suma é um if e else
 		on_release = centrifuged ? try_to_pass_liquid_to_test_tube_experiment_4 : insert_in_centrifuge
-		sprite_index = s_falcon_tube_filled
+	sprite_index = s_falcon_tube_filled
 		content_id = global.liquids_experiment_4.saliva.id
 		scale_pulse(self, 2, 0.15)
 	}
