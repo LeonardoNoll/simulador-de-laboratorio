@@ -8,7 +8,6 @@ function pass_saliva_to_becker(){
 			if _becker.original_name == "Béquer com Suco De Limão"{
 				if _becker.indice_ph + max_ml > 420 {
 					create_textbox(x,y, "Quantidade de saliva excedeu o limite")
-					create_textbox(x,y,"jdfghjktgxdcgvc")
 					return
 				}
 			}else{

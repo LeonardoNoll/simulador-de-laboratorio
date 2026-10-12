@@ -4,28 +4,28 @@ function measure_ph(){
 			if verificar_4 and verificar_7{
 				if becker.agitando == true{
 				sprite_index = s_phmetro_medindo
-				if becker.indice_ph == 150 {
+				if becker.indice_ph >= 150 and becker.indice_ph < 200  {
 					display_text = becker.PH[22]
 				}else{
-					if becker.indice_ph == 200 {
+					if becker.indice_ph >= 200 and becker.indice_ph < 225{
 						display_text = becker.PH[24]
 					}else{
-						if becker.indice_ph == 225 {
+						if becker.indice_ph >= 225 and becker.indice_ph < 250{
 							display_text = becker.PH[25]
 						}else{
-							if becker.indice_ph == 250 {
+							if becker.indice_ph >= 250 and becker.indice_ph < 270{
 								display_text = becker.PH[26]
 							}else{
-								if becker.indice_ph == 270 {
+								if becker.indice_ph >= 270 and becker.indice_ph < 320{
 									display_text = becker.PH[27]
 								}else{
-									if becker.indice_ph == 320 {
+									if becker.indice_ph >= 320 and becker.indice_ph < 370{
 										display_text = becker.PH[28]
 									}else{
-										if becker.indice_ph == 370 {
+										if becker.indice_ph >= 370 and becker.indice_ph < 420{
 											display_text = becker.PH[29]
 										}else{
-											if becker.indice_ph = 420 {
+											if becker.indice_ph == 420 {
 												display_text = becker.PH[30]
 											}else{
 												display_text = becker.PH[max(0,(becker.indice_ph/5))]
