@@ -1,0 +1,1 @@
+obj_permanent_marker.sprite_index = s_permanent_marker_9

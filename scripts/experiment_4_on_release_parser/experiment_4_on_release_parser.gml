@@ -24,6 +24,7 @@ function experiment_4_on_release_parser(){
 				ml = 0;
 				content = undefined;
 				content_id = "";
+				restore_pipette_collect_mode(id);
 			}
 			return;
 		}
@@ -44,7 +45,7 @@ function experiment_4_on_release_parser(){
 					ml = 0;
 					content = undefined;
 					content_id = "";
-					if (variable_instance_exists(id, "prepare_to_collect")) prepare_to_collect();
+					restore_pipette_collect_mode(id);
 				}
 			} else {
 				create_textbox(x, y, "O Erlenmeyer deve conter amido antes de adicionar a saliva.");

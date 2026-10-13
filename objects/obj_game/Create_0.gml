@@ -67,7 +67,12 @@ enum OPTIONS {
 	IDENTIFICAR_OVO,
 	ABRIR_TORNEIRA,
 	FECHAR_TORNEIRA,
-	PASSAR_ACIDO_ACETICO
+	PASSAR_ACIDO_ACETICO,
+	CALIBRAR_MICROPIPETA,
+	ABRIR_TAMPAO_FOSFATO,
+	USAR_BANHO_MARIA,
+	ABRIR,
+	FECHAR,
 }
 
 options_string = [
@@ -125,5 +130,10 @@ options_string = [
 	"Identificar o ovo",
 	"Abrir a torneira",
 	"Fechar a torneira",
-	"Adicionar ácido acético"
+	"Adicionar ácido acético",
+	"Calibrar a micropipeta",
+	"Abrir a tampa"
+	"Usar banho maria",
+	"Abrir",
+	"Fechar"
 ]

@@ -21,7 +21,7 @@ function erlenmeyer_one_more_minute() {
 	}
 
 	if (is_struct(_erlenmeyer.content) && variable_struct_exists(_erlenmeyer.content, "state")) {
-		_erlenmeyer.content.state.minutes_passed++;
+		_erlenmeyer.content.state.minutes_passed += 2;
 	}
 
 	scale_pulse(_erlenmeyer, 1.5, 0.15);

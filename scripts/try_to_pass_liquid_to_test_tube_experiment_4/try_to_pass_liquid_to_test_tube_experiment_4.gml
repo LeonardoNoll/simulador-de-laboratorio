@@ -1,7 +1,18 @@
 function try_to_pass_liquid_to_test_tube_experiment_4() {
-	var _test_tube = instance_place(x, y, obj_test_tube_experiment_4);
+	if (!place_meeting(x, y, obj_test_tube_experiment_4)) {
+		return;
+	}
 
-	if (!instance_exists(_test_tube) || _test_tube.closed) {
+	var _test_tube = instance_nearest(x, y, obj_test_tube_experiment_4);
+
+	if (_test_tube.closed) {
+		create_textbox(x, y, ["Este tubo de teste está fechado"])
+		return;
+	}
+
+	// A origem também pode ser um recipiente que fecha (ex. o tubo falcon despejado direto)
+	if (variable_instance_exists(id, "closed") && closed) {
+		create_textbox(x, y, ["Este recipiente está fechado"])
 		return;
 	}
 
@@ -32,6 +43,25 @@ function try_to_pass_liquid_to_test_tube_experiment_4() {
 			);
 
 			if (!_result.success) {
+				var _message = "Esta ação não é permitida. Faça as transferências de acordo com o roteiro";
+				switch (_result.error_reason) {
+					case "test_tube_definition_not_found":
+						_message = "Identifique o tubo de teste antes de usá-lo";
+						break;
+					case "liquid_test_tube_mismatch":
+						_message = "Este tubo não aceita esse líquido nessa quantidade";
+						break;
+					case "incompatible_liquids":
+						_message = "Estes líquidos não podem ser misturados";
+						break;
+					case "insufficient_ml":
+						_message = "Quantidade insuficiente para essa mistura";
+						break;
+					case "ml_required":
+						_message = "Informe a quantidade correta de ml";
+						break;
+				}
+				create_textbox(x, y, [_message]);
 				show_debug_message(
 					"Erro na transferência: " + string(_result.error_reason)
 				);
@@ -46,11 +76,14 @@ function try_to_pass_liquid_to_test_tube_experiment_4() {
 				_args.source.ml = 0;
 				_args.source.content = undefined;
 				_args.source.content_id = "";
-				
+
 				if (variable_instance_exists(_args.source, "max_ml")) {
 					var _is10 = _args.source.max_ml == 10;
 					_args.source.name = _is10 ? "Pipeta 10ml" : "Pipeta 5ml";
 				}
+
+				// Vazia de novo, a pipeta volta a poder coletar
+				restore_pipette_collect_mode(_args.source);
 			}
 			
 			show_debug_message("Transferência concluída: " + string(_args.test_tube.content_id));
@@ -59,5 +92,8 @@ function try_to_pass_liquid_to_test_tube_experiment_4() {
 		}
 	};
 
-	get_input(x, y, "Mililitros a misturar", _callback, _context);
+	var _liquid_id = (is_struct(_liquid_to_pass) && variable_struct_exists(_liquid_to_pass, "id")) ? _liquid_to_pass.id : "";
+	var _input_prompt = (_liquid_id == "iodine") ? "Gotas a misturar" : "Mililitros a misturar";
+
+	get_input(x, y, _input_prompt, _callback, _context);
 }
