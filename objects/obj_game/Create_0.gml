@@ -132,7 +132,6 @@ options_string = [
 	"Fechar a torneira",
 	"Adicionar ácido acético",
 	"Calibrar a micropipeta",
-	"Abrir a tampa"
 	"Usar banho maria",
 	"Abrir",
 	"Fechar"
