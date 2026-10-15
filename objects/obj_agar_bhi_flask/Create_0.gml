@@ -15,16 +15,24 @@ becker = noone
 
 on_release = function() {
 	
-	becker = instance_nearest(x, y, obj_glass_jar_with_lid)
-	
-	if (!becker.on_scale) {
-		create_textbox(mouse_x-200, mouse_y-100, "O frasco precisa estar na balança")
-		return
-	}
+	// verifica se está colidindo com o frasco de vidro
+	if (!place_meeting(x, y, obj_glass_jar_with_lid)) {
+        return
+    }
 
-	if(place_meeting(x, y, obj_glass_jar_with_lid)) {
-		if(is_becker_ready(becker)) {
-			spawn_context_menu([OPTIONS.PASSAR_PARA_O_FRASCO])
-		}
-	}
+    becker = instance_nearest(x, y, obj_glass_jar_with_lid);
+
+    // Verifica se encontrou o béquer
+    if (becker == noone) {
+        return
+    }
+
+    if (!becker.on_scale) {
+        create_textbox(mouse_x-200, mouse_y-100,"O frasco precisa estar na balança")
+        return
+    }
+
+    if (is_becker_ready(becker)) {
+        spawn_context_menu([OPTIONS.PASSAR_PARA_O_FRASCO])
+    }
 }
