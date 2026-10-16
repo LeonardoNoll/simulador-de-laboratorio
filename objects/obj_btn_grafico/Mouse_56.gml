@@ -36,7 +36,7 @@ var _tudo_certo = true
 				    break;
 
 				case "Energético":
-				    if (!array_equals(valores_ml, ["3.51", "4.03", "4.54", "5.28", "5.56"])) {
+				    if (!array_equals(valores_ml, ["3.51", "4.03", "4.54", "5.14", "5.56"])) {
 						_tudo_certo = false
 
 				    }
