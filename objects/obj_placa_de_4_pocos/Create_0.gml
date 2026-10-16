@@ -16,3 +16,5 @@ esmalte = 0
 dentina = 0
 acidulado = 0
 neutro = 0
+tampado = true
+placa()

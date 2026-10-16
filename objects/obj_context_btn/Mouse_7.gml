@@ -171,6 +171,12 @@ switch(option) {
 	default: 
 		create_textbox(x, y, ["Função não setada"])
 		break
+	case OPTIONS.TAMPAR_PLACA:
+		open_placa()
+		break
+	case OPTIONS.DESTAMPAR_PLACA:
+		close_placa()
+		break
 }
 
 instance_destroy(obj_context_menu)

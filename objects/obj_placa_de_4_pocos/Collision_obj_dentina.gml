@@ -28,4 +28,3 @@ sprite_index = s_placa_de_4_pocos_22
 instance_destroy(other)
 dentina = dentina + 1
 }
-

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"experiment_12",
-    "path":"folders/Sprites/experiment_12.yy",
+    "name":"placa_de_4_pocos",
+    "path":"folders/Sprites/experiment_12/placa_de_4_pocos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -66,7 +66,9 @@ enum OPTIONS {
 	DESENHAR_LINHA,
 	IDENTIFICAR_OVO,
 	ABRIR_TORNEIRA,
-	FECHAR_TORNEIRA
+	FECHAR_TORNEIRA,
+	TAMPAR_PLACA,
+	DESTAMPAR_PLACA,
 }
 
 options_string = [
@@ -123,5 +125,7 @@ options_string = [
 	"Desenhar linha",
 	"Identificar o ovo",
 	"Abrir a torneira",
-	"Fechar a torneira"
+	"Fechar a torneira",
+	"Tampar placa",
+	"Destampar placa"
 ]
