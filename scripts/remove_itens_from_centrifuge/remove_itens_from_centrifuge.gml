@@ -6,13 +6,14 @@ function remove_itens_from_centrifuge(){
 	}else{
 		update_falcon_tube()
 
-		array_delete_value(obj_centrifuge.options, OPTIONS.REMOVER_ITENS)
+		
 		if(!obj_falcon_tube.centrifuged) {
 			return
 		}
 				
 		spawn_water_bath()
 	}
+	array_delete_value(obj_centrifuge.options, OPTIONS.REMOVER_ITENS)
 	
 }   
 
@@ -29,27 +30,52 @@ function update_falcon_tube() {
 
 function update_test_tube() {
 	with(obj_filled_test_tube_1){
-		is_in_centrifuge = false
-		sprite_index = s_tubo_test
-		scale_pulse(self, 2, 0.15)
-	}
+			if (centrifuged == true) {
+				sprite_index = s_tubo_test
+			}else {
+				sprite_index = s_filled_test_tube_1
+				on_release = insert_in_centrifuge
+				array_delete_value(options,OPTIONS.REMOVER_ITENS)
+			scale_pulse(self, 2, 0.15)
+			}
+		}
 	with(obj_filled_test_tube_2){
-		is_in_centrifuge = false
-		sprite_index = s_tubo_test
-		scale_pulse(self, 2, 0.15)
+		if (is_in_centrifuge = true){
+			is_in_centrifuge = false
+			if (centrifuged == true) {
+				sprite_index = s_tubo_test
+			}else {
+				sprite_index = s_filled_test_tube_2
+				//array_delete_value(obj_centrifuge.options,OPTIONS.REMOVER_ITENS)
+			scale_pulse(self, 2, 0.15)
+			}
+		}
 	}
 	with(obj_filled_test_tube_3){
-		is_in_centrifuge = false
-		sprite_index = s_tubo_test
-		scale_pulse(self, 2, 0.15)
+		if (is_in_centrifuge = true){
+			is_in_centrifuge = false
+			if (centrifuged == true) {
+				sprite_index = s_tubo_test
+			}else {
+				sprite_index = s_filled_test_tube_3
+				array_delete_value(options,OPTIONS.REMOVER_ITENS)
+			scale_pulse(self, 2, 0.15)
+			}
+		}
 	}
 	with(obj_filled_test_tube_4){
-		is_in_centrifuge = false
-		sprite_index = s_tubo_test
-		scale_pulse(self, 2, 0.15)
+		if (is_in_centrifuge = true){
+			is_in_centrifuge = false
+			if (centrifuged == true) {
+				sprite_index = s_tubo_test
+			}else {
+				sprite_index = s_filled_test_tube_4
+				array_delete_value(options,OPTIONS.REMOVER_ITENS)
+			scale_pulse(self, 2, 0.15)
+			}
+		}
 	}
 }
-
 
 
 

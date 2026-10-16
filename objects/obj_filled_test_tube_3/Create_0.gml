@@ -3,4 +3,7 @@ event_inherited();
 name = "Amostra 3"
 options = [OPTIONS.ABRIR_TUBO_CHEIO]
 on_release = insert_in_centrifuge
+needed_EPI = [obj_glove]
 is_in_centrifuge = false
+centrifuged = false
+content_id = undefined
