@@ -7,6 +7,8 @@ if(sprite_index == s_bottle_empty){
 	base_y = (_magnetic.y - 37)
 	options = [OPTIONS.REMOVER_DO_PHMETRO]
 	locked = true
+	_magnetic.becker = id
+	obj_phmetro.becker = id
 }
 if name != original_name {
 	options = [OPTIONS.REMOVER_DO_PHMETRO]

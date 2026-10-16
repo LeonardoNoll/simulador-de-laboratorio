@@ -2,6 +2,10 @@ function measure_ph(){
 	with global.selected{
 		if power_on{ 
 			if verificar_4 and verificar_7{
+				if (!instance_exists(becker)) {
+					create_textbox(x, y, "Posicione o béquer no agitador antes de medir")
+					return
+				}
 				if becker.agitando == true{
 				sprite_index = s_phmetro_medindo
 				if becker.indice_ph >= 150 and becker.indice_ph < 200  {
