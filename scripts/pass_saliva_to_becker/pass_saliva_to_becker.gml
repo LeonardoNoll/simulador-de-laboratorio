@@ -4,18 +4,14 @@ function pass_saliva_to_becker(){
 	ml = 0
 	liquid_draw_setup.liquid_color = c_white
 	if _becker.agitando{
-		if(_becker.indice_ph + max_ml > array_length(_becker.PH) * 5){
-			if _becker.original_name == "Béquer com Suco De Limão"{
-				if _becker.indice_ph + max_ml > 420 {
-					create_textbox(x,y, "Quantidade de saliva excedeu o limite")
-					return
-				}
-			}else{
-		create_textbox(x,y, "Quantidade de saliva excedeu o limite")
-		return
-			}
-	}
-		_becker.indice_ph = _becker.indice_ph + max_ml
+		var _proxima = _becker.indice_ph + max_ml
+		var _limite_padrao = (array_length(_becker.PH) - 1) * 5
+		var _eh_limao = (_becker.original_name == "Béquer com Suco De Limão")
+		if (_proxima <= _limite_padrao) or (_eh_limao and _proxima <= 420){
+			_becker.indice_ph = _proxima
+		}else{
+			create_textbox(x,y, "Quantidade de saliva excedeu o limite")
+		}
 	}else{
 		create_textbox(x,y, "a bebida deve estar em agitação constante" )
 	}
