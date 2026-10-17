@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"experiment_10",
-    "path":"folders/Sprites/experiment_10.yy",
+    "name":"bunsen",
+    "path":"folders/Sprites/experiment_10/bunsen.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
