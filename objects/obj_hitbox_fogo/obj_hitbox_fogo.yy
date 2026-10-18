@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pipette_5ml_1",
+  "%Name":"obj_hitbox_fogo",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pipette_5ml_1",
+  "name":"obj_hitbox_fogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_10",
-    "path":"folders/Objects/experiment_10.yy",
+    "name":"bunsen",
+    "path":"folders/Objects/experiment_10/bunsen.yy",
   },
-  "parentObjectId":{
-    "name":"obj_clickable_need_EPI",
-    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pipette_5ml",
-    "path":"sprites/s_pipette_5ml/s_pipette_5ml.yy",
+    "name":"s_teste",
+    "path":"sprites/s_teste/s_teste.yy",
   },
   "spriteMaskId":null,
   "visible":true,

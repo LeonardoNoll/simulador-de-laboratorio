@@ -8,8 +8,8 @@
   "name":"obj_bunsen",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_10",
-    "path":"folders/Objects/experiment_10.yy",
+    "name":"bunsen",
+    "path":"folders/Objects/experiment_10/bunsen.yy",
   },
   "parentObjectId":{
     "name":"obj_clickable_need_EPI",

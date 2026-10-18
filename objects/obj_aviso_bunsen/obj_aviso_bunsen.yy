@@ -10,8 +10,8 @@
   "name":"obj_aviso_bunsen",
   "overriddenProperties":[],
   "parent":{
-    "name":"experiment_10",
-    "path":"folders/Objects/experiment_10.yy",
+    "name":"bunsen",
+    "path":"folders/Objects/experiment_10/bunsen.yy",
   },
   "parentObjectId":null,
   "persistent":false,

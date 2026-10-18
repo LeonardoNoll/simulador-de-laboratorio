@@ -3,3 +3,4 @@ event_inherited();
 name ="Bico de bunsen"
 options = [OPTIONS.LIGAR_BUNSEN]
 ligado = false
+locked = true

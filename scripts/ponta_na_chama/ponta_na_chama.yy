@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ponta_na_chama",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ponta_na_chama",
+  "parent":{
+    "name":"experiment_10",
+    "path":"folders/Scripts/experiment_10.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
