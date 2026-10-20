@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_pipeta_descartavel",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_pipeta_descartavel",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"experiment_10",
     "path":"folders/Objects/experiment_10.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_clickable_need_EPI",
+    "path":"objects/obj_clickable_need_EPI/obj_clickable_need_EPI.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
