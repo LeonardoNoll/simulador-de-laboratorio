@@ -15,42 +15,42 @@ var _tudo_certo = true
 		with (instance_find(obj_btn_tabela_bebida,i)){
 			switch(button_text) {
 				case "Café":
-				    if (!array_equals(valores_ml, ["5.5", "7.7"])) {
+				    if (!array_equals_as_reals(valores_ml, ["5.5", "7.7"])) {
 				        _tudo_certo = false
 
 				    }
 				    break;
 
 				case "Coca Cola":
-				    if (!array_equals(valores_ml, ["3.08", "4.7", "5.3", "5.7"])) {
+				    if (!array_equals_as_reals(valores_ml, ["3.08", "4.7", "5.3", "5.7"])) {
 						_tudo_certo = false
 
 				    }
 				    break;
 
 				case "Suco De Limão":
-				    if (!array_equals(valores_ml, ["2.27", "2.58", "2.82", "3.03", "3.23", "3.5", "3.7", "3.89", "4.08"])) {
+				    if (!array_equals_as_reals(valores_ml, ["2.27", "2.58", "2.82", "3.03", "3.23", "3.5", "3.7", "3.89", "4.08"])) {
 						_tudo_certo = false
 
 				    }
 				    break;
 
 				case "Energético":
-				    if (!array_equals(valores_ml, ["3.51", "4.03", "4.54", "5.14", "5.56"])) {
+				    if (!array_equals_as_reals(valores_ml, ["3.51", "4.03", "4.54", "5.14", "5.56"])) {
 						_tudo_certo = false
 
 				    }
 				    break;
 
 				case "Isotônico":
-				    if (!array_equals(valores_ml, ["3.08", "3.6", "4.13", "4.62", "5.14", "5.67"])) {
+				    if (!array_equals_as_reals(valores_ml, ["3.08", "3.6", "4.13", "4.62", "5.14", "5.67"])) {
 						_tudo_certo = false
 
 				    }
 				    break;
 
 				case "Iogurte Natural":
-				    if (!array_equals(valores_ml, ["4.12", "4.27", "4.54", "4.88", "5.37", "5.64"])) {
+				    if (!array_equals_as_reals(valores_ml, ["4.12", "4.27", "4.54", "4.88", "5.37", "5.64"])) {
 						_tudo_certo = false
 				    }
 				    break;
