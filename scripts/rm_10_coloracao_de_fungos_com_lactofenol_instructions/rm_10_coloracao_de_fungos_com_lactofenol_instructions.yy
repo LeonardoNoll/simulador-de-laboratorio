@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rm_10_coloracao_de_fungos_com_lactofenol_instructions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rm_10_coloracao_de_fungos_com_lactofenol_instructions",
+  "parent":{
+    "name":"instructions",
+    "path":"folders/Scripts/instructions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

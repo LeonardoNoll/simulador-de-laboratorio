@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pippete_lac",
-    "path":"sprites/s_pippete_lac/s_pippete_lac.yy",
+    "name":"s_pipette_lac",
+    "path":"sprites/s_pipette_lac/s_pipette_lac.yy",
   },
   "spriteMaskId":null,
   "visible":true,
