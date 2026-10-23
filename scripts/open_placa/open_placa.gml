@@ -1,3 +1,5 @@
 function open_placa(){
-	sprite_index = s_pipette_10ml
+	with global.selected {
+		sprite_index = s_pipette_10ml
+	}
 }
