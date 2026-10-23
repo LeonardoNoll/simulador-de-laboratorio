@@ -139,5 +139,5 @@ options_string = [
 	"Ligar bico de bunsen",
 	"Desligar bico de bunsen",
 	"Pegar lâmina",
-	"Identificar lado da lâmina"
+	"Identificar lado lâmina"
 ]

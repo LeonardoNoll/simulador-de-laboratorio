@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"experiment_10",
-    "path":"folders/Sprites/experiment_10.yy",
+    "name":"lamina_modificações",
+    "path":"folders/Sprites/experiment_10/lamina_modificações.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
