@@ -379,7 +379,6 @@
     {"id":{"name":"pass_liquid_to_test_tube_3","path":"scripts/pass_liquid_to_test_tube_3/pass_liquid_to_test_tube_3.yy",},},
     {"id":{"name":"pass_saliva_to_falcon","path":"scripts/pass_saliva_to_falcon/pass_saliva_to_falcon.yy",},},
     {"id":{"name":"pass_starch_to_erlenmeyer","path":"scripts/pass_starch_to_erlenmeyer/pass_starch_to_erlenmeyer.yy",},},
-    {"id":{"name":"placa","path":"scripts/placa/placa.yy",},},
     {"id":{"name":"plus_1_minute","path":"scripts/plus_1_minute/plus_1_minute.yy",},},
     {"id":{"name":"position_erlenmeyer_on_water_bath","path":"scripts/position_erlenmeyer_on_water_bath/position_erlenmeyer_on_water_bath.yy",},},
     {"id":{"name":"prepare_to_collect","path":"scripts/prepare_to_collect/prepare_to_collect.yy",},},

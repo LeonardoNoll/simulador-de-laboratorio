@@ -172,10 +172,10 @@ switch(option) {
 		create_textbox(x, y, ["Função não setada"])
 		break
 	case OPTIONS.TAMPAR_PLACA:
-		open_placa()
+		close_placa()
 		break
 	case OPTIONS.DESTAMPAR_PLACA:
-		close_placa()
+		open_placa()
 		break
 }
 
