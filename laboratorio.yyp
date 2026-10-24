@@ -115,7 +115,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2026.100.0.1142",
   },
   "name":"laboratorio",
   "resources":[
@@ -588,6 +588,7 @@
     {"id":{"name":"s_open_autoclave","path":"sprites/s_open_autoclave/s_open_autoclave.yy",},},
     {"id":{"name":"s_open_glass_laminar_flow_hood","path":"sprites/s_open_glass_laminar_flow_hood/s_open_glass_laminar_flow_hood.yy",},},
     {"id":{"name":"s_parafilm","path":"sprites/s_parafilm/s_parafilm.yy",},},
+    {"id":{"name":"s_permanent_marker_2","path":"sprites/s_permanent_marker_2/s_permanent_marker_2.yy",},},
     {"id":{"name":"s_permanent_marker_9","path":"sprites/s_permanent_marker_9/s_permanent_marker_9.yy",},},
     {"id":{"name":"s_permanent_marker","path":"sprites/s_permanent_marker/s_permanent_marker.yy",},},
     {"id":{"name":"s_ph_bottle","path":"sprites/s_ph_bottle/s_ph_bottle.yy",},},
