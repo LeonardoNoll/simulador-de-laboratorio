@@ -638,6 +638,7 @@
     {"id":{"name":"s_pipette_5ml","path":"sprites/s_pipette_5ml/s_pipette_5ml.yy",},},
     {"id":{"name":"s_pipette_discard_unused","path":"sprites/s_pipette_discard_unused/s_pipette_discard_unused.yy",},},
     {"id":{"name":"s_pipette_discard_used","path":"sprites/s_pipette_discard_used/s_pipette_discard_used.yy",},},
+    {"id":{"name":"s_pipette_filling","path":"sprites/s_pipette_filling/s_pipette_filling.yy",},},
     {"id":{"name":"s_pipette_full","path":"sprites/s_pipette_full/s_pipette_full.yy",},},
     {"id":{"name":"s_pipette_lac","path":"sprites/s_pipette_lac/s_pipette_lac.yy",},},
     {"id":{"name":"s_pipette_rack","path":"sprites/s_pipette_rack/s_pipette_rack.yy",},},
