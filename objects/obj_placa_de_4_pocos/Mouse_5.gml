@@ -1,8 +1,8 @@
 // Inherit the parent event
 event_inherited();
-if tampado == false{
-	options = [OPTIONS.TAMPAR_PLACA]
+if tampado == true{
+	options = [OPTIONS.DESTAMPAR_PLACA]
 }
 else{
-	options = [OPTIONS.DESTAMPAR_PLACA]
+	options = [OPTIONS.TAMPAR_PLACA]
 }
