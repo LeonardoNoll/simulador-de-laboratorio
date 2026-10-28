@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pingar_lactofenol",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pingar_lactofenol",
+  "parent":{
+    "name":"experiment_10",
+    "path":"folders/Scripts/experiment_10.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
