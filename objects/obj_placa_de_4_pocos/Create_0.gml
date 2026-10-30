@@ -3,7 +3,6 @@ xx = 0
 yy = 0
 base_x = x 
 base_y = y
-options = []
 needed_EPI = [obj_glove,obj_lab_coat, obj_goggles]
 scale_on_contact_list = []
 tool_tip = noone
@@ -17,3 +16,5 @@ dentina = 0
 acidulado = 0
 neutro = 0
 tampado = true
+options = [OPTIONS.DESTAMPAR_PLACA]
+
