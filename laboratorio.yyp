@@ -376,6 +376,7 @@
     {"id":{"name":"ensure_liquid_instance","path":"scripts/ensure_liquid_instance/ensure_liquid_instance.yy",},},
     {"id":{"name":"erlenmeyer_first_5_minutes","path":"scripts/erlenmeyer_first_5_minutes/erlenmeyer_first_5_minutes.yy",},},
     {"id":{"name":"erlenmeyer_one_more_minute","path":"scripts/erlenmeyer_one_more_minute/erlenmeyer_one_more_minute.yy",},},
+    {"id":{"name":"esterelizar_alca","path":"scripts/esterelizar_alca/esterelizar_alca.yy",},},
     {"id":{"name":"experiment_4_on_release_parser","path":"scripts/experiment_4_on_release_parser/experiment_4_on_release_parser.yy",},},
     {"id":{"name":"extract_content","path":"scripts/extract_content/extract_content.yy",},},
     {"id":{"name":"fill_petri_dish","path":"scripts/fill_petri_dish/fill_petri_dish.yy",},},

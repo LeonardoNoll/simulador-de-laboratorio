@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"esterelizar_alca",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"esterelizar_alca",
+  "parent":{
+    "name":"experiment_10",
+    "path":"folders/Scripts/experiment_10.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"s_pipette_lac",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":112,
   "bbox_left":0,
-  "bbox_right":24,
+  "bbox_right":25,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
