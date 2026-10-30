@@ -10,5 +10,3 @@ if(instance_exists(obj_cronometer)) {
 	_cronometer.on_count_fail = on_count_fail
 	_cronometer.expected_minutes = expected_minutes
 }
-
-

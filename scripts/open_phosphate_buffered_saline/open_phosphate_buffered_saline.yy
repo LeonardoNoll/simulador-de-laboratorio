@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"open_phosphate_buffered_saline",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"open_phosphate_buffered_saline",
+  "parent":{
+    "name":"experiment_9",
+    "path":"folders/Scripts/experiment_9.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

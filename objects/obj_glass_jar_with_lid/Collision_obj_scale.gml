@@ -1,7 +1,7 @@
 on_scale = true // verifica se o frasco está na balança
 
 // verifica se o frasco foi identificado
-if(!identificado){
+if(!identificado && obj_scale.sprite_index == s_glass_jar_open){
 	create_textbox(mouse_x-200, mouse_y-100, ["Você precisa identificar o frasco antes de usar a balança"])
 	y = base_y
 	x = base_x

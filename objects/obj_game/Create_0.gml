@@ -67,6 +67,12 @@ enum OPTIONS {
 	IDENTIFICAR_OVO,
 	ABRIR_TORNEIRA,
 	FECHAR_TORNEIRA,
+	PASSAR_ACIDO_ACETICO,
+	CALIBRAR_MICROPIPETA,
+	ABRIR_TAMPAO_FOSFATO,
+	USAR_BANHO_MARIA,
+	ABRIR,
+	FECHAR,
 	TAMPAR_PLACA,
 	DESTAMPAR_PLACA,
 }
@@ -112,7 +118,7 @@ options_string = [
 	"Fechar a tampa",
 	"Limpar o Becker",
 	"Ligar Peagâmetro",
-	"ajustar Peagâmetro",
+	"Calibrar Peagâmetro",
 	"Medir PH",
 	"Parar de Medir",
 	"Remover do Phmetro",
@@ -126,6 +132,11 @@ options_string = [
 	"Identificar o ovo",
 	"Abrir a torneira",
 	"Fechar a torneira",
+	"Adicionar ácido acético",
+	"Calibrar a micropipeta",
+	"Usar banho maria",
+	"Abrir",
+	"Fechar"
 	"Tampar placa",
 	"Destampar placa"
 ]

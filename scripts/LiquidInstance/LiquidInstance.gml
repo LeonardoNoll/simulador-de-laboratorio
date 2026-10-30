@@ -5,12 +5,13 @@ function LiquidInstance(_def, _state = {}) constructor {
 	def = _def;
 	state = _state;
 
+	// ph mora em state (não como campo solto) para sobreviver ao clone()
+	if (!variable_struct_exists(state, "ph") && variable_struct_exists(_def, "ph")) {
+		state.ph = _def.ph;
+	}
+
 	static clone = function() {
-		var _new_state = {};
-		var _keys = variable_struct_get_names(state);
-		for (var i = 0; i < array_length(_keys); i++) {
-			_new_state[$ _keys[i]] = state[$ _keys[i]];
-		}
-		return new LiquidInstance(def, _new_state);
+		// depth 1 garante que "state" vira uma cópia independente, não uma referência compartilhada
+		return variable_clone(self, 1);
 	}
 }

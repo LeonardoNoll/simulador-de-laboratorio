@@ -11,3 +11,8 @@ for (var i  = 0 ; i < array_length(obj_locker_btn.itens); i++) {
 		var _yy = y + (i > 4 ? +_y_spacing : -_y_spacing)		
 		array_push(itens, instance_create_depth(_xx, _yy, depth-1, obj_locker_btn.itens[i]))
 }
+
+// Close btn
+x_btn = instance_create_depth(x+400, y-200, depth-1, obj_btn_x)
+x_btn.parent = id
+	

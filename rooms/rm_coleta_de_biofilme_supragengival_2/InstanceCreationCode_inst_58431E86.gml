@@ -1,0 +1,1 @@
+sprite_index = s_1ml_pipette_tip_open

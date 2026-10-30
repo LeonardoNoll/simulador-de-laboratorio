@@ -8,6 +8,8 @@ function remove_becker(){
 			base_y = y_original
 			locked = false
 			options = []
+			obj_magnetic_stirrer_experiment_6.becker = noone
+			obj_phmetro.becker = noone
 			if sprite_index != s_marked_becker_with_water {
 				options = [OPTIONS.LIMPAR_BECKER]
 				name = original_name

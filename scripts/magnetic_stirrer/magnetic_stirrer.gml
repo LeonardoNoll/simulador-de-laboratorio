@@ -12,12 +12,18 @@ function magnetic_stirrer(_becker = undefined){
 			}
 		}
 	}
-	if rm_6_saliva_na_titulacao_de_bebidas_acidas{
-		with global.selected{
-			name = name + " - agitando"		
-			options = [OPTIONS.DESLIGAR_AGITADOR, OPTIONS.REMOVER_DO_PHMETRO]
-			create_textbox(x, y, "batata")
-			
+	if (room == rm_6_saliva_na_titulacao_de_bebidas_acidas){
+		var _stirrer = obj_magnetic_stirrer_experiment_6
+		var _becker_ref = _stirrer.becker
+		if (!instance_exists(_becker_ref)) {
+			_becker_ref = obj_phmetro.becker
 		}
+		if (!instance_exists(_becker_ref)) {
+			create_textbox(_stirrer.x, _stirrer.y, "Coloque o béquer com a bebida sobre o agitador antes de ligá-lo")
+			return
+		}
+		_becker_ref.name = _becker_ref.name + " - agitando"
+		_becker_ref.agitando = true
+		_stirrer.options = [OPTIONS.DESLIGAR_AGITADOR]
 	}
 }

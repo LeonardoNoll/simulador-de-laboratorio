@@ -15,3 +15,4 @@ Entendesse aqui que as "features principais" são aquelas que podem ser identifi
 - [[reference-table]]
 - [[text-box]]
 - [[input]]
+- [[pipette-liquid-draw]]

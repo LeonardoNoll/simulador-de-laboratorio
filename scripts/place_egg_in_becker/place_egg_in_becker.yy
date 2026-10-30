@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"place_egg_in_becker",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"place_egg_in_becker",
+  "parent":{
+    "name":"experiment_8",
+    "path":"folders/Scripts/experiment_8.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

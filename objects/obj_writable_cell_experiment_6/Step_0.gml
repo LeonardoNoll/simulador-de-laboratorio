@@ -12,8 +12,11 @@ if(device_mouse_check_button_released(0, mb_left)) {
 
 if(writable) {
 	if(string_length(keyboard_string) < max_text_length ) {
-		text = string_digits(keyboard_string)
+		//text = string_digits(keyboard_string)
+		text = string_digits_with_decimal(keyboard_string)
 		update_notes_texts_experiment_6(parent.parent)
+	} else {
+		
 	}
 	
 	cursor_timer += 1;

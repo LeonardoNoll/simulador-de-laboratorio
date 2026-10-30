@@ -5,8 +5,10 @@ name = "Saliva estimulada"
 needed_EPI = [obj_glove, obj_lab_coat, obj_goggles] 
 scale_on_contact_list = [obj_25ml_becker]
 content = name
+content_id = "saliva_estimulada"
 ph = 7
 becker = noone
+liquid_color = #CFE6EE
 
 on_release = function() {
 	if(place_meeting(x,y,obj_25ml_becker)) {

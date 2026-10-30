@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_notes",
+    "path":"sprites/s_notes/s_notes.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

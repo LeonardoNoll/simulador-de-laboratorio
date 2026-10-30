@@ -4,6 +4,7 @@ optional_args = undefined
 on_confirm = undefined
 outline = 2
 max_length = 20
+
 keyboard_string = ""
 keyboard_lastchar = ""
 

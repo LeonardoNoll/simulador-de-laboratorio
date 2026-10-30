@@ -14,6 +14,9 @@ function rinse_off(_sprite){
 	case s_egg_with_SF:
 		sprite_index = s_egg_SF
 		break
-		
+	}
+	
+	with(obj_acetic_acid){
+		can_pour_acetic_acid = true 
 	}
 }

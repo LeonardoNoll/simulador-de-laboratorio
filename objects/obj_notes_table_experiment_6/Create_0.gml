@@ -1,5 +1,5 @@
 margin_top = 150
-cell_width = 150
+cell_width = 120
 cell_height = 30
 col_number = array_length(textos_cabecalho)
 
@@ -7,7 +7,8 @@ col_number = array_length(textos_cabecalho)
 for(var i = 0; i < col_number; i++;) {
 	var _new_col = instance_create_depth(x+i*cell_width, y-cell_height, depth-1, obj_col_header,{
 		text: textos_cabecalho[i],
-		parent: id
+		parent: id,
+		width: cell_width
 	})
 }
 
@@ -15,7 +16,8 @@ for(var i = 0; i < col_number; i++;) {
 for(var i = 0; i < col_number; i++;) {
 	var _new_row = instance_create_depth(x+i*cell_width, y, depth-1, obj_writable_cell_experiment_6,{
 		text: valores_ml[i],
-		parent: id
+		parent: id,
+		width: cell_width
 	})
 }
 
