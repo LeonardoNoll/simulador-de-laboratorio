@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"open_placa",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"open_placa",
+  "parent":{
+    "name":"experiment_12",
+    "path":"folders/Scripts/experiment_12.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

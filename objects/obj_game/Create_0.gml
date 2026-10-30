@@ -73,6 +73,8 @@ enum OPTIONS {
 	USAR_BANHO_MARIA,
 	ABRIR,
 	FECHAR,
+	TAMPAR_PLACA,
+	DESTAMPAR_PLACA,
 }
 
 options_string = [
@@ -135,4 +137,6 @@ options_string = [
 	"Usar banho maria",
 	"Abrir",
 	"Fechar"
+	"Tampar placa",
+	"Destampar placa"
 ]
