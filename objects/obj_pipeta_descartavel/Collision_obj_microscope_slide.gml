@@ -1,3 +1,3 @@
 if (estado == "cheia") {
-    pingar_lactofenol();
+    pingar_lactofenol()
 }

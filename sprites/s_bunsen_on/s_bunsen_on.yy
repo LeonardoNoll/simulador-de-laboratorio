@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"s_bunsen_on",
   "bboxMode":1,
-  "bbox_bottom":316,
+  "bbox_bottom":314,
   "bbox_left":0,
   "bbox_right":129,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"94920e1c-9f04-489f-9a06-ede07cb6d035","name":"94920e1c-9f04-489f-9a06-ede07cb6d035","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f2438664-8452-4dfd-a891-8057d332065d","name":"f2438664-8452-4dfd-a891-8057d332065d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":317,
+  "height":315,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"52fdc58d-99c8-4142-8628-8be79af4c8fc","blendMode":0,"displayName":"default","isLocked":false,"name":"52fdc58d-99c8-4142-8628-8be79af4c8fc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b97aa918-e536-4582-8adc-10f6a88016a3","blendMode":0,"displayName":"default","isLocked":false,"name":"b97aa918-e536-4582-8adc-10f6a88016a3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_bunsen_on",
   "nineSlice":{
@@ -78,7 +78,7 @@
     },
     "name":"s_bunsen_on",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":8.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -88,14 +88,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94920e1c-9f04-489f-9a06-ede07cb6d035","path":"sprites/s_bunsen_on/s_bunsen_on.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"90be2609-bf0f-4506-a277-15a72049c4c4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f2438664-8452-4dfd-a891-8057d332065d","path":"sprites/s_bunsen_on/s_bunsen_on.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"defe1371-edf5-4c96-9dc9-8fd9014d0cd5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":65,
-    "yorigin":317,
+    "yorigin":315,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
