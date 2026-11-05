@@ -157,7 +157,7 @@ switch(option) {
 		homogenize()
 		break
 	case OPTIONS.DESENHAR_LINHA:
-		draw_a_line()
+		draw_a_line(_egg)
 		break
 	case OPTIONS.IDENTIFICAR_OVO:
 		identify_egg()
