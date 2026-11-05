@@ -124,7 +124,7 @@ options_string = [
 	"Passar ao tubo de ensaio",
 	"Levar para o banho maria",
 	"Ligar a luz ultravioleta",
-	"Desligar a luz ultravioleta",
+	"Desligar a luz UV",
 	"Homogeneizar mistura",
 	"Desenhar linha",
 	"Identificar o ovo",
