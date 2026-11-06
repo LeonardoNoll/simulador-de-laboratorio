@@ -73,6 +73,7 @@ enum OPTIONS {
 	USAR_BANHO_MARIA,
 	ABRIR,
 	FECHAR,
+	IDENTIFICAR_BEQUER
 }
 
 options_string = [
@@ -132,7 +133,9 @@ options_string = [
 	"Fechar a torneira",
 	"Adicionar ácido acético",
 	"Calibrar a micropipeta",
+	"Abrir tampa de fosfato",
 	"Usar banho maria",
 	"Abrir",
-	"Fechar"
+	"Fechar",
+	"Identificar Béquer"
 ]

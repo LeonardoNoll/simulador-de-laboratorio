@@ -157,7 +157,7 @@ switch(option) {
 		homogenize()
 		break
 	case OPTIONS.DESENHAR_LINHA:
-		draw_a_line()
+		draw_a_line(_egg)
 		break
 	case OPTIONS.IDENTIFICAR_OVO:
 		identify_egg()
@@ -185,6 +185,9 @@ switch(option) {
 		break
 	case OPTIONS.FECHAR:
 		close()
+		break
+	case OPTIONS.IDENTIFICAR_BEQUER:
+		identify_becker_FT()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])

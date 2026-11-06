@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"inserir_dentifricio",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"inserir_dentifricio",
+  "parent":{
+    "name":"experiment_FT",
+    "path":"folders/Scripts/experiment_FT.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

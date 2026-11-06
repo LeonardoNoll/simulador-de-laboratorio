@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"identify_becker_FT",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"identify_becker_FT",
+  "parent":{
+    "name":"experiment_FT",
+    "path":"folders/Scripts/experiment_FT.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
