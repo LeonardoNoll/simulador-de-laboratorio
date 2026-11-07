@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"toque_colonia",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"toque_colonia",
+  "parent":{
+    "name":"experiment_10",
+    "path":"folders/Scripts/experiment_10.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,2 +1,3 @@
-event_inherited()
-name = "Placa de Ágar Sabouraud Dextrose"
+event_inherited();
+name = "Placa de Ágar Sabouraud Dextrose";
+options = [];

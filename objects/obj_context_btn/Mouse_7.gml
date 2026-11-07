@@ -192,8 +192,8 @@ switch(option) {
 	case OPTIONS.IDENTIFICAR_LAMINA:
 		identificar_lamina()
 		break
-	case OPTIONS.ESTERELIZAR_ALCA:
-		esterelizar_alca()
+	case OPTIONS.ESTERILIZAR_ALCA:
+		esterilizar_alca()
 		break
 	default: 
 		create_textbox(x, y, ["Função não setada"])

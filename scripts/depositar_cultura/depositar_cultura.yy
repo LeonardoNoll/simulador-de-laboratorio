@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"depositar_cultura",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"depositar_cultura",
+  "parent":{
+    "name":"experiment_10",
+    "path":"folders/Scripts/experiment_10.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

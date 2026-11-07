@@ -75,7 +75,7 @@ enum OPTIONS {
 	DESLIGAR_BUNSEN,
 	PEGAR_LAMINA,
 	IDENTIFICAR_LAMINA,
-	ESTERELIZAR_ALCA
+	ESTERILIZAR_ALCA
 }
 
 options_string = [
@@ -141,5 +141,5 @@ options_string = [
 	"Desligar bico de bunsen",
 	"Pegar lâmina",
 	"Identificar lado lâmina",
-	"Esterelizar alça de platina"
+	"Esterelizar alça"
 ]
