@@ -10,6 +10,7 @@ function rm_preparacao_de_meios_de_cultura_em_agar_instructions() {
 		"Para utilizar a autoclave, deixe a tampa do frasco entreaberta;",
 		"Abra a autoclave;",
 		"Leve o frasco para a autoclave;",
+		"Feche a autoclave",
 		"Esterilize a 15 libras de pressão (121ºC) por 15 minutos;",
 		"Remova o frasco de vidro da autoclave;",
 		"Vede a tampa do frasco;",
