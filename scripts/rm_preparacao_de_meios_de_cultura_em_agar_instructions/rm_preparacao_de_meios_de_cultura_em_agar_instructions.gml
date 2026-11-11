@@ -20,6 +20,7 @@ function rm_preparacao_de_meios_de_cultura_em_agar_instructions() {
 		"Leve as placas de petri estéreis para a capela de fluxo laminar;",
 		"Leve o meio de cultura para a capela de fluxo laminar;",
 		"Leve o sangue de carneiro desfibrinado para a capela de fluxo laminar;",
+		"Abra a tampa do frasco",
 		"Tomando todos os cuidados de assepsia, adicione vagarosamente o sangue no frasco de vidro com a mistura, referente a 5% do meio preparado;",
 		"Homogenize cuidadosamente;",
 		"Verta o meio de cultura preparado nas placas de Petri até aproximadamente metade da sua capacidade;",
