@@ -1,7 +1,7 @@
 event_inherited()
 petri_dish_id = 0
 
-if(rm_preparacao_de_meios_de_cultura_em_agar || rm_laminar_flow_hood){
+if(room == rm_preparacao_de_meios_de_cultura_em_agar || room == rm_laminar_flow_hood){
 	needed_EPI = [obj_glove,obj_lab_coat, obj_mask]
 }else{
 	needed_EPI = []
@@ -17,3 +17,5 @@ if (room == s_rm_laminar_flow_hood) {
 }
 
 filled = false
+
+
