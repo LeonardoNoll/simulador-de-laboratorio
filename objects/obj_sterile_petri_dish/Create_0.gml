@@ -1,7 +1,7 @@
 event_inherited()
 petri_dish_id = 0
 
-if(rm_preparacao_de_meios_de_cultura_em_agar){
+if(rm_preparacao_de_meios_de_cultura_em_agar || rm_laminar_flow_hood){
 	needed_EPI = [obj_glove,obj_lab_coat, obj_mask]
 }else{
 	needed_EPI = []

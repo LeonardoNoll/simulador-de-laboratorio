@@ -10,13 +10,23 @@ fast_forward = false
 expected_minutes = 5
 
 // verifica a room para marcar o tempo necessário 
-if(room == rm_preparacao_de_meios_de_cultura_em_caldo || room == rm_preparacao_de_meios_de_cultura_em_agar){
+switch(room){
+	case  rm_preparacao_de_meios_de_cultura_em_caldo:
+	case rm_preparacao_de_meios_de_cultura_em_agar:
+		expected_minutes = 15
+		break
+	case rm_acao_do_fluoreto_na_casca_do_ovo:
+		expected_minutes = 60
+		break
+}
+
+/*if(room == rm_preparacao_de_meios_de_cultura_em_caldo || room == rm_preparacao_de_meios_de_cultura_em_agar){
 	expected_minutes = 15
 }
 
 if(room = rm_acao_do_fluoreto_na_casca_do_ovo){
 	expected_minutes = 60
-}
+}*/
 
 on_count_start = function () {}
 on_count_fail = function () {}

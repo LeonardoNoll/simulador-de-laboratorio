@@ -22,7 +22,7 @@ function rm_preparacao_de_meios_de_cultura_em_agar_instructions() {
 		"Tomando todos os cuidados de assepsia, adicione vagarosamente o sangue no frasco de vidro com a mistura, referente a 5% do meio preparado;",
 		"Homogenize cuidadosamente;",
 		"Verta o meio de cultura preparado nas placas de Petri até aproximadamente metade da sua capacidade;",
-		"Aguarde a solidificação completa do ágar;",
+		"Cronometre 5 minutos para a solidificação completa do ágar;",
 		"Identifique as placas preparadas e reserve para a utilização."
 	];
 }
