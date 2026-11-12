@@ -439,6 +439,7 @@
     {"id":{"name":"spawn_context_menu","path":"scripts/spawn_context_menu/spawn_context_menu.yy",},},
     {"id":{"name":"spawn_tool_tip","path":"scripts/spawn_tool_tip/spawn_tool_tip.yy",},},
     {"id":{"name":"speed_up_cronometer","path":"scripts/speed_up_cronometer/speed_up_cronometer.yy",},},
+    {"id":{"name":"sterile_petri_dish_name_validation","path":"scripts/sterile_petri_dish_name_validation/sterile_petri_dish_name_validation.yy",},},
     {"id":{"name":"stop_measure","path":"scripts/stop_measure/stop_measure.yy",},},
     {"id":{"name":"string_digits_with_decimal","path":"scripts/string_digits_with_decimal/string_digits_with_decimal.yy",},},
     {"id":{"name":"string_normalize","path":"scripts/string_normalize/string_normalize.yy",},},

@@ -16,3 +16,8 @@ if (scale_pulse_data != undefined) {
     scale_pulse_data.update();
 }
 
+// verifica o nome
+if (identificado && !validated) {
+    sterile_petri_dish_name_validation(id)
+    validated = true
+}

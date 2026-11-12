@@ -12,6 +12,10 @@ with(obj_sterile_petri_dish){
 }
 
 
+
 // verifica se as duas placas de petri estão preenchidas (finaliza o experimento)
 global.filled_petri_dishes = 0
+
+// verifica se as duas placas de petri foram identificadas
+global.identified_petri_dish = 0
 

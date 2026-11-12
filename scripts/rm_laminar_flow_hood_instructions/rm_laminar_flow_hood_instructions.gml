@@ -4,6 +4,6 @@ function rm_laminar_flow_hood_instructions() {
 		"Homogenize cuidadosamente;",
 		"Verta o meio de cultura preparado nas placas de Petri até aproximadamente metade da sua capacidade;",
 		"Cronometre 5 minutos para a solidificação completa do ágar;",
-		"Identifique as placas preparadas e reserve para a utilização."
+		"Utilize a caneta permanente para identificar as placas preparadas e reserve para a utilização."
 	];
 }

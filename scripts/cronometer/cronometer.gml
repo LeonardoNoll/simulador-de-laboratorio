@@ -30,9 +30,6 @@ function cronometer(){
 					break
 				case rm_laminar_flow_hood:
 					create_textbox(x, y, "O ágar solidificou, as placas estão prontas para serem identificadas.")
-					with(obj_sterile_petri_dish){
-						options = [OPTIONS.IDENFICIAR_RECIPIENTE]
-					}
 					break
 				case rm_preparacao_de_meios_de_cultura_em_agar:
 				case rm_preparacao_de_meios_de_cultura_em_caldo:

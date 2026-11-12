@@ -25,6 +25,6 @@ function rm_preparacao_de_meios_de_cultura_em_agar_instructions() {
 		"Homogenize cuidadosamente;",
 		"Verta o meio de cultura preparado nas placas de Petri até aproximadamente metade da sua capacidade;",
 		"Cronometre 5 minutos para a solidificação completa do ágar;",
-		"Identifique as placas preparadas e reserve para a utilização."
+		"Utilize a caneta permanente para identificar as placas preparadas e reserve para a utilização."
 	];
 }
