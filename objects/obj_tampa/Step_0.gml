@@ -12,6 +12,6 @@ if(array_length(scale_on_contact_list) > 0) {
 		}
 }
 
-if (scale_pulse_data == undefined) {
+if (scale_pulse_data != undefined) {
     scale_pulse_data.update();
 }
