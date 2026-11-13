@@ -23,7 +23,7 @@
   ],
   "name":"s_placa_de_4_pocos_22b",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"placa_de_4_pocos",
     "path":"folders/Sprites/experiment_12/placa_de_4_pocos.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":81,
-    "yorigin":56,
+    "yorigin":74,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

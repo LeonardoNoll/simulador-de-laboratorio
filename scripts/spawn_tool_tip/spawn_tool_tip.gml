@@ -1,5 +1,6 @@
 function spawn_tool_tip(name){
 	if(mouse_check_button(mb_any)) return
+	if(name==undefined || name == "") return noone
 	
 	var _ui_objects = [
 		obj_context_menu,

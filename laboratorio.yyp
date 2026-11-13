@@ -121,7 +121,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"laboratorio",
   "resources":[
@@ -278,6 +278,7 @@
     {"id":{"name":"obj_suction_pear","path":"objects/obj_suction_pear/obj_suction_pear.yy",},},
     {"id":{"name":"obj_syringe_filled","path":"objects/obj_syringe_filled/obj_syringe_filled.yy",},},
     {"id":{"name":"obj_syringe","path":"objects/obj_syringe/obj_syringe.yy",},},
+    {"id":{"name":"obj_tampa","path":"objects/obj_tampa/obj_tampa.yy",},},
     {"id":{"name":"obj_test_tube_experiment_3","path":"objects/obj_test_tube_experiment_3/obj_test_tube_experiment_3.yy",},},
     {"id":{"name":"obj_test_tube_experiment_4","path":"objects/obj_test_tube_experiment_4/obj_test_tube_experiment_4.yy",},},
     {"id":{"name":"obj_test_tube","path":"objects/obj_test_tube/obj_test_tube.yy",},},
@@ -669,6 +670,7 @@
     {"id":{"name":"s_syringe_rack","path":"sprites/s_syringe_rack/s_syringe_rack.yy",},},
     {"id":{"name":"s_table_btn","path":"sprites/s_table_btn/s_table_btn.yy",},},
     {"id":{"name":"s_table","path":"sprites/s_table/s_table.yy",},},
+    {"id":{"name":"s_tampa","path":"sprites/s_tampa/s_tampa.yy",},},
     {"id":{"name":"s_test_tube_empty_closed","path":"sprites/s_test_tube_empty_closed/s_test_tube_empty_closed.yy",},},
     {"id":{"name":"s_test_tube_HCl_closed","path":"sprites/s_test_tube_HCl_closed/s_test_tube_HCl_closed.yy",},},
     {"id":{"name":"s_test_tube_HCl","path":"sprites/s_test_tube_HCl/s_test_tube_HCl.yy",},},
