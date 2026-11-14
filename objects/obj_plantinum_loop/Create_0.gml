@@ -3,18 +3,51 @@ event_inherited();
 name = "Alça de platina";
 options = [];
 
-esterilizada = false;
-quente = false;
-msg_mostrada = false;
-carregada = false;
-usada = false;
+// ---------- SPRITES ----------
+spr_normal   = s_platinum_loop;   // alça deitada (confira o nome no Navegador de recursos)
+spr_diagonal = s_platinum_move;   // alça inclinada
+ang_diag     = 32;                // ângulo do sprite inclinado (só posiciona o pontinho da cultura)
+image_speed  = 0;                 // se o s_platinum_move tiver animação, apague esta linha
 
-calor = 0;
-tempo_flambar = 120;
-tempo_esfriar = 240;
+// ---------- ORIGEM NA PONTA DO LAÇO (corrige o "pulo" ao inclinar) ----------
+// alça deitada: a ponta fica na extremidade direita, na altura do meio
+sprite_set_offset(spr_normal,
+                  sprite_get_width(spr_normal) - 1,
+                  sprite_get_height(spr_normal) / 2);
+// alça inclinada: a ponta fica no canto de baixo à direita
+sprite_set_offset(spr_diagonal,
+                  sprite_get_width(spr_diagonal) * 0.984,
+                  sprite_get_height(spr_diagonal) * 0.951);
+
+sprite_index = spr_normal;        // garante que a alça nasce deitada
+
+inclinar_so_na_placa = true;      // true = inclina só perto da placa | false = inclina sempre que arrasta
+
+// ---------- ESTADOS ----------
+esterilizada = false;
+quente       = false;
+carregada    = false;   // pegou cultura da colônia
+usada        = false;   // já depositou a cultura na lâmina
+msg_mostrada = false;
+
+// ---------- CALOR ----------
+calor         = 0;      // 0 a 1
+tempo_flambar = 120;    // quadros segurando na chama (60 = 1 segundo)
+tempo_esfriar = 240;    // quadros para esfriar (0 = não esfria)
 timer_esfriar = 0;
 
+// ---------- PLACA DE CULTIVO ----------
+na_placa       = false; // a alça está perto da placa agora?
+na_placa_antes = false; // estava perto no quadro anterior? (detecta a ENTRADA)
+pulso          = 0;     // anel de brilho ao coletar (1 → 0)
+
+// ---------- CAIXA DE DICA (não trava o jogo) ----------
+dica       = "";
+dica_timer = 0;
+
+// ---------- AO SOLTAR ----------
 on_release = function() {
+
     // clique sem arrastar: ignora
     if (abs(x - base_x) < 6 && abs(y - base_y) < 6) return;
 
@@ -27,33 +60,7 @@ on_release = function() {
         return;
     }
 
-    // 2) soltou sobre a placa de cultivo
-    var _toque = toque_colonia(x, y);
-    if (_toque > 0) {
-        if (!esterilizada) {
-            create_textbox(x, _msg_y, "Alça não esterilizada! Flambe a alça no bico de Bunsen antes de tocar a colônia, senão a cultura pode ser contaminada.");
-        }
-        else if (quente) {
-            create_textbox(x, _msg_y, "A alça ainda está quente e pode matar o fungo. Aguarde esfriar antes de tocar a colônia.");
-        }
-        else if (usada) {
-            create_textbox(x, _msg_y, "A cultura já foi transferida para a lâmina. Siga para o próximo passo.");
-        }
-        else if (carregada) {
-            create_textbox(x, _msg_y, "A alça já tem cultura. Leve-a até a gota de lactofenol na lâmina.");
-        }
-        else if (_toque == 1) {
-            create_textbox(x, _msg_y, "Toque levemente na colônia, no centro da placa, e não no ágar vazio.");
-        }
-        else {
-            carregada = true;
-            name = "Alça de platina (com cultura)";
-            create_textbox(x, _msg_y, "Cultura coletada! Leve a alça até a gota de lactofenol na lâmina.");
-        }
-        return;
-    }
-
-    // 3) soltou sobre a lâmina
+    // 2) soltou sobre a lâmina levando cultura
     var _lamina = lamina_sob_alca(x, y);
     if (_lamina != noone && carregada) {
         if (!_lamina.com_gota) {

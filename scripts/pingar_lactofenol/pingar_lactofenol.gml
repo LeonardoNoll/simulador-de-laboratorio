@@ -6,7 +6,7 @@ function pingar_lactofenol(){
     estado = "pingando"
 	sprite_index = s_pipette_dropping
 	image_index = 0
-	image_speed = 1
+	image_speed = 0.5
 	name = "Pipeta pingando"
 	options = [];
 
