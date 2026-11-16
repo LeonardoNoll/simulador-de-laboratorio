@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"experiment_10",
-    "path":"folders/Sprites/experiment_10.yy",
+    "name":"microscopio",
+    "path":"folders/Sprites/experiment_10/microscopio.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
