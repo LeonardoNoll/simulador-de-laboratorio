@@ -11,8 +11,6 @@ with(obj_sterile_petri_dish){
 	sprite_index = s_sterile_petri_dish_laminar_flow_hood
 }
 
-
-
 // verifica se as duas placas de petri estão preenchidas (finaliza o experimento)
 global.filled_petri_dishes = 0
 
