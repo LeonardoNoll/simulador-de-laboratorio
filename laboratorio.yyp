@@ -115,7 +115,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2026.100.0.1142",
   },
   "name":"laboratorio",
   "resources":[
@@ -213,6 +213,7 @@
     {"id":{"name":"obj_locker_GUI","path":"objects/obj_locker_GUI/obj_locker_GUI.yy",},},
     {"id":{"name":"obj_magnetic_stirrer_experiment_6","path":"objects/obj_magnetic_stirrer_experiment_6/obj_magnetic_stirrer_experiment_6.yy",},},
     {"id":{"name":"obj_magnetic_stirrer","path":"objects/obj_magnetic_stirrer/obj_magnetic_stirrer.yy",},},
+    {"id":{"name":"obj_mask","path":"objects/obj_mask/obj_mask.yy",},},
     {"id":{"name":"obj_micropipette","path":"objects/obj_micropipette/obj_micropipette.yy",},},
     {"id":{"name":"obj_microtube","path":"objects/obj_microtube/obj_microtube.yy",},},
     {"id":{"name":"obj_minus_minute_centrifuge_btn","path":"objects/obj_minus_minute_centrifuge_btn/obj_minus_minute_centrifuge_btn.yy",},},
@@ -438,6 +439,7 @@
     {"id":{"name":"spawn_context_menu","path":"scripts/spawn_context_menu/spawn_context_menu.yy",},},
     {"id":{"name":"spawn_tool_tip","path":"scripts/spawn_tool_tip/spawn_tool_tip.yy",},},
     {"id":{"name":"speed_up_cronometer","path":"scripts/speed_up_cronometer/speed_up_cronometer.yy",},},
+    {"id":{"name":"sterile_petri_dish_name_validation","path":"scripts/sterile_petri_dish_name_validation/sterile_petri_dish_name_validation.yy",},},
     {"id":{"name":"stop_measure","path":"scripts/stop_measure/stop_measure.yy",},},
     {"id":{"name":"string_digits_with_decimal","path":"scripts/string_digits_with_decimal/string_digits_with_decimal.yy",},},
     {"id":{"name":"string_normalize","path":"scripts/string_normalize/string_normalize.yy",},},
@@ -575,6 +577,7 @@
     {"id":{"name":"s_marked_becker_with_HCl","path":"sprites/s_marked_becker_with_HCl/s_marked_becker_with_HCl.yy",},},
     {"id":{"name":"s_marked_becker_with_water","path":"sprites/s_marked_becker_with_water/s_marked_becker_with_water.yy",},},
     {"id":{"name":"s_marked_egg","path":"sprites/s_marked_egg/s_marked_egg.yy",},},
+    {"id":{"name":"s_mask","path":"sprites/s_mask/s_mask.yy",},},
     {"id":{"name":"s_menu_btn_base","path":"sprites/s_menu_btn_base/s_menu_btn_base.yy",},},
     {"id":{"name":"s_menu_btn_pressed","path":"sprites/s_menu_btn_pressed/s_menu_btn_pressed.yy",},},
     {"id":{"name":"s_micropipette_with_tip","path":"sprites/s_micropipette_with_tip/s_micropipette_with_tip.yy",},},

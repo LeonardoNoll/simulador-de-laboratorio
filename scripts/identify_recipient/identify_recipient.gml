@@ -10,4 +10,8 @@ function identify_recipient(){
 			identificado = true
 		})	
 	}
+	
+	if(room == s_rm_laminar_flow_hood){
+		sterile_petri_dish_name_validation(other)
+	}
 }

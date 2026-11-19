@@ -12,7 +12,6 @@ locked = false
 scale_pulse_data = undefined
 default_depth = depth
 
-
 needed_EPI = []
 
 if (instance_exists(obj_locker_btn)) {

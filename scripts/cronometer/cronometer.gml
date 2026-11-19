@@ -10,7 +10,7 @@ function cronometer(){
 	    }
 	
 		// cria o cronômetro 
-		if(room == rm_acao_do_fluoreto_na_casca_do_ovo){
+		if(room == rm_acao_do_fluoreto_na_casca_do_ovo || room == rm_laminar_flow_hood){
 			_cronometer = instance_create_layer(room_width - 120, 70, "GUI", obj_cronometer)
 		}else{
 			 _cronometer = instance_create_layer(room_width - 190, 120, "GUI", obj_cronometer)
@@ -28,7 +28,9 @@ function cronometer(){
 						can_rinse = true
 					}
 					break
-					
+				case rm_laminar_flow_hood:
+					create_textbox(x, y, "O ágar solidificou, as placas estão prontas para serem identificadas.")
+					break
 				case rm_preparacao_de_meios_de_cultura_em_agar:
 				case rm_preparacao_de_meios_de_cultura_em_caldo:
 					create_textbox(x + sprite_width, y,

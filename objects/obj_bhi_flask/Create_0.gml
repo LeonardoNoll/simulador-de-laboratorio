@@ -1,7 +1,12 @@
 event_inherited();
 
 name = "Frasco de caldo BHI"
-needed_EPI = [obj_lab_coat]
+if(room == rm_preparacao_de_meios_de_cultura_em_agar){
+	needed_EPI = [obj_lab_coat, obj_glove, obj_mask]
+}else{
+	needed_EPI = [obj_lab_coat]
+}
+
 content = name
 
 scale_on_contact_list = [obj_glass_jar_with_lid]

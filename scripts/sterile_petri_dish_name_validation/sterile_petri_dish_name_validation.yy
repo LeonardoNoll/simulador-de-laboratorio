@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sterile_petri_dish_name_validation",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sterile_petri_dish_name_validation",
+  "parent":{
+    "name":"experiment_7",
+    "path":"folders/Scripts/experiment_7.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -7,9 +7,10 @@ function rm_preparacao_de_meios_de_cultura_em_agar_instructions() {
 		"Com o auxílio de uma proveta graduada, pegue 1L de água do destilador;",
 		"Transfira a água destilada para o frasco de vidro;",
 		"Leve a mistura ao agitador magnético para completa homogenização da mistura;",
-		"Para utilizar a autoclave, deixe a tampa do frasco entreaberta",
-		"Abra a autoclave",
-		"Leve o frasco para a autoclave",
+		"Para utilizar a autoclave, deixe a tampa do frasco entreaberta;",
+		"Abra a autoclave;",
+		"Leve o frasco para a autoclave;",
+		"Feche a autoclave;",
 		"Esterilize a 15 libras de pressão (121ºC) por 15 minutos;",
 		"Remova o frasco de vidro da autoclave;",
 		"Vede a tampa do frasco;",
@@ -19,10 +20,11 @@ function rm_preparacao_de_meios_de_cultura_em_agar_instructions() {
 		"Leve as placas de petri estéreis para a capela de fluxo laminar;",
 		"Leve o meio de cultura para a capela de fluxo laminar;",
 		"Leve o sangue de carneiro desfibrinado para a capela de fluxo laminar;",
+		"Abra a tampa do frasco;",
 		"Tomando todos os cuidados de assepsia, adicione vagarosamente o sangue no frasco de vidro com a mistura, referente a 5% do meio preparado;",
 		"Homogenize cuidadosamente;",
 		"Verta o meio de cultura preparado nas placas de Petri até aproximadamente metade da sua capacidade;",
-		"Aguarde a solidificação completa do ágar;",
-		"Identifique as placas preparadas e reserve para a utilização."
+		"Cronometre 5 minutos para a solidificação completa do ágar;",
+		"Utilize a caneta permanente para identificar as placas preparadas e reserve para a utilização."
 	];
 }
